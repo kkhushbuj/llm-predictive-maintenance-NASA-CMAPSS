@@ -9,6 +9,8 @@ Full write-up: [`REPORT.md`](REPORT.md) (FD001) and
 [`REPORT_FD002_FD004.md`](REPORT_FD002_FD004.md) (multi-condition extension),
 or the combined [`REPORT_FULL.pdf`](REPORT_FULL.pdf).
 
+Live dashboard: <https://rul.145-241-213-220.sslip.io>
+
 ## What's here
 
 - **`ml/`** — LSTM training, preprocessing, SHAP explainability, and risk
