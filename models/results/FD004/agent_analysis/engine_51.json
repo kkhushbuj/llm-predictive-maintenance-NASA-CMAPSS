@@ -1,0 +1,90 @@
+{
+  "unit": 51,
+  "engine_shap": {
+    "unit": 51,
+    "true_RUL": 119.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_14",
+        "importance": 0.29660469120326505,
+        "direction": "increases_risk",
+        "signed_contribution": -0.06392767763137372
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.2456329073582632,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.014992530008228505
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.22419942581801194,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.06992744932040026
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.2199225606251398,
+        "direction": "increases_risk",
+        "signed_contribution": -0.03090135630177498
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.19599947673144333,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.07833598492780713
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.050090244183671355,
+      "sensor_3": 0.04294273833444607,
+      "sensor_4": 0.09572573009210872,
+      "sensor_6": 0.17292006200581653,
+      "sensor_7": 0.07627658913144036,
+      "sensor_8": 0.22419942581801194,
+      "sensor_9": 0.2456329073582632,
+      "sensor_10": 0.056236546444078814,
+      "sensor_11": 0.2199225606251398,
+      "sensor_12": 0.16962374457853419,
+      "sensor_13": 0.19599947673144333,
+      "sensor_14": 0.29660469120326505,
+      "sensor_15": 0.11166327684922187,
+      "sensor_16": 0.006135917426288441,
+      "sensor_17": 0.07228262227421746,
+      "sensor_20": 0.02682248912569636,
+      "sensor_21": 0.03335157191197882,
+      "regime_0": 0.04095340635259617,
+      "regime_1": 0.023617809788838713,
+      "regime_2": 0.025505527089576388,
+      "regime_3": 0.007853494303851676,
+      "regime_4": 0.02277284888917165,
+      "regime_5": 0.01228700626222235
+    },
+    "non_sensor_share": 0.05965230944292735
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensor in the model's explanation is sensor_14, which is not covered in the knowledge base. While sensor_11 is mentioned in the knowledge base with a high reported importance and a typical pre-failure pattern of monotonic increase, it is not the top driving sensor in this case. Sensor_8, which is also in the top sensors, has a documented low importance and stable pattern, but its direction in the model's explanation (decreases_risk) cannot be confirmed or contradicted due to lack of specific directional information in the knowledge base.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The prediction of remaining useful life could be due to sensor_14 detecting abnormal thermal gradients that are not yet reflected in other sensor data. This unique or early failure mode could lead to an unexpected increase in predicted risk despite normalized readings from other critical sensors.",
+    "physical_reasoning": "Given that sensor_14 is not documented in the existing literature, it might be measuring a parameter that's overlooked in standard diagnostics, such as localized heating. Changes in thermal gradients can precede mechanical failures, yet may not be captured by sensors focused on general engine performance metrics.",
+    "next_checks": [
+      "Cross-check sensor_14's data against historical trends and other engines in the same fleet to identify anomalies.",
+      "Analyze the temperature distribution data from multiple sensors to see if there are irregular gradients correlating with sensor_14 readings.",
+      "Inspect the physical placement and calibration of sensor_14 to ensure it is functioning correctly and report data reliably.",
+      "Correlate the data from sensor_14 with operational conditions (e.g., flight regimes, engine loads) to investigate the context behind its readings.",
+      "Conduct a failure mode evaluation on components associated with thermal performance to see if any are showing signs of distress that align with sensor_14's readings."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis relies on sensor_14 being a novel and critical factor, but without SHAP stability evidence, this attribution could be a background-sampling artifact. The absence of 'shap_stability' data means we cannot confirm if sensor_14's importance is consistent across different background samples, leaving open the possibility that another sensor might be the true driver in a more stable analysis. Additionally, the model might be extrapolating outside its training distribution if sensor_14's behavior is atypical for this engine type.",
+    "alternative_explanation": "The model's focus on sensor_14 could be a SHAP background-sampling artifact, as stability evidence is absent. Alternatively, sensor_14 might have near-zero variance for this engine, making its attribution spurious.",
+    "confidence": "medium"
+  }
+}

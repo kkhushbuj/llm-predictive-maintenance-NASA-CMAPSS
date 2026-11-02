@@ -1,0 +1,92 @@
+{
+  "unit": 150,
+  "engine_shap": {
+    "unit": 150,
+    "true_RUL": 34.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.2941890643153961,
+        "direction": "increases_risk",
+        "signed_contribution": -0.08871159677816709
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.19246244547924424,
+        "direction": "increases_risk",
+        "signed_contribution": -0.11322657117158236
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.19082206821471787,
+        "direction": "increases_risk",
+        "signed_contribution": -0.03329699268942892
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 0.10120316196434213,
+        "direction": "increases_risk",
+        "signed_contribution": -0.012199793636632355
+      },
+      {
+        "sensor": "sensor_17",
+        "importance": 0.09567116530692783,
+        "direction": "increases_risk",
+        "signed_contribution": -0.017049115241608723
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.10120316196434213,
+      "sensor_3": 0.04591542776819218,
+      "sensor_4": 0.19082206821471787,
+      "sensor_6": 0.04412018266112142,
+      "sensor_7": 0.07307987232117868,
+      "sensor_8": 0.03422500825403424,
+      "sensor_9": 0.04232553337695912,
+      "sensor_10": 0.008716072234648363,
+      "sensor_11": 0.2941890643153961,
+      "sensor_12": 0.06699924062392143,
+      "sensor_13": 0.035814361218257706,
+      "sensor_14": 0.02013791671228664,
+      "sensor_15": 0.19246244547924424,
+      "sensor_16": 0.04193661270738818,
+      "sensor_17": 0.09567116530692783,
+      "sensor_20": 0.030045632742847186,
+      "sensor_21": 0.05410173535106641,
+      "regime_0": 0.020851004518281115,
+      "regime_1": 0.019125937559945218,
+      "regime_2": 0.01588363840563716,
+      "regime_3": 0.02821968051344357,
+      "regime_4": 0.008655342515885421,
+      "regime_5": 0.024525304884919018
+    },
+    "non_sensor_share": 0.07875005281177218
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_11, sensor_15, sensor_4, sensor_2, and sensor_17. The knowledge base only provides findings for sensor_15, indicating it has low importance, but does not cover the other sensors (sensor_11, sensor_4, sensor_2, sensor_17) or their directions. Therefore, the explanation cannot be confirmed or contradicted based on the available information.",
+    "matched_sources": [
+      "Evaluating the impact of data preprocessing on deep neural architectures for Remaining Useful Life estimation of turbofan engines"
+    ]
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model predicts a lower remaining useful life (RUL) based on sensor data suggesting wear or damage not typically documented in the literature. The significant negative contributions from sensors that monitor temperature (sensor_11), pressure (sensor_15), and vibration (sensor_4), among others, could indicate a specific failure mode such as compressor stall or blade degradation that has not been previously characterized.",
+    "physical_reasoning": "Given that turbofan engine performance is highly sensitive to temperature and pressure deviations, the findings from sensor_11 and sensor_15 are plausible indicators of diminished engine health. Additionally, the vibration data from sensor_4 can provide insights into mechanical integrity, suggesting a combination of factors impacting overall performance that aligns with the physics of engine operation but lacks thorough documentation.",
+    "next_checks": [
+      "Cross-check readings from sensor_11, sensor_15, and sensor_4 against operational benchmarks from other engines in similar service conditions.",
+      "Review historical data trends for these sensors to identify deviations or anomalies relative to baseline performance.",
+      "Conduct a deep dive analysis of maintenance records for this engine, focusing on any recently performed inspections or repairs related to sensors 11, 15, and 4.",
+      "Compare sensor data of this engine with other engines of the same model and operating conditions to identify if the negative contributions are unique or consistent.",
+      "Perform an additional diagnostic inspection focusing on compressor and turbine sections to correlate sensor data with physical evidence."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": true,
+    "critique": "The SHAP attributions are stable across reruns, with sensor_11 consistently identified as the top contributor. The pipeline's verdict of 'Novel' is appropriate given the lack of literature coverage for most top sensors. The hypothesis of an undocumented failure mode is plausible, considering the physical reasoning provided. However, the critique should acknowledge the stability of the SHAP results, ruling out attribution noise as a confounder.",
+    "alternative_explanation": null,
+    "confidence": "high"
+  }
+}

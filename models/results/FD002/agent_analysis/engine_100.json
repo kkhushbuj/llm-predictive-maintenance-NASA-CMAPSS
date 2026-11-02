@@ -1,0 +1,89 @@
+{
+  "unit": 100,
+  "engine_shap": {
+    "unit": 100,
+    "true_RUL": 14.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 0.16928614948710813,
+        "direction": "increases_risk",
+        "signed_contribution": -0.08369051449810232
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.16536683616920075,
+        "direction": "increases_risk",
+        "signed_contribution": -0.06173107756411909
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.10567294812632184,
+        "direction": "increases_risk",
+        "signed_contribution": -0.024994284256408067
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.09798536470289744,
+        "direction": "increases_risk",
+        "signed_contribution": -0.06337774321100276
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.0883290807310199,
+        "direction": "increases_risk",
+        "signed_contribution": -0.08436511224634645
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.07160923160045869,
+      "sensor_3": 0.03267861896500146,
+      "sensor_4": 0.10567294812632184,
+      "sensor_6": 0.037755648309358514,
+      "sensor_7": 0.05618063937013911,
+      "sensor_8": 0.08406662511440266,
+      "sensor_9": 0.16928614948710813,
+      "sensor_10": 0.014985862113278502,
+      "sensor_11": 0.16536683616920075,
+      "sensor_12": 0.035392286986497705,
+      "sensor_13": 0.06380311929474758,
+      "sensor_14": 0.0883290807310199,
+      "sensor_15": 0.09798536470289744,
+      "sensor_16": 0.023718039008924892,
+      "sensor_17": 0.051111760172867476,
+      "sensor_20": 0.01812655591197932,
+      "sensor_21": 0.036618350619792094,
+      "regime_0": 0.011892530171994622,
+      "regime_1": 0.025297362026540208,
+      "regime_2": 0.0065164941106468175,
+      "regime_3": 0.009623472762980896,
+      "regime_4": 0.007111804079934245,
+      "regime_5": 0.019699509612860315
+    },
+    "non_sensor_share": 0.06500594888261238
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_9, sensor_11, sensor_4, sensor_15, and sensor_14. The knowledge base only provides findings for sensor_10, sensor_15, and sensor_16, none of which are among the top driving sensors. Therefore, there is no documented information to confirm or contradict the model's explanation for these sensors.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The predictions given by the model may stem from previously unreported interactions between turbine temperature measurements and combustion dynamics, particularly involving sensor_9 (EGT) and sensor_11 (fuel flow). These interactions could impact the engine's thermal efficiency and affect RUL unexpectedly, as traditional assessments may not have considered the specific operational conditions affecting these sensors.",
+    "physical_reasoning": "Sensor_9 tracks exhaust gas temperature, which directly correlates with turbine performance, while sensor_11 measures fuel flow, influencing combustion efficiency. If there are shifts in the operating regime (not captured in historical data), these sensors could indicate a trend towards abnormal thermal stresses that haven't been documented before, making their contributions to RUL predictions novel.",
+    "next_checks": [
+      "Cross-check sensor_9 and sensor_11 readings against historical operational data to identify any non-standard operational conditions that correlate with RUL.",
+      "Compare performance and failure data of similar engines to determine if similar sensor readings precede RUL changes.",
+      "Analyze fuel composition and quality records during the operation of the engine to check for consistency with the abnormal sensor readings.",
+      "Perform a focused inspection of the combustion chamber and turbine blades for thermal damage or erosion that might correlate with the sensor readings."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": true,
+    "critique": "The SHAP attributions are stable across reruns, confirming sensor_9 and sensor_11 as consistent top contributors. The synthesis correctly identifies a lack of literature support for these sensors, and the hypothesis plausibly links them to thermal efficiency and combustion dynamics. However, the model's reliance on these sensors could also indicate it's extrapolating outside its training distribution if such operational regimes were rare in the training data.",
+    "alternative_explanation": null,
+    "confidence": "medium"
+  }
+}

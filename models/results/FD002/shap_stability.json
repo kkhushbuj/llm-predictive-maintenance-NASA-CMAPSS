@@ -1,0 +1,4146 @@
+[
+  {
+    "unit": 1,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.44860800082361285,
+    "mode_sensor_importance_cv": 0.072,
+    "stable": true
+  },
+  {
+    "unit": 2,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2046521899650214,
+    "mode_sensor_importance_cv": 0.182,
+    "stable": true
+  },
+  {
+    "unit": 3,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1628977647479033,
+    "mode_sensor_importance_cv": 0.081,
+    "stable": true
+  },
+  {
+    "unit": 4,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3864636373733304,
+    "mode_sensor_importance_cv": 0.056,
+    "stable": true
+  },
+  {
+    "unit": 5,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_11",
+      "sensor_11",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 0.6,
+    "mode_sensor_importance_mean": 0.22587298734780586,
+    "mode_sensor_importance_cv": 0.077,
+    "stable": false
+  },
+  {
+    "unit": 6,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23552128881163123,
+    "mode_sensor_importance_cv": 0.203,
+    "stable": true
+  },
+  {
+    "unit": 7,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5753651340868841,
+    "mode_sensor_importance_cv": 0.079,
+    "stable": true
+  },
+  {
+    "unit": 8,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.35575039533083386,
+    "mode_sensor_importance_cv": 0.132,
+    "stable": true
+  },
+  {
+    "unit": 9,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.32399921531136044,
+    "mode_sensor_importance_cv": 0.078,
+    "stable": true
+  },
+  {
+    "unit": 10,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_15",
+      "sensor_15",
+      "sensor_15",
+      "sensor_15",
+      "sensor_15"
+    ],
+    "mode_top_sensor": "sensor_15",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1402976549313896,
+    "mode_sensor_importance_cv": 0.126,
+    "stable": true
+  },
+  {
+    "unit": 11,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3558863191563108,
+    "mode_sensor_importance_cv": 0.066,
+    "stable": true
+  },
+  {
+    "unit": 12,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1691737786773221,
+    "mode_sensor_importance_cv": 0.15,
+    "stable": true
+  },
+  {
+    "unit": 13,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2505651914777062,
+    "mode_sensor_importance_cv": 0.086,
+    "stable": true
+  },
+  {
+    "unit": 14,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.701370289413891,
+    "mode_sensor_importance_cv": 0.076,
+    "stable": true
+  },
+  {
+    "unit": 15,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.43473975322752373,
+    "mode_sensor_importance_cv": 0.106,
+    "stable": true
+  },
+  {
+    "unit": 16,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.20460602805248768,
+    "mode_sensor_importance_cv": 0.122,
+    "stable": true
+  },
+  {
+    "unit": 17,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2508793505751884,
+    "mode_sensor_importance_cv": 0.072,
+    "stable": true
+  },
+  {
+    "unit": 18,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2873290536015108,
+    "mode_sensor_importance_cv": 0.214,
+    "stable": true
+  },
+  {
+    "unit": 19,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2915379872123119,
+    "mode_sensor_importance_cv": 0.098,
+    "stable": true
+  },
+  {
+    "unit": 20,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.17812924403572045,
+    "mode_sensor_importance_cv": 0.048,
+    "stable": true
+  },
+  {
+    "unit": 21,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2372820217387571,
+    "mode_sensor_importance_cv": 0.064,
+    "stable": true
+  },
+  {
+    "unit": 22,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3995736018010555,
+    "mode_sensor_importance_cv": 0.098,
+    "stable": true
+  },
+  {
+    "unit": 23,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1691038267574841,
+    "mode_sensor_importance_cv": 0.069,
+    "stable": true
+  },
+  {
+    "unit": 24,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.22323396253628824,
+    "mode_sensor_importance_cv": 0.064,
+    "stable": true
+  },
+  {
+    "unit": 25,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.26664736537977174,
+    "mode_sensor_importance_cv": 0.094,
+    "stable": true
+  },
+  {
+    "unit": 26,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.26526268753269716,
+    "mode_sensor_importance_cv": 0.107,
+    "stable": true
+  },
+  {
+    "unit": 27,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2936262083734696,
+    "mode_sensor_importance_cv": 0.134,
+    "stable": true
+  },
+  {
+    "unit": 28,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_9",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.11014320139708242,
+    "mode_sensor_importance_cv": 0.164,
+    "stable": true
+  },
+  {
+    "unit": 29,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2396352369604867,
+    "mode_sensor_importance_cv": 0.138,
+    "stable": true
+  },
+  {
+    "unit": 30,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_9",
+      "sensor_11",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 0.6,
+    "mode_sensor_importance_mean": 0.1691522648328032,
+    "mode_sensor_importance_cv": 0.096,
+    "stable": false
+  },
+  {
+    "unit": 31,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23680518137326262,
+    "mode_sensor_importance_cv": 0.145,
+    "stable": true
+  },
+  {
+    "unit": 32,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.40533858481411045,
+    "mode_sensor_importance_cv": 0.089,
+    "stable": true
+  },
+  {
+    "unit": 33,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.44045132583498575,
+    "mode_sensor_importance_cv": 0.105,
+    "stable": true
+  },
+  {
+    "unit": 34,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2971959676652739,
+    "mode_sensor_importance_cv": 0.17,
+    "stable": true
+  },
+  {
+    "unit": 35,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_15"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.2986619069338974,
+    "mode_sensor_importance_cv": 0.169,
+    "stable": true
+  },
+  {
+    "unit": 36,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2502153243264782,
+    "mode_sensor_importance_cv": 0.056,
+    "stable": true
+  },
+  {
+    "unit": 37,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.19366002808276359,
+    "mode_sensor_importance_cv": 0.123,
+    "stable": true
+  },
+  {
+    "unit": 38,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5053712130765409,
+    "mode_sensor_importance_cv": 0.121,
+    "stable": true
+  },
+  {
+    "unit": 39,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.4457797548393924,
+    "mode_sensor_importance_cv": 0.09,
+    "stable": true
+  },
+  {
+    "unit": 40,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.6251866767400793,
+    "mode_sensor_importance_cv": 0.097,
+    "stable": true
+  },
+  {
+    "unit": 41,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.6062418892361185,
+    "mode_sensor_importance_cv": 0.096,
+    "stable": true
+  },
+  {
+    "unit": 42,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.619337433525995,
+    "mode_sensor_importance_cv": 0.046,
+    "stable": true
+  },
+  {
+    "unit": 43,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_15",
+      "sensor_15",
+      "sensor_11",
+      "sensor_11",
+      "sensor_15"
+    ],
+    "mode_top_sensor": "sensor_15",
+    "top_sensor_agreement_rate": 0.6,
+    "mode_sensor_importance_mean": 0.2167981414881431,
+    "mode_sensor_importance_cv": 0.04,
+    "stable": false
+  },
+  {
+    "unit": 44,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_11",
+      "sensor_9",
+      "sensor_11",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 0.6,
+    "mode_sensor_importance_mean": 0.21265191383038876,
+    "mode_sensor_importance_cv": 0.099,
+    "stable": false
+  },
+  {
+    "unit": 45,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2956587651316475,
+    "mode_sensor_importance_cv": 0.079,
+    "stable": true
+  },
+  {
+    "unit": 46,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2625775451087568,
+    "mode_sensor_importance_cv": 0.188,
+    "stable": true
+  },
+  {
+    "unit": 47,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.19422370033963154,
+    "mode_sensor_importance_cv": 0.042,
+    "stable": true
+  },
+  {
+    "unit": 48,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5013235598826202,
+    "mode_sensor_importance_cv": 0.027,
+    "stable": true
+  },
+  {
+    "unit": 49,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.22365469307793595,
+    "mode_sensor_importance_cv": 0.081,
+    "stable": true
+  },
+  {
+    "unit": 50,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.39474182438142125,
+    "mode_sensor_importance_cv": 0.125,
+    "stable": true
+  },
+  {
+    "unit": 51,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2779115602336226,
+    "mode_sensor_importance_cv": 0.168,
+    "stable": true
+  },
+  {
+    "unit": 52,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.440485920864565,
+    "mode_sensor_importance_cv": 0.086,
+    "stable": true
+  },
+  {
+    "unit": 53,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_9",
+      "sensor_11",
+      "sensor_11",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 0.6,
+    "mode_sensor_importance_mean": 0.1838020399243539,
+    "mode_sensor_importance_cv": 0.128,
+    "stable": false
+  },
+  {
+    "unit": 54,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.27974480354789233,
+    "mode_sensor_importance_cv": 0.099,
+    "stable": true
+  },
+  {
+    "unit": 55,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.19590888349526514,
+    "mode_sensor_importance_cv": 0.089,
+    "stable": true
+  },
+  {
+    "unit": 56,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23381132909354568,
+    "mode_sensor_importance_cv": 0.074,
+    "stable": true
+  },
+  {
+    "unit": 57,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.27200167915540946,
+    "mode_sensor_importance_cv": 0.12,
+    "stable": true
+  },
+  {
+    "unit": 58,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.34903917943056634,
+    "mode_sensor_importance_cv": 0.1,
+    "stable": true
+  },
+  {
+    "unit": 59,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.17038637589071065,
+    "mode_sensor_importance_cv": 0.179,
+    "stable": true
+  },
+  {
+    "unit": 60,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.19629011108860414,
+    "mode_sensor_importance_cv": 0.042,
+    "stable": true
+  },
+  {
+    "unit": 61,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.19901329568482112,
+    "mode_sensor_importance_cv": 0.135,
+    "stable": true
+  },
+  {
+    "unit": 62,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.45809639823825093,
+    "mode_sensor_importance_cv": 0.079,
+    "stable": true
+  },
+  {
+    "unit": 63,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23844722839779023,
+    "mode_sensor_importance_cv": 0.136,
+    "stable": true
+  },
+  {
+    "unit": 64,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5842196644531598,
+    "mode_sensor_importance_cv": 0.097,
+    "stable": true
+  },
+  {
+    "unit": 65,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.42619421901920485,
+    "mode_sensor_importance_cv": 0.036,
+    "stable": true
+  },
+  {
+    "unit": 66,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.22357521107163994,
+    "mode_sensor_importance_cv": 0.108,
+    "stable": true
+  },
+  {
+    "unit": 67,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.24363798460979327,
+    "mode_sensor_importance_cv": 0.139,
+    "stable": true
+  },
+  {
+    "unit": 68,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.22256046279950903,
+    "mode_sensor_importance_cv": 0.105,
+    "stable": true
+  },
+  {
+    "unit": 69,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2539658710936875,
+    "mode_sensor_importance_cv": 0.176,
+    "stable": true
+  },
+  {
+    "unit": 70,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5574439841975707,
+    "mode_sensor_importance_cv": 0.106,
+    "stable": true
+  },
+  {
+    "unit": 71,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23688387321083343,
+    "mode_sensor_importance_cv": 0.086,
+    "stable": true
+  },
+  {
+    "unit": 72,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3664418934512724,
+    "mode_sensor_importance_cv": 0.102,
+    "stable": true
+  },
+  {
+    "unit": 73,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.35040962312331564,
+    "mode_sensor_importance_cv": 0.08,
+    "stable": true
+  },
+  {
+    "unit": 74,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.25706798997181013,
+    "mode_sensor_importance_cv": 0.173,
+    "stable": true
+  },
+  {
+    "unit": 75,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2286807457491841,
+    "mode_sensor_importance_cv": 0.164,
+    "stable": true
+  },
+  {
+    "unit": 76,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.21591074802047155,
+    "mode_sensor_importance_cv": 0.089,
+    "stable": true
+  },
+  {
+    "unit": 77,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_3",
+      "sensor_3",
+      "sensor_11",
+      "sensor_11",
+      "sensor_3"
+    ],
+    "mode_top_sensor": "sensor_3",
+    "top_sensor_agreement_rate": 0.6,
+    "mode_sensor_importance_mean": 0.14267336464677055,
+    "mode_sensor_importance_cv": 0.042,
+    "stable": false
+  },
+  {
+    "unit": 78,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2825268488450333,
+    "mode_sensor_importance_cv": 0.056,
+    "stable": true
+  },
+  {
+    "unit": 79,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.22594953012403335,
+    "mode_sensor_importance_cv": 0.071,
+    "stable": true
+  },
+  {
+    "unit": 80,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5020596318311793,
+    "mode_sensor_importance_cv": 0.108,
+    "stable": true
+  },
+  {
+    "unit": 81,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2607057434738802,
+    "mode_sensor_importance_cv": 0.078,
+    "stable": true
+  },
+  {
+    "unit": 82,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23106662416460594,
+    "mode_sensor_importance_cv": 0.129,
+    "stable": true
+  },
+  {
+    "unit": 83,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_4",
+      "sensor_4",
+      "sensor_4",
+      "sensor_4",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_4",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.1620719484832848,
+    "mode_sensor_importance_cv": 0.09,
+    "stable": true
+  },
+  {
+    "unit": 84,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.6561268193454808,
+    "mode_sensor_importance_cv": 0.06,
+    "stable": true
+  },
+  {
+    "unit": 85,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.32940844832901633,
+    "mode_sensor_importance_cv": 0.117,
+    "stable": true
+  },
+  {
+    "unit": 86,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.20716231828603798,
+    "mode_sensor_importance_cv": 0.064,
+    "stable": true
+  },
+  {
+    "unit": 87,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.42570536849084445,
+    "mode_sensor_importance_cv": 0.07,
+    "stable": true
+  },
+  {
+    "unit": 88,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3179871320777483,
+    "mode_sensor_importance_cv": 0.1,
+    "stable": true
+  },
+  {
+    "unit": 89,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2051211934177591,
+    "mode_sensor_importance_cv": 0.113,
+    "stable": true
+  },
+  {
+    "unit": 90,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3764968468506267,
+    "mode_sensor_importance_cv": 0.09,
+    "stable": true
+  },
+  {
+    "unit": 91,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.7111205821193123,
+    "mode_sensor_importance_cv": 0.07,
+    "stable": true
+  },
+  {
+    "unit": 92,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1631810598370506,
+    "mode_sensor_importance_cv": 0.162,
+    "stable": true
+  },
+  {
+    "unit": 93,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.15898319816566558,
+    "mode_sensor_importance_cv": 0.146,
+    "stable": true
+  },
+  {
+    "unit": 94,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2460614213683899,
+    "mode_sensor_importance_cv": 0.126,
+    "stable": true
+  },
+  {
+    "unit": 95,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2907419694545841,
+    "mode_sensor_importance_cv": 0.114,
+    "stable": true
+  },
+  {
+    "unit": 96,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5705318691346954,
+    "mode_sensor_importance_cv": 0.1,
+    "stable": true
+  },
+  {
+    "unit": 97,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5729645316907791,
+    "mode_sensor_importance_cv": 0.105,
+    "stable": true
+  },
+  {
+    "unit": 98,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.42305982625536276,
+    "mode_sensor_importance_cv": 0.057,
+    "stable": true
+  },
+  {
+    "unit": 99,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.47154557796644525,
+    "mode_sensor_importance_cv": 0.076,
+    "stable": true
+  },
+  {
+    "unit": 100,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.21299421517869685,
+    "mode_sensor_importance_cv": 0.062,
+    "stable": true
+  },
+  {
+    "unit": 101,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.25622850078695614,
+    "mode_sensor_importance_cv": 0.089,
+    "stable": true
+  },
+  {
+    "unit": 102,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5808437245266871,
+    "mode_sensor_importance_cv": 0.109,
+    "stable": true
+  },
+  {
+    "unit": 103,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5618344727278524,
+    "mode_sensor_importance_cv": 0.059,
+    "stable": true
+  },
+  {
+    "unit": 104,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.24746434644314336,
+    "mode_sensor_importance_cv": 0.05,
+    "stable": true
+  },
+  {
+    "unit": 105,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.14140505120561211,
+    "mode_sensor_importance_cv": 0.135,
+    "stable": true
+  },
+  {
+    "unit": 106,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_15",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.17646795597112858,
+    "mode_sensor_importance_cv": 0.17,
+    "stable": true
+  },
+  {
+    "unit": 107,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.4959823971727464,
+    "mode_sensor_importance_cv": 0.071,
+    "stable": true
+  },
+  {
+    "unit": 108,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.30266140839827693,
+    "mode_sensor_importance_cv": 0.127,
+    "stable": true
+  },
+  {
+    "unit": 109,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3634644276650228,
+    "mode_sensor_importance_cv": 0.071,
+    "stable": true
+  },
+  {
+    "unit": 110,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2273195770061435,
+    "mode_sensor_importance_cv": 0.099,
+    "stable": true
+  },
+  {
+    "unit": 111,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2616013169842545,
+    "mode_sensor_importance_cv": 0.079,
+    "stable": true
+  },
+  {
+    "unit": 112,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.323267777332869,
+    "mode_sensor_importance_cv": 0.099,
+    "stable": true
+  },
+  {
+    "unit": 113,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.24609037459277322,
+    "mode_sensor_importance_cv": 0.169,
+    "stable": true
+  },
+  {
+    "unit": 114,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3144675621259796,
+    "mode_sensor_importance_cv": 0.057,
+    "stable": true
+  },
+  {
+    "unit": 115,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.4452828922081863,
+    "mode_sensor_importance_cv": 0.115,
+    "stable": true
+  },
+  {
+    "unit": 116,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.6003492497109741,
+    "mode_sensor_importance_cv": 0.073,
+    "stable": true
+  },
+  {
+    "unit": 117,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.16539539350485594,
+    "mode_sensor_importance_cv": 0.06,
+    "stable": true
+  },
+  {
+    "unit": 118,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23981168440484324,
+    "mode_sensor_importance_cv": 0.135,
+    "stable": true
+  },
+  {
+    "unit": 119,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.17510243433718722,
+    "mode_sensor_importance_cv": 0.125,
+    "stable": true
+  },
+  {
+    "unit": 120,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.342631741144804,
+    "mode_sensor_importance_cv": 0.061,
+    "stable": true
+  },
+  {
+    "unit": 121,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2426135588001368,
+    "mode_sensor_importance_cv": 0.049,
+    "stable": true
+  },
+  {
+    "unit": 122,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.28118687333142384,
+    "mode_sensor_importance_cv": 0.095,
+    "stable": true
+  },
+  {
+    "unit": 123,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.19084463250490186,
+    "mode_sensor_importance_cv": 0.123,
+    "stable": true
+  },
+  {
+    "unit": 124,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5058118224398008,
+    "mode_sensor_importance_cv": 0.073,
+    "stable": true
+  },
+  {
+    "unit": 125,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.17731821829609087,
+    "mode_sensor_importance_cv": 0.025,
+    "stable": true
+  },
+  {
+    "unit": 126,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.22358745273923503,
+    "mode_sensor_importance_cv": 0.138,
+    "stable": true
+  },
+  {
+    "unit": 127,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_4",
+      "sensor_4",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 0.6,
+    "mode_sensor_importance_mean": 0.19850328211537208,
+    "mode_sensor_importance_cv": 0.117,
+    "stable": false
+  },
+  {
+    "unit": 128,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1938118088676994,
+    "mode_sensor_importance_cv": 0.246,
+    "stable": true
+  },
+  {
+    "unit": 129,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_9",
+      "sensor_9",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 0.6,
+    "mode_sensor_importance_mean": 0.23438831281622505,
+    "mode_sensor_importance_cv": 0.096,
+    "stable": false
+  },
+  {
+    "unit": 130,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.18495239240176414,
+    "mode_sensor_importance_cv": 0.034,
+    "stable": true
+  },
+  {
+    "unit": 131,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.29938537193676557,
+    "mode_sensor_importance_cv": 0.124,
+    "stable": true
+  },
+  {
+    "unit": 132,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.45150868253691456,
+    "mode_sensor_importance_cv": 0.066,
+    "stable": true
+  },
+  {
+    "unit": 133,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2084176911748084,
+    "mode_sensor_importance_cv": 0.045,
+    "stable": true
+  },
+  {
+    "unit": 134,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2914324684395689,
+    "mode_sensor_importance_cv": 0.136,
+    "stable": true
+  },
+  {
+    "unit": 135,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.32429646898328746,
+    "mode_sensor_importance_cv": 0.191,
+    "stable": true
+  },
+  {
+    "unit": 136,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3607962509226653,
+    "mode_sensor_importance_cv": 0.095,
+    "stable": true
+  },
+  {
+    "unit": 137,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 0.6,
+    "mode_sensor_importance_mean": 0.15342648014729784,
+    "mode_sensor_importance_cv": 0.115,
+    "stable": false
+  },
+  {
+    "unit": 138,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.6666544194797442,
+    "mode_sensor_importance_cv": 0.155,
+    "stable": true
+  },
+  {
+    "unit": 139,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.17772409827867222,
+    "mode_sensor_importance_cv": 0.073,
+    "stable": true
+  },
+  {
+    "unit": 140,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.26342887831624134,
+    "mode_sensor_importance_cv": 0.079,
+    "stable": true
+  },
+  {
+    "unit": 141,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2170138242711639,
+    "mode_sensor_importance_cv": 0.162,
+    "stable": true
+  },
+  {
+    "unit": 142,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.7040974440645817,
+    "mode_sensor_importance_cv": 0.138,
+    "stable": true
+  },
+  {
+    "unit": 143,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1402323761131548,
+    "mode_sensor_importance_cv": 0.071,
+    "stable": true
+  },
+  {
+    "unit": 144,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.30025134388461366,
+    "mode_sensor_importance_cv": 0.124,
+    "stable": true
+  },
+  {
+    "unit": 145,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23756457147573537,
+    "mode_sensor_importance_cv": 0.122,
+    "stable": true
+  },
+  {
+    "unit": 146,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3578135720701994,
+    "mode_sensor_importance_cv": 0.055,
+    "stable": true
+  },
+  {
+    "unit": 147,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.18036183984373655,
+    "mode_sensor_importance_cv": 0.052,
+    "stable": true
+  },
+  {
+    "unit": 148,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.26140256821256574,
+    "mode_sensor_importance_cv": 0.043,
+    "stable": true
+  },
+  {
+    "unit": 149,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.21224892486149752,
+    "mode_sensor_importance_cv": 0.163,
+    "stable": true
+  },
+  {
+    "unit": 150,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3368104224609481,
+    "mode_sensor_importance_cv": 0.087,
+    "stable": true
+  },
+  {
+    "unit": 151,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.20870860813198133,
+    "mode_sensor_importance_cv": 0.111,
+    "stable": true
+  },
+  {
+    "unit": 152,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23519283705946611,
+    "mode_sensor_importance_cv": 0.148,
+    "stable": true
+  },
+  {
+    "unit": 153,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.24395143180807172,
+    "mode_sensor_importance_cv": 0.23,
+    "stable": true
+  },
+  {
+    "unit": 154,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1862328915567632,
+    "mode_sensor_importance_cv": 0.136,
+    "stable": true
+  },
+  {
+    "unit": 155,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2853564695386236,
+    "mode_sensor_importance_cv": 0.128,
+    "stable": true
+  },
+  {
+    "unit": 156,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.25641614764365556,
+    "mode_sensor_importance_cv": 0.159,
+    "stable": true
+  },
+  {
+    "unit": 157,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2698229770542067,
+    "mode_sensor_importance_cv": 0.103,
+    "stable": true
+  },
+  {
+    "unit": 158,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.49777715072646933,
+    "mode_sensor_importance_cv": 0.079,
+    "stable": true
+  },
+  {
+    "unit": 159,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.6130414501379801,
+    "mode_sensor_importance_cv": 0.089,
+    "stable": true
+  },
+  {
+    "unit": 160,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.49571069415532304,
+    "mode_sensor_importance_cv": 0.138,
+    "stable": true
+  },
+  {
+    "unit": 161,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2518236824008523,
+    "mode_sensor_importance_cv": 0.058,
+    "stable": true
+  },
+  {
+    "unit": 162,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.28905309006501784,
+    "mode_sensor_importance_cv": 0.147,
+    "stable": true
+  },
+  {
+    "unit": 163,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23182465405330466,
+    "mode_sensor_importance_cv": 0.087,
+    "stable": true
+  },
+  {
+    "unit": 164,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.493597618345231,
+    "mode_sensor_importance_cv": 0.081,
+    "stable": true
+  },
+  {
+    "unit": 165,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1992347087748136,
+    "mode_sensor_importance_cv": 0.166,
+    "stable": true
+  },
+  {
+    "unit": 166,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.28781338218469305,
+    "mode_sensor_importance_cv": 0.285,
+    "stable": true
+  },
+  {
+    "unit": 167,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.19546258353854085,
+    "mode_sensor_importance_cv": 0.204,
+    "stable": true
+  },
+  {
+    "unit": 168,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.24715889444015252,
+    "mode_sensor_importance_cv": 0.043,
+    "stable": true
+  },
+  {
+    "unit": 169,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.22871319200138837,
+    "mode_sensor_importance_cv": 0.059,
+    "stable": true
+  },
+  {
+    "unit": 170,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.25796612852057904,
+    "mode_sensor_importance_cv": 0.097,
+    "stable": true
+  },
+  {
+    "unit": 171,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2683738139732179,
+    "mode_sensor_importance_cv": 0.12,
+    "stable": true
+  },
+  {
+    "unit": 172,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1973895666630984,
+    "mode_sensor_importance_cv": 0.035,
+    "stable": true
+  },
+  {
+    "unit": 173,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.4012045062070159,
+    "mode_sensor_importance_cv": 0.118,
+    "stable": true
+  },
+  {
+    "unit": 174,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2037073296043892,
+    "mode_sensor_importance_cv": 0.095,
+    "stable": true
+  },
+  {
+    "unit": 175,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.27579739174929363,
+    "mode_sensor_importance_cv": 0.171,
+    "stable": true
+  },
+  {
+    "unit": 176,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1861571591943391,
+    "mode_sensor_importance_cv": 0.085,
+    "stable": true
+  },
+  {
+    "unit": 177,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3344344291857818,
+    "mode_sensor_importance_cv": 0.048,
+    "stable": true
+  },
+  {
+    "unit": 178,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.20382218627910276,
+    "mode_sensor_importance_cv": 0.031,
+    "stable": true
+  },
+  {
+    "unit": 179,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3590716128602799,
+    "mode_sensor_importance_cv": 0.117,
+    "stable": true
+  },
+  {
+    "unit": 180,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.22534410150058157,
+    "mode_sensor_importance_cv": 0.039,
+    "stable": true
+  },
+  {
+    "unit": 181,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.27286288137141596,
+    "mode_sensor_importance_cv": 0.113,
+    "stable": true
+  },
+  {
+    "unit": 182,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.4827493446934278,
+    "mode_sensor_importance_cv": 0.064,
+    "stable": true
+  },
+  {
+    "unit": 183,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.17004480681400339,
+    "mode_sensor_importance_cv": 0.087,
+    "stable": true
+  },
+  {
+    "unit": 184,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.24017125759393249,
+    "mode_sensor_importance_cv": 0.185,
+    "stable": true
+  },
+  {
+    "unit": 185,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.30661810287670765,
+    "mode_sensor_importance_cv": 0.078,
+    "stable": true
+  },
+  {
+    "unit": 186,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5176405138213653,
+    "mode_sensor_importance_cv": 0.094,
+    "stable": true
+  },
+  {
+    "unit": 187,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.18800419381884376,
+    "mode_sensor_importance_cv": 0.172,
+    "stable": true
+  },
+  {
+    "unit": 188,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.15374680403200103,
+    "mode_sensor_importance_cv": 0.145,
+    "stable": true
+  },
+  {
+    "unit": 189,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.21214830807908922,
+    "mode_sensor_importance_cv": 0.092,
+    "stable": true
+  },
+  {
+    "unit": 190,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.7531320632777626,
+    "mode_sensor_importance_cv": 0.058,
+    "stable": true
+  },
+  {
+    "unit": 191,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.20812240977539326,
+    "mode_sensor_importance_cv": 0.167,
+    "stable": true
+  },
+  {
+    "unit": 192,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.7312491414270678,
+    "mode_sensor_importance_cv": 0.079,
+    "stable": true
+  },
+  {
+    "unit": 193,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.6420300002631203,
+    "mode_sensor_importance_cv": 0.124,
+    "stable": true
+  },
+  {
+    "unit": 194,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.28209020921292605,
+    "mode_sensor_importance_cv": 0.103,
+    "stable": true
+  },
+  {
+    "unit": 195,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.31691079472930445,
+    "mode_sensor_importance_cv": 0.044,
+    "stable": true
+  },
+  {
+    "unit": 196,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.25461228372006417,
+    "mode_sensor_importance_cv": 0.154,
+    "stable": true
+  },
+  {
+    "unit": 197,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.27885317752910777,
+    "mode_sensor_importance_cv": 0.169,
+    "stable": true
+  },
+  {
+    "unit": 198,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1821131580800383,
+    "mode_sensor_importance_cv": 0.054,
+    "stable": true
+  },
+  {
+    "unit": 199,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2837125751438479,
+    "mode_sensor_importance_cv": 0.081,
+    "stable": true
+  },
+  {
+    "unit": 200,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3607530055231343,
+    "mode_sensor_importance_cv": 0.063,
+    "stable": true
+  },
+  {
+    "unit": 201,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1872466621044954,
+    "mode_sensor_importance_cv": 0.049,
+    "stable": true
+  },
+  {
+    "unit": 202,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1795769555511456,
+    "mode_sensor_importance_cv": 0.088,
+    "stable": true
+  },
+  {
+    "unit": 203,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2439053398868382,
+    "mode_sensor_importance_cv": 0.202,
+    "stable": true
+  },
+  {
+    "unit": 204,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2463455833428184,
+    "mode_sensor_importance_cv": 0.116,
+    "stable": true
+  },
+  {
+    "unit": 205,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.20350061803912758,
+    "mode_sensor_importance_cv": 0.052,
+    "stable": true
+  },
+  {
+    "unit": 206,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3782594352141028,
+    "mode_sensor_importance_cv": 0.068,
+    "stable": true
+  },
+  {
+    "unit": 207,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.16505454993764634,
+    "mode_sensor_importance_cv": 0.112,
+    "stable": true
+  },
+  {
+    "unit": 208,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.4894911351039292,
+    "mode_sensor_importance_cv": 0.073,
+    "stable": true
+  },
+  {
+    "unit": 209,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2416144633147194,
+    "mode_sensor_importance_cv": 0.059,
+    "stable": true
+  },
+  {
+    "unit": 210,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.31918562244359566,
+    "mode_sensor_importance_cv": 0.07,
+    "stable": true
+  },
+  {
+    "unit": 211,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5680984068975423,
+    "mode_sensor_importance_cv": 0.077,
+    "stable": true
+  },
+  {
+    "unit": 212,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_15",
+      "sensor_15",
+      "sensor_15",
+      "sensor_11",
+      "sensor_15"
+    ],
+    "mode_top_sensor": "sensor_15",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.18668258181490463,
+    "mode_sensor_importance_cv": 0.1,
+    "stable": true
+  },
+  {
+    "unit": 213,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.41517109959894744,
+    "mode_sensor_importance_cv": 0.129,
+    "stable": true
+  },
+  {
+    "unit": 214,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.30321170544215403,
+    "mode_sensor_importance_cv": 0.146,
+    "stable": true
+  },
+  {
+    "unit": 215,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.18865781846547575,
+    "mode_sensor_importance_cv": 0.072,
+    "stable": true
+  },
+  {
+    "unit": 216,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.19078627790280903,
+    "mode_sensor_importance_cv": 0.145,
+    "stable": true
+  },
+  {
+    "unit": 217,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.30254966153649604,
+    "mode_sensor_importance_cv": 0.114,
+    "stable": true
+  },
+  {
+    "unit": 218,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2835026928335721,
+    "mode_sensor_importance_cv": 0.18,
+    "stable": true
+  },
+  {
+    "unit": 219,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2564243952526828,
+    "mode_sensor_importance_cv": 0.161,
+    "stable": true
+  },
+  {
+    "unit": 220,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.18672531254696995,
+    "mode_sensor_importance_cv": 0.313,
+    "stable": true
+  },
+  {
+    "unit": 221,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_15",
+      "sensor_15",
+      "sensor_15",
+      "sensor_15",
+      "sensor_15"
+    ],
+    "mode_top_sensor": "sensor_15",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2574002146051594,
+    "mode_sensor_importance_cv": 0.032,
+    "stable": true
+  },
+  {
+    "unit": 222,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5895688809411546,
+    "mode_sensor_importance_cv": 0.088,
+    "stable": true
+  },
+  {
+    "unit": 223,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.254744351120421,
+    "mode_sensor_importance_cv": 0.238,
+    "stable": true
+  },
+  {
+    "unit": 224,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2971353742610566,
+    "mode_sensor_importance_cv": 0.163,
+    "stable": true
+  },
+  {
+    "unit": 225,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.6567416615332876,
+    "mode_sensor_importance_cv": 0.087,
+    "stable": true
+  },
+  {
+    "unit": 226,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.22787333945440075,
+    "mode_sensor_importance_cv": 0.135,
+    "stable": true
+  },
+  {
+    "unit": 227,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.62793062715646,
+    "mode_sensor_importance_cv": 0.132,
+    "stable": true
+  },
+  {
+    "unit": 228,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.22114010073532908,
+    "mode_sensor_importance_cv": 0.114,
+    "stable": true
+  },
+  {
+    "unit": 229,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.19838030157503717,
+    "mode_sensor_importance_cv": 0.091,
+    "stable": true
+  },
+  {
+    "unit": 230,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.29659935967244994,
+    "mode_sensor_importance_cv": 0.162,
+    "stable": true
+  },
+  {
+    "unit": 231,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.4327756651944494,
+    "mode_sensor_importance_cv": 0.065,
+    "stable": true
+  },
+  {
+    "unit": 232,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.3695841021335702,
+    "mode_sensor_importance_cv": 0.08,
+    "stable": true
+  },
+  {
+    "unit": 233,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2569360918523569,
+    "mode_sensor_importance_cv": 0.12,
+    "stable": true
+  },
+  {
+    "unit": 234,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.18950324813734,
+    "mode_sensor_importance_cv": 0.138,
+    "stable": true
+  },
+  {
+    "unit": 235,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.18620137413715013,
+    "mode_sensor_importance_cv": 0.071,
+    "stable": true
+  },
+  {
+    "unit": 236,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.429802695358779,
+    "mode_sensor_importance_cv": 0.052,
+    "stable": true
+  },
+  {
+    "unit": 237,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.4123353580825272,
+    "mode_sensor_importance_cv": 0.077,
+    "stable": true
+  },
+  {
+    "unit": 238,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2397976173088107,
+    "mode_sensor_importance_cv": 0.213,
+    "stable": true
+  },
+  {
+    "unit": 239,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.169662251904574,
+    "mode_sensor_importance_cv": 0.041,
+    "stable": true
+  },
+  {
+    "unit": 240,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1711467861183213,
+    "mode_sensor_importance_cv": 0.114,
+    "stable": true
+  },
+  {
+    "unit": 241,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2334389654273464,
+    "mode_sensor_importance_cv": 0.108,
+    "stable": true
+  },
+  {
+    "unit": 242,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.6417770617688963,
+    "mode_sensor_importance_cv": 0.06,
+    "stable": true
+  },
+  {
+    "unit": 243,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_15",
+      "sensor_11",
+      "sensor_11",
+      "sensor_15"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 0.6,
+    "mode_sensor_importance_mean": 0.1309746732908478,
+    "mode_sensor_importance_cv": 0.076,
+    "stable": false
+  },
+  {
+    "unit": 244,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1627329146948823,
+    "mode_sensor_importance_cv": 0.071,
+    "stable": true
+  },
+  {
+    "unit": 245,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.4067847745503002,
+    "mode_sensor_importance_cv": 0.06,
+    "stable": true
+  },
+  {
+    "unit": 246,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.14219915340657935,
+    "mode_sensor_importance_cv": 0.074,
+    "stable": true
+  },
+  {
+    "unit": 247,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.27792600770377635,
+    "mode_sensor_importance_cv": 0.186,
+    "stable": true
+  },
+  {
+    "unit": 248,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9",
+      "sensor_9"
+    ],
+    "mode_top_sensor": "sensor_9",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1732615607552707,
+    "mode_sensor_importance_cv": 0.079,
+    "stable": true
+  },
+  {
+    "unit": 249,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1518264367431959,
+    "mode_sensor_importance_cv": 0.166,
+    "stable": true
+  },
+  {
+    "unit": 250,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.31755991144705964,
+    "mode_sensor_importance_cv": 0.109,
+    "stable": true
+  },
+  {
+    "unit": 251,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_4",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.13629172118706573,
+    "mode_sensor_importance_cv": 0.06,
+    "stable": true
+  },
+  {
+    "unit": 252,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.5978800571072901,
+    "mode_sensor_importance_cv": 0.078,
+    "stable": true
+  },
+  {
+    "unit": 253,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.505939711367844,
+    "mode_sensor_importance_cv": 0.071,
+    "stable": true
+  },
+  {
+    "unit": 254,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.2396113440614042,
+    "mode_sensor_importance_cv": 0.069,
+    "stable": true
+  },
+  {
+    "unit": 255,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23115873767309672,
+    "mode_sensor_importance_cv": 0.156,
+    "stable": true
+  },
+  {
+    "unit": 256,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_15"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 0.8,
+    "mode_sensor_importance_mean": 0.20676337175563356,
+    "mode_sensor_importance_cv": 0.168,
+    "stable": true
+  },
+  {
+    "unit": 257,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.1921851188177061,
+    "mode_sensor_importance_cv": 0.064,
+    "stable": true
+  },
+  {
+    "unit": 258,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.23042601868859544,
+    "mode_sensor_importance_cv": 0.176,
+    "stable": true
+  },
+  {
+    "unit": 259,
+    "n_runs": 5,
+    "top_sensor_per_run": [
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11",
+      "sensor_11"
+    ],
+    "mode_top_sensor": "sensor_11",
+    "top_sensor_agreement_rate": 1.0,
+    "mode_sensor_importance_mean": 0.20624600316515523,
+    "mode_sensor_importance_cv": 0.151,
+    "stable": true
+  }
+]

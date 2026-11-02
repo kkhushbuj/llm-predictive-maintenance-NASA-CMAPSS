@@ -1,0 +1,90 @@
+{
+  "unit": 241,
+  "engine_shap": {
+    "unit": 241,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 0.18330209041045734,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.1014582383112744
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.12757739731151102,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.0179869622438887
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.12632272928087662,
+        "direction": "increases_risk",
+        "signed_contribution": -0.07299875811392766
+      },
+      {
+        "sensor": "sensor_6",
+        "importance": 0.12066085230929005,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.027432006969162592
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.11864905016004024,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.09182907678157018
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.052899980214251206,
+      "sensor_3": 0.05092011122420357,
+      "sensor_4": 0.09101544787129844,
+      "sensor_6": 0.12066085230929005,
+      "sensor_7": 0.05104078323641671,
+      "sensor_8": 0.11864905016004024,
+      "sensor_9": 0.18330209041045734,
+      "sensor_10": 0.011409648791944367,
+      "sensor_11": 0.12757739731151102,
+      "sensor_12": 0.06279460801765223,
+      "sensor_13": 0.10863285664053891,
+      "sensor_14": 0.12632272928087662,
+      "sensor_15": 0.1128883280336286,
+      "sensor_16": 0.007555629067955771,
+      "sensor_17": 0.02893176995464303,
+      "sensor_20": 0.03048260235627941,
+      "sensor_21": 0.017108875953956392,
+      "regime_0": 0.04506910005322653,
+      "regime_1": 0.03198689015521268,
+      "regime_2": 0.04545017986197082,
+      "regime_3": 0.0169352187251161,
+      "regime_4": 0.026564683827523368,
+      "regime_5": 0.04442241095277608
+    },
+    "non_sensor_share": 0.13911511844314764
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_9, sensor_11, sensor_14, sensor_6, and sensor_8. The knowledge base only provides findings for sensor_11 and sensor_8, but does not cover sensor_9, sensor_14, or sensor_6. Additionally, the direction of sensor_11's contribution (decreases risk) contradicts the documented pattern of monotonic increase (which would typically increase risk). However, since the majority of top sensors are not covered in the knowledge base, the verdict is 'Novel'.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The predictions regarding sensor contributions might reflect atypical failure modes or operational conditions that are not well-documented in the existing literature. Specifically, the behavior of sensor_9 and sensor_14 suggests interactions or feedback mechanisms that might be emerging under unique operational regimes, possibly linked to thermal dynamics or material fatigue not previously observed.",
+    "physical_reasoning": "Given the nature of turbofan engines, sensor_9 could be related to parameters like exhaust gas temperature or pressure which can significantly affect life predictions, especially under non-standard operating conditions. Similarly, sensor_14 may correlate to component vibration or wear, indicating subtle shifts in engine performance characteristics that deviate from traditional patterns. Such changes often derive from underlying physics of material fatigue or thermal degradation that surpasses typical expectations.",
+    "next_checks": [
+      "Cross-check sensor_9 and sensor_14 data against other engines in similar operational contexts for comparison.",
+      "Perform a detailed examination of the specific operational history of this engine, focusing on any recorded anomalies or deviations in temperature or pressure profiles.",
+      "Conduct a detailed assessment of data quality for sensors_9 and 14, ensuring there are no noise or calibration issues that might affect prediction accuracy.",
+      "Review maintenance logs for past repairs or replacements affecting components correlated with the monitored sensors.",
+      "Consult with other engineers or combustion experts about potential thermal or mechanical failure modes that could explain the unique sensor behavior."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's conclusion of a 'Novel' verdict and hypothesis about atypical failure modes is plausible, but it overlooks potential model-specific issues. Without SHAP stability evidence, we cannot rule out that the top sensor attributions are artifacts of background sampling noise. Additionally, the pipeline does not address whether the model is extrapolating outside its training distribution or if sensor noise/variance issues are present, which could also explain the unexpected sensor contributions.",
+    "alternative_explanation": null,
+    "confidence": "medium"
+  }
+}

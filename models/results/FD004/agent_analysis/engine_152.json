@@ -1,0 +1,89 @@
+{
+  "unit": 152,
+  "engine_shap": {
+    "unit": 152,
+    "true_RUL": 88.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 0.23164855649438224,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.018204006094057815
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 0.200065786031002,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.03964279731043631
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.14792347530506847,
+        "direction": "increases_risk",
+        "signed_contribution": -0.07017272790596261
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.13714232653588185,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.05223895346092143
+      },
+      {
+        "sensor": "sensor_6",
+        "importance": 0.1168011249577245,
+        "direction": "increases_risk",
+        "signed_contribution": -0.0008301334698245049
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.04154416459542191,
+      "sensor_3": 0.05303797224658491,
+      "sensor_4": 0.07056833801901538,
+      "sensor_6": 0.1168011249577245,
+      "sensor_7": 0.200065786031002,
+      "sensor_8": 0.0979224365448439,
+      "sensor_9": 0.08789370744168702,
+      "sensor_10": 0.0525785276385219,
+      "sensor_11": 0.07621234177307211,
+      "sensor_12": 0.23164855649438224,
+      "sensor_13": 0.10305286407329507,
+      "sensor_14": 0.13714232653588185,
+      "sensor_15": 0.14792347530506847,
+      "sensor_16": 0.01622464190367312,
+      "sensor_17": 0.03914279865957625,
+      "sensor_20": 0.044957838115936094,
+      "sensor_21": 0.04398108123577617,
+      "regime_0": 0.08563801726286784,
+      "regime_1": 0.024880971733109616,
+      "regime_2": 0.05794960536708686,
+      "regime_3": 0.0069416231874765795,
+      "regime_4": 0.0340402580520913,
+      "regime_5": 0.06370036674960375
+    },
+    "non_sensor_share": 0.14894948743255895
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_12 and sensor_7. While sensor_7 is mentioned in the knowledge base with a typical pre-failure pattern of gradual decrease, the knowledge base does not provide any information about sensor_12 or its typical pre-failure behavior. Therefore, the model's explanation cannot be confirmed or contradicted based on the available knowledge base.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model's reliance on sensor_12 suggests it may be monitoring a previously unrecognized failure indicator related to turbine health, potentially indicating a thermal or pressure anomaly not documented in existing literature.",
+    "physical_reasoning": "Given that sensor_12 appears to play a significant role in risk mitigation and has not been explicitly described in the literature, its data could capture unique thermal dynamics or pressure fluctuations that precede failure modes, especially if it measures a critical parameter like turbine inlet temperature or a related thermodynamic variable.",
+    "next_checks": [
+      "Cross-reference sensor_12 data against baseline performance data from other engines to identify any anomalies or degradation patterns.",
+      "Analyze sensor_12 readings in conjunction with known failure cases or maintenance records to elucidate its relation to engine health.",
+      "Perform a temporal correlation analysis between sensor_12 outputs and engine operating conditions to validate its predictive behavior.",
+      "Ensure data quality checks for sensor_12, confirming accuracy, calibration, and consistency over time."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis assumes sensor_12 is a novel failure indicator, but without evidence of SHAP stability, the top sensor attribution could be a background-sampling artifact. Additionally, the model might be extrapolating outside its training distribution if sensor_12 has low variance or high noise for this engine, which should be checked before concluding it's a new failure mode.",
+    "alternative_explanation": "The result could stem from SHAP instability due to background sampling noise, or the model might be overfitting to sensor_12 due to low variance or high noise in this engine's data.",
+    "confidence": "medium"
+  }
+}

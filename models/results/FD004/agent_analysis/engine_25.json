@@ -1,0 +1,90 @@
+{
+  "unit": 25,
+  "engine_shap": {
+    "unit": 25,
+    "true_RUL": 39.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_6",
+        "importance": 0.7417178804409479,
+        "direction": "increases_risk",
+        "signed_contribution": -0.09337131732469928
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.27859718234424186,
+        "direction": "increases_risk",
+        "signed_contribution": -0.1257544653652024
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.233867575499419,
+        "direction": "increases_risk",
+        "signed_contribution": -0.046316417077712925
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.22334343507569254,
+        "direction": "increases_risk",
+        "signed_contribution": -0.01510422152814052
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.21779797824765385,
+        "direction": "increases_risk",
+        "signed_contribution": -0.09886433696815373
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.02466338467848369,
+      "sensor_3": 0.015449535937185234,
+      "sensor_4": 0.02335278405929642,
+      "sensor_6": 0.7417178804409479,
+      "sensor_7": 0.07303816441623642,
+      "sensor_8": 0.27859718234424186,
+      "sensor_9": 0.21779797824765385,
+      "sensor_10": 0.019377188066516192,
+      "sensor_11": 0.08005406760754527,
+      "sensor_12": 0.13352066670313537,
+      "sensor_13": 0.233867575499419,
+      "sensor_14": 0.22334343507569254,
+      "sensor_15": 0.14414567521107158,
+      "sensor_16": 0.009964530710984111,
+      "sensor_17": 0.02366148016324369,
+      "sensor_20": 0.029151700695713698,
+      "sensor_21": 0.008235860260064188,
+      "regime_0": 0.02778874062577415,
+      "regime_1": 0.01983421749416266,
+      "regime_2": 0.018438862417515335,
+      "regime_3": 0.006539059370188624,
+      "regime_4": 0.03931613553463648,
+      "regime_5": 0.017972425862826637
+    },
+    "non_sensor_share": 0.0538998686468491
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensor in the model's explanation is sensor_6, but the knowledge base contains no documented findings related to this sensor. The other top sensors (sensor_8, sensor_13, sensor_14, sensor_9) are either not covered or have conflicting importance levels in the knowledge base, which does not provide enough information to confirm or contradict the model's explanation.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The high contribution from sensor_6 could indicate a wear or defect mechanism that has not been previously documented in existing literature, possibly related to an atypical operating condition or a new material failure mode. This might be due to either sensor degradation that impacts the readings or an unforeseen interaction effect between multiple sensors during engine operation.",
+    "physical_reasoning": "If sensor_6 is capturing a unique operational vibration signature or temperature anomaly not previously identified, it could signal an emerging failure pattern, such as blade wear or abnormal thermal cycling. Given that this sensor has a significantly higher importance value than others, it suggests that it is detecting critical failing modes that are not yet captured in standard predictive maintenance frameworks.",
+    "next_checks": [
+      "Cross-reference sensor_6's readings with historical data from similar engines to identify pattern deviations.",
+      "Inspect the physical condition of sensor_6 to rule out any faults or calibration issues.",
+      "Analyze relevant operating context (e.g., environmental conditions, load profiles) during sensor_6's significant deviations.",
+      "Gather additional data from the other influential sensors (sensor_8, sensor_13, sensor_14, sensor_9) to see if correlated anomalies emerge.",
+      "Consult maintenance records for any previous issues related to similar sensors or occurrences."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis assumes sensor_6's high importance indicates a novel failure mode, but without SHAP stability evidence, this could be a background-sampling artifact. The absence of 'shap_stability' data means we cannot confirm if sensor_6's dominance is consistent across different SHAP runs. Additionally, the model might be extrapolating outside its training distribution if this engine's sensor_6 behavior is unusual, or the sensor could have near-zero variance in normal operation, making small deviations appear significant.",
+    "alternative_explanation": "The high importance of sensor_6 might be a SHAP background-sampling artifact, as stability evidence is absent. Alternatively, the model could be extrapolating outside its training distribution due to unusual sensor_6 behavior in this engine.",
+    "confidence": "medium"
+  }
+}

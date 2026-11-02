@@ -1,0 +1,89 @@
+{
+  "unit": 171,
+  "engine_shap": {
+    "unit": 171,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_6",
+        "importance": 0.4278395131602122,
+        "direction": "increases_risk",
+        "signed_contribution": -0.04319979029670864
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.11727029282210374,
+        "direction": "increases_risk",
+        "signed_contribution": -0.030016792696510707
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.11142854245597429,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.039937147752231866
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.10913811137682627,
+        "direction": "increases_risk",
+        "signed_contribution": -0.00010418582561315252
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.09018777209121999,
+        "direction": "increases_risk",
+        "signed_contribution": -0.0048658948833042595
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.03278433683707154,
+      "sensor_3": 0.01328713319963495,
+      "sensor_4": 0.04358938370173681,
+      "sensor_6": 0.4278395131602122,
+      "sensor_7": 0.05670538810518538,
+      "sensor_8": 0.09018777209121999,
+      "sensor_9": 0.06101757937640367,
+      "sensor_10": 0.03099834835389353,
+      "sensor_11": 0.08574722441620483,
+      "sensor_12": 0.0871079797788441,
+      "sensor_13": 0.10913811137682627,
+      "sensor_14": 0.11142854245597429,
+      "sensor_15": 0.11727029282210374,
+      "sensor_16": 0.0068119329251854245,
+      "sensor_17": 0.0275385686260814,
+      "sensor_20": 0.030380179020651876,
+      "sensor_21": 0.016724177582896422,
+      "regime_0": 0.07090770555724249,
+      "regime_1": 0.02428099636230399,
+      "regime_2": 0.04329661680334538,
+      "regime_3": 0.006310972735063842,
+      "regime_4": 0.035739337150862416,
+      "regime_5": 0.03148355955476291
+    },
+    "non_sensor_share": 0.13585960276434964
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensor in the model's explanation is sensor_6, but the knowledge base does not contain any documented findings related to sensor_6. Therefore, the explanation cannot be confirmed or contradicted based on the available information.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The increased risk associated with sensor_6 may stem from uncharacterized operational conditions or faults related to specific engine usage profiles that have not been documented in the literature. This could indicate an emergent phenomenon, possibly linked to a material degradation mechanism that exceeds current understanding.",
+    "physical_reasoning": "Since sensor_6 has a substantial impact on the RUL prediction, it is essential to consider factors like temperature fluctuations, vibrations, and efficiency metrics that could relate to unique wear patterns or transient behaviors not covered in existing studies. Such sensors often provide insights into real-time conditions affecting engine health.",
+    "next_checks": [
+      "Cross-check the data from sensor_6 with historical trends and other engines of the same model to identify deviations.",
+      "Analyze sensor_6's readings against operational parameters like throttle position, altitude, and flight profiles to spot anomalies.",
+      "Review the maintenance logs for any recorded engine changes or repairs that might correlate with the anomalies observed in sensor_6.",
+      "Conduct targeted inspections on the physical components related to sensor_6 to check for wear or damage that isn\u2019t captured in standard diagnostic checks."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's conclusion that sensor_6 indicates a novel phenomenon is premature. Without evidence of SHAP stability, the top attribution to sensor_6 could be a background-sampling artifact. Additionally, the model might be extrapolating outside its training distribution if sensor_6 has near-zero variance or high noise for this engine, which should be verified before accepting the hypothesis.",
+    "alternative_explanation": "The model's attribution to sensor_6 may be a SHAP background-sampling artifact or an extrapolation error due to sensor_6's behavior in this engine falling outside the training distribution.",
+    "confidence": "medium"
+  }
+}

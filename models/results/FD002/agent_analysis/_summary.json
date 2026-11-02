@@ -1,0 +1,30 @@
+{
+  "subset": "FD002",
+  "test_engines": 259,
+  "engines_analyzed": 259,
+  "all_engines": {
+    "n": 259,
+    "confirmed": 0,
+    "contradicted": 60,
+    "novel": 199,
+    "novel_rate": 0.7683397683397684
+  },
+  "top15_highest_risk_secondary": {
+    "n": 15,
+    "confirmed": 0,
+    "contradicted": 8,
+    "novel": 7,
+    "novel_rate": 0.4666666666666667
+  },
+  "critiqued": 259,
+  "critique_agrees": 102,
+  "criterion": {
+    "fd001_novel_rate": 0.8666666666666667,
+    "allowed_range": [
+      0.7166666666666667,
+      1.0
+    ],
+    "same_pattern_holds": true,
+    "complete": true
+  }
+}

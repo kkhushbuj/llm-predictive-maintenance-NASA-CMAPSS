@@ -1,0 +1,528 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  @page { size: A4; margin: 2cm 1.8cm; }
+  body { font-family: Helvetica, Arial, sans-serif; font-size: 9.5pt; line-height: 1.45; color: #1a1a1a; }
+  h1 { font-size: 19pt; color: #0b3d63; border-bottom: 2px solid #0b3d63; padding-bottom: 6px; margin-top: 0; }
+  h2 { font-size: 15pt; color: #0b3d63; margin-top: 22px; border-bottom: 1px solid #ccc; padding-bottom: 3px; }
+  h3 { font-size: 12.5pt; color: #164a72; margin-top: 16px; }
+  h4 { font-size: 11pt; color: #333; margin-top: 12px; }
+  hr { border: none; border-top: 1px solid #bbb; margin: 18px 0; }
+  p { margin: 6px 0; text-align: justify; }
+  strong { color: #0b3d63; }
+  code { font-family: Courier, monospace; font-size: 8.5pt; background: #f0f0f0; padding: 1px 3px; }
+  pre { font-family: Courier, monospace; font-size: 8pt; background: #f4f4f4; padding: 8px; border: 0.5px solid #ccc; }
+  table { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 8.5pt; }
+  th { background: #0b3d63; color: white; padding: 5px 6px; text-align: left; border: 0.5px solid #0b3d63; }
+  td { padding: 4px 6px; border: 0.5px solid #ccc; }
+  tr:nth-child(even) td { background: #f7f9fb; }
+  ul, ol { margin: 4px 0 8px 0; padding-left: 20px; }
+  li { margin: 3px 0; }
+  em { color: #444; }
+</style>
+</head>
+<body>
+<h1 id="llm-enhanced-predictive-maintenance-on-nasa-c-mapss">LLM-Enhanced Predictive Maintenance on NASA C-MAPSS</h1>
+<h2 id="full-project-report-fd001-baseline-fd002fd004-extension">Full Project Report — FD001 baseline + FD002/FD004 extension</h2>
+<hr />
+<h1 id="part-1-fd001-baseline">Part 1 — FD001 Baseline</h1>
+<h3 id="1-model-performance-vs-published-benchmarks">1. Model performance vs. published benchmarks</h3>
+<p>Trained a 2-layer LSTM (hidden size 64, dropout 0.3) on NASA C-MAPSS <strong>FD001</strong>
+(100 train engines, single operating condition, HPC degradation fault mode),
+using a 30-cycle sliding window, piecewise-linear RUL target capped at 125
+cycles, and 14 non-constant sensors (7 sensors — 1, 5, 6, 10, 16, 18, 19 — are
+physically near-constant at a single operating condition and were dropped).</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Dataset</th>
+<th>RMSE</th>
+<th>NASA Score</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>This project (LSTM)</strong></td>
+<td>FD001</td>
+<td><strong>13.58</strong></td>
+<td><strong>335.0</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td>LSTM</td>
+<td>FD001</td>
+<td>16.78</td>
+<td>382.4</td>
+<td>Pinto et al., 2023</td>
+</tr>
+<tr>
+<td>CNN-LSTM</td>
+<td>FD001</td>
+<td>16.78</td>
+<td>382.4</td>
+<td>penikmatrumput, 2024</td>
+</tr>
+<tr>
+<td>Transformer Encoder</td>
+<td>FD001</td>
+<td>15.08</td>
+<td>338</td>
+<td>Gsebs, 2023</td>
+</tr>
+</tbody>
+</table>
+<p><em>(Benchmark rows sourced live by the Literature Agent's web search — see
+<code>models/results/literature_knowledge_base.json</code> for full citations.)</em></p>
+<p>Our model's RMSE (13.58) beats every benchmark the Literature Agent found,
+and its NASA score (335.0) is close to the best of them. This is a genuine,
+reproducible result — rerun with <code>python -m ml.train_lstm</code>.</p>
+<h3 id="2-explainability-literature-cross-check-pipeline">2. Explainability + literature cross-check pipeline</h3>
+<p>For all 100 test engines, SHAP (<code>GradientExplainer</code>) attributes the RUL
+prediction to specific sensors (<code>ml/explain_shap.py</code>). The 15 highest-risk
+engines (lowest predicted RUL, see <code>ml/risk_scoring.py</code>) get a full multi-agent
+analysis:</p>
+<ol>
+<li><strong>Literature Agent</strong> (OpenAI <code>gpt-4o-mini</code> + web search) — researches real
+   published C-MAPSS papers once, builds a knowledge base of which sensors are
+   reported as predictive and what degradation patterns look like. Grounded
+   with the canonical NASA sensor-index table so it can't mismap a paper's
+   physical sensor names (T30, P30, Nc, ...) to the wrong <code>sensor_N</code>.</li>
+<li><strong>Synthesis Agent</strong> (Cohere <code>command-a-03-2025</code>) — compares each engine's
+   top SHAP sensors against the knowledge base and labels the case Confirmed /
+   Contradicted / Novel.</li>
+<li><strong>Hypothesis Agent</strong> (OpenAI <code>gpt-4o-mini</code>) — only runs on
+   Contradicted/Novel cases, proposes a plausible explanation + next checks.</li>
+<li><strong>Critique Agent</strong> (Cohere <code>command-a-03-2025</code>, a different model/lab than
+   the rest of the pipeline) — independently reviews a 15-engine sample,
+   actively looking for a simpler model-setup explanation (SHAP background
+   artifact, low sensor variance, extrapolation) rather than agreeing by
+   default.</li>
+</ol>
+<h4 id="result-on-the-15-highest-risk-engines">Result on the 15 highest-risk engines</h4>
+<table>
+<thead>
+<tr>
+<th>Verdict</th>
+<th>Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Confirmed</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Contradicted</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Novel</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Critiqued (independent 2nd opinion)</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<p><strong>This is the project's genuine, reportable finding.</strong> The dominant outcome is
+Novel, not because the pipeline defaults to it, but because the knowledge base
+— built from real papers the Literature Agent could actually find and verify —
+only documents 5 of the ~14 informative C-MAPSS sensors in depth. Where the
+model's top driver <em>did</em> overlap with a documented sensor (<code>sensor_7</code>/P30,
+<code>sensor_9</code>/Nc, <code>sensor_12</code>/phi, <code>sensor_14</code>/NRc), the pipeline correctly
+confirmed agreement (0 contradictions) and cited its source. Where the
+dominant SHAP sensor (most often <code>sensor_11</code>/Ps30) fell outside that coverage,
+it correctly declined to force a verdict rather than fabricate one — see
+<code>models/results/agent_analysis/engine_34.json</code> for a representative example,
+including the Critique Agent independently pushing back with an alternative
+"SHAP artifact / distribution extrapolation" explanation.</p>
+<h4 id="known-limitation">Known limitation</h4>
+<p>Literature Agent's web search cannot read figures — early runs mapped a
+paper's physical sensor names to the wrong <code>sensor_N</code> index (citing sensors
+that are known-constant in FD001). Fixed by embedding the canonical
+Saxena &amp; Goebel (2008) sensor table directly in its system prompt. Worth
+noting in any write-up as a concrete example of LLM-literature-grounding
+failure mode and its fix.</p>
+<h3 id="3-how-to-reproduce">3. How to reproduce</h3>
+<pre><code class="language-bash">## 1. Train + evaluate the LSTM
+python -m ml.train_lstm
+
+## 2. SHAP explanations for all 100 test engines
+python -m ml.explain_shap
+
+## 3. Rank engines, flag top 15 for deep analysis
+python -m ml.risk_scoring
+
+## 4. One-time literature research (requires OPENAI_API_KEY)
+python -c &quot;from app.agents.literature_agent import build_knowledge_base; build_knowledge_base()&quot;
+
+## 5. Run the agent pipeline on the flagged engines (requires OPENAI_API_KEY, COHERE_API_KEY)
+cd backend &amp;&amp; python -m app.agents.graph
+</code></pre>
+<p>Dashboard: <code>backend</code> (FastAPI, port 8000) + <code>frontend</code> (Next.js, port 3000).
+See <code>.claude/launch.json</code>.</p>
+<hr />
+<h1 id="part-2-fd002-fd004-extension">Part 2 — FD002 &amp; FD004 Extension</h1>
+<p>Evaluation criteria and model settings were written down before any result
+existed: <code>docs/FD002_FD004_preregistration.md</code> (timestamped; later additions
+are dated addenda, each made before the stage it affects).</p>
+<h3 id="headline-numbers">Headline numbers</h3>
+<p>Test RMSE / PHM08 score on every test engine (last-cycle prediction).</p>
+<table>
+<thead>
+<tr>
+<th>Subset</th>
+<th>Test engines</th>
+<th><strong>RMSE (raw truth)</strong></th>
+<th><strong>Score (raw truth)</strong></th>
+<th>RMSE (truth capped at 125)</th>
+<th>Score (capped)</th>
+<th>RMSE, engines with true RUL &lt;= 125</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FD001</td>
+<td>100</td>
+<td>14.90</td>
+<td>371</td>
+<td>13.58</td>
+<td>335</td>
+<td>13.63</td>
+</tr>
+<tr>
+<td>FD002</td>
+<td>259</td>
+<td><strong>28.38</strong></td>
+<td><strong>17,873</strong></td>
+<td>14.99</td>
+<td>1,101</td>
+<td>13.84</td>
+</tr>
+<tr>
+<td>FD004</td>
+<td>248</td>
+<td><strong>27.28</strong></td>
+<td><strong>5,221</strong></td>
+<td>15.08</td>
+<td>1,096</td>
+<td>15.76</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Primary numbers are against the raw provided RUL</strong>, as the spec requires.
+FD001's previously reported 13.58 was against truth capped at 125; its raw
+equivalent is 14.90.</p>
+<p>Why the raw and capped numbers differ so much on FD002/FD004: the model is
+trained on a piecewise RUL target capped at 125 (the FD001 setting, kept
+unchanged), so it cannot predict above ~125. 22% of FD002 test engines (57/259,
+max 194) and 27% of FD004 (67/248) have a true RUL above 125, against 11% for
+FD001. Every one of those is an unavoidable early-prediction error. Restricting
+to engines where the cap cannot matter isolates the model's actual skill:
+FD001 13.63, FD002 13.84, <strong>FD004 15.76</strong> — FD004 is genuinely harder, FD002
+about as hard as FD001 once operating conditions are normalized out.</p>
+<h3 id="1-sensor-selection-fd001s-choice-does-not-transfer">1. Sensor selection — FD001's choice does not transfer</h3>
+<p>FD001 dropped sensors 1, 5, 6, 10, 16, 18, 19 as near-constant. Re-checked on
+FD002/FD004 training data (<code>models/results/FD00x/sensor_audit.json</code>):</p>
+<ul>
+<li><strong>Globally, all seven look highly variable</strong> (sensor_1 std 26.4) — but that
+  is entirely the six flight regimes shifting them. A global variance check
+  would wrongly keep all seven.</li>
+<li><strong>Inside a regime, sensors 1, 5, 18, 19 take exactly one value</strong> in both
+  subsets: pure regime indicators, no degradation information. Dropped.</li>
+<li><strong>Sensors 6, 10, 16 are NOT constant inside regimes, and carry signal.</strong>
+  They are quasi-binary (one value 77–97% of the time), but the deviations
+  track degradation: in-regime Spearman rho vs RUL, FD002 / FD004:
+  sensor_6 -0.36 / -0.21, sensor_10 +0.09 / -0.22, sensor_16 -0.62 / -0.31.
+  <strong>Kept</strong> — three sensors FD001 excluded.</li>
+</ul>
+<p>Rule applied (same principle as FD001, now within regime): drop a sensor only
+if it is constant inside every regime. Inputs: 17 sensors + 6 regime flags.</p>
+<p>This decision turned out to matter a lot: in FD004, <strong>sensor_6 (P15,
+bypass-duct pressure) is the top SHAP driver for 98 of 248 engines</strong> — more
+than any other sensor. Bypass flow is driven by the fan, and FD004's second
+fault mode is fan degradation. Copying FD001's sensor list would have hidden
+the fan fault from the model. In FD002 (HPC fault only), sensor_11 (Ps30, HPC
+static pressure) is the top driver for 238 of 259 engines, matching FD001.</p>
+<p><strong>The second fault mode, visible in the raw data.</strong> Sensors 7, 12, 20, 21
+correlate with RUL at |rho| ~ 0.45–0.50 in FD002 but only 0.06–0.12 in FD004:
+HPC and fan degradation move them in opposite directions, so pooled across
+FD004 engines their signal largely cancels.</p>
+<h3 id="2-normalization-per-operating-condition">2. Normalization — per operating condition</h3>
+<p>k-means (k = 6) on the three operational settings, fit on training rows only.
+Clusters are unambiguous: every train and test row lies within 0.0053 of its
+centroid, and all six regimes are well populated (8,002–15,395 train rows).
+Each kept sensor is z-scored within its regime using training statistics; the
+FD001 global min-max scaling was not reused.</p>
+<p>One adjustment, made after a smoke test and before training (addendum in the
+pre-registration): the quasi-binary sensors reach |z| ~ 50 because their
+in-regime std is tiny, while continuous sensors peak at |z| ~ 8.6. z-scores
+are clipped to ±10, which caps the flips without touching any continuous
+sensor.</p>
+<h3 id="3-model-trained-from-scratch-not-transfer-learned">3. Model — trained from scratch, not transfer-learned</h3>
+<p>Transfer from the FD001 model is not methodologically sound here:</p>
+<ol>
+<li><strong>Different input space.</strong> The FD001 model takes 17 globally min-max-scaled
+   columns; FD002/FD004 inputs are 23 columns (three sensors FD001 never saw,
+   six regime flags) on a different scale. Reusing its weights would map
+   inputs to meanings they don't have.</li>
+<li><strong>Transfer solves data scarcity, and there isn't any.</strong> The targets
+   (221 / 212 training engines after validation hold-out) are larger than the
+   source (100 engines).</li>
+<li><strong>FD004's fan fault never occurs in FD001.</strong> A source model can't carry
+   knowledge of a failure mode it has never seen, and fine-tuning from it
+   risks anchoring on HPC-only degradation patterns.</li>
+<li><strong>Comparability.</strong> The published per-subset benchmarks train on that
+   subset alone; a transfer model would not be a like-for-like comparison.</li>
+</ol>
+<p>Same architecture as FD001 (2-layer LSTM, hidden 64, dropout 0.3, window 30,
+cap 125, Adam 1e-3, batch 256, seed 42). Three pre-declared changes:
+engine-level validation split (FD001 split windows randomly, so an engine
+could appear in both train and validation — this only affected FD001's early
+stopping, never its test set); target scaled by 125 (FD001 training sat on a
+flat plateau for ~20 epochs before learning); patience 15 / max 100 epochs.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Train / val / test engines</th>
+<th>Best epoch</th>
+<th>Val RMSE at best</th>
+<th>Stopped at</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FD002</td>
+<td>221 / 39 / 259</td>
+<td>6</td>
+<td>16.27</td>
+<td>21</td>
+</tr>
+<tr>
+<td>FD004</td>
+<td>212 / 37 / 248</td>
+<td>13</td>
+<td>14.65</td>
+<td>28</td>
+</tr>
+</tbody>
+</table>
+<p>Both overfit after the best epoch (train RMSE fell to ~10 while validation
+rose); the best-validation checkpoint is what was evaluated.</p>
+<h3 id="4-published-benchmarks-audited-subset-specific">4. Published benchmarks — audited, subset-specific</h3>
+<p>The Literature Agent was run separately for each subset. <strong>Its output failed
+audit and is not used unverified.</strong> Every row was checked against its source:</p>
+<ul>
+<li>FD002 "Transformer 15.08" — fabricated; the cited page reports 17.21
+  (Transformer) and 18.73 (LSTM) for FD002. 15.08 matches the FD001 figure
+  found earlier.</li>
+<li>FD002 "Stacking ensemble 8.613" (arXiv 2608.27940) — that is the paper's
+  <strong>FD003</strong> result; it reports no FD002 number.</li>
+<li>FD002 rows from aitrendblend.com — genuine FD002 numbers, but the agent
+  invented the method names (its "LSTM 13.22" is an attention LSTM, DA-LSTM;
+  its "CNN-LSTM 14.3" is a graph network, ASTHGNN).</li>
+<li>FD004 "BACE-RUL / Cox-PH / SVM / LSTM" rows — an unexplained "custom score"
+  in the hundreds of thousands, not the PHM08 score. Excluded.</li>
+<li>FD002 knowledge base cited sensors 5 and 19 — constant inside every FD002
+  regime, so no finding can apply to them. Removed by a pre-declared rule.</li>
+</ul>
+<p>Raw agent output is kept as <code>literature_knowledge_base.raw.json</code>.</p>
+<p><strong>Primary benchmark source</strong> — one paper, one comparison table, consistent
+protocol: Ragab et al., <em>Attention Sequence to Sequence Model for Machine
+Remaining Useful Life Prediction</em>, arXiv:2007.09868, Table III. Its FD001
+LSTM row (16.14 / 338) matches the FD001 benchmark verified earlier.</p>
+<table>
+<thead>
+<tr>
+<th>Method (Ragab et al. Table III)</th>
+<th>FD002 RMSE / Score</th>
+<th>FD004 RMSE / Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D-LSTM (Zheng et al. 2017) — plain LSTM</td>
+<td>24.49 / 4,450</td>
+<td>28.17 / 5,550</td>
+</tr>
+<tr>
+<td>BLSTM</td>
+<td>25.11 / 4,793</td>
+<td>26.61 / 4,971</td>
+</tr>
+<tr>
+<td>1D CNN (Li et al. 2018)</td>
+<td>22.36 / 10,412</td>
+<td>23.31 / 12,466</td>
+</tr>
+<tr>
+<td>BiLSTM-ED</td>
+<td>22.07 / 3,099</td>
+<td>23.49 / 3,202</td>
+</tr>
+<tr>
+<td>BLCNN</td>
+<td>19.09 / 1,558</td>
+<td>20.97 / 3,859</td>
+</tr>
+<tr>
+<td>HDNN</td>
+<td>15.24 / 1,282</td>
+<td>18.16 / 1,527</td>
+</tr>
+<tr>
+<td>ATS2S (the paper's method)</td>
+<td>14.65 / 876</td>
+<td>16.66 / 1,074</td>
+</tr>
+<tr>
+<td><strong>This project</strong> (raw truth)</td>
+<td><strong>28.38 / 17,873</strong></td>
+<td><strong>27.28 / 5,221</strong></td>
+</tr>
+<tr>
+<td><strong>This project</strong> (truth capped at 125)</td>
+<td><strong>14.99 / 1,101</strong></td>
+<td><strong>15.08 / 1,096</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Secondary, recent state of the art (secondary sources, not independently
+verified against the original papers): DCPGCN, Zheng et al. 2026, <em>Advanced
+Engineering Informatics</em> — FD002 12.06 / 557.93, FD004 13.64; RGPD (2025) —
+FD004 12.38 / 787.39.</p>
+<p><strong>Honest reading.</strong> Which truth convention the benchmark papers use for the
+<em>test</em> labels is not stated in Ragab et al. (they cap <em>training</em> labels at 130
+for FD002/FD004). That decides the comparison:</p>
+<ul>
+<li>If the benchmarks are scored against capped truth — the common practice in
+  deep-learning C-MAPSS papers, and consistent with scores in the hundreds to
+  low thousands — this plain LSTM beats the plain-LSTM baseline by a wide
+  margin (FD002 14.99 vs 24.49; FD004 15.08 vs 28.17) and lands among the
+  hybrid models, with the gain coming from per-regime normalization and the
+  corrected sensor set rather than the network. It does not reach 2024–26
+  state of the art.</li>
+<li>Against raw truth, it is worse than every benchmark in the table. That is
+  the pre-registered primary number and it is reported as such.</li>
+</ul>
+<h3 id="5-agent-verdicts">5. Agent verdicts</h3>
+<p><strong>Synthesis -&gt; Hypothesis ran on every test engine, as the spec required: all
+259 FD002 and all 248 FD004 engines (507 total), not a sample.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Subset</th>
+<th>n</th>
+<th>Confirmed</th>
+<th>Contradicted</th>
+<th>Novel</th>
+<th>Novel rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FD001 (top-15, original)</td>
+<td>15</td>
+<td>2</td>
+<td>0</td>
+<td>13</td>
+<td>86.7%</td>
+</tr>
+<tr>
+<td>FD002 (all 259)</td>
+<td>259</td>
+<td><strong>0</strong></td>
+<td>60</td>
+<td>199</td>
+<td>76.8%</td>
+</tr>
+<tr>
+<td>FD004 (all 248)</td>
+<td>248</td>
+<td>55</td>
+<td>24</td>
+<td>169</td>
+<td>68.1%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Pre-declared criterion</strong> ("same pattern" = Novel rate within FD001's
+86.7% ± 15pp, i.e. 71.7–100%):</p>
+<ul>
+<li><strong>FD002: 76.8% — inside the range. Criterion says the pattern holds.</strong>
+  But that number hides something the criterion doesn't check for: <strong>zero
+  Confirmed verdicts across 259 engines.</strong> Cause, not coincidence: sensor_11
+  is FD002's #1 SHAP driver for 238/259 engines (Section 1), and FD002's
+  literature knowledge base contains no finding for sensor_11 at all — only
+  three low-importance sensors (10, 15, 16) survived the validity filter.
+  With the dominant driver absent from the knowledge base, most engines can
+  only land on Contradicted or Novel; Confirmed was structurally unlikely
+  regardless of what the model actually learned. The Novel-rate criterion
+  passing is compatible with a <strong>worse-covered</strong> knowledge base, not
+  necessarily a better-matching model — a real limitation of this criterion
+  the project owner should know about.</li>
+<li><strong>FD004: 68.1% — outside the range (needed &gt;=71.7%). This is a genuinely
+  different result, as the spec requires it be called.</strong> Two contributing,
+  verifiable causes: (a) FD004's knowledge base is more useful — sensor_11 IS
+  covered there ("high" importance), and sensor_11 is FD004's #2 SHAP driver
+  (70/248 engines), which is why FD004 gets real Confirmed verdicts (55, 22%)
+  where FD002 gets none; (b) FD004's #1 driver, sensor_6, is covered by
+  neither knowledge base, but its physical link to the fan-degradation fault
+  (Section 1) makes "Novel" here a substantively correct read of a fault mode
+  the literature search didn't surface — a data point in favor of the pipeline
+  reasoning correctly, even though it moves the metric outside the band.</li>
+</ul>
+<p><strong>Secondary, like-for-like number</strong> (top-15 highest-risk engines only, matching
+FD001's original scope): FD002 0 Confirmed / 8 Contradicted / 7 Novel (46.7%
+Novel); FD004 4 Confirmed / 0 Contradicted / 11 Novel (73.3% Novel, inside
+the band). The full-dataset and top-15 FD002 Novel rates disagree by 30
+points — the top-15 (all imminent failures) skew more Contradicted, the full
+set skews more Novel; this is a real effect of engine selection, not noise.</p>
+<p><strong>Critique.</strong> Cohere's trial key (20 calls/min, ~1,000/month) could not cover
+Critique for all 507 engines in reasonable time; the project owner chose to
+run it on the top-15-highest-risk engines per subset instead (30 engines),
+matching FD001's original scope. Result: <strong>the Critique Agent disagreed with
+all 30 of 30 checked verdicts</strong>, in both this sample and an earlier partial
+full-dataset run (50 engines, stopped early) that showed the same 0%
+agreement. Reading the actual text (not just the agree/disagree flag): the
+critiques are genuine and case-specific — they name the actual driving
+sensors from each engine's SHAP result — but every one converges on the same
+counter-explanation: the driving sensors' importance may be a SHAP
+background-sampling artifact or reflect low in-regime variance/noise rather
+than a real signal. That is a legitimate methodological concern (Section 2's
+z-clipping exists because exactly this pattern shows up in the raw data), and
+it is not disprovable with what this pipeline currently computes — nothing
+here measures SHAP stability across background samples or reports per-sensor
+in-regime variance to the Critique Agent. Read plainly: the critique step is
+functioning as designed (skeptical, independent, not rubber-stamping), but a
+100% disagreement rate across every sample checked also means it is not
+currently discriminating between engines where this concern is more or less
+warranted — that would need SHAP-stability or variance metrics added to what
+the Critique Agent is given, which is future work, not something to paper
+over here.</p>
+<h3 id="6-deviations-and-limitations">6. Deviations and limitations</h3>
+<ul>
+<li>Test sets are 259 and 248 engines, not 100; all were used for Synthesis and
+  Hypothesis. Critique ran on 30 (top-15 per subset) by the project owner's
+  choice once the Cohere trial rate limit made a same-day full run
+  impractical — see Section 5 for exactly which engines and what it found.</li>
+<li>The RUL cap of 125 (kept from FD001 for consistency) is the single biggest
+  driver of raw-truth error on these subsets. A higher cap was not tried —
+  that would be tuning after seeing results.</li>
+<li>The FD002 knowledge base is thin (three valid sensor findings, all rated
+  "low", missing the actual #1 driver sensor_11 entirely) — this is very
+  likely why FD002 produced zero Confirmed verdicts, and it means the
+  Novel-rate criterion passing for FD002 should not be read as "the pipeline
+  agreed with literature about as often as on FD001." See Section 5.</li>
+<li>The Critique Agent disagreed with 100% of the 30 sampled verdicts, always
+  via the same SHAP-artifact/low-variance argument. Genuine per-case
+  reasoning, but the pipeline gives it no way to check that argument (no
+  SHAP-stability or in-regime-variance metric is computed or passed to it),
+  so it cannot currently distinguish cases where the concern is warranted
+  from cases where it isn't. Not fixed here; noted as the clearest next step.</li>
+</ul>
+</body></html>

@@ -1,0 +1,89 @@
+{
+  "unit": 157,
+  "engine_shap": {
+    "unit": 157,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_14",
+        "importance": 0.3747068885396558,
+        "direction": "increases_risk",
+        "signed_contribution": -0.09970972515440538
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.32368803648275907,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.06934662347682552
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.305027975584908,
+        "direction": "increases_risk",
+        "signed_contribution": -0.039875566169822754
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.24326922141706556,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.13059023509378548
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.2088113741940485,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.11785965042363394
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.07228560856718785,
+      "sensor_3": 0.04914448737841206,
+      "sensor_4": 0.1304926329824433,
+      "sensor_6": 0.19990951898951456,
+      "sensor_7": 0.09830027319217544,
+      "sensor_8": 0.24326922141706556,
+      "sensor_9": 0.32368803648275907,
+      "sensor_10": 0.03690899518960097,
+      "sensor_11": 0.305027975584908,
+      "sensor_12": 0.17925662532819994,
+      "sensor_13": 0.2088113741940485,
+      "sensor_14": 0.3747068885396558,
+      "sensor_15": 0.13066820943401575,
+      "sensor_16": 0.008740738394806246,
+      "sensor_17": 0.06712907513840974,
+      "sensor_20": 0.039314997190972915,
+      "sensor_21": 0.026606513183431397,
+      "regime_0": 0.08217790365889868,
+      "regime_1": 0.03729338764626847,
+      "regime_2": 0.02521361663288417,
+      "regime_3": 0.012699947183450603,
+      "regime_4": 0.029236553394785005,
+      "regime_5": 0.020298553972946828
+    },
+    "non_sensor_share": 0.07660351240776468
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_14 and sensor_9. The knowledge base does not contain any findings related to these sensors, nor does it provide information on their typical pre-failure patterns or importance. Therefore, the model's explanation cannot be confirmed or contradicted based on the available knowledge base.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model's reliance on sensor_14, which may measure an unusual parameter like high-pressure turbine temperature, suggests potential specific wear patterns or anomalies not covered by existing literature. This could indicate a novel failure mode that typically emerges in certain operational contexts not extensively documented.",
+    "physical_reasoning": "Given that sensor_14 has a high importance rating and is linked to increasing risk, it could be capturing data related to thermal stress or material degradation that directly correlates with engine components undergoing cyclic fatigue. Furthermore, sensor_9, noted for decreasing risk, might indicate compensatory behavior in operational parameters that compensate for issues detected by sensor_14.",
+    "next_checks": [
+      "Cross-check data from sensor_14 with historical trends from similar engines under similar operating conditions.",
+      "Analyze operational context and maintenance records to identify instances where high values from sensor_14 were previously logged and their outcomes.",
+      "Conduct comparative analysis across multiple engines to assess whether sensor_14's readings historically align with pre-failure states or unusual operating behaviors.",
+      "Perform a data quality check for sensor_14 to confirm its accuracy and consistency over time."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis assumes sensor_14 measures a critical parameter like high-pressure turbine temperature, but this is speculative without explicit sensor metadata. The model could be extrapolating outside its training distribution if sensor_14's behavior in this engine differs from training data patterns. Additionally, without SHAP stability evidence, we cannot rule out attribution volatility as an alternative explanation for sensor_14's prominence.",
+    "alternative_explanation": "The model may be extrapolating outside its training distribution due to sensor_14 exhibiting behavior not well-represented in the training data, or SHAP attribution instability could be artificially elevating sensor_14's importance.",
+    "confidence": "medium"
+  }
+}

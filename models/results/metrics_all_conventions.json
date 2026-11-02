@@ -1,0 +1,35 @@
+{
+  "FD001": {
+    "n": 100,
+    "n_true_rul_over_125": 11,
+    "rmse_capped": 13.575091868188094,
+    "score_capped": 335.01635207420986,
+    "rmse_raw": 14.90277534692051,
+    "score_raw": 371.1421094467822,
+    "rmse_raw_only_engines_le_125": 13.625472388933554,
+    "late_predictions_share_raw": 0.58,
+    "max_prediction": 123.9190444946289
+  },
+  "FD002": {
+    "n": 259,
+    "n_true_rul_over_125": 57,
+    "rmse_capped": 14.993749177274427,
+    "score_capped": 1100.857477292802,
+    "rmse_raw": 28.380579702933243,
+    "score_raw": 17873.337737558308,
+    "rmse_raw_only_engines_le_125": 13.836327864897775,
+    "late_predictions_share_raw": 0.444015444015444,
+    "max_prediction": 121.30682373046875
+  },
+  "FD004": {
+    "n": 248,
+    "n_true_rul_over_125": 67,
+    "rmse_capped": 15.081073202825213,
+    "score_capped": 1096.146202970614,
+    "rmse_raw": 27.27993116415601,
+    "score_raw": 5221.336443317302,
+    "rmse_raw_only_engines_le_125": 15.76107576371239,
+    "late_predictions_share_raw": 0.46774193548387094,
+    "max_prediction": 122.4411849975586
+  }
+}

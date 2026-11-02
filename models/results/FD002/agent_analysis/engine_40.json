@@ -1,0 +1,92 @@
+{
+  "unit": 40,
+  "engine_shap": {
+    "unit": 40,
+    "true_RUL": 37.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.5766315651182119,
+        "direction": "increases_risk",
+        "signed_contribution": -0.07059089556894096
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.3530029493882878,
+        "direction": "increases_risk",
+        "signed_contribution": -0.14674232822817895
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.29972195480286373,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.00033917993364969076
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 0.12000927583564952,
+        "direction": "increases_risk",
+        "signed_contribution": -0.01188163122318431
+      },
+      {
+        "sensor": "sensor_17",
+        "importance": 0.11075717612728883,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.036978896060207385
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.12000927583564952,
+      "sensor_3": 0.06548609281549941,
+      "sensor_4": 0.29972195480286373,
+      "sensor_6": 0.051236261983923635,
+      "sensor_7": 0.08593732546037074,
+      "sensor_8": 0.03049475823109693,
+      "sensor_9": 0.018304744763518302,
+      "sensor_10": 0.020819737583619324,
+      "sensor_11": 0.5766315651182119,
+      "sensor_12": 0.09807091920923118,
+      "sensor_13": 0.042122094625407946,
+      "sensor_14": 0.020077546333676338,
+      "sensor_15": 0.3530029493882878,
+      "sensor_16": 0.03581452751315452,
+      "sensor_17": 0.11075717612728883,
+      "sensor_20": 0.04844257306813009,
+      "sensor_21": 0.0830620838946751,
+      "regime_0": 0.02931440349026161,
+      "regime_1": 0.026656312467696352,
+      "regime_2": 0.0116611633296543,
+      "regime_3": 0.030523099021447703,
+      "regime_4": 0.012292779987765243,
+      "regime_5": 0.027243755600443367
+    },
+    "non_sensor_share": 0.0626530339412569
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Contradicted",
+    "confidence": "high",
+    "reasoning": "The top driving sensor in the model's explanation is sensor_11, which is not documented in the knowledge base. However, the second most important sensor, sensor_15, is documented as having low importance in the knowledge base, contradicting its high importance in the model's explanation. Additionally, the direction of sensor_15's contribution (increases_risk) is not supported by any documented findings.",
+    "matched_sources": [
+      "Evaluating the impact of data preprocessing on deep neural architectures for Remaining Useful Life estimation of turbofan engines"
+    ]
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model may be capturing anomalies or noise in sensor readings, particularly from sensor_11, which is not well documented and may not be well-calibrated. Sensor_15's unexpected high importance could indicate a change in operating conditions or potential sensor drift that has not been previously observed.",
+    "physical_reasoning": "Given that sensor_11 is undetermined in the literature, its high importance might suggest it's reacting to transient phenomena or malfunctions that aren't accounted for, leading the model to place undue weight on it. In addition, sensor_15's contradictory high importance paired with low documented values could suggest it is responding to operational changes that have not been accordingly captured in existing literature.",
+    "next_checks": [
+      "Cross-verify sensor_11 readings with historical data from similar engines to check for anomalies.",
+      "Conduct calibration checks for sensor_11 and sensor_15 to ensure their readings are accurately reflecting engine conditions.",
+      "Compare the operational profiles of this engine against others with confirmed reliability to identify any differing operating conditions.",
+      "Evaluate the correlation of sensor_11 with other known critical sensors during similar flight regimes.",
+      "Perform data quality checks for sensor_15 to assess if noise or drift was present in the data."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's focus on sensor_11's undocumented status and sensor_15's contradiction with literature is plausible, but it overlooks potential model-specific issues. Without SHAP stability evidence, we cannot rule out that the high importance of sensor_11 is a background-sampling artifact. Additionally, the model might be extrapolating outside its training distribution if sensor_11 or sensor_15 exhibited unusual behavior in this engine's data.",
+    "alternative_explanation": "The model's attribution could be a SHAP background-sampling artifact, or it might be extrapolating due to sensor_11 or sensor_15 operating outside the range seen during training.",
+    "confidence": "medium"
+  }
+}

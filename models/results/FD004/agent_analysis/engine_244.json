@@ -1,0 +1,89 @@
+{
+  "unit": 244,
+  "engine_shap": {
+    "unit": 244,
+    "true_RUL": 35.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_14",
+        "importance": 0.2883010748457708,
+        "direction": "increases_risk",
+        "signed_contribution": -0.0018673392028092477
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.27845109959610775,
+        "direction": "increases_risk",
+        "signed_contribution": -0.1466015183575338
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.14025838676665292,
+        "direction": "increases_risk",
+        "signed_contribution": -0.015800272803354234
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.12839080188324858,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.019080132751040917
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.11546062231914987,
+        "direction": "increases_risk",
+        "signed_contribution": -0.08811728119138067
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.0837638795320681,
+      "sensor_3": 0.04745756183285289,
+      "sensor_4": 0.05087036488112943,
+      "sensor_6": 0.10548595443730732,
+      "sensor_7": 0.033629412279614676,
+      "sensor_8": 0.12839080188324858,
+      "sensor_9": 0.27845109959610775,
+      "sensor_10": 0.014241600573686026,
+      "sensor_11": 0.11546062231914987,
+      "sensor_12": 0.034326232985145755,
+      "sensor_13": 0.14025838676665292,
+      "sensor_14": 0.2883010748457708,
+      "sensor_15": 0.04955453762468969,
+      "sensor_16": 0.009873951999692192,
+      "sensor_17": 0.049410923649665324,
+      "sensor_20": 0.017594518147185673,
+      "sensor_21": 0.020754847485546773,
+      "regime_0": 0.04877301185104443,
+      "regime_1": 0.037159142730197346,
+      "regime_2": 0.06074360303889989,
+      "regime_3": 0.01509490153284787,
+      "regime_4": 0.022303262589448425,
+      "regime_5": 0.06636597094100577
+    },
+    "non_sensor_share": 0.14575155518732022
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_14, sensor_9, and sensor_13. The knowledge base does not contain any documented findings related to these sensors, making it impossible to confirm or contradict the model's explanation based on the available information.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model's reliance on sensors 14, 9, and 13 may indicate a previously unrecognized interaction between fuel flow characteristics and engine wear mechanisms that is not well documented in existing literature.",
+    "physical_reasoning": "Sensor 14 may relate to parameters like fuel flow or temperature, which can contribute to thermal stress in engine components. Sensor 9 could measure compressor health, potentially indicating operational efficiency, while sensor 13 might monitor vibration or structural integrity, revealing how these factors can interact in ways not captured by existing research.",
+    "next_checks": [
+      "Cross-check sensor_14 data with fuel flow and temperature logs to identify trends correlating with wear.",
+      "Evaluate sensor_9 against other engines operating under similar conditions to detect anomalies.",
+      "Analyze historical data from sensor_13 for patterns indicative of damage progression that aligns with changes in sensors 14 and 9.",
+      "Perform data-quality checks to ensure that the readings from all involved sensors are accurate, calibrated, and free from noise."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis suggests a novel interaction between sensors, but without evidence of SHAP stability, the top sensor attributions could be artifacts of background sampling noise. The absence of 'shap_stability' data means we cannot confirm if these sensors are truly driving the prediction or if the model is extrapolating outside its training distribution. Additionally, sensor noise or near-zero variance in certain sensors for this engine could also explain the results.",
+    "alternative_explanation": "The top sensor attributions might be SHAP artifacts due to background sampling noise, as 'shap_stability' is not provided.",
+    "confidence": "medium"
+  }
+}

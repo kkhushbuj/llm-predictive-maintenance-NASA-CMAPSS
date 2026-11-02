@@ -1,0 +1,91 @@
+{
+  "unit": 173,
+  "engine_shap": {
+    "unit": 173,
+    "true_RUL": 14.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.40381552873626697,
+        "direction": "increases_risk",
+        "signed_contribution": -0.13161390693331146
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.28053210227416403,
+        "direction": "increases_risk",
+        "signed_contribution": -0.15408840677394087
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.27919463929744526,
+        "direction": "increases_risk",
+        "signed_contribution": -0.11996247870830883
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 0.12691989551726418,
+        "direction": "increases_risk",
+        "signed_contribution": -0.08477048678940213
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 0.09486129042958052,
+        "direction": "increases_risk",
+        "signed_contribution": -0.06090261176964612
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.12691989551726418,
+      "sensor_3": 0.08835519264197535,
+      "sensor_4": 0.27919463929744526,
+      "sensor_6": 0.015642913436967547,
+      "sensor_7": 0.09486129042958052,
+      "sensor_8": 0.04583614932960323,
+      "sensor_9": 0.07125929335009358,
+      "sensor_10": 0.00951128809338058,
+      "sensor_11": 0.40381552873626697,
+      "sensor_12": 0.0937877966283625,
+      "sensor_13": 0.06969913435479203,
+      "sensor_14": 0.08169023023113944,
+      "sensor_15": 0.28053210227416403,
+      "sensor_16": 0.030265882568741173,
+      "sensor_17": 0.0876982161625561,
+      "sensor_20": 0.022309213784405493,
+      "sensor_21": 0.07440063682563776,
+      "regime_0": 0.020003304574192953,
+      "regime_1": 0.013097922603578808,
+      "regime_2": 0.013743211619002976,
+      "regime_3": 0.02609357249556979,
+      "regime_4": 0.008004390647638502,
+      "regime_5": 0.010026153911392159
+    },
+    "non_sensor_share": 0.04625328599495066
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Contradicted",
+    "confidence": "high",
+    "reasoning": "The model identifies sensor_15 as a top driver of RUL prediction, with a direction that increases risk. However, the knowledge base entry for sensor_15 (bypass ratio, BPR) reports its importance as low and describes a near-constant pre-failure pattern, contradicting the model's attribution. No other top sensors from the model's explanation (sensor_11, sensor_4) are covered in the knowledge base, but the direct conflict with sensor_15 is sufficient for a contradicted verdict.",
+    "matched_sources": [
+      "Evaluating the impact of data preprocessing on deep neural architectures for Remaining Useful Life estimation of turbofan engines"
+    ]
+  },
+  "hypothesis_result": {
+    "hypothesis": "The prediction is influenced by unexpected operational conditions that have altered the expected behavior of the bypass ratio sensor (sensor_15). This discrepancy could arise from unusual engine operating regimes or calibration issues leading to sensor drift, thereby causing an erroneous high importance rating in the model's prediction.",
+    "physical_reasoning": "The bypass ratio (BPR) sensor typically operates with a consistent response as the engine ages. However, if the engine has been subjected to extreme operating conditions\u2014such as significantly high or low airflow or unusual environmental factors\u2014this could cause the sensor to behave atypically, affecting its readings and thereby influencing the model's predictions. This theory aligns with the fact that current operating conditions haven't been well documented in existing literature, which may not account for rare failure modes.",
+    "next_checks": [
+      "Perform a calibration check on sensor_15 to verify its accuracy against expected values under typical operating conditions.",
+      "Collect historical data for sensor_15 during similar operational profiles to assess if discrepancies exist during specific regimes.",
+      "Cross-validate readings from sensor_15 with data from similar engines operating under similar conditions to identify any outlier behaviors.",
+      "Investigate maintenance records for any recent changes made to the engine or its components that could impact sensor performance."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": true,
+    "critique": "The pipeline's verdict is supported by the stable SHAP attribution, which consistently identifies sensor_11 as the top contributor across reruns. The contradiction with the knowledge base regarding sensor_15's importance is valid, as its near-constant pre-failure pattern conflicts with the model's high attribution. The hypothesis of unusual operational conditions affecting sensor_15 is plausible, given the lack of documentation for such scenarios in the literature.",
+    "alternative_explanation": null,
+    "confidence": "high"
+  }
+}

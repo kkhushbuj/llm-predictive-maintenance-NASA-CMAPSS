@@ -1,0 +1,5502 @@
+[
+  {
+    "unit": 1,
+    "true_RUL": 112.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 22.887010715127523,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.635944278088158
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 19.56315795659226,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.78227083384935
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 17.320337596876264,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.288323124422577
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 16.285847091839408,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.2352903162094506
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 14.714459061752377,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.7814179712958593
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0616797508078548,
+      "op_setting_2": 1.5291330827727567,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.714459061752377,
+      "sensor_3": 9.15626625790105,
+      "sensor_4": 19.56315795659226,
+      "sensor_7": 16.285847091839408,
+      "sensor_8": 10.650177576060083,
+      "sensor_9": 10.929913477977042,
+      "sensor_11": 22.887010715127523,
+      "sensor_12": 17.320337596876264,
+      "sensor_13": 9.663915983163198,
+      "sensor_14": 7.57621078429641,
+      "sensor_15": 13.164308403626562,
+      "sensor_17": 9.677199646526084,
+      "sensor_20": 14.428612065324279,
+      "sensor_21": 11.7882596521357
+    }
+  },
+  {
+    "unit": 2,
+    "true_RUL": 98.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 11.725944342475934,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.92065760264664
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 9.861171742489594,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.342577246066186
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 8.355312048876964,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.43804660896078
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 8.138709937053465,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.7198226185098897
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 7.7959724543350655,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.7282105216019334
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.015109541632244,
+      "op_setting_2": 2.3250495327672303,
+      "op_setting_3": 0.0,
+      "sensor_2": 6.0955234938942295,
+      "sensor_3": 4.957345376913613,
+      "sensor_4": 8.138709937053465,
+      "sensor_7": 6.8268328705297865,
+      "sensor_8": 6.75205704210605,
+      "sensor_9": 11.725944342475934,
+      "sensor_11": 7.7959724543350655,
+      "sensor_12": 8.355312048876964,
+      "sensor_13": 5.243666089812327,
+      "sensor_14": 9.861171742489594,
+      "sensor_15": 6.510481285446962,
+      "sensor_17": 5.691685571137634,
+      "sensor_20": 7.687649398080914,
+      "sensor_21": 5.430000546044038
+    }
+  },
+  {
+    "unit": 3,
+    "true_RUL": 69.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 24.932368141555052,
+        "direction": "increases_risk",
+        "signed_contribution": -6.647985342854592
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 24.450950639860615,
+        "direction": "increases_risk",
+        "signed_contribution": -1.606218446460297
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 23.311236810909204,
+        "direction": "increases_risk",
+        "signed_contribution": -4.249185504567836
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 23.074849595178602,
+        "direction": "increases_risk",
+        "signed_contribution": -5.60404973936158
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 19.086641272194576,
+        "direction": "increases_risk",
+        "signed_contribution": -2.7501642333274043
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.7978383298848803,
+      "op_setting_2": 4.054211290777484,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.54147689124412,
+      "sensor_3": 10.603948415281787,
+      "sensor_4": 18.669158885520915,
+      "sensor_7": 18.353323383557893,
+      "sensor_8": 23.311236810909204,
+      "sensor_9": 11.712405533810186,
+      "sensor_11": 23.074849595178602,
+      "sensor_12": 24.932368141555052,
+      "sensor_13": 24.450950639860615,
+      "sensor_14": 11.947702183855355,
+      "sensor_15": 19.086641272194576,
+      "sensor_17": 9.88855008147728,
+      "sensor_20": 16.987125097777167,
+      "sensor_21": 15.445021989123223
+    }
+  },
+  {
+    "unit": 4,
+    "true_RUL": 82.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 23.104388943501416,
+        "direction": "increases_risk",
+        "signed_contribution": -1.513876043711695
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 21.42004254404695,
+        "direction": "increases_risk",
+        "signed_contribution": -1.4469555326548977
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 17.421236194462782,
+        "direction": "increases_risk",
+        "signed_contribution": -5.752868075923747
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 16.202996151693135,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.525729977248446
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 15.037999602726948,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.8361134665212147
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.6481456158133132,
+      "op_setting_2": 3.2424550660596765,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.138115731531546,
+      "sensor_3": 10.98014648845729,
+      "sensor_4": 17.421236194462782,
+      "sensor_7": 14.646525302208637,
+      "sensor_8": 21.42004254404695,
+      "sensor_9": 11.693912860676203,
+      "sensor_11": 23.104388943501416,
+      "sensor_12": 15.037999602726948,
+      "sensor_13": 16.202996151693135,
+      "sensor_14": 10.003888757179748,
+      "sensor_15": 12.646937206816368,
+      "sensor_17": 10.681023800633373,
+      "sensor_20": 11.457441974107404,
+      "sensor_21": 12.04609648964132
+    }
+  },
+  {
+    "unit": 5,
+    "true_RUL": 91.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 16.338072340053376,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.6178743312534944
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 13.393348713624603,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.9909667889956303
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 12.976735152972887,
+        "direction": "increases_risk",
+        "signed_contribution": -4.867291722697216
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 12.701467010728148,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.0452648256071186
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 12.636229041330584,
+        "direction": "increases_risk",
+        "signed_contribution": -1.9923729780992323
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.4303278325333428,
+      "op_setting_2": 3.271597397082534,
+      "op_setting_3": 0.0,
+      "sensor_2": 11.052192525918409,
+      "sensor_3": 7.803079075345768,
+      "sensor_4": 10.024380270173516,
+      "sensor_7": 11.615243634956924,
+      "sensor_8": 13.393348713624603,
+      "sensor_9": 11.240332268815,
+      "sensor_11": 16.338072340053376,
+      "sensor_12": 12.976735152972887,
+      "sensor_13": 12.701467010728148,
+      "sensor_14": 10.738165821210796,
+      "sensor_15": 12.636229041330584,
+      "sensor_17": 6.448113697974913,
+      "sensor_20": 11.653688242764797,
+      "sensor_21": 11.484496059016145
+    }
+  },
+  {
+    "unit": 6,
+    "true_RUL": 93.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_2",
+        "importance": 13.373851457053382,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.231196764239161
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 12.561958638456327,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.412263431752093
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 12.472130396567392,
+        "direction": "increases_risk",
+        "signed_contribution": -0.20984408088325085
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 10.994023254564231,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.535522437166671
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 10.993951529090205,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.5938457915958097
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.555248183579121,
+      "op_setting_2": 3.0083638943351345,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.373851457053382,
+      "sensor_3": 9.221516389542625,
+      "sensor_4": 10.994023254564231,
+      "sensor_7": 8.849701439582125,
+      "sensor_8": 10.56777668443768,
+      "sensor_9": 12.561958638456327,
+      "sensor_11": 8.982425960662935,
+      "sensor_12": 10.58255714047229,
+      "sensor_13": 10.993951529090205,
+      "sensor_14": 10.108524423676378,
+      "sensor_15": 9.568450411452526,
+      "sensor_17": 5.2184868737419805,
+      "sensor_20": 12.472130396567392,
+      "sensor_21": 9.619496525275823
+    }
+  },
+  {
+    "unit": 7,
+    "true_RUL": 91.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 23.495680170533106,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.002400799529037
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 21.68223606448443,
+        "direction": "increases_risk",
+        "signed_contribution": -0.6264667470341024
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 19.335252545295248,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.868060815927733
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 18.91212445147415,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.2396668743122827
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 18.688717883480834,
+        "direction": "increases_risk",
+        "signed_contribution": -0.6251090117573238
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.1320118341829373,
+      "op_setting_2": 2.083438012271862,
+      "op_setting_3": 0.0,
+      "sensor_2": 19.335252545295248,
+      "sensor_3": 10.389023954045436,
+      "sensor_4": 18.91212445147415,
+      "sensor_7": 13.237644218542414,
+      "sensor_8": 18.47915483046852,
+      "sensor_9": 6.064602631591535,
+      "sensor_11": 21.68223606448443,
+      "sensor_12": 23.495680170533106,
+      "sensor_13": 18.688717883480834,
+      "sensor_14": 4.93105238528975,
+      "sensor_15": 15.66051689167097,
+      "sensor_17": 5.7419815911705445,
+      "sensor_20": 16.7062534483743,
+      "sensor_21": 11.510068063309516
+    }
+  },
+  {
+    "unit": 8,
+    "true_RUL": 95.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 21.309373227077657,
+        "direction": "increases_risk",
+        "signed_contribution": -3.989348876753978
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 19.196284221867707,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.9139201540590841
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 16.70733415116821,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.843936061972599
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 14.666936993631975,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.51494235995969
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 13.987443908693594,
+        "direction": "increases_risk",
+        "signed_contribution": -1.577167414854836
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.1588966273847432,
+      "op_setting_2": 4.230520009230233,
+      "op_setting_3": 0.0,
+      "sensor_2": 10.146477242995322,
+      "sensor_3": 10.810895347398672,
+      "sensor_4": 11.87904214079644,
+      "sensor_7": 13.987443908693594,
+      "sensor_8": 19.196284221867707,
+      "sensor_9": 16.70733415116821,
+      "sensor_11": 10.399142044905085,
+      "sensor_12": 21.309373227077657,
+      "sensor_13": 14.666936993631975,
+      "sensor_14": 13.811028119499694,
+      "sensor_15": 11.607096269103756,
+      "sensor_17": 6.00770582857879,
+      "sensor_20": 10.84921688610592,
+      "sensor_21": 9.732074110889654
+    }
+  },
+  {
+    "unit": 9,
+    "true_RUL": 111.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 9.700665340914432,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.6893818562397964
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 9.466571725337378,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.623986889811853
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 8.560425950615691,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.910257295771976
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 7.738791393115045,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.5408284076094554
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 7.6325509823154745,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.94624533299388
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7239494811423686,
+      "op_setting_2": 2.021676950784742,
+      "op_setting_3": 0.0,
+      "sensor_2": 6.6966343606537935,
+      "sensor_3": 6.381123860013645,
+      "sensor_4": 7.6325509823154745,
+      "sensor_7": 6.396466810851745,
+      "sensor_8": 6.413410687528061,
+      "sensor_9": 8.560425950615691,
+      "sensor_11": 9.700665340914432,
+      "sensor_12": 9.466571725337378,
+      "sensor_13": 5.343137310742612,
+      "sensor_14": 7.738791393115045,
+      "sensor_15": 5.938469897775971,
+      "sensor_17": 4.791888822700901,
+      "sensor_20": 5.790168108667184,
+      "sensor_21": 6.416746876897869
+    }
+  },
+  {
+    "unit": 10,
+    "true_RUL": 96.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_4",
+        "importance": 18.02661806293968,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.38520175132930146
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 13.905231971530343,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.3652653147357203
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 12.265293664025933,
+        "direction": "increases_risk",
+        "signed_contribution": -0.01076950321739989
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 12.002246428094097,
+        "direction": "increases_risk",
+        "signed_contribution": -1.1302953021162514
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 11.727195690591348,
+        "direction": "increases_risk",
+        "signed_contribution": -0.7218022761468763
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.7839821774300284,
+      "op_setting_2": 3.1918994343881404,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.905231971530343,
+      "sensor_3": 7.809023556868637,
+      "sensor_4": 18.02661806293968,
+      "sensor_7": 12.002246428094097,
+      "sensor_8": 9.864525574224825,
+      "sensor_9": 4.502822664619083,
+      "sensor_11": 12.265293664025933,
+      "sensor_12": 11.018026117226208,
+      "sensor_13": 9.769336354335604,
+      "sensor_14": 3.407876916910555,
+      "sensor_15": 11.727195690591348,
+      "sensor_17": 7.261237409073522,
+      "sensor_20": 11.655785616310796,
+      "sensor_21": 10.253665813616838
+    }
+  },
+  {
+    "unit": 11,
+    "true_RUL": 97.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_8",
+        "importance": 28.669194359221077,
+        "direction": "increases_risk",
+        "signed_contribution": -4.639817244385184
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 28.13954522253944,
+        "direction": "decreases_risk",
+        "signed_contribution": 10.331496773495644
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 25.299254169051228,
+        "direction": "decreases_risk",
+        "signed_contribution": 9.823264430054222
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 24.58325360192129,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.1947081790351963
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 22.91361170495183,
+        "direction": "increases_risk",
+        "signed_contribution": -7.494934194074287
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.8853876691220085,
+      "op_setting_2": 4.202081079035564,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.633461375737856,
+      "sensor_3": 13.054499953100223,
+      "sensor_4": 22.91361170495183,
+      "sensor_7": 12.32660590469793,
+      "sensor_8": 28.669194359221077,
+      "sensor_9": 28.13954522253944,
+      "sensor_11": 21.491856511786384,
+      "sensor_12": 22.544496799190338,
+      "sensor_13": 24.58325360192129,
+      "sensor_14": 25.299254169051228,
+      "sensor_15": 13.700019116709587,
+      "sensor_17": 11.931397275969434,
+      "sensor_20": 10.546518474963865,
+      "sensor_21": 12.604019802663345
+    }
+  },
+  {
+    "unit": 12,
+    "true_RUL": 124.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_13",
+        "importance": 16.14274728617866,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.8545858786620298
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 14.555713002052162,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.9626070779802087
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 14.428539011820856,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.5519066818749225
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 13.927072907939435,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.536922031855863
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 13.777893559786321,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.5425485640586742
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.3597333289305125,
+      "op_setting_2": 2.3276363827158213,
+      "op_setting_3": 0.0,
+      "sensor_2": 12.666340805856844,
+      "sensor_3": 9.579413579640553,
+      "sensor_4": 13.927072907939435,
+      "sensor_7": 12.450707753132397,
+      "sensor_8": 13.777893559786321,
+      "sensor_9": 4.7495542928610455,
+      "sensor_11": 14.555713002052162,
+      "sensor_12": 14.428539011820856,
+      "sensor_13": 16.14274728617866,
+      "sensor_14": 5.7596583917064175,
+      "sensor_15": 10.62470425144081,
+      "sensor_17": 9.413617612704284,
+      "sensor_20": 10.609783472510241,
+      "sensor_21": 11.839119713789922
+    }
+  },
+  {
+    "unit": 13,
+    "true_RUL": 95.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_20",
+        "importance": 13.912800816609236,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.4876957232177186
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 13.748660388373333,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.7951883049614348
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 13.14557306716836,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.056525265611653
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 12.372116278385983,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.05664877702546
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 12.25485555987283,
+        "direction": "increases_risk",
+        "signed_contribution": -7.748440854870945
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.466541204498409,
+      "op_setting_2": 2.6886062918559284,
+      "op_setting_3": 0.0,
+      "sensor_2": 12.372116278385983,
+      "sensor_3": 8.652675321735964,
+      "sensor_4": 11.028511014773073,
+      "sensor_7": 12.25485555987283,
+      "sensor_8": 9.32231775210856,
+      "sensor_9": 4.326035942386693,
+      "sensor_11": 11.448264941284638,
+      "sensor_12": 13.14557306716836,
+      "sensor_13": 9.582183448627621,
+      "sensor_14": 3.2284891707979044,
+      "sensor_15": 13.748660388373333,
+      "sensor_17": 7.760472367867888,
+      "sensor_20": 13.912800816609236,
+      "sensor_21": 11.375938031934535
+    }
+  },
+  {
+    "unit": 14,
+    "true_RUL": 107.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 20.589868401295792,
+        "direction": "decreases_risk",
+        "signed_contribution": 9.117862237689433
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 17.75973057659523,
+        "direction": "decreases_risk",
+        "signed_contribution": 7.263726358859639
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 13.697852026497628,
+        "direction": "increases_risk",
+        "signed_contribution": -1.7397170936703321
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 13.388957960043752,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.7308989977288498
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 10.345900214543699,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.5209274914202737
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.939803945293844,
+      "op_setting_2": 2.2652249939293347,
+      "op_setting_3": 0.0,
+      "sensor_2": 5.475952566783427,
+      "sensor_3": 5.6536471722118415,
+      "sensor_4": 7.781205314897263,
+      "sensor_7": 6.1131757695118845,
+      "sensor_8": 13.697852026497628,
+      "sensor_9": 20.589868401295792,
+      "sensor_11": 8.687667631819435,
+      "sensor_12": 10.345900214543699,
+      "sensor_13": 13.388957960043752,
+      "sensor_14": 17.75973057659523,
+      "sensor_15": 8.061671473927161,
+      "sensor_17": 3.989277520054467,
+      "sensor_20": 6.1882615948772015,
+      "sensor_21": 4.988390902458019
+    }
+  },
+  {
+    "unit": 15,
+    "true_RUL": 83.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 24.014634838371407,
+        "direction": "increases_risk",
+        "signed_contribution": -2.0658610578256704
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 18.480656982946012,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.159986839188782
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 17.3100932838802,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.3857194462796256
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 16.52495499698097,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.7071755991870194
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 15.961868684774505,
+        "direction": "decreases_risk",
+        "signed_contribution": 7.639304290838679
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0459818319444625,
+      "op_setting_2": 2.8563569789080923,
+      "op_setting_3": 0.0,
+      "sensor_2": 12.377631084964483,
+      "sensor_3": 8.02061331792517,
+      "sensor_4": 18.480656982946012,
+      "sensor_7": 16.52495499698097,
+      "sensor_8": 12.617364009159909,
+      "sensor_9": 7.634989971748059,
+      "sensor_11": 24.014634838371407,
+      "sensor_12": 17.3100932838802,
+      "sensor_13": 11.734194371668089,
+      "sensor_14": 5.654672194360248,
+      "sensor_15": 13.94505529173383,
+      "sensor_17": 7.401691248473159,
+      "sensor_20": 15.961868684774505,
+      "sensor_21": 13.719178061259552
+    }
+  },
+  {
+    "unit": 16,
+    "true_RUL": 84.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 23.018990182793694,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.0236958671114023
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 20.928405434238663,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.678794379052254
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 20.78105240492072,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.0009832452628915
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 17.325680859164027,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.789782445205299
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 17.234634925610017,
+        "direction": "increases_risk",
+        "signed_contribution": -0.49404944156000835
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.477794893341002,
+      "op_setting_2": 2.2553899747162585,
+      "op_setting_3": 0.0,
+      "sensor_2": 16.170860424909964,
+      "sensor_3": 9.696003967893908,
+      "sensor_4": 20.78105240492072,
+      "sensor_7": 17.325680859164027,
+      "sensor_8": 12.798946826103405,
+      "sensor_9": 5.711849500052214,
+      "sensor_11": 23.018990182793694,
+      "sensor_12": 20.928405434238663,
+      "sensor_13": 14.562745182931154,
+      "sensor_14": 3.1620597973882365,
+      "sensor_15": 17.234634925610017,
+      "sensor_17": 10.37772153827666,
+      "sensor_20": 15.93045185836146,
+      "sensor_21": 9.915899246154034
+    }
+  },
+  {
+    "unit": 17,
+    "true_RUL": 50.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 28.85775952462368,
+        "direction": "increases_risk",
+        "signed_contribution": -9.43482031650132
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 23.545647758627915,
+        "direction": "increases_risk",
+        "signed_contribution": -8.656587080383918
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 13.605575832820579,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.88018684248968
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 12.931554530408324,
+        "direction": "increases_risk",
+        "signed_contribution": -8.86855298650617
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 11.623884665733526,
+        "direction": "increases_risk",
+        "signed_contribution": -4.650366193127383
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0608938378661013,
+      "op_setting_2": 2.0489259847064267,
+      "op_setting_3": 0.0,
+      "sensor_2": 11.623884665733526,
+      "sensor_3": 7.544783032581083,
+      "sensor_4": 12.931554530408324,
+      "sensor_7": 7.5304536067670815,
+      "sensor_8": 9.860489122288605,
+      "sensor_9": 28.85775952462368,
+      "sensor_11": 7.439375898524722,
+      "sensor_12": 11.172741762030103,
+      "sensor_13": 13.605575832820579,
+      "sensor_14": 23.545647758627915,
+      "sensor_15": 10.110965882442043,
+      "sensor_17": 6.664366394264522,
+      "sensor_20": 10.89634726461101,
+      "sensor_21": 5.562106521003541
+    }
+  },
+  {
+    "unit": 18,
+    "true_RUL": 28.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_20",
+        "importance": 11.39330175099836,
+        "direction": "increases_risk",
+        "signed_contribution": -8.60354828310924
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 10.122780725066168,
+        "direction": "increases_risk",
+        "signed_contribution": -6.332149382484193
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 10.112605283611845,
+        "direction": "increases_risk",
+        "signed_contribution": -5.317072707925831
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 10.111510192907486,
+        "direction": "increases_risk",
+        "signed_contribution": -6.101210902391449
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 10.05537411798152,
+        "direction": "increases_risk",
+        "signed_contribution": -7.225170578017719
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.05285446805508,
+      "op_setting_2": 1.7964321734802942,
+      "op_setting_3": 0.0,
+      "sensor_2": 8.741795273982987,
+      "sensor_3": 6.054661287288297,
+      "sensor_4": 10.111510192907486,
+      "sensor_7": 7.402639708170002,
+      "sensor_8": 10.122780725066168,
+      "sensor_9": 3.898102483458625,
+      "sensor_11": 10.112605283611845,
+      "sensor_12": 10.05537411798152,
+      "sensor_13": 7.520998469110167,
+      "sensor_14": 3.0506571339814395,
+      "sensor_15": 8.096547283294559,
+      "sensor_17": 5.143529225850479,
+      "sensor_20": 11.39330175099836,
+      "sensor_21": 6.202832220082551
+    }
+  },
+  {
+    "unit": 19,
+    "true_RUL": 87.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_4",
+        "importance": 17.398391436698635,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.329481183965166
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 13.715236186198544,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.6220175969444615
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 13.39200849479934,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.8049077902694015
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 13.155492843259616,
+        "direction": "increases_risk",
+        "signed_contribution": -4.40900560323031
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 13.049963196493305,
+        "direction": "increases_risk",
+        "signed_contribution": -0.5909747811020676
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.3237027696079997,
+      "op_setting_2": 2.1910004763806805,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.715236186198544,
+      "sensor_3": 7.19706254251068,
+      "sensor_4": 17.398391436698635,
+      "sensor_7": 13.39200849479934,
+      "sensor_8": 9.215682285151338,
+      "sensor_9": 4.35688191211889,
+      "sensor_11": 13.155492843259616,
+      "sensor_12": 12.051324144561269,
+      "sensor_13": 9.961306104642889,
+      "sensor_14": 2.3550333349585197,
+      "sensor_15": 13.049963196493305,
+      "sensor_17": 8.59228501492164,
+      "sensor_20": 8.953061198476734,
+      "sensor_21": 9.32913953991426
+    }
+  },
+  {
+    "unit": 20,
+    "true_RUL": 16.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 28.25785805442313,
+        "direction": "increases_risk",
+        "signed_contribution": -8.632229660074874
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 25.159736162750402,
+        "direction": "increases_risk",
+        "signed_contribution": -4.4325125940636925
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 23.218256150756954,
+        "direction": "increases_risk",
+        "signed_contribution": -7.506934780025614
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 21.79328498804625,
+        "direction": "increases_risk",
+        "signed_contribution": -6.813510373467351
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 18.913259283003672,
+        "direction": "increases_risk",
+        "signed_contribution": -3.7546132830800647
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7068088198127024,
+      "op_setting_2": 2.994246547776067,
+      "op_setting_3": 0.0,
+      "sensor_2": 17.425986059801556,
+      "sensor_3": 9.453083233749329,
+      "sensor_4": 21.79328498804625,
+      "sensor_7": 23.218256150756954,
+      "sensor_8": 17.120730216428495,
+      "sensor_9": 2.4752744243371643,
+      "sensor_11": 28.25785805442313,
+      "sensor_12": 25.159736162750402,
+      "sensor_13": 18.913259283003672,
+      "sensor_14": 1.494191811841087,
+      "sensor_15": 18.24122548447244,
+      "sensor_17": 10.407336152624554,
+      "sensor_20": 15.198264980285483,
+      "sensor_21": 14.067489125999515
+    }
+  },
+  {
+    "unit": 21,
+    "true_RUL": 57.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 20.16644190159496,
+        "direction": "increases_risk",
+        "signed_contribution": -12.527416135319758
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 17.946558018582653,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.0209736021011637
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 17.31174086993214,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.629248111705389
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 17.196432772932262,
+        "direction": "increases_risk",
+        "signed_contribution": -10.44324346253226
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 16.20439016585037,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.598267605032052
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 2.465829749813679,
+      "op_setting_2": 3.4786416903502473,
+      "op_setting_3": 0.0,
+      "sensor_2": 17.946558018582653,
+      "sensor_3": 8.381544173766889,
+      "sensor_4": 15.70934614557736,
+      "sensor_7": 15.316451585644154,
+      "sensor_8": 17.31174086993214,
+      "sensor_9": 20.16644190159496,
+      "sensor_11": 15.713958377733602,
+      "sensor_12": 15.891441694443476,
+      "sensor_13": 16.20439016585037,
+      "sensor_14": 17.196432772932262,
+      "sensor_15": 12.26011771545194,
+      "sensor_17": 10.072898700680668,
+      "sensor_20": 12.743177728406161,
+      "sensor_21": 11.744004005010963
+    }
+  },
+  {
+    "unit": 22,
+    "true_RUL": 111.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_20",
+        "importance": 10.557956466632378,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.5592041581344738
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 10.395014499296053,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.720650174450615
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 10.283302874868262,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.7384602339371593
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 9.639451558115274,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.001123250893013
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 8.500638732578555,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.35648087099523
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7410705702937525,
+      "op_setting_2": 1.8708512756840519,
+      "op_setting_3": 0.0,
+      "sensor_2": 6.891595406337978,
+      "sensor_3": 4.958674535134119,
+      "sensor_4": 8.500638732578555,
+      "sensor_7": 7.755715811236831,
+      "sensor_8": 3.842975351986402,
+      "sensor_9": 10.395014499296053,
+      "sensor_11": 10.283302874868262,
+      "sensor_12": 9.639451558115274,
+      "sensor_13": 5.542652854497466,
+      "sensor_14": 7.845363503985941,
+      "sensor_15": 8.497673019439283,
+      "sensor_17": 6.280227339335435,
+      "sensor_20": 10.557956466632378,
+      "sensor_21": 6.06376789627488
+    }
+  },
+  {
+    "unit": 23,
+    "true_RUL": 113.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 21.0362020823331,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.3587563829966742
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 17.745650588039034,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.562974099447625
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 15.064800156544457,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.8437194086300557
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 15.049762800316262,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.314772003862541
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 13.598420682674517,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.4280515562040295
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0052996277027038,
+      "op_setting_2": 1.401216565842945,
+      "op_setting_3": 0.0,
+      "sensor_2": 9.922438624867972,
+      "sensor_3": 7.222045427728048,
+      "sensor_4": 17.745650588039034,
+      "sensor_7": 13.598420682674517,
+      "sensor_8": 9.935240035875388,
+      "sensor_9": 7.085144707253289,
+      "sensor_11": 21.0362020823331,
+      "sensor_12": 15.049762800316262,
+      "sensor_13": 10.504196536513756,
+      "sensor_14": 4.58720186706043,
+      "sensor_15": 15.064800156544457,
+      "sensor_17": 8.310892478650937,
+      "sensor_20": 11.648605443205852,
+      "sensor_21": 10.194372783175027
+    }
+  },
+  {
+    "unit": 24,
+    "true_RUL": 20.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 38.477477934862286,
+        "direction": "increases_risk",
+        "signed_contribution": -16.017172471993412
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 30.88621403298662,
+        "direction": "increases_risk",
+        "signed_contribution": -13.217448065009751
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 11.778662602742973,
+        "direction": "increases_risk",
+        "signed_contribution": -4.5434882903575105
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 10.143831170990293,
+        "direction": "increases_risk",
+        "signed_contribution": -4.814503473436197
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 9.316086935499559,
+        "direction": "increases_risk",
+        "signed_contribution": -2.8884144802744443
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.648390873016337,
+      "op_setting_2": 1.485489315708578,
+      "op_setting_3": 0.0,
+      "sensor_2": 10.143831170990293,
+      "sensor_3": 6.704319186408086,
+      "sensor_4": 8.80740283483865,
+      "sensor_7": 6.339919392232549,
+      "sensor_8": 5.33006700866796,
+      "sensor_9": 38.477477934862286,
+      "sensor_11": 11.778662602742973,
+      "sensor_12": 6.867155569179226,
+      "sensor_13": 5.002845586540364,
+      "sensor_14": 30.88621403298662,
+      "sensor_15": 9.316086935499559,
+      "sensor_17": 6.3041094545666,
+      "sensor_20": 9.15070798932932,
+      "sensor_21": 6.325582808311389
+    }
+  },
+  {
+    "unit": 25,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 18.52898302540637,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.4044188242675193
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 16.838491671884537,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.7323501789818208
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 14.213444216491958,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.2658862780903997
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 12.323218596510278,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.1103306484341826
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 11.870692446209237,
+        "direction": "decreases_risk",
+        "signed_contribution": 7.015986054348699
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9284682904360858,
+      "op_setting_2": 2.4523079823951375,
+      "op_setting_3": 0.0,
+      "sensor_2": 10.199139569314621,
+      "sensor_3": 8.552989415311037,
+      "sensor_4": 16.838491671884537,
+      "sensor_7": 11.541347823964148,
+      "sensor_8": 9.374492599573827,
+      "sensor_9": 10.240381101821418,
+      "sensor_11": 18.52898302540637,
+      "sensor_12": 14.213444216491958,
+      "sensor_13": 7.1177237054284,
+      "sensor_14": 7.53046811276198,
+      "sensor_15": 12.323218596510278,
+      "sensor_17": 8.182163995080485,
+      "sensor_20": 11.870692446209237,
+      "sensor_21": 11.14872310965353
+    }
+  },
+  {
+    "unit": 26,
+    "true_RUL": 119.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 25.157643650602264,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.792631662263916
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 23.480875828354808,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.9084671889789773
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 22.815876205506687,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.130445039774919
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 18.237813186655295,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.0228057574331006
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 17.541373263630557,
+        "direction": "increases_risk",
+        "signed_contribution": -0.15901337000795956
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.83440714305556,
+      "op_setting_2": 2.8195938457924927,
+      "op_setting_3": 0.0,
+      "sensor_2": 17.541373263630557,
+      "sensor_3": 8.668248811997376,
+      "sensor_4": 22.815876205506687,
+      "sensor_7": 17.14785902393556,
+      "sensor_8": 16.901314694980275,
+      "sensor_9": 3.640292598861033,
+      "sensor_11": 25.157643650602264,
+      "sensor_12": 23.480875828354808,
+      "sensor_13": 18.237813186655295,
+      "sensor_14": 3.3398260509470616,
+      "sensor_15": 16.804051285938645,
+      "sensor_17": 10.250605252691885,
+      "sensor_20": 14.127132474614687,
+      "sensor_21": 13.518042066489784
+    }
+  },
+  {
+    "unit": 27,
+    "true_RUL": 66.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 14.97076320885369,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.29145149624571
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 14.561256364576408,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.8502981806985153
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 13.480704092108983,
+        "direction": "increases_risk",
+        "signed_contribution": -1.1414932999029956
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 13.319861041171917,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.3644759750651997
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 13.179846121536425,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.09130280427494128
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.4220237015951953,
+      "op_setting_2": 2.433419483711471,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.319861041171917,
+      "sensor_3": 8.198045918267944,
+      "sensor_4": 13.179846121536425,
+      "sensor_7": 9.725461316442189,
+      "sensor_8": 8.880469104713375,
+      "sensor_9": 14.97076320885369,
+      "sensor_11": 14.561256364576408,
+      "sensor_12": 11.648367532853094,
+      "sensor_13": 8.122197145222076,
+      "sensor_14": 11.428867644255439,
+      "sensor_15": 11.23877022902421,
+      "sensor_17": 9.859041435887022,
+      "sensor_20": 13.480704092108983,
+      "sensor_21": 11.114035034660915
+    }
+  },
+  {
+    "unit": 28,
+    "true_RUL": 97.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 11.228418022725275,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.8537900857824874
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 10.777184891817425,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.8059730972721053
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 9.990004558388433,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.4650603035386585
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 9.234639146807414,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.15673804992154142
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 9.212021027465443,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.3648738631282475
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7809339363154609,
+      "op_setting_2": 1.8831203258582405,
+      "op_setting_3": 0.0,
+      "sensor_2": 10.777184891817425,
+      "sensor_3": 5.494841032925128,
+      "sensor_4": 7.990356784673859,
+      "sensor_7": 9.212021027465443,
+      "sensor_8": 7.442730448432043,
+      "sensor_9": 7.215818605810441,
+      "sensor_11": 11.228418022725275,
+      "sensor_12": 9.187081675293875,
+      "sensor_13": 7.1505550854688575,
+      "sensor_14": 5.9543977867970534,
+      "sensor_15": 9.234639146807414,
+      "sensor_17": 7.669146031431198,
+      "sensor_20": 9.990004558388433,
+      "sensor_21": 9.147199577833865
+    }
+  },
+  {
+    "unit": 29,
+    "true_RUL": 90.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 17.399944283003723,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.729587591848008
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 14.338681123140168,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.04684627788210566
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 14.272772872626723,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.4289062420201772
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 12.771005751847367,
+        "direction": "increases_risk",
+        "signed_contribution": -1.495445111422785
+      },
+      {
+        "sensor": "sensor_21",
+        "importance": 12.32510841844949,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.5527312005320457
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.986925476022477,
+      "op_setting_2": 3.1769900487318443,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.272772872626723,
+      "sensor_3": 10.763181134408995,
+      "sensor_4": 14.338681123140168,
+      "sensor_7": 10.150650226613797,
+      "sensor_8": 10.993902620378453,
+      "sensor_9": 4.810929485728054,
+      "sensor_11": 17.399944283003723,
+      "sensor_12": 12.771005751847367,
+      "sensor_13": 10.504381551651864,
+      "sensor_14": 5.238164711729263,
+      "sensor_15": 11.650309275895596,
+      "sensor_17": 6.760846788205282,
+      "sensor_20": 9.013492806096899,
+      "sensor_21": 12.32510841844949
+    }
+  },
+  {
+    "unit": 30,
+    "true_RUL": 115.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_13",
+        "importance": 16.106933493900375,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.7003891572438385
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 13.189339398975266,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.5108242127774778
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 12.248196307287094,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.4562674424903617
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 12.221383815211533,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.601353369969254
+      },
+      {
+        "sensor": "sensor_21",
+        "importance": 12.21445123579531,
+        "direction": "increases_risk",
+        "signed_contribution": -2.9934611217273397
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9823280679590882,
+      "op_setting_2": 2.399959353669384,
+      "op_setting_3": 0.0,
+      "sensor_2": 11.127215829848023,
+      "sensor_3": 6.5604031820405995,
+      "sensor_4": 10.438694078116148,
+      "sensor_7": 8.76057966601201,
+      "sensor_8": 11.771964411479184,
+      "sensor_9": 10.960583249238963,
+      "sensor_11": 13.189339398975266,
+      "sensor_12": 12.248196307287094,
+      "sensor_13": 16.106933493900375,
+      "sensor_14": 10.15785081711343,
+      "sensor_15": 12.221383815211533,
+      "sensor_17": 8.345462497072203,
+      "sensor_20": 8.697817880004564,
+      "sensor_21": 12.21445123579531
+    }
+  },
+  {
+    "unit": 31,
+    "true_RUL": 8.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 30.925217427808274,
+        "direction": "increases_risk",
+        "signed_contribution": -8.074931318086389
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 28.309420281368297,
+        "direction": "increases_risk",
+        "signed_contribution": -8.987039712054152
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 25.6910589852399,
+        "direction": "increases_risk",
+        "signed_contribution": -7.961502668165549
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 22.81393692803877,
+        "direction": "increases_risk",
+        "signed_contribution": -8.799624123879262
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 18.574124906671944,
+        "direction": "increases_risk",
+        "signed_contribution": -4.682301834561315
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7284565786377978,
+      "op_setting_2": 2.0106245114348393,
+      "op_setting_3": 0.0,
+      "sensor_2": 18.083600443820924,
+      "sensor_3": 9.379600684124254,
+      "sensor_4": 25.6910589852399,
+      "sensor_7": 22.81393692803877,
+      "sensor_8": 16.14286209323985,
+      "sensor_9": 10.79166141904975,
+      "sensor_11": 30.925217427808274,
+      "sensor_12": 28.309420281368297,
+      "sensor_13": 13.772069280348086,
+      "sensor_14": 6.173257190647774,
+      "sensor_15": 17.77273515953804,
+      "sensor_17": 10.212536157892826,
+      "sensor_20": 18.574124906671944,
+      "sensor_21": 17.059425660398027
+    }
+  },
+  {
+    "unit": 32,
+    "true_RUL": 48.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 22.18280964301174,
+        "direction": "increases_risk",
+        "signed_contribution": -9.20018530440359
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 19.677450744150295,
+        "direction": "increases_risk",
+        "signed_contribution": -7.923244463662669
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 13.5159320796298,
+        "direction": "increases_risk",
+        "signed_contribution": -1.0855524551296514
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 13.000188627567256,
+        "direction": "increases_risk",
+        "signed_contribution": -0.2028647870747135
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 11.053443274281763,
+        "direction": "increases_risk",
+        "signed_contribution": -4.1822286728022835
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0437648806322835,
+      "op_setting_2": 1.71813175186092,
+      "op_setting_3": 0.0,
+      "sensor_2": 9.979906859102845,
+      "sensor_3": 5.244953829547882,
+      "sensor_4": 7.091885865431159,
+      "sensor_7": 7.525908798811722,
+      "sensor_8": 13.5159320796298,
+      "sensor_9": 22.18280964301174,
+      "sensor_11": 11.053443274281763,
+      "sensor_12": 10.495260255964505,
+      "sensor_13": 13.000188627567256,
+      "sensor_14": 19.677450744150295,
+      "sensor_15": 7.62220603965709,
+      "sensor_17": 5.615317143199515,
+      "sensor_20": 8.479337224082556,
+      "sensor_21": 5.856867541996236
+    }
+  },
+  {
+    "unit": 33,
+    "true_RUL": 106.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_2",
+        "importance": 12.688677281942603,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.207991783278431
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 10.911042857340036,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.475793366306806
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 10.826707760666599,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.3277094177668871
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 10.355682926602444,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.22598118157586064
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 10.067706681634027,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.32183467567675
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9984882076510372,
+      "op_setting_2": 2.5067029168375483,
+      "op_setting_3": 0.0,
+      "sensor_2": 12.688677281942603,
+      "sensor_3": 9.799602460719726,
+      "sensor_4": 10.067706681634027,
+      "sensor_7": 8.583148825781363,
+      "sensor_8": 7.7490816210857,
+      "sensor_9": 4.241376704909125,
+      "sensor_11": 10.826707760666599,
+      "sensor_12": 10.911042857340036,
+      "sensor_13": 7.585599924600155,
+      "sensor_14": 3.4957418971980223,
+      "sensor_15": 10.355682926602444,
+      "sensor_17": 6.858519575677903,
+      "sensor_20": 9.297441790077633,
+      "sensor_21": 7.4245778535246085
+    }
+  },
+  {
+    "unit": 34,
+    "true_RUL": 7.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 30.554140113716958,
+        "direction": "increases_risk",
+        "signed_contribution": -13.114439431244083
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 24.804839992724098,
+        "direction": "increases_risk",
+        "signed_contribution": -10.845053596962106
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 22.823626825196982,
+        "direction": "increases_risk",
+        "signed_contribution": -8.421316427703252
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 22.658644388038695,
+        "direction": "increases_risk",
+        "signed_contribution": -7.77075672944931
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 21.859959761161786,
+        "direction": "increases_risk",
+        "signed_contribution": -8.190713871744213
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7754145868912902,
+      "op_setting_2": 1.6991757869088688,
+      "op_setting_3": 0.0,
+      "sensor_2": 16.360478969869334,
+      "sensor_3": 7.806174518345318,
+      "sensor_4": 22.658644388038695,
+      "sensor_7": 21.859959761161786,
+      "sensor_8": 22.823626825196982,
+      "sensor_9": 6.168789097935975,
+      "sensor_11": 30.554140113716958,
+      "sensor_12": 24.804839992724098,
+      "sensor_13": 21.274892623922366,
+      "sensor_14": 6.646444917541454,
+      "sensor_15": 16.146587593719367,
+      "sensor_17": 10.652880719875148,
+      "sensor_20": 15.966764443676155,
+      "sensor_21": 10.940076261132113
+    }
+  },
+  {
+    "unit": 35,
+    "true_RUL": 11.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 44.848468451917306,
+        "direction": "increases_risk",
+        "signed_contribution": -6.067869203406509
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 39.36471781483969,
+        "direction": "increases_risk",
+        "signed_contribution": -7.023988960215539
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 32.864683321677646,
+        "direction": "increases_risk",
+        "signed_contribution": -11.188825519407654
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 28.049717226755437,
+        "direction": "increases_risk",
+        "signed_contribution": -7.214502368859997
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 27.684605431024416,
+        "direction": "increases_risk",
+        "signed_contribution": -6.806445988978842
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.1634362699746927,
+      "op_setting_2": 2.5876697711220684,
+      "op_setting_3": 0.0,
+      "sensor_2": 25.533002952197222,
+      "sensor_3": 13.577314051528848,
+      "sensor_4": 32.864683321677646,
+      "sensor_7": 27.684605431024416,
+      "sensor_8": 27.41940366913955,
+      "sensor_9": 8.562987272777088,
+      "sensor_11": 44.848468451917306,
+      "sensor_12": 39.36471781483969,
+      "sensor_13": 25.48764052695373,
+      "sensor_14": 4.198470189855822,
+      "sensor_15": 28.049717226755437,
+      "sensor_17": 15.769234260663419,
+      "sensor_20": 24.132996989804198,
+      "sensor_21": 21.88472401191306
+    }
+  },
+  {
+    "unit": 36,
+    "true_RUL": 19.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 38.588820606032016,
+        "direction": "increases_risk",
+        "signed_contribution": -4.768435248127867
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 33.714252273487176,
+        "direction": "increases_risk",
+        "signed_contribution": -7.706865121631003
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 31.714435513891416,
+        "direction": "increases_risk",
+        "signed_contribution": -8.915626918814914
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 26.720639500994746,
+        "direction": "increases_risk",
+        "signed_contribution": -7.214085239269286
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 25.342630603401282,
+        "direction": "increases_risk",
+        "signed_contribution": -3.2179118761548438
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.07441790428188,
+      "op_setting_2": 3.113097268053967,
+      "op_setting_3": 0.0,
+      "sensor_2": 21.86883074558346,
+      "sensor_3": 13.636342448155467,
+      "sensor_4": 31.714435513891416,
+      "sensor_7": 26.720639500994746,
+      "sensor_8": 23.822542647354293,
+      "sensor_9": 2.5821756080505653,
+      "sensor_11": 33.714252273487176,
+      "sensor_12": 38.588820606032016,
+      "sensor_13": 24.683677900496107,
+      "sensor_14": 2.701274528201171,
+      "sensor_15": 25.342630603401282,
+      "sensor_17": 12.04649718045848,
+      "sensor_20": 19.356760555790046,
+      "sensor_21": 20.081051153332933
+    }
+  },
+  {
+    "unit": 37,
+    "true_RUL": 21.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_8",
+        "importance": 16.867890091756603,
+        "direction": "increases_risk",
+        "signed_contribution": -9.648557971467493
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 15.65436484707202,
+        "direction": "increases_risk",
+        "signed_contribution": -6.311184815558164
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 14.88233202964888,
+        "direction": "increases_risk",
+        "signed_contribution": -4.049884931410341
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 13.982451096151884,
+        "direction": "increases_risk",
+        "signed_contribution": -9.465118502503557
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 13.337906807103838,
+        "direction": "increases_risk",
+        "signed_contribution": -7.599058228028537
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.942618424577364,
+      "op_setting_2": 2.093614113829579,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.337906807103838,
+      "sensor_3": 5.263733453949382,
+      "sensor_4": 10.601051913586131,
+      "sensor_7": 10.921817945542243,
+      "sensor_8": 16.867890091756603,
+      "sensor_9": 12.745879294994287,
+      "sensor_11": 13.982451096151884,
+      "sensor_12": 14.88233202964888,
+      "sensor_13": 15.65436484707202,
+      "sensor_14": 11.56458827424769,
+      "sensor_15": 10.844018957500666,
+      "sensor_17": 5.74989349899596,
+      "sensor_20": 11.029418639852466,
+      "sensor_21": 9.904684607765173
+    }
+  },
+  {
+    "unit": 38,
+    "true_RUL": 50.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 36.0717004455805,
+        "direction": "increases_risk",
+        "signed_contribution": -6.015893147285175
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 28.828488162865945,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.742177862656896
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 28.170605022067072,
+        "direction": "increases_risk",
+        "signed_contribution": -5.79107663935025
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 26.525402497535524,
+        "direction": "increases_risk",
+        "signed_contribution": -4.075325168596683
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 25.658620631210614,
+        "direction": "increases_risk",
+        "signed_contribution": -2.0232382194801786
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.9140783268708854,
+      "op_setting_2": 4.276305127045952,
+      "op_setting_3": 0.0,
+      "sensor_2": 23.858500100305008,
+      "sensor_3": 10.306291841109536,
+      "sensor_4": 25.658620631210614,
+      "sensor_7": 26.525402497535524,
+      "sensor_8": 21.16860648923296,
+      "sensor_9": 9.300638320945605,
+      "sensor_11": 36.0717004455805,
+      "sensor_12": 28.828488162865945,
+      "sensor_13": 16.441023791557296,
+      "sensor_14": 6.318733676134889,
+      "sensor_15": 28.170605022067072,
+      "sensor_17": 18.110130428205288,
+      "sensor_20": 19.8080470878716,
+      "sensor_21": 20.89343336030211
+    }
+  },
+  {
+    "unit": 39,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 19.422536213356636,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.6994133700734277
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 16.871831344899753,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.084962710225559
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 14.548032672964156,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.135377936393143
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 13.320558701167847,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.863458879737104
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 12.421457270809324,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.6100753937545338
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.5436489569292515,
+      "op_setting_2": 1.1118392772037886,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.320558701167847,
+      "sensor_3": 6.744739441474594,
+      "sensor_4": 16.871831344899753,
+      "sensor_7": 12.135598039107245,
+      "sensor_8": 11.392366187692033,
+      "sensor_9": 4.491223413153553,
+      "sensor_11": 19.422536213356636,
+      "sensor_12": 14.548032672964156,
+      "sensor_13": 11.740167517622098,
+      "sensor_14": 1.8001525595996588,
+      "sensor_15": 11.26691664459835,
+      "sensor_17": 8.155499042565024,
+      "sensor_20": 12.421457270809324,
+      "sensor_21": 9.858684693169344
+    }
+  },
+  {
+    "unit": 40,
+    "true_RUL": 28.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 40.326521047438376,
+        "direction": "increases_risk",
+        "signed_contribution": -4.888501592603037
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 35.5011319234028,
+        "direction": "increases_risk",
+        "signed_contribution": -0.8582034989601952
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 27.85836399075812,
+        "direction": "increases_risk",
+        "signed_contribution": -7.562819070740311
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 27.478372778350728,
+        "direction": "increases_risk",
+        "signed_contribution": -5.760102636618857
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 25.769119337548254,
+        "direction": "increases_risk",
+        "signed_contribution": -2.57302183879656
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9293544743216261,
+      "op_setting_2": 2.6731566897089074,
+      "op_setting_3": 0.0,
+      "sensor_2": 21.824212569062254,
+      "sensor_3": 14.273579219487502,
+      "sensor_4": 27.85836399075812,
+      "sensor_7": 27.478372778350728,
+      "sensor_8": 25.57942643734191,
+      "sensor_9": 4.237752739208985,
+      "sensor_11": 40.326521047438376,
+      "sensor_12": 35.5011319234028,
+      "sensor_13": 25.769119337548254,
+      "sensor_14": 2.281112996574721,
+      "sensor_15": 24.63619587081925,
+      "sensor_17": 16.585691091990494,
+      "sensor_20": 22.707287124243905,
+      "sensor_21": 19.782696713330022
+    }
+  },
+  {
+    "unit": 41,
+    "true_RUL": 18.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_8",
+        "importance": 17.02356226325938,
+        "direction": "increases_risk",
+        "signed_contribution": -6.575137360229618
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 15.328844644305994,
+        "direction": "increases_risk",
+        "signed_contribution": -11.229925876333159
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 14.861104677883697,
+        "direction": "increases_risk",
+        "signed_contribution": -6.612187608551104
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 13.102882040888677,
+        "direction": "increases_risk",
+        "signed_contribution": -8.936809845157127
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 13.063295028465111,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.653628243848848
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9174534276926377,
+      "op_setting_2": 2.100933323556489,
+      "op_setting_3": 0.0,
+      "sensor_2": 8.390276433493403,
+      "sensor_3": 6.542799003236944,
+      "sensor_4": 12.80203435558735,
+      "sensor_7": 13.102882040888677,
+      "sensor_8": 17.02356226325938,
+      "sensor_9": 13.063295028465111,
+      "sensor_11": 15.328844644305994,
+      "sensor_12": 12.871581525918522,
+      "sensor_13": 14.861104677883697,
+      "sensor_14": 12.495412197323658,
+      "sensor_15": 9.616662319706535,
+      "sensor_17": 6.656936668623947,
+      "sensor_20": 8.930907155384547,
+      "sensor_21": 7.5281385476301965
+    }
+  },
+  {
+    "unit": 42,
+    "true_RUL": 10.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_13",
+        "importance": 23.009589760060713,
+        "direction": "increases_risk",
+        "signed_contribution": -6.875904121463451
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 22.211301279287515,
+        "direction": "increases_risk",
+        "signed_contribution": -9.53369446719988
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 21.78818417130946,
+        "direction": "increases_risk",
+        "signed_contribution": -9.401758776894075
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 20.67145864758875,
+        "direction": "increases_risk",
+        "signed_contribution": -9.510667868346811
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 17.941745535777727,
+        "direction": "increases_risk",
+        "signed_contribution": -9.841039020707946
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.5655121214293117,
+      "op_setting_2": 1.8919773363696475,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.329297624037341,
+      "sensor_3": 6.916837882867938,
+      "sensor_4": 15.211587235227931,
+      "sensor_7": 17.941745535777727,
+      "sensor_8": 22.211301279287515,
+      "sensor_9": 12.77491665310724,
+      "sensor_11": 21.78818417130946,
+      "sensor_12": 20.67145864758875,
+      "sensor_13": 23.009589760060713,
+      "sensor_14": 12.120538696708318,
+      "sensor_15": 12.283516140969367,
+      "sensor_17": 8.947337704084497,
+      "sensor_20": 13.762777949499188,
+      "sensor_21": 12.065957808924885
+    }
+  },
+  {
+    "unit": 43,
+    "true_RUL": 59.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 27.512602554764882,
+        "direction": "increases_risk",
+        "signed_contribution": -6.368255275389857
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 21.436872218684737,
+        "direction": "increases_risk",
+        "signed_contribution": -1.853075080057196
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 21.04977473803937,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.1450604211255961
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 19.63444619897661,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.17171559875292408
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 19.109504965631558,
+        "direction": "increases_risk",
+        "signed_contribution": -5.960743435731399
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.6422016902486085,
+      "op_setting_2": 3.6283627085932344,
+      "op_setting_3": 0.0,
+      "sensor_2": 19.109504965631558,
+      "sensor_3": 8.380428865666321,
+      "sensor_4": 17.43190160781858,
+      "sensor_7": 16.857157970345764,
+      "sensor_8": 19.63444619897661,
+      "sensor_9": 7.834821046697468,
+      "sensor_11": 27.512602554764882,
+      "sensor_12": 21.436872218684737,
+      "sensor_13": 21.04977473803937,
+      "sensor_14": 8.068163925206445,
+      "sensor_15": 13.769716472272146,
+      "sensor_17": 14.705773073625847,
+      "sensor_20": 14.199492629736326,
+      "sensor_21": 14.907211544158784
+    }
+  },
+  {
+    "unit": 44,
+    "true_RUL": 109.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 16.09843571104111,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.323247916767806
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 15.450009886148008,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.2814817087922301
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 14.311074780634879,
+        "direction": "decreases_risk",
+        "signed_contribution": 7.4352804035699585
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 14.284935733912022,
+        "direction": "increases_risk",
+        "signed_contribution": -0.19427283157978187
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 13.702895347217064,
+        "direction": "increases_risk",
+        "signed_contribution": -1.6221966434628265
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.1730910058576673,
+      "op_setting_2": 2.7984125008537584,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.284935733912022,
+      "sensor_3": 7.685023522010669,
+      "sensor_4": 13.702895347217064,
+      "sensor_7": 11.844566009945138,
+      "sensor_8": 7.42084455848736,
+      "sensor_9": 11.713085877226131,
+      "sensor_11": 16.09843571104111,
+      "sensor_12": 14.311074780634879,
+      "sensor_13": 6.970228351705339,
+      "sensor_14": 9.087330217667189,
+      "sensor_15": 15.450009886148008,
+      "sensor_17": 8.215389361409093,
+      "sensor_20": 10.463464745121028,
+      "sensor_21": 11.210558333366134
+    }
+  },
+  {
+    "unit": 45,
+    "true_RUL": 114.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 22.11924270213504,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.1185778337779504
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 21.209145424187405,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.5932981587457862
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 19.854231576331596,
+        "direction": "increases_risk",
+        "signed_contribution": -6.003542422372476
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 18.394618711342225,
+        "direction": "increases_risk",
+        "signed_contribution": -2.87112671181589
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 17.52404233697324,
+        "direction": "increases_risk",
+        "signed_contribution": -1.8313563729941473
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.4142831798878195,
+      "op_setting_2": 4.260978708728184,
+      "op_setting_3": 0.0,
+      "sensor_2": 17.52404233697324,
+      "sensor_3": 14.391966876665157,
+      "sensor_4": 19.854231576331596,
+      "sensor_7": 17.192287290217706,
+      "sensor_8": 15.321103112262527,
+      "sensor_9": 3.7609275024675015,
+      "sensor_11": 22.11924270213504,
+      "sensor_12": 21.209145424187405,
+      "sensor_13": 14.25100867094847,
+      "sensor_14": 3.240649870607964,
+      "sensor_15": 18.394618711342225,
+      "sensor_17": 10.301723022677542,
+      "sensor_20": 16.971046251216496,
+      "sensor_21": 14.922873580090288
+    }
+  },
+  {
+    "unit": 46,
+    "true_RUL": 47.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 23.752293540028873,
+        "direction": "increases_risk",
+        "signed_contribution": -4.4427450723818245
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 21.598202712594965,
+        "direction": "increases_risk",
+        "signed_contribution": -0.23524099635516016
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 17.915328271218034,
+        "direction": "increases_risk",
+        "signed_contribution": -4.088829679585085
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 17.62235833945818,
+        "direction": "increases_risk",
+        "signed_contribution": -6.270042359339188
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 16.56622167005718,
+        "direction": "increases_risk",
+        "signed_contribution": -1.5012496367577253
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.3138511828425263,
+      "op_setting_2": 3.077606093062761,
+      "op_setting_3": 0.0,
+      "sensor_2": 17.915328271218034,
+      "sensor_3": 9.645528922746491,
+      "sensor_4": 16.56622167005718,
+      "sensor_7": 15.189055452147873,
+      "sensor_8": 9.408348877719053,
+      "sensor_9": 17.62235833945818,
+      "sensor_11": 23.752293540028873,
+      "sensor_12": 21.598202712594965,
+      "sensor_13": 8.600355554910486,
+      "sensor_14": 12.29112303517611,
+      "sensor_15": 16.238336242830176,
+      "sensor_17": 9.528185288825403,
+      "sensor_20": 14.151768349047607,
+      "sensor_21": 10.263336456043735
+    }
+  },
+  {
+    "unit": 47,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 17.927922871312365,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.70945460897703
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 15.575437403087292,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.7929147781497345
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 14.452855420479448,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.393069641224454
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 13.507940585334419,
+        "direction": "increases_risk",
+        "signed_contribution": -0.4226329505667913
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 11.918672691971118,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.8926682481508146
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0639132597107488,
+      "op_setting_2": 2.5898136381216195,
+      "op_setting_3": 0.0,
+      "sensor_2": 9.720360296387279,
+      "sensor_3": 5.69174787671121,
+      "sensor_4": 9.68088479834043,
+      "sensor_7": 8.082336365584222,
+      "sensor_8": 13.507940585334419,
+      "sensor_9": 17.927922871312365,
+      "sensor_11": 11.125707754842255,
+      "sensor_12": 11.918672691971118,
+      "sensor_13": 14.452855420479448,
+      "sensor_14": 15.575437403087292,
+      "sensor_15": 8.071595632393997,
+      "sensor_17": 5.851059513169342,
+      "sensor_20": 6.599800833119907,
+      "sensor_21": 6.686707771776379
+    }
+  },
+  {
+    "unit": 48,
+    "true_RUL": 92.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 11.28499122142353,
+        "direction": "increases_risk",
+        "signed_contribution": -1.5962617771619427
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 9.229872533564198,
+        "direction": "increases_risk",
+        "signed_contribution": -1.105496760255315
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 9.188497305938096,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.7850968608303255
+      },
+      {
+        "sensor": "sensor_21",
+        "importance": 9.041454260246512,
+        "direction": "increases_risk",
+        "signed_contribution": -3.0473080280619036
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 8.280385212692915,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.9932512508628817
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9641981146080312,
+      "op_setting_2": 2.722551457638058,
+      "op_setting_3": 0.0,
+      "sensor_2": 9.229872533564198,
+      "sensor_3": 5.983186294062092,
+      "sensor_4": 8.052852790118532,
+      "sensor_7": 7.50898360262754,
+      "sensor_8": 6.111888524548968,
+      "sensor_9": 6.913612471238174,
+      "sensor_11": 11.28499122142353,
+      "sensor_12": 9.188497305938096,
+      "sensor_13": 7.237846089750374,
+      "sensor_14": 5.38616363039573,
+      "sensor_15": 7.474815896824591,
+      "sensor_17": 7.21011340565592,
+      "sensor_20": 8.280385212692915,
+      "sensor_21": 9.041454260246512
+    }
+  },
+  {
+    "unit": 49,
+    "true_RUL": 21.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 37.37854196968008,
+        "direction": "increases_risk",
+        "signed_contribution": -10.391731427810004
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 32.771378699005126,
+        "direction": "increases_risk",
+        "signed_contribution": -7.230427395421687
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 30.9794751986273,
+        "direction": "increases_risk",
+        "signed_contribution": -8.33597101159318
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 30.517283132935543,
+        "direction": "increases_risk",
+        "signed_contribution": -4.6387096379675965
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 27.71378234731108,
+        "direction": "increases_risk",
+        "signed_contribution": -4.730773743265866
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.380962879002967,
+      "op_setting_2": 2.1396883474712074,
+      "op_setting_3": 0.0,
+      "sensor_2": 22.563368096288514,
+      "sensor_3": 12.346452898354531,
+      "sensor_4": 30.9794751986273,
+      "sensor_7": 27.3770092253887,
+      "sensor_8": 30.517283132935543,
+      "sensor_9": 6.977001938361546,
+      "sensor_11": 37.37854196968008,
+      "sensor_12": 32.771378699005126,
+      "sensor_13": 27.71378234731108,
+      "sensor_14": 7.4259629592374665,
+      "sensor_15": 24.784025753802595,
+      "sensor_17": 13.988900883239623,
+      "sensor_20": 18.43627317785878,
+      "sensor_21": 21.320967638343525
+    }
+  },
+  {
+    "unit": 50,
+    "true_RUL": 79.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 18.959465459594032,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.214826134652092
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 17.520832678076935,
+        "direction": "increases_risk",
+        "signed_contribution": -2.606160275160222
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 15.77903554670604,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.577188872683106
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 13.099527157000818,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.8477054318437145
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 11.5507043189122,
+        "direction": "increases_risk",
+        "signed_contribution": -0.7571164106696284
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.5415733908411893,
+      "op_setting_2": 2.8377645163843366,
+      "op_setting_3": 0.0,
+      "sensor_2": 9.791983308882367,
+      "sensor_3": 10.319494842044305,
+      "sensor_4": 15.77903554670604,
+      "sensor_7": 13.099527157000818,
+      "sensor_8": 11.5507043189122,
+      "sensor_9": 2.5555938708165606,
+      "sensor_11": 17.520832678076935,
+      "sensor_12": 18.959465459594032,
+      "sensor_13": 8.529654212452998,
+      "sensor_14": 2.5688431279285684,
+      "sensor_15": 10.97393226907645,
+      "sensor_17": 7.413788251875285,
+      "sensor_20": 10.101860358944105,
+      "sensor_21": 9.742745428747398
+    }
+  },
+  {
+    "unit": 51,
+    "true_RUL": 114.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 14.484655400972612,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.2458397720364385
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 12.112678171815345,
+        "direction": "decreases_risk",
+        "signed_contribution": 7.2007721890874485
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 11.922104846138474,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.534534200413112
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 11.226412917760365,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.421845950212537
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 11.063015633496073,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.472232427969398
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.2770281945334885,
+      "op_setting_2": 2.8799418561250865,
+      "op_setting_3": 0.0,
+      "sensor_2": 11.063015633496073,
+      "sensor_3": 8.440110786772246,
+      "sensor_4": 12.112678171815345,
+      "sensor_7": 8.238208342482611,
+      "sensor_8": 7.599140015124197,
+      "sensor_9": 14.484655400972612,
+      "sensor_11": 9.811545500230947,
+      "sensor_12": 9.553896119352954,
+      "sensor_13": 8.841194213820936,
+      "sensor_14": 11.922104846138474,
+      "sensor_15": 10.673616237974983,
+      "sensor_17": 7.486044829612481,
+      "sensor_20": 11.226412917760365,
+      "sensor_21": 9.398194619612038
+    }
+  },
+  {
+    "unit": 52,
+    "true_RUL": 29.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 23.903068738834612,
+        "direction": "increases_risk",
+        "signed_contribution": -10.046557790921147
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 20.189034076023606,
+        "direction": "increases_risk",
+        "signed_contribution": -9.514537843204257
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 8.79913425492146,
+        "direction": "increases_risk",
+        "signed_contribution": -5.6355762933415585
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 7.132454473668689,
+        "direction": "increases_risk",
+        "signed_contribution": -1.9156995558086112
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 7.084736988396889,
+        "direction": "increases_risk",
+        "signed_contribution": -0.8337159209848876
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.8117836791414113,
+      "op_setting_2": 1.796295422407033,
+      "op_setting_3": 0.0,
+      "sensor_2": 7.132454473668689,
+      "sensor_3": 6.135850902720135,
+      "sensor_4": 6.5476793149026005,
+      "sensor_7": 4.386376400023833,
+      "sensor_8": 6.733207866817475,
+      "sensor_9": 23.903068738834612,
+      "sensor_11": 8.79913425492146,
+      "sensor_12": 6.121293638082893,
+      "sensor_13": 5.776372776942168,
+      "sensor_14": 20.189034076023606,
+      "sensor_15": 7.045901366285109,
+      "sensor_17": 5.732728183163346,
+      "sensor_20": 7.084736988396889,
+      "sensor_21": 5.9313306440028
+    }
+  },
+  {
+    "unit": 53,
+    "true_RUL": 26.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 22.855089739998107,
+        "direction": "increases_risk",
+        "signed_contribution": -11.582530372805024
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 17.810837145590508,
+        "direction": "increases_risk",
+        "signed_contribution": -9.642392636437709
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 14.428596758772985,
+        "direction": "increases_risk",
+        "signed_contribution": -4.896842612580091
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 13.340760479403844,
+        "direction": "increases_risk",
+        "signed_contribution": -3.5152596071337325
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 11.846994979756968,
+        "direction": "increases_risk",
+        "signed_contribution": -3.830232384046693
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.872910859153615,
+      "op_setting_2": 1.998947713012693,
+      "op_setting_3": 0.0,
+      "sensor_2": 9.546063459807915,
+      "sensor_3": 6.406872820113705,
+      "sensor_4": 13.340760479403844,
+      "sensor_7": 8.495416691474034,
+      "sensor_8": 5.291583689225269,
+      "sensor_9": 22.855089739998107,
+      "sensor_11": 14.428596758772985,
+      "sensor_12": 10.246447477433655,
+      "sensor_13": 5.567013006127941,
+      "sensor_14": 17.810837145590508,
+      "sensor_15": 11.846994979756968,
+      "sensor_17": 8.25096672295083,
+      "sensor_20": 10.904500856744725,
+      "sensor_21": 9.063048608559647
+    }
+  },
+  {
+    "unit": 54,
+    "true_RUL": 97.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 25.776424974083664,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.6557292036037842
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 20.86381187153788,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.4513690498300065
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 18.53101099500498,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.2204220498846556
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 17.726792602496197,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.3289643700379568
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 16.836865854419518,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.329997266855697
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.697562155065152,
+      "op_setting_2": 0.9147669015332888,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.217092876095432,
+      "sensor_3": 7.680797879389384,
+      "sensor_4": 16.836865854419518,
+      "sensor_7": 17.726792602496197,
+      "sensor_8": 16.777830074702994,
+      "sensor_9": 1.8398825106458012,
+      "sensor_11": 25.776424974083664,
+      "sensor_12": 20.86381187153788,
+      "sensor_13": 18.53101099500498,
+      "sensor_14": 2.218529049761314,
+      "sensor_15": 13.670310946434329,
+      "sensor_17": 8.9721047057214,
+      "sensor_20": 14.628906025936008,
+      "sensor_21": 12.252984927773177
+    }
+  },
+  {
+    "unit": 55,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 15.259299616298396,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.1495104121546404
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 14.778939889451935,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.129352699996634
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 14.282176280080861,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.260646756653671
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 13.01087959756012,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.25942684245721626
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 12.510490817411156,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.4125074349525438
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.1040775737419755,
+      "op_setting_2": 2.1456051651473595,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.01087959756012,
+      "sensor_3": 6.376662341023065,
+      "sensor_4": 12.36508867219452,
+      "sensor_7": 12.510490817411156,
+      "sensor_8": 9.300408238817646,
+      "sensor_9": 6.875329910945877,
+      "sensor_11": 14.778939889451935,
+      "sensor_12": 15.259299616298396,
+      "sensor_13": 6.734188304940648,
+      "sensor_14": 3.5792619349129673,
+      "sensor_15": 9.901825558571966,
+      "sensor_17": 5.982176079907643,
+      "sensor_20": 14.282176280080861,
+      "sensor_21": 9.14513581954348
+    }
+  },
+  {
+    "unit": 56,
+    "true_RUL": 15.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 46.91194402374018,
+        "direction": "increases_risk",
+        "signed_contribution": -7.063331390693083
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 46.50047691831749,
+        "direction": "increases_risk",
+        "signed_contribution": -8.555437937998551
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 40.98588146095064,
+        "direction": "increases_risk",
+        "signed_contribution": -8.273128716858785
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 38.522423031028666,
+        "direction": "increases_risk",
+        "signed_contribution": -3.082750840779436
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 35.73818318640608,
+        "direction": "increases_risk",
+        "signed_contribution": -10.530446650238702
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0649020381281997,
+      "op_setting_2": 3.1604328761577913,
+      "op_setting_3": 0.0,
+      "sensor_2": 28.03920534979258,
+      "sensor_3": 12.745809343363552,
+      "sensor_4": 35.73818318640608,
+      "sensor_7": 34.55355459530906,
+      "sensor_8": 40.98588146095064,
+      "sensor_9": 12.748816036270476,
+      "sensor_11": 46.50047691831749,
+      "sensor_12": 46.91194402374018,
+      "sensor_13": 38.522423031028666,
+      "sensor_14": 14.082983905473506,
+      "sensor_15": 30.122854159471974,
+      "sensor_17": 14.995428352568247,
+      "sensor_20": 25.07223749076558,
+      "sensor_21": 26.32179388121471
+    }
+  },
+  {
+    "unit": 57,
+    "true_RUL": 103.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 15.169828584970864,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.5534922315407256
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 14.718788738786264,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.392906955140839
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 14.570330283502724,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.48288499259426
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 12.135912473975113,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.157729371971158
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 11.912615438854104,
+        "direction": "increases_risk",
+        "signed_contribution": -1.0343140810322449
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0826024512489696,
+      "op_setting_2": 3.186472514124119,
+      "op_setting_3": 0.0,
+      "sensor_2": 10.032704857249286,
+      "sensor_3": 6.303823583351919,
+      "sensor_4": 10.414934033350558,
+      "sensor_7": 9.396658438444131,
+      "sensor_8": 11.387042705351776,
+      "sensor_9": 14.718788738786264,
+      "sensor_11": 10.598342410285545,
+      "sensor_12": 15.169828584970864,
+      "sensor_13": 14.570330283502724,
+      "sensor_14": 12.135912473975113,
+      "sensor_15": 11.912615438854104,
+      "sensor_17": 7.176441532594777,
+      "sensor_20": 9.229914497540658,
+      "sensor_21": 10.685986755744533
+    }
+  },
+  {
+    "unit": 58,
+    "true_RUL": 37.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 30.162024787321684,
+        "direction": "increases_risk",
+        "signed_contribution": -7.103120242484506
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 26.43469998390088,
+        "direction": "increases_risk",
+        "signed_contribution": -7.446592118296449
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 25.886876580011936,
+        "direction": "increases_risk",
+        "signed_contribution": -2.3106424687457965
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 23.98174360246047,
+        "direction": "increases_risk",
+        "signed_contribution": -4.0508438238653905
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 23.69468433555211,
+        "direction": "increases_risk",
+        "signed_contribution": -3.616076800348749
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.050220449820941,
+      "op_setting_2": 4.494663907263434,
+      "op_setting_3": 0.0,
+      "sensor_2": 16.456549644797708,
+      "sensor_3": 11.335542194086274,
+      "sensor_4": 26.43469998390088,
+      "sensor_7": 20.55955073936046,
+      "sensor_8": 23.98174360246047,
+      "sensor_9": 7.517753588570204,
+      "sensor_11": 30.162024787321684,
+      "sensor_12": 23.69468433555211,
+      "sensor_13": 25.886876580011936,
+      "sensor_14": 8.070491921863972,
+      "sensor_15": 19.880697202584315,
+      "sensor_17": 10.235542439731177,
+      "sensor_20": 19.199142965231967,
+      "sensor_21": 15.129888119923327
+    }
+  },
+  {
+    "unit": 59,
+    "true_RUL": 114.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 24.959181258598694,
+        "direction": "increases_risk",
+        "signed_contribution": -0.6786314167625771
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 19.6755172228986,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.1559616883229404
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 18.823627019003112,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.930850265487372
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 16.343557538531577,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.4405175034809466
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 15.659187320011092,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.4273086842671694
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0951550279071032,
+      "op_setting_2": 1.8632067920764106,
+      "op_setting_3": 0.0,
+      "sensor_2": 15.659187320011092,
+      "sensor_3": 7.551948199114042,
+      "sensor_4": 18.823627019003112,
+      "sensor_7": 16.343557538531577,
+      "sensor_8": 13.133494313019163,
+      "sensor_9": 5.176419448879212,
+      "sensor_11": 24.959181258598694,
+      "sensor_12": 19.6755172228986,
+      "sensor_13": 11.169293532496363,
+      "sensor_14": 2.928188644419947,
+      "sensor_15": 12.018651042375865,
+      "sensor_17": 8.432296741504596,
+      "sensor_20": 14.205222738177067,
+      "sensor_21": 13.014993014688367
+    }
+  },
+  {
+    "unit": 60,
+    "true_RUL": 100.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_15",
+        "importance": 11.091476432557727,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.324325972167137
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 10.855434174082202,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.7728214153585609
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 10.3159693510334,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.6612830496528905
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 10.09195249391488,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.20627737930046885
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 9.940189288633944,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.762379661121283
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9453892433322609,
+      "op_setting_2": 3.1982683315904143,
+      "op_setting_3": 0.0,
+      "sensor_2": 10.855434174082202,
+      "sensor_3": 8.340529757798153,
+      "sensor_4": 10.09195249391488,
+      "sensor_7": 9.806453635094705,
+      "sensor_8": 8.888870057633053,
+      "sensor_9": 9.940189288633944,
+      "sensor_11": 8.878215436079202,
+      "sensor_12": 10.3159693510334,
+      "sensor_13": 8.800491650514688,
+      "sensor_14": 8.14456972325462,
+      "sensor_15": 11.091476432557727,
+      "sensor_17": 7.450532395046233,
+      "sensor_20": 8.983845444926972,
+      "sensor_21": 7.553194451427728
+    }
+  },
+  {
+    "unit": 61,
+    "true_RUL": 21.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 16.89810887044199,
+        "direction": "increases_risk",
+        "signed_contribution": -6.320459955691347
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 15.128684269230018,
+        "direction": "increases_risk",
+        "signed_contribution": -8.816704122112903
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 14.788167774439914,
+        "direction": "increases_risk",
+        "signed_contribution": -8.049885061625828
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 12.806901418078807,
+        "direction": "increases_risk",
+        "signed_contribution": -8.67717032576999
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 12.519088475948411,
+        "direction": "increases_risk",
+        "signed_contribution": -4.62863444510114
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9319604362530038,
+      "op_setting_2": 2.6100908639974847,
+      "op_setting_3": 0.0,
+      "sensor_2": 9.693915260038258,
+      "sensor_3": 8.559009088715928,
+      "sensor_4": 15.128684269230018,
+      "sensor_7": 12.806901418078807,
+      "sensor_8": 10.440644510011094,
+      "sensor_9": 4.933317093405537,
+      "sensor_11": 16.89810887044199,
+      "sensor_12": 14.788167774439914,
+      "sensor_13": 10.918242244188193,
+      "sensor_14": 2.4211721923977585,
+      "sensor_15": 11.621046775745961,
+      "sensor_17": 6.518660666526094,
+      "sensor_20": 12.519088475948411,
+      "sensor_21": 8.349355060244209
+    }
+  },
+  {
+    "unit": 62,
+    "true_RUL": 54.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 19.043236545242145,
+        "direction": "increases_risk",
+        "signed_contribution": -7.996774431663535
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 14.870114615164944,
+        "direction": "increases_risk",
+        "signed_contribution": -5.545021579641639
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 9.614376560420268,
+        "direction": "increases_risk",
+        "signed_contribution": -5.46747385711039
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 9.203513609412674,
+        "direction": "increases_risk",
+        "signed_contribution": -1.9331464295796348
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 8.72433435172416,
+        "direction": "increases_risk",
+        "signed_contribution": -5.764883142504147
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.4479244872521084,
+      "op_setting_2": 1.8989785137956994,
+      "op_setting_3": 0.0,
+      "sensor_2": 9.203513609412674,
+      "sensor_3": 6.939489219909527,
+      "sensor_4": 9.614376560420268,
+      "sensor_7": 5.122435518105858,
+      "sensor_8": 7.864919701214665,
+      "sensor_9": 19.043236545242145,
+      "sensor_11": 7.405269140693575,
+      "sensor_12": 7.158857016068079,
+      "sensor_13": 7.708604366755901,
+      "sensor_14": 14.870114615164944,
+      "sensor_15": 6.4530338828679366,
+      "sensor_17": 6.777166527045531,
+      "sensor_20": 8.72433435172416,
+      "sensor_21": 8.304850976127407
+    }
+  },
+  {
+    "unit": 63,
+    "true_RUL": 72.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_8",
+        "importance": 25.46720733248222,
+        "direction": "increases_risk",
+        "signed_contribution": -3.5027544547446716
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 23.54547979541665,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.343221810745783
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 21.87167325069896,
+        "direction": "increases_risk",
+        "signed_contribution": -0.6174969461649384
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 19.85661145875485,
+        "direction": "increases_risk",
+        "signed_contribution": -4.42153703786753
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 16.81690001283438,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.889523969698779
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.451041106212742,
+      "op_setting_2": 3.426734344628745,
+      "op_setting_3": 0.0,
+      "sensor_2": 9.608094766451197,
+      "sensor_3": 7.8548351575689175,
+      "sensor_4": 14.82973735305873,
+      "sensor_7": 19.85661145875485,
+      "sensor_8": 25.46720733248222,
+      "sensor_9": 16.81690001283438,
+      "sensor_11": 23.54547979541665,
+      "sensor_12": 15.48022453670694,
+      "sensor_13": 21.87167325069896,
+      "sensor_14": 14.643127320012042,
+      "sensor_15": 15.97355838581276,
+      "sensor_17": 9.033404859361452,
+      "sensor_20": 14.828561440920735,
+      "sensor_21": 10.199096558679381
+    }
+  },
+  {
+    "unit": 64,
+    "true_RUL": 28.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 23.553630557476502,
+        "direction": "increases_risk",
+        "signed_contribution": -7.7333700988248655
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 22.687030611040505,
+        "direction": "increases_risk",
+        "signed_contribution": -5.3580234950960355
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 21.28625268934803,
+        "direction": "increases_risk",
+        "signed_contribution": -7.35742500808015
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 20.093265495129685,
+        "direction": "increases_risk",
+        "signed_contribution": -5.94480729712842
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 18.03415229519266,
+        "direction": "increases_risk",
+        "signed_contribution": -9.527834375416514
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9201042428784956,
+      "op_setting_2": 2.1723310018231006,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.864697105850441,
+      "sensor_3": 9.921908203431263,
+      "sensor_4": 21.28625268934803,
+      "sensor_7": 18.03415229519266,
+      "sensor_8": 20.093265495129685,
+      "sensor_9": 4.183467317250271,
+      "sensor_11": 22.687030611040505,
+      "sensor_12": 23.553630557476502,
+      "sensor_13": 17.958346076382448,
+      "sensor_14": 4.816725377708194,
+      "sensor_15": 16.505576763715382,
+      "sensor_17": 9.353934021200251,
+      "sensor_20": 15.564614219010801,
+      "sensor_21": 12.830293284790711
+    }
+  },
+  {
+    "unit": 65,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 31.44342174411968,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.2883535779505615
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 26.14796919459131,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.8685089937263886
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 24.09248226989458,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.570774922380865
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 22.021242509193122,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.827854454999084
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 20.67231612900567,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.920589101707424
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9316028222854648,
+      "op_setting_2": 1.391015088553086,
+      "op_setting_3": 0.0,
+      "sensor_2": 20.67231612900567,
+      "sensor_3": 9.946496660988412,
+      "sensor_4": 24.09248226989458,
+      "sensor_7": 22.021242509193122,
+      "sensor_8": 19.793347782380977,
+      "sensor_9": 2.056158466657977,
+      "sensor_11": 31.44342174411968,
+      "sensor_12": 26.14796919459131,
+      "sensor_13": 20.14329699173525,
+      "sensor_14": 2.9215202768473474,
+      "sensor_15": 17.133734150811577,
+      "sensor_17": 10.809883702779134,
+      "sensor_20": 19.262917182599537,
+      "sensor_21": 14.68962193902322
+    }
+  },
+  {
+    "unit": 66,
+    "true_RUL": 14.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 31.262851828196982,
+        "direction": "increases_risk",
+        "signed_contribution": -13.183753422665587
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 29.0015929500653,
+        "direction": "increases_risk",
+        "signed_contribution": -3.835424515917058
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 25.43861621305934,
+        "direction": "increases_risk",
+        "signed_contribution": -7.208959009591068
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 24.02240914753162,
+        "direction": "increases_risk",
+        "signed_contribution": -1.5943166476267328
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 23.386717079939146,
+        "direction": "increases_risk",
+        "signed_contribution": -10.886501552664967
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9899736714919906,
+      "op_setting_2": 2.413999015647165,
+      "op_setting_3": 0.0,
+      "sensor_2": 20.41456959822768,
+      "sensor_3": 11.5298794482523,
+      "sensor_4": 25.43861621305934,
+      "sensor_7": 22.099264334942372,
+      "sensor_8": 9.68526923418788,
+      "sensor_9": 31.262851828196982,
+      "sensor_11": 29.0015929500653,
+      "sensor_12": 24.02240914753162,
+      "sensor_13": 8.14700195353389,
+      "sensor_14": 23.386717079939146,
+      "sensor_15": 17.757454980593387,
+      "sensor_17": 13.616233534475736,
+      "sensor_20": 17.02954313406914,
+      "sensor_21": 15.215785954556123
+    }
+  },
+  {
+    "unit": 67,
+    "true_RUL": 77.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 18.70789433586642,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.677422864324344
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 16.35306119293716,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.982000817395192
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 15.660393293857783,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.8866484196436053
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 13.569417197830598,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.479551298100084
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 12.24983650151549,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.06767614333183591
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0456914514921956,
+      "op_setting_2": 1.5447184490964265,
+      "op_setting_3": 0.0,
+      "sensor_2": 11.554559116156788,
+      "sensor_3": 6.32118512313527,
+      "sensor_4": 16.35306119293716,
+      "sensor_7": 13.569417197830598,
+      "sensor_8": 12.236763945376863,
+      "sensor_9": 4.743848950023553,
+      "sensor_11": 18.70789433586642,
+      "sensor_12": 15.660393293857783,
+      "sensor_13": 12.24983650151549,
+      "sensor_14": 2.9546790199596966,
+      "sensor_15": 12.09499247619996,
+      "sensor_17": 8.9294002741818,
+      "sensor_20": 11.129739653660055,
+      "sensor_21": 8.383858543390952
+    }
+  },
+  {
+    "unit": 68,
+    "true_RUL": 8.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 24.643241314974425,
+        "direction": "increases_risk",
+        "signed_contribution": -6.384603609579396
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 21.641811326197715,
+        "direction": "increases_risk",
+        "signed_contribution": -8.482688757210685
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 19.183713530068825,
+        "direction": "increases_risk",
+        "signed_contribution": -5.746700364369081
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 17.1479823872074,
+        "direction": "increases_risk",
+        "signed_contribution": -6.255500504039231
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 15.511353992936373,
+        "direction": "increases_risk",
+        "signed_contribution": -4.9739733624800495
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7911004783470935,
+      "op_setting_2": 1.9960127479669305,
+      "op_setting_3": 0.0,
+      "sensor_2": 15.211245501922182,
+      "sensor_3": 7.976913205697854,
+      "sensor_4": 19.183713530068825,
+      "sensor_7": 17.1479823872074,
+      "sensor_8": 13.617673083148079,
+      "sensor_9": 7.9253468367417845,
+      "sensor_11": 24.643241314974425,
+      "sensor_12": 21.641811326197715,
+      "sensor_13": 12.170164164096049,
+      "sensor_14": 4.525478764958166,
+      "sensor_15": 15.511353992936373,
+      "sensor_17": 9.752809518697342,
+      "sensor_20": 13.333861583981381,
+      "sensor_21": 11.601054743823434
+    }
+  },
+  {
+    "unit": 69,
+    "true_RUL": 121.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 14.076757485254037,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.600748678531563
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 10.911887621222759,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.676801515249547
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 10.753323730696282,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.219475562296662
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 10.551367126804067,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.453945477975854
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 10.51713799352091,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.5273958106441246
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0822841030498795,
+      "op_setting_2": 1.8547266821092667,
+      "op_setting_3": 0.0,
+      "sensor_2": 10.911887621222759,
+      "sensor_3": 6.651356406812384,
+      "sensor_4": 10.551367126804067,
+      "sensor_7": 6.977253210016453,
+      "sensor_8": 6.079649043493633,
+      "sensor_9": 14.076757485254037,
+      "sensor_11": 10.51713799352091,
+      "sensor_12": 7.7503495504580195,
+      "sensor_13": 5.896990621825586,
+      "sensor_14": 10.753323730696282,
+      "sensor_15": 7.966571723854027,
+      "sensor_17": 6.870355300459773,
+      "sensor_20": 8.292043282970186,
+      "sensor_21": 6.439742469351673
+    }
+  },
+  {
+    "unit": 70,
+    "true_RUL": 94.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 14.566070653920352,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.447589481215722
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 14.373413485150088,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.272688227260053
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 13.73027842512434,
+        "direction": "increases_risk",
+        "signed_contribution": -1.0755725316487006
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 12.875019911417992,
+        "direction": "increases_risk",
+        "signed_contribution": -2.9837047422973417
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 11.840186680033822,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.946997246222623
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.446591479404536,
+      "op_setting_2": 3.0851055632512665,
+      "op_setting_3": 0.0,
+      "sensor_2": 12.875019911417992,
+      "sensor_3": 6.1452192486679245,
+      "sensor_4": 10.205690097580122,
+      "sensor_7": 9.550324520829216,
+      "sensor_8": 14.373413485150088,
+      "sensor_9": 10.717013204915366,
+      "sensor_11": 13.73027842512434,
+      "sensor_12": 14.566070653920352,
+      "sensor_13": 11.840186680033822,
+      "sensor_14": 10.685329795074873,
+      "sensor_15": 11.402061323076289,
+      "sensor_17": 8.269771206088352,
+      "sensor_20": 10.016498265715665,
+      "sensor_21": 10.094468218868236
+    }
+  },
+  {
+    "unit": 71,
+    "true_RUL": 118.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 25.715963367212947,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.1422319053008305
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 24.572079508613264,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.171174159973019
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 20.325676958268016,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.2834411774805012
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 17.727044568466983,
+        "direction": "increases_risk",
+        "signed_contribution": -0.7937322114061882
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 16.004928872505907,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.3051175580450596
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.126482885822224,
+      "op_setting_2": 1.9185272263971391,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.7870667083219,
+      "sensor_3": 8.157578119270283,
+      "sensor_4": 20.325676958268016,
+      "sensor_7": 16.004928872505907,
+      "sensor_8": 15.722032106834469,
+      "sensor_9": 5.416762625537091,
+      "sensor_11": 25.715963367212947,
+      "sensor_12": 24.572079508613264,
+      "sensor_13": 17.727044568466983,
+      "sensor_14": 5.020461517239242,
+      "sensor_15": 15.290956811568938,
+      "sensor_17": 10.390846698421644,
+      "sensor_20": 12.209754091301516,
+      "sensor_21": 15.67197174912721
+    }
+  },
+  {
+    "unit": 72,
+    "true_RUL": 50.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_4",
+        "importance": 12.428239305092758,
+        "direction": "increases_risk",
+        "signed_contribution": -2.168262781082817
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 11.162572776255596,
+        "direction": "increases_risk",
+        "signed_contribution": -4.864536503400573
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 11.139448408668148,
+        "direction": "increases_risk",
+        "signed_contribution": -1.3289702258739031
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 11.131218934941028,
+        "direction": "increases_risk",
+        "signed_contribution": -2.962712002616063
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 9.781206054690719,
+        "direction": "increases_risk",
+        "signed_contribution": -4.231664705675582
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.8662627308322951,
+      "op_setting_2": 3.245124170823082,
+      "op_setting_3": 0.0,
+      "sensor_2": 11.139448408668148,
+      "sensor_3": 7.439276307771681,
+      "sensor_4": 12.428239305092758,
+      "sensor_7": 9.781206054690719,
+      "sensor_8": 6.5444240942279865,
+      "sensor_9": 7.025167724751327,
+      "sensor_11": 11.162572776255596,
+      "sensor_12": 9.340898882356194,
+      "sensor_13": 8.510785094608824,
+      "sensor_14": 5.290777316403499,
+      "sensor_15": 8.457300420877347,
+      "sensor_17": 9.132080418502897,
+      "sensor_20": 11.131218934941028,
+      "sensor_21": 9.05506032026277
+    }
+  },
+  {
+    "unit": 73,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 24.22491575058985,
+        "direction": "increases_risk",
+        "signed_contribution": -1.042144522652963
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 21.333661591737084,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.5331980881842675
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 20.667958686543635,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.759879787194911
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 17.743783124189186,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.900928949058855
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 17.061483039692018,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.8723076527484912
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.090502987082121,
+      "op_setting_2": 1.6247075421547958,
+      "op_setting_3": 0.0,
+      "sensor_2": 17.743783124189186,
+      "sensor_3": 11.891447517930207,
+      "sensor_4": 20.667958686543635,
+      "sensor_7": 16.98338719879484,
+      "sensor_8": 10.918205400112805,
+      "sensor_9": 8.06926179255307,
+      "sensor_11": 24.22491575058985,
+      "sensor_12": 21.333661591737084,
+      "sensor_13": 11.239911437197863,
+      "sensor_14": 4.866540753655023,
+      "sensor_15": 17.061483039692018,
+      "sensor_17": 9.420771287939814,
+      "sensor_20": 13.406777729088496,
+      "sensor_21": 10.794925750332032
+    }
+  },
+  {
+    "unit": 74,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_15",
+        "importance": 14.039142483126135,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.3378833239166656
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 12.981841030381487,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.6906847853303646
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 11.3673197553272,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.070312289677234
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 10.326336254860351,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.826215095840392
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 10.100588599927915,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.196639221574112
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.4534185709615466,
+      "op_setting_2": 2.8863478270260825,
+      "op_setting_3": 0.0,
+      "sensor_2": 12.981841030381487,
+      "sensor_3": 9.689004611668729,
+      "sensor_4": 10.326336254860351,
+      "sensor_7": 10.100588599927915,
+      "sensor_8": 10.081699789532767,
+      "sensor_9": 6.816649001058057,
+      "sensor_11": 7.415977091688767,
+      "sensor_12": 11.3673197553272,
+      "sensor_13": 8.91581829106296,
+      "sensor_14": 4.038586828034492,
+      "sensor_15": 14.039142483126135,
+      "sensor_17": 7.210844969553204,
+      "sensor_20": 9.067218938159344,
+      "sensor_21": 9.786966640470295
+    }
+  },
+  {
+    "unit": 75,
+    "true_RUL": 113.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 21.472284263128866,
+        "direction": "increases_risk",
+        "signed_contribution": -1.0613490511318504
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 16.330970553384727,
+        "direction": "increases_risk",
+        "signed_contribution": -0.5715455560812082
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 15.71327277986146,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.8074903721369617
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 14.039422532677095,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.837497376396509
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 13.81451357820012,
+        "direction": "increases_risk",
+        "signed_contribution": -0.1536525504940841
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.3442260887215531,
+      "op_setting_2": 2.532501732073312,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.039422532677095,
+      "sensor_3": 10.407437834891157,
+      "sensor_4": 16.330970553384727,
+      "sensor_7": 13.038866713036146,
+      "sensor_8": 10.660064927561928,
+      "sensor_9": 6.318067413240283,
+      "sensor_11": 21.472284263128866,
+      "sensor_12": 15.71327277986146,
+      "sensor_13": 11.03457813071498,
+      "sensor_14": 2.9173346312292923,
+      "sensor_15": 13.81451357820012,
+      "sensor_17": 7.902254797864822,
+      "sensor_20": 12.533885051119844,
+      "sensor_21": 10.099581360722624
+    }
+  },
+  {
+    "unit": 76,
+    "true_RUL": 10.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 29.18894542429625,
+        "direction": "increases_risk",
+        "signed_contribution": -8.529948063402317
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 24.9550498267736,
+        "direction": "increases_risk",
+        "signed_contribution": -7.655735865051569
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 24.807010134325626,
+        "direction": "increases_risk",
+        "signed_contribution": -10.195013250628167
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 21.486555828344226,
+        "direction": "increases_risk",
+        "signed_contribution": -8.239341856687389
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 19.710003725301412,
+        "direction": "increases_risk",
+        "signed_contribution": -5.581523209305086
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9430142947547863,
+      "op_setting_2": 1.802524909492305,
+      "op_setting_3": 0.0,
+      "sensor_2": 17.762876740616555,
+      "sensor_3": 12.55325131215057,
+      "sensor_4": 24.807010134325626,
+      "sensor_7": 18.088736802161872,
+      "sensor_8": 9.196501792746988,
+      "sensor_9": 21.486555828344226,
+      "sensor_11": 29.18894542429625,
+      "sensor_12": 24.9550498267736,
+      "sensor_13": 10.754183669732205,
+      "sensor_14": 15.784113800849264,
+      "sensor_15": 19.710003725301412,
+      "sensor_17": 12.880589127646275,
+      "sensor_20": 18.606469273498377,
+      "sensor_21": 17.1537998378727
+    }
+  },
+  {
+    "unit": 77,
+    "true_RUL": 34.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_13",
+        "importance": 27.949175389663864,
+        "direction": "increases_risk",
+        "signed_contribution": -6.060980019018743
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 27.231810399016357,
+        "direction": "increases_risk",
+        "signed_contribution": -7.008114646732366
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 26.432481383473807,
+        "direction": "increases_risk",
+        "signed_contribution": -7.516400405220056
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 25.873538876337058,
+        "direction": "increases_risk",
+        "signed_contribution": -6.155750265177173
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 23.45333172344545,
+        "direction": "increases_risk",
+        "signed_contribution": -11.49506267759623
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.2199300366561487,
+      "op_setting_2": 3.1070719523533037,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.999850210016575,
+      "sensor_3": 8.481927604535214,
+      "sensor_4": 23.45333172344545,
+      "sensor_7": 20.538683014088495,
+      "sensor_8": 27.231810399016357,
+      "sensor_9": 14.1766963403341,
+      "sensor_11": 25.873538876337058,
+      "sensor_12": 26.432481383473807,
+      "sensor_13": 27.949175389663864,
+      "sensor_14": 12.16579558612684,
+      "sensor_15": 17.276274440553067,
+      "sensor_17": 11.47403910736531,
+      "sensor_20": 15.741408367366803,
+      "sensor_21": 14.205030641249563
+    }
+  },
+  {
+    "unit": 78,
+    "true_RUL": 107.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 22.879350706247347,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.9691908375022784
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 19.282549319812098,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.846821674411686
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 18.773702061250972,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.803089842519965
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 15.459537712393308,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.496541751512087
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 15.218049017585978,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.4226001256156744
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.501083738292164,
+      "op_setting_2": 1.0819621922699614,
+      "op_setting_3": 0.0,
+      "sensor_2": 12.809761383628036,
+      "sensor_3": 8.23867521105365,
+      "sensor_4": 18.773702061250972,
+      "sensor_7": 15.459537712393308,
+      "sensor_8": 14.4101037128321,
+      "sensor_9": 1.7500092504160953,
+      "sensor_11": 22.879350706247347,
+      "sensor_12": 19.282549319812098,
+      "sensor_13": 15.218049017585978,
+      "sensor_14": 1.6538261048500877,
+      "sensor_15": 13.437409700263284,
+      "sensor_17": 8.559173905679382,
+      "sensor_20": 14.30648005021682,
+      "sensor_21": 10.593569505274548
+    }
+  },
+  {
+    "unit": 79,
+    "true_RUL": 63.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 16.52725849036263,
+        "direction": "decreases_risk",
+        "signed_contribution": 8.25253072843395
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 14.130742695371303,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.5101929255832274
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 13.706652928379478,
+        "direction": "increases_risk",
+        "signed_contribution": -2.6494663434592196
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 12.530263585971172,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.315590195314689
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 11.38397161055451,
+        "direction": "increases_risk",
+        "signed_contribution": -0.13394716573629079
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.1745642489385333,
+      "op_setting_2": 1.8046251787750711,
+      "op_setting_3": 0.0,
+      "sensor_2": 11.38397161055451,
+      "sensor_3": 9.15588980881249,
+      "sensor_4": 14.130742695371303,
+      "sensor_7": 8.416578704317772,
+      "sensor_8": 8.113376859915524,
+      "sensor_9": 16.52725849036263,
+      "sensor_11": 13.706652928379478,
+      "sensor_12": 8.795587591548019,
+      "sensor_13": 6.346620974862258,
+      "sensor_14": 12.530263585971172,
+      "sensor_15": 8.243115884026315,
+      "sensor_17": 8.23200098858709,
+      "sensor_20": 9.20834222569708,
+      "sensor_21": 7.238907623582575
+    }
+  },
+  {
+    "unit": 80,
+    "true_RUL": 90.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 11.620407345715002,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.4110212374879625
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 11.320164835366853,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.1221907042107695
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 11.008977045302121,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.4782162217326724
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 11.002944891467028,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.870997299031056
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 10.066990403007985,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.423869862808608
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.7307311773063225,
+      "op_setting_2": 3.1450446354232664,
+      "op_setting_3": 0.0,
+      "sensor_2": 11.008977045302121,
+      "sensor_3": 7.053843971110732,
+      "sensor_4": 11.002944891467028,
+      "sensor_7": 9.317290329680992,
+      "sensor_8": 10.066990403007985,
+      "sensor_9": 5.973986610654645,
+      "sensor_11": 11.320164835366853,
+      "sensor_12": 11.620407345715002,
+      "sensor_13": 8.247946902356665,
+      "sensor_14": 3.19817110010888,
+      "sensor_15": 9.037736044581752,
+      "sensor_17": 6.407357336978026,
+      "sensor_20": 9.962383927881287,
+      "sensor_21": 7.801584286829162
+    }
+  },
+  {
+    "unit": 81,
+    "true_RUL": 8.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 34.6812706563,
+        "direction": "increases_risk",
+        "signed_contribution": -6.639754558478718
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 34.40409580761064,
+        "direction": "increases_risk",
+        "signed_contribution": -8.413965063659091
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 27.378700766572425,
+        "direction": "increases_risk",
+        "signed_contribution": -8.657953934867324
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 26.567858443532977,
+        "direction": "increases_risk",
+        "signed_contribution": -8.515106407824796
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 21.524288603935734,
+        "direction": "increases_risk",
+        "signed_contribution": -6.919063181035287
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7371756082739511,
+      "op_setting_2": 1.4082990189143845,
+      "op_setting_3": 0.0,
+      "sensor_2": 20.502057015712747,
+      "sensor_3": 11.626681959287414,
+      "sensor_4": 26.567858443532977,
+      "sensor_7": 27.378700766572425,
+      "sensor_8": 20.04524545757417,
+      "sensor_9": 6.547451367203051,
+      "sensor_11": 34.6812706563,
+      "sensor_12": 34.40409580761064,
+      "sensor_13": 18.24582204388719,
+      "sensor_14": 2.6657756583268064,
+      "sensor_15": 20.964135120747947,
+      "sensor_17": 11.025691582976608,
+      "sensor_20": 21.524288603935734,
+      "sensor_21": 17.098565396968333
+    }
+  },
+  {
+    "unit": 82,
+    "true_RUL": 9.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 29.343655492080433,
+        "direction": "increases_risk",
+        "signed_contribution": -11.947133625140907
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 24.349546071160983,
+        "direction": "increases_risk",
+        "signed_contribution": -8.762776342012714
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 20.165924628430236,
+        "direction": "increases_risk",
+        "signed_contribution": -7.2472266775842
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 18.71620617291395,
+        "direction": "increases_risk",
+        "signed_contribution": -7.431079839825621
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 18.53895395588172,
+        "direction": "increases_risk",
+        "signed_contribution": -9.261652734616966
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.5855337871876949,
+      "op_setting_2": 2.0666995740454976,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.110024958558892,
+      "sensor_3": 7.3329630747388865,
+      "sensor_4": 17.824278219863167,
+      "sensor_7": 18.53895395588172,
+      "sensor_8": 20.165924628430236,
+      "sensor_9": 3.6963367178857487,
+      "sensor_11": 29.343655492080433,
+      "sensor_12": 24.349546071160983,
+      "sensor_13": 18.71620617291395,
+      "sensor_14": 4.987166779667891,
+      "sensor_15": 16.429550965859367,
+      "sensor_17": 10.20284169967134,
+      "sensor_20": 13.009001951110205,
+      "sensor_21": 12.351412842139705
+    }
+  },
+  {
+    "unit": 83,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 12.26929000279442,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.316674988863265
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 11.470029667365276,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.7561557032812085
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 10.779536172490433,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.623432824974344
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 10.591211260208551,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.841932824740263
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 9.3486296018884,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.6871402977929213
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.6327826125071842,
+      "op_setting_2": 2.210514742058492,
+      "op_setting_3": 0.0,
+      "sensor_2": 8.748389588712275,
+      "sensor_3": 6.408700261675428,
+      "sensor_4": 10.779536172490433,
+      "sensor_7": 10.591211260208551,
+      "sensor_8": 5.9165262588129055,
+      "sensor_9": 4.562438705849333,
+      "sensor_11": 12.26929000279442,
+      "sensor_12": 11.470029667365276,
+      "sensor_13": 7.314704208201524,
+      "sensor_14": 2.7536339041902984,
+      "sensor_15": 9.3486296018884,
+      "sensor_17": 4.765114884850222,
+      "sensor_20": 8.332276893290869,
+      "sensor_21": 7.6507772527163835
+    }
+  },
+  {
+    "unit": 84,
+    "true_RUL": 58.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 24.810993743603323,
+        "direction": "increases_risk",
+        "signed_contribution": -1.4822440484200654
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 24.400964818654867,
+        "direction": "increases_risk",
+        "signed_contribution": -2.3065290217044994
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 22.606135051706,
+        "direction": "increases_risk",
+        "signed_contribution": -4.857206025244361
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 21.775395649775053,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.9412633394040864
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 21.406292787746047,
+        "direction": "increases_risk",
+        "signed_contribution": -0.36588972466639813
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.4808307355589785,
+      "op_setting_2": 4.667121142991226,
+      "op_setting_3": 0.0,
+      "sensor_2": 17.102660540339976,
+      "sensor_3": 10.201098881457284,
+      "sensor_4": 21.406292787746047,
+      "sensor_7": 18.280665605480767,
+      "sensor_8": 22.606135051706,
+      "sensor_9": 15.651823309768648,
+      "sensor_11": 24.400964818654867,
+      "sensor_12": 24.810993743603323,
+      "sensor_13": 21.775395649775053,
+      "sensor_14": 12.822775486450698,
+      "sensor_15": 19.346317278359937,
+      "sensor_17": 11.792058854381665,
+      "sensor_20": 15.458066183444197,
+      "sensor_21": 16.178423668685472
+    }
+  },
+  {
+    "unit": 85,
+    "true_RUL": 118.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 9.00247810246616,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.115585408755363
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 7.6569741175601695,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.121254654275597
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 5.8905439477982195,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.4765302574715955
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 5.771315990332948,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.604221639567226
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 5.6236042234792665,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.6995709299956783
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.5014791045094277,
+      "op_setting_2": 1.1749969408633745,
+      "op_setting_3": 0.0,
+      "sensor_2": 5.209296810663001,
+      "sensor_3": 3.574649869542178,
+      "sensor_4": 5.112016135111865,
+      "sensor_7": 4.066784639792809,
+      "sensor_8": 5.039254846631404,
+      "sensor_9": 9.00247810246616,
+      "sensor_11": 5.1707314456073386,
+      "sensor_12": 5.771315990332948,
+      "sensor_13": 4.67056272716188,
+      "sensor_14": 7.6569741175601695,
+      "sensor_15": 5.8905439477982195,
+      "sensor_17": 3.389739076353408,
+      "sensor_20": 5.6236042234792665,
+      "sensor_21": 3.935374341044203
+    }
+  },
+  {
+    "unit": 86,
+    "true_RUL": 89.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_2",
+        "importance": 8.9716130772725,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.6135154051353768
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 8.719211827932266,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.340965065958203
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 8.311527149499414,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.4007610290089062
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 8.30336704462338,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.826520763937488
+      },
+      {
+        "sensor": "sensor_17",
+        "importance": 8.202231929370193,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.0063621543983277
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0545610217028283,
+      "op_setting_2": 2.3990885069790484,
+      "op_setting_3": 0.0,
+      "sensor_2": 8.9716130772725,
+      "sensor_3": 7.714005844152711,
+      "sensor_4": 8.719211827932266,
+      "sensor_7": 5.522909555423543,
+      "sensor_8": 6.506562038889102,
+      "sensor_9": 3.586396304184157,
+      "sensor_11": 8.30336704462338,
+      "sensor_12": 7.467393860170661,
+      "sensor_13": 6.754846599244111,
+      "sensor_14": 1.841782031080187,
+      "sensor_15": 6.990183638704585,
+      "sensor_17": 8.202231929370193,
+      "sensor_20": 8.311527149499414,
+      "sensor_21": 5.469730998529004
+    }
+  },
+  {
+    "unit": 87,
+    "true_RUL": 116.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 23.393248336495606,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.348297437750314
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 21.81271966051238,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.397245847554411
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 19.028281471120224,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.7771508996465832
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 18.479134002818252,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.0865447688236585
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 16.537730760489268,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.898570557139548
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9544783563474755,
+      "op_setting_2": 1.2150887891183622,
+      "op_setting_3": 0.0,
+      "sensor_2": 18.479134002818252,
+      "sensor_3": 8.927064998917203,
+      "sensor_4": 21.81271966051238,
+      "sensor_7": 16.537730760489268,
+      "sensor_8": 14.324305947562145,
+      "sensor_9": 2.654768005647201,
+      "sensor_11": 23.393248336495606,
+      "sensor_12": 19.028281471120224,
+      "sensor_13": 14.29280411346766,
+      "sensor_14": 1.426469319885187,
+      "sensor_15": 14.681924676922366,
+      "sensor_17": 7.9319409023943495,
+      "sensor_20": 15.315972428151595,
+      "sensor_21": 11.457496453812285
+    }
+  },
+  {
+    "unit": 88,
+    "true_RUL": 115.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 19.415336404838783,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.003799227055291
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 15.432479290147702,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.103136184591191
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 11.690952394451012,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.435828466018615
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 11.132645141715653,
+        "direction": "increases_risk",
+        "signed_contribution": -0.24487464485582272
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 8.286396228140557,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.522614067394451
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7621780990995621,
+      "op_setting_2": 2.716414304856455,
+      "op_setting_3": 0.0,
+      "sensor_2": 7.802080013424988,
+      "sensor_3": 5.825838795620036,
+      "sensor_4": 7.713450316357472,
+      "sensor_7": 6.979363571944257,
+      "sensor_8": 11.132645141715653,
+      "sensor_9": 19.415336404838783,
+      "sensor_11": 8.04208799841462,
+      "sensor_12": 8.286396228140557,
+      "sensor_13": 11.690952394451012,
+      "sensor_14": 15.432479290147702,
+      "sensor_15": 7.845164252016675,
+      "sensor_17": 4.966513642547673,
+      "sensor_20": 7.589856322151836,
+      "sensor_21": 7.272631227740992
+    }
+  },
+  {
+    "unit": 89,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 10.71526452552367,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.740868485475931
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 10.543348803008932,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.276659282575449
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 10.466079109388255,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.4121729458521433
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 9.611074056801503,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.382365009475846
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 9.456715113877314,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.223153190120668
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7008845063557203,
+      "op_setting_2": 2.546744194333458,
+      "op_setting_3": 0.0,
+      "sensor_2": 9.348898891636788,
+      "sensor_3": 6.201930716751691,
+      "sensor_4": 5.977232001680041,
+      "sensor_7": 6.948367578888006,
+      "sensor_8": 8.571835125313834,
+      "sensor_9": 10.543348803008932,
+      "sensor_11": 10.71526452552367,
+      "sensor_12": 10.466079109388255,
+      "sensor_13": 9.611074056801503,
+      "sensor_14": 9.456715113877314,
+      "sensor_15": 7.03598271385482,
+      "sensor_17": 6.541420674837591,
+      "sensor_20": 7.605128754895613,
+      "sensor_21": 7.3432081591583875
+    }
+  },
+  {
+    "unit": 90,
+    "true_RUL": 28.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 31.90837620747598,
+        "direction": "increases_risk",
+        "signed_contribution": -12.823426713786088
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 26.433720730471283,
+        "direction": "increases_risk",
+        "signed_contribution": -2.643780305848991
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 25.772686441359216,
+        "direction": "increases_risk",
+        "signed_contribution": -8.44811088034756
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 18.16185169973364,
+        "direction": "increases_risk",
+        "signed_contribution": -2.804265469720079
+      },
+      {
+        "sensor": "sensor_21",
+        "importance": 17.858509254984586,
+        "direction": "increases_risk",
+        "signed_contribution": -7.906094580253082
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.2405315701481716,
+      "op_setting_2": 3.427945966913761,
+      "op_setting_3": 0.0,
+      "sensor_2": 18.16185169973364,
+      "sensor_3": 11.441346376742395,
+      "sensor_4": 25.772686441359216,
+      "sensor_7": 17.30709888932056,
+      "sensor_8": 15.705032428996649,
+      "sensor_9": 13.561826801332085,
+      "sensor_11": 31.90837620747598,
+      "sensor_12": 26.433720730471283,
+      "sensor_13": 11.410671646346211,
+      "sensor_14": 8.175163983310389,
+      "sensor_15": 14.283956034560058,
+      "sensor_17": 14.471248947560376,
+      "sensor_20": 15.891479255433495,
+      "sensor_21": 17.858509254984586
+    }
+  },
+  {
+    "unit": 91,
+    "true_RUL": 38.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 43.30503557517204,
+        "direction": "increases_risk",
+        "signed_contribution": -4.4361984571844255
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 41.74995004161897,
+        "direction": "increases_risk",
+        "signed_contribution": -9.836585608531468
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 32.592235132728796,
+        "direction": "increases_risk",
+        "signed_contribution": -3.914827827084696
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 32.095662224605945,
+        "direction": "increases_risk",
+        "signed_contribution": -3.1862741293449792
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 29.998082791441483,
+        "direction": "increases_risk",
+        "signed_contribution": -6.8840478965826
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9318199559399236,
+      "op_setting_2": 2.299880308647294,
+      "op_setting_3": 0.0,
+      "sensor_2": 26.013603686937383,
+      "sensor_3": 11.172986730057305,
+      "sensor_4": 29.998082791441483,
+      "sensor_7": 28.610971684433245,
+      "sensor_8": 32.095662224605945,
+      "sensor_9": 7.582189283800912,
+      "sensor_11": 43.30503557517204,
+      "sensor_12": 41.74995004161897,
+      "sensor_13": 32.592235132728796,
+      "sensor_14": 9.053467578677868,
+      "sensor_15": 24.043726611642974,
+      "sensor_17": 12.329546885821996,
+      "sensor_20": 22.9949293867916,
+      "sensor_21": 22.860205070043673
+    }
+  },
+  {
+    "unit": 92,
+    "true_RUL": 20.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 50.57465137513947,
+        "direction": "increases_risk",
+        "signed_contribution": -6.469792257664392
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 45.238376505426466,
+        "direction": "increases_risk",
+        "signed_contribution": -6.288089712848049
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 39.12286370677483,
+        "direction": "increases_risk",
+        "signed_contribution": -4.473010205894263
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 36.06491973405659,
+        "direction": "increases_risk",
+        "signed_contribution": -10.078337435892168
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 35.825569871456054,
+        "direction": "increases_risk",
+        "signed_contribution": -7.697583674903726
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.0020008265920968,
+      "op_setting_2": 2.978928082335861,
+      "op_setting_3": 0.0,
+      "sensor_2": 29.803771492726614,
+      "sensor_3": 13.569291431941226,
+      "sensor_4": 35.825569871456054,
+      "sensor_7": 36.06491973405659,
+      "sensor_8": 39.12286370677483,
+      "sensor_9": 13.119333158640307,
+      "sensor_11": 50.57465137513947,
+      "sensor_12": 45.238376505426466,
+      "sensor_13": 35.55231131060958,
+      "sensor_14": 14.121863826868017,
+      "sensor_15": 30.028593209505402,
+      "sensor_17": 19.342109911522005,
+      "sensor_20": 30.97418081276621,
+      "sensor_21": 22.085928036355728
+    }
+  },
+  {
+    "unit": 93,
+    "true_RUL": 85.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 27.67609967490754,
+        "direction": "increases_risk",
+        "signed_contribution": -2.8624989542141863
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 26.373017873956357,
+        "direction": "increases_risk",
+        "signed_contribution": -3.378845090514317
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 24.678779188954884,
+        "direction": "increases_risk",
+        "signed_contribution": -6.239891229033673
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 22.712019135317608,
+        "direction": "increases_risk",
+        "signed_contribution": -5.990737969079316
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 20.786103544972033,
+        "direction": "increases_risk",
+        "signed_contribution": -1.5383716370340959
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.9743062995093029,
+      "op_setting_2": 2.8214071968726344,
+      "op_setting_3": 0.0,
+      "sensor_2": 16.287550840600538,
+      "sensor_3": 9.142028609462047,
+      "sensor_4": 24.678779188954884,
+      "sensor_7": 22.712019135317608,
+      "sensor_8": 15.422510987137136,
+      "sensor_9": 9.339548755865133,
+      "sensor_11": 27.67609967490754,
+      "sensor_12": 26.373017873956357,
+      "sensor_13": 15.604926248312287,
+      "sensor_14": 5.813924748985028,
+      "sensor_15": 20.786103544972033,
+      "sensor_17": 10.96411168836893,
+      "sensor_20": 16.2140762606985,
+      "sensor_21": 15.905557258857618
+    }
+  },
+  {
+    "unit": 94,
+    "true_RUL": 55.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 24.586233891247762,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.367943987254856
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 21.584989320269365,
+        "direction": "increases_risk",
+        "signed_contribution": -0.8868041345439854
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 21.302828727543055,
+        "direction": "increases_risk",
+        "signed_contribution": -6.698269181121297
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 20.48397779294715,
+        "direction": "increases_risk",
+        "signed_contribution": -3.745107900823565
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 19.918003761603668,
+        "direction": "increases_risk",
+        "signed_contribution": -3.8938747071936577
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.297346696175625,
+      "op_setting_2": 4.542981798426506,
+      "op_setting_3": 0.0,
+      "sensor_2": 14.247471412882748,
+      "sensor_3": 9.693172490220341,
+      "sensor_4": 20.48397779294715,
+      "sensor_7": 21.302828727543055,
+      "sensor_8": 19.918003761603668,
+      "sensor_9": 7.070424991795263,
+      "sensor_11": 21.584989320269365,
+      "sensor_12": 24.586233891247762,
+      "sensor_13": 19.276928876860673,
+      "sensor_14": 8.172845935802215,
+      "sensor_15": 17.89759876763008,
+      "sensor_17": 9.650281084009642,
+      "sensor_20": 13.438090047048943,
+      "sensor_21": 15.195762327177137
+    }
+  },
+  {
+    "unit": 95,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 17.305076677110897,
+        "direction": "increases_risk",
+        "signed_contribution": -2.077282426548612
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 16.727029952527065,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.9319081826576532
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 16.711725564692976,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.63937689099075
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 15.29628260728896,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.67220524639977
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 13.936465216153806,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.5021483983046195
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.83889478597639,
+      "op_setting_2": 2.088321793305594,
+      "op_setting_3": 0.0,
+      "sensor_2": 16.727029952527065,
+      "sensor_3": 10.084979311012269,
+      "sensor_4": 15.29628260728896,
+      "sensor_7": 10.105996692262668,
+      "sensor_8": 8.355715793107528,
+      "sensor_9": 16.711725564692976,
+      "sensor_11": 17.305076677110897,
+      "sensor_12": 13.5747879561679,
+      "sensor_13": 9.776271097670149,
+      "sensor_14": 12.486174682292841,
+      "sensor_15": 12.304789414314914,
+      "sensor_17": 7.573812997916547,
+      "sensor_20": 13.936465216153806,
+      "sensor_21": 10.904485486313803
+    }
+  },
+  {
+    "unit": 96,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 25.530343158087057,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.3924059028506026
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 22.388272103504487,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.086010300340928
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 20.904573094569233,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.011512223714715
+      },
+      {
+        "sensor": "sensor_7",
+        "importance": 17.317955361348467,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.9428275493976033
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 16.681347520084596,
+        "direction": "decreases_risk",
+        "signed_contribution": 5.1765063666745235
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.1149253093928428,
+      "op_setting_2": 1.7328630000898484,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.508573688425233,
+      "sensor_3": 8.418095895369953,
+      "sensor_4": 20.904573094569233,
+      "sensor_7": 17.317955361348467,
+      "sensor_8": 15.891865077731879,
+      "sensor_9": 3.4344528917610684,
+      "sensor_11": 25.530343158087057,
+      "sensor_12": 22.388272103504487,
+      "sensor_13": 14.985532424296256,
+      "sensor_14": 3.7034383401681,
+      "sensor_15": 15.817766734575532,
+      "sensor_17": 8.630667024941141,
+      "sensor_20": 16.681347520084596,
+      "sensor_21": 11.08059341282863
+    }
+  },
+  {
+    "unit": 97,
+    "true_RUL": 82.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 15.64405069801901,
+        "direction": "increases_risk",
+        "signed_contribution": -1.557095410983586
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 15.050178330406283,
+        "direction": "decreases_risk",
+        "signed_contribution": 6.464534122765783
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 14.359891627963902,
+        "direction": "increases_risk",
+        "signed_contribution": -2.7425430995288917
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 14.07829490318746,
+        "direction": "increases_risk",
+        "signed_contribution": -4.822826485421274
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 13.84123256499658,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.7948585654388696
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.2694634801578057,
+      "op_setting_2": 2.4760722406308986,
+      "op_setting_3": 0.0,
+      "sensor_2": 13.84123256499658,
+      "sensor_3": 6.705328111969085,
+      "sensor_4": 15.050178330406283,
+      "sensor_7": 10.777305051411346,
+      "sensor_8": 14.359891627963902,
+      "sensor_9": 14.07829490318746,
+      "sensor_11": 15.64405069801901,
+      "sensor_12": 10.785854745278176,
+      "sensor_13": 12.199735515609245,
+      "sensor_14": 10.57800138263398,
+      "sensor_15": 13.751852851150444,
+      "sensor_17": 8.268835515343236,
+      "sensor_20": 13.38049105153824,
+      "sensor_21": 11.207480193645848
+    }
+  },
+  {
+    "unit": 98,
+    "true_RUL": 59.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_4",
+        "importance": 16.196230040122124,
+        "direction": "increases_risk",
+        "signed_contribution": -2.509044647066464
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 13.601449165366315,
+        "direction": "increases_risk",
+        "signed_contribution": -4.69999943974335
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 12.27004940110943,
+        "direction": "increases_risk",
+        "signed_contribution": -2.8160460465643533
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 11.661775354170228,
+        "direction": "increases_risk",
+        "signed_contribution": -0.12407491247000246
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 11.422213870292564,
+        "direction": "increases_risk",
+        "signed_contribution": -2.743910936255517
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.1663367115146128,
+      "op_setting_2": 3.150683714386435,
+      "op_setting_3": 0.0,
+      "sensor_2": 11.422213870292564,
+      "sensor_3": 10.507912591343024,
+      "sensor_4": 16.196230040122124,
+      "sensor_7": 10.3552806025132,
+      "sensor_8": 11.661775354170228,
+      "sensor_9": 2.800565545430232,
+      "sensor_11": 12.27004940110943,
+      "sensor_12": 10.390298187406449,
+      "sensor_13": 9.9466342035923,
+      "sensor_14": 3.260305735146479,
+      "sensor_15": 13.601449165366315,
+      "sensor_17": 9.434779421789091,
+      "sensor_20": 8.804801182015092,
+      "sensor_21": 10.273525325400554
+    }
+  },
+  {
+    "unit": 99,
+    "true_RUL": 117.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 23.3729679820097,
+        "direction": "decreases_risk",
+        "signed_contribution": 4.763872556183486
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 19.045982546116278,
+        "direction": "decreases_risk",
+        "signed_contribution": 1.6584957966813845
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 18.62372642677446,
+        "direction": "decreases_risk",
+        "signed_contribution": 3.432249788355175
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 16.682903846557423,
+        "direction": "decreases_risk",
+        "signed_contribution": 2.648022042888933
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 16.56626411605063,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.9760488079928843
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7596933717197847,
+      "op_setting_2": 0.9606046162013964,
+      "op_setting_3": 0.0,
+      "sensor_2": 11.413729184506366,
+      "sensor_3": 8.100050665844018,
+      "sensor_4": 18.62372642677446,
+      "sensor_7": 16.409723419753135,
+      "sensor_8": 16.682903846557423,
+      "sensor_9": 2.4394755579773744,
+      "sensor_11": 23.3729679820097,
+      "sensor_12": 19.045982546116278,
+      "sensor_13": 16.56626411605063,
+      "sensor_14": 3.5181099195959415,
+      "sensor_15": 14.562776473076985,
+      "sensor_17": 11.447256022398864,
+      "sensor_20": 15.138306759008541,
+      "sensor_21": 11.018178805689873
+    }
+  },
+  {
+    "unit": 100,
+    "true_RUL": 20.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 32.473510724526875,
+        "direction": "increases_risk",
+        "signed_contribution": -14.480732633006316
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 26.35972358434522,
+        "direction": "increases_risk",
+        "signed_contribution": -13.200962256224654
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 10.543540890549199,
+        "direction": "increases_risk",
+        "signed_contribution": -6.939718321789893
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 8.304941820786665,
+        "direction": "increases_risk",
+        "signed_contribution": -6.2741389173590205
+      },
+      {
+        "sensor": "sensor_20",
+        "importance": 7.800789213446996,
+        "direction": "increases_risk",
+        "signed_contribution": -4.7855027660888965
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 0.7222373250220078,
+      "op_setting_2": 1.4194989605724184,
+      "op_setting_3": 0.0,
+      "sensor_2": 8.304941820786665,
+      "sensor_3": 5.309633825050339,
+      "sensor_4": 10.543540890549199,
+      "sensor_7": 3.8140785443355067,
+      "sensor_8": 5.548902380770961,
+      "sensor_9": 32.473510724526875,
+      "sensor_11": 7.0018026151824895,
+      "sensor_12": 5.1982489244126056,
+      "sensor_13": 5.771566311580995,
+      "sensor_14": 26.35972358434522,
+      "sensor_15": 6.9832286099212455,
+      "sensor_17": 6.053742462511989,
+      "sensor_20": 7.800789213446996,
+      "sensor_21": 4.61997888855002
+    }
+  }
+]

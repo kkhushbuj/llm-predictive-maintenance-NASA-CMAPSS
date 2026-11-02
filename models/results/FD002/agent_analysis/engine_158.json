@@ -1,0 +1,89 @@
+{
+  "unit": 158,
+  "engine_shap": {
+    "unit": 158,
+    "true_RUL": 15.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.4185976329197299,
+        "direction": "increases_risk",
+        "signed_contribution": -0.08662222030674327
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.23702976755641067,
+        "direction": "increases_risk",
+        "signed_contribution": -0.11378748343872579
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.22521582369830745,
+        "direction": "increases_risk",
+        "signed_contribution": -0.03942866023736542
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 0.14213427172325868,
+        "direction": "increases_risk",
+        "signed_contribution": -0.06801971346211698
+      },
+      {
+        "sensor": "sensor_17",
+        "importance": 0.12291254059784452,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.027664400399621092
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.14213427172325868,
+      "sensor_3": 0.046590271949547485,
+      "sensor_4": 0.22521582369830745,
+      "sensor_6": 0.04134954682060392,
+      "sensor_7": 0.07099684430425761,
+      "sensor_8": 0.04306505725064044,
+      "sensor_9": 0.0758881778641041,
+      "sensor_10": 0.010694891866735477,
+      "sensor_11": 0.4185976329197299,
+      "sensor_12": 0.051255386599305446,
+      "sensor_13": 0.04657569436222771,
+      "sensor_14": 0.04045710405573276,
+      "sensor_15": 0.23702976755641067,
+      "sensor_16": 0.007879726330003051,
+      "sensor_17": 0.12291254059784452,
+      "sensor_20": 0.03635311207570783,
+      "sensor_21": 0.04815357809483989,
+      "regime_0": 0.01844203245887911,
+      "regime_1": 0.017887612204758624,
+      "regime_2": 0.00757333371502682,
+      "regime_3": 0.01406865530519781,
+      "regime_4": 0.013078069500904803,
+      "regime_5": 0.018172154886265165
+    },
+    "non_sensor_share": 0.0508568846149581
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_11, sensor_15, sensor_4, sensor_2, and sensor_17. The knowledge base only provides findings for sensor_15, indicating it has low importance, but does not cover sensor_11, sensor_4, sensor_2, or sensor_17. Therefore, the model's explanation cannot be confirmed or contradicted based on the available information.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The predictive model's reliance on sensor_11 and sensor_4, which have not been thoroughly documented, may be linked to uncharacterized degradation mechanisms unique to this engine's operational profile. This scenario suggests the potential for atypical wear due to environmental or operational stressors not considered in traditional failure analysis.",
+    "physical_reasoning": "Sensor_11 could measure exhaust gas temperature or pressure, while sensor_4 may relate to airflow or fuel flow patterns, both of which are critical for assessing engine performance. Changes in these parameters could indicate non-standard operational conditions that lead to unique wear characteristics.",
+    "next_checks": [
+      "Cross-check sensor_11 readings with historical data from similar engines to identify trends or anomalies.",
+      "Conduct a comparative analysis of sensor_4 with other engines that have operated under similar conditions to validate its predictive ability.",
+      "Evaluate the calibration and data quality of both sensor_11 and sensor_4 to rule out measurement errors.",
+      "Investigate the operational history of the engine for possible external factors that may affect wear not captured by current literature."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": true,
+    "critique": "The SHAP attribution is stable across reruns, confirming sensor_11 as the top driver. The pipeline's hypothesis about uncharacterized degradation mechanisms is plausible given the lack of literature on sensor_11 and sensor_4. However, the analysis should also consider whether these sensors exhibit near-zero variance or are operating outside the model's training distribution, which could contribute to their high importance.",
+    "alternative_explanation": null,
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,8 @@
+# Let Git normalise line endings; never rewrite binary files.
+* text=auto
+*.pdf binary
+*.png binary
+*.jpg binary
+*.parquet binary
+*.pt binary
+*.pkl binary

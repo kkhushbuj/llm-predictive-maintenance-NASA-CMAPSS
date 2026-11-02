@@ -1,0 +1,81 @@
+{
+  "unit": 217,
+  "engine_shap": {
+    "unit": 217,
+    "true_RUL": 66.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.29175558541100965,
+        "direction": "increases_risk",
+        "signed_contribution": -0.02575510650766818
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.22916158509552312,
+        "direction": "increases_risk",
+        "signed_contribution": -0.006787394118709867
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.17303863061331876,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.11831543069069855
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.14393691911639614,
+        "direction": "increases_risk",
+        "signed_contribution": -0.02390685444800708
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.13677732236913742,
+        "direction": "increases_risk",
+        "signed_contribution": -0.11219612618553178
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.10443859313165267,
+      "sensor_3": 0.0768993256019271,
+      "sensor_4": 0.14393691911639614,
+      "sensor_6": 0.07541923924906171,
+      "sensor_7": 0.04174853888444048,
+      "sensor_8": 0.06122201137102601,
+      "sensor_9": 0.17303863061331876,
+      "sensor_10": 0.01921993885567302,
+      "sensor_11": 0.29175558541100965,
+      "sensor_12": 0.024533707331905,
+      "sensor_13": 0.08260778146247763,
+      "sensor_14": 0.13677732236913742,
+      "sensor_15": 0.22916158509552312,
+      "sensor_16": 0.0236652641336584,
+      "sensor_17": 0.07102136631239304,
+      "sensor_20": 0.06765357985951724,
+      "sensor_21": 0.05112826105553265,
+      "regime_0": 0.03926472554351675,
+      "regime_1": 0.055317218896252594,
+      "regime_2": 0.05907944086162843,
+      "regime_3": 0.050651749765382885,
+      "regime_4": 0.051215888505021206,
+      "regime_5": 0.02827097178947043
+    },
+    "non_sensor_share": 0.14494177140689762
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Confirmed",
+    "confidence": "high",
+    "reasoning": "The top driving sensor, sensor_11, is confirmed to be highly important in RUL prediction according to the knowledge base, with a typical pre-failure pattern of monotonic increase over the final ~30 cycles. The model's attribution aligns with this documented finding, as sensor_11 is the most influential sensor and its direction (increases_risk) matches the expected pattern of increasing values before failure. The second most important sensor, sensor_15, is not covered in the knowledge base, but the primary sensor's attribution is well-supported.",
+    "matched_sources": [
+      "Method for Remaining Useful Life Prediction of Turbofan Engines Combining Adam Optimization-Based Self-Attention Mechanism with Temporal Convolutional Networks"
+    ]
+  },
+  "hypothesis_result": null,
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "While the pipeline's synthesis aligns sensor_11's importance with literature, there is no evidence provided for SHAP stability. Without stability data, it's unclear if the top sensor attribution is robust or a background-sampling artifact. Additionally, the absence of information about the sequence window and sensor variance leaves open the possibility of alternative explanations, such as extrapolation outside the training distribution or low sensor variance.",
+    "alternative_explanation": "SHAP artifact due to background sampling noise, as stability evidence is absent.",
+    "confidence": "medium"
+  }
+}

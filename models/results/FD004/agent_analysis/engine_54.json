@@ -1,0 +1,91 @@
+{
+  "unit": 54,
+  "engine_shap": {
+    "unit": 54,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.20690172070495175,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.03659790577619198
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.16147612192856062,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.0028258853697856598
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.13489505642971372,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.0847935006455386
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.11349215822375161,
+        "direction": "increases_risk",
+        "signed_contribution": -0.07263192366202145
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.09027735561193657,
+        "direction": "increases_risk",
+        "signed_contribution": -0.012455856586905328
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.060034339862833734,
+      "sensor_3": 0.06379385433043004,
+      "sensor_4": 0.11349215822375161,
+      "sensor_6": 0.07229735007418192,
+      "sensor_7": 0.06759037903220892,
+      "sensor_8": 0.04951635189731565,
+      "sensor_9": 0.13489505642971372,
+      "sensor_10": 0.016462636507693626,
+      "sensor_11": 0.20690172070495175,
+      "sensor_12": 0.03565529191267814,
+      "sensor_13": 0.07507094515125291,
+      "sensor_14": 0.09027735561193657,
+      "sensor_15": 0.16147612192856062,
+      "sensor_16": 0.009983666513653126,
+      "sensor_17": 0.06678068668285603,
+      "sensor_20": 0.056849817307406604,
+      "sensor_21": 0.055235810545245234,
+      "regime_0": 0.09635747071466995,
+      "regime_1": 0.09084992099014925,
+      "regime_2": 0.10045479857983991,
+      "regime_3": 0.03379526680353592,
+      "regime_4": 0.06526284662921626,
+      "regime_5": 0.06174493212875404
+    },
+    "non_sensor_share": 0.25127216954433135
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Contradicted",
+    "confidence": "high",
+    "reasoning": "The top driving sensor, sensor_11 (Ps30), is documented to show a monotonic increase over the final ~30 cycles before failure, which should increase risk. However, the model's explanation indicates that sensor_11 'decreases_risk', directly contradicting the documented findings. This mismatch in direction is clear and unambiguous.",
+    "matched_sources": [
+      "Method for Remaining Useful Life Prediction of Turbofan Engines Combining Adam Optimization-Based Self-Attention Mechanism with Temporal Convolutional Networks"
+    ]
+  },
+  "hypothesis_result": {
+    "hypothesis": "The anomaly could be due to a delayed response or lag in the sensor readings from sensor_11 (Ps30) that is not accounted for in the model. Changes in engine operating conditions or external factors may have influenced the sensor's output, temporarily masking its typical risk profile as documented in literature.",
+    "physical_reasoning": "Engine physics dictates that certain parameters can exhibit short-term fluctuations, particularly in response to transient events during operation. Sensor lag or changes in operating regimes\u2014such as throttle position, bleed air management, or environmental conditions\u2014could lead to discrepancies between sensor readings and expected behavior based on historical data.",
+    "next_checks": [
+      "Verify the temporal alignment of sensor_11's readings with operational events to identify any lag or transient spikes.",
+      "Cross-check sensor_11 readings against those of a similar engine run under comparable conditions to assess consistency.",
+      "Analyze the historical data of sensor_11 for patterns or anomalies in the last 30 cycles leading to the RUL prediction to identify any transient anomalies.",
+      "Check the calibration and accuracy of sensor_11 to ensure it is functioning correctly, considering any known susceptibility to environmental changes."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's synthesis claims a contradiction based on sensor_11's direction, but without SHAP stability evidence, this could be a background-sampling artifact. The hypothesis suggests sensor lag, but this is speculative without further data. The model might also be extrapolating outside its training distribution if the engine's operating conditions are unusual.",
+    "alternative_explanation": "The attribution of sensor_11 as decreasing risk could be a SHAP artifact due to background sampling noise, as stability evidence is absent. Alternatively, the model may be extrapolating in an unfamiliar regime if this engine's data falls outside the training distribution.",
+    "confidence": "medium"
+  }
+}

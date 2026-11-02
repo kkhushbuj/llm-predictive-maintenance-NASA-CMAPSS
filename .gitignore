@@ -1,0 +1,27 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+node_modules/
+dist/
+build/
+*.pt
+*.pkl
+data/raw/CMAPSS.zip
+data/processed/*.parquet
+.DS_Store
+*.log
+
+# Run logs, caches and editor/OS files
+*.err
+.pytest_cache/
+.venv/
+.coverage
+htmlcov/
+*.egg-info/
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.claude/settings.local.json

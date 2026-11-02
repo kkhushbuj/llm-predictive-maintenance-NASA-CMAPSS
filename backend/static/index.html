@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TurbineSense — Predictive Maintenance</title>
+<meta name="description" content="LSTM-based Remaining Useful Life prediction for the NASA C-MAPSS turbofan fleet, explained with SHAP and cross-checked against literature by a multi-agent pipeline." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/css/style.css?v=15" />
+</head>
+<body>
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+
+  <a class="skip-link" href="#app">Skip to main content</a>
+
+  <header class="topbar">
+    <a href="#/" class="brand" aria-label="TurbineSense home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" opacity=".45"/><g class="blades"><circle cx="12" cy="12" r="2.2"/><path d="M12 9.8V3.5M13.9 13.1l5.4 3.1M10.1 13.1l-5.4 3.1"/></g></svg>
+      </span>
+      <span class="brand-text">Turbine<span class="accent">Sense</span></span>
+    </a>
+    <nav class="topbar-right" aria-label="Site controls">
+      <span class="status-pill" id="live-status" role="status"><span class="dot" aria-hidden="true"></span><span class="status-text">API online</span></span>
+      <button id="theme-toggle" class="icon-btn" aria-label="Switch to light theme" title="Toggle theme"></button>
+    </nav>
+  </header>
+
+  <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+
+  <main id="app" class="app" tabindex="-1" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <span>TurbineSense</span>
+    <span>NASA C-MAPSS turbofan data · LSTM prediction · SHAP explanations · multi-agent literature review</span>
+  </footer>
+
+  <div id="toast-root" class="toast-root" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/motion@14.6.0/dist/motion.js"></script>
+  <script src="/js/fx.js?v=15"></script>
+  <script src="/js/api.js?v=15"></script>
+  <script src="/js/charts.js?v=15"></script>
+  <script src="/js/dashboard.js?v=15"></script>
+  <script src="/js/engine.js?v=16"></script>
+  <script src="/js/app.js?v=15"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+torch>=2.2
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+shap>=0.45
+matplotlib>=3.8
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-dotenv>=1.0
+pydantic>=2.6
+langgraph>=0.1
+langchain-core>=0.2
+openai>=1.30
+cohere>=5.5
+anthropic>=0.28
+requests>=2.31
+tenacity>=8.2
+pyarrow
+
+# test
+pytest>=8.0
+httpx>=0.27

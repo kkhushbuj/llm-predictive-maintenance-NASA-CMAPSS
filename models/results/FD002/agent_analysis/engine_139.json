@@ -1,0 +1,90 @@
+{
+  "unit": 139,
+  "engine_shap": {
+    "unit": 139,
+    "true_RUL": 51.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_9",
+        "importance": 0.16817792947972865,
+        "direction": "increases_risk",
+        "signed_contribution": -0.10237070736226994
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.15695297745083608,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.0599055038770343
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.1074744238177071,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.053267040769164144
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.10717131046499231,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.01292177262551241
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.09076839469218004,
+        "direction": "increases_risk",
+        "signed_contribution": -0.04682253402116829
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.06809053523862979,
+      "sensor_3": 0.03608953401791023,
+      "sensor_4": 0.10717131046499231,
+      "sensor_6": 0.07715716768106519,
+      "sensor_7": 0.06963540956828013,
+      "sensor_8": 0.09076839469218004,
+      "sensor_9": 0.16817792947972865,
+      "sensor_10": 0.008887528035972921,
+      "sensor_11": 0.15695297745083608,
+      "sensor_12": 0.05155335909244931,
+      "sensor_13": 0.055037045850807965,
+      "sensor_14": 0.026781094412105428,
+      "sensor_15": 0.1074744238177071,
+      "sensor_16": 0.023661030378901562,
+      "sensor_17": 0.0754429941404933,
+      "sensor_20": 0.023577942786254857,
+      "sensor_21": 0.047343138432454974,
+      "regime_0": 0.039419630404081536,
+      "regime_1": 0.014905912478054688,
+      "regime_2": 0.019499912205474167,
+      "regime_3": 0.005755471715910403,
+      "regime_4": 0.013843746661059414,
+      "regime_5": 0.03391427827607685
+    },
+    "non_sensor_share": 0.09638560469425855
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_9, sensor_11, sensor_15, sensor_4, and sensor_8. The knowledge base only provides findings for sensor_10, sensor_15, and sensor_16, none of which are among the top driving sensors. Therefore, there is no documented information to confirm or contradict the model's explanation for these sensors.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model's reliance on sensor_9 and sensor_11, which have significantly high importance but lack documented findings, suggests that these sensors may be detecting a novel failure mode related to thermal stresses or mechanical wear not previously identified in the literature. Given their unique contributions to the model's prediction, it is plausible that these sensors are responding to underlying physical phenomena that traditional diagnostics have not captured.",
+    "physical_reasoning": "Sensor_9 could be measuring turbine temperature or pressure fluctuations that occur due to material fatigue, while sensor_11 might relate to vibrations indicative of misalignment or wear in the rotor. Both sensors' indicated behaviors suggest they are involved in critical operational changes that affect the engine's health before conventional failure manifests.",
+    "next_checks": [
+      "Cross-check sensor_9 and sensor_11 readings against historical data from similar engines under matched operational conditions.",
+      "Perform a detailed analysis of the data patterns leading up to the current RUL prediction to identify any anomalies.",
+      "Investigate physical conditions that could explain changes in readings, such as recent maintenance records or environmental factors.",
+      "Increase sampling frequency on sensor_9 and sensor_11 to gather more data during critical phases of engine operation.",
+      "Review failure reports from engines with similar sensor configurations for any undocumented trends related to sensor readings."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": true,
+    "critique": "The SHAP attributions are stable across reruns, with sensor_9 consistently identified as the top sensor. The pipeline's conclusion that this pattern is novel and potentially indicative of a new failure mode is reasonable, given the lack of documented findings for the top sensors in the knowledge base. However, it's important to verify that these sensors are not simply extrapolating outside their training distribution or capturing noise in low-variance signals.",
+    "alternative_explanation": null,
+    "confidence": "high"
+  }
+}

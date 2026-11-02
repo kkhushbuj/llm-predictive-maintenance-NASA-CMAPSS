@@ -1,0 +1,90 @@
+{
+  "unit": 73,
+  "engine_shap": {
+    "unit": 73,
+    "true_RUL": 78.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.3232883059150377,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.0009046985315477735
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.23815097339750033,
+        "direction": "increases_risk",
+        "signed_contribution": -0.07695895473789478
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 0.16342499091630136,
+        "direction": "increases_risk",
+        "signed_contribution": -0.012046191197294434
+      },
+      {
+        "sensor": "sensor_17",
+        "importance": 0.14973011773488784,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.03982927923225751
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.14445691292906176,
+        "direction": "increases_risk",
+        "signed_contribution": -0.028953703685627014
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.16342499091630136,
+      "sensor_3": 0.07308378698196831,
+      "sensor_4": 0.14445691292906176,
+      "sensor_6": 0.05661789274697765,
+      "sensor_7": 0.11181102954972251,
+      "sensor_8": 0.038521831151410744,
+      "sensor_9": 0.08412834037595153,
+      "sensor_10": 0.07032372152467103,
+      "sensor_11": 0.3232883059150377,
+      "sensor_12": 0.10916106079160898,
+      "sensor_13": 0.04056580339771787,
+      "sensor_14": 0.0309185952149465,
+      "sensor_15": 0.23815097339750033,
+      "sensor_16": 0.03923125185533668,
+      "sensor_17": 0.14973011773488784,
+      "sensor_20": 0.04921894491680116,
+      "sensor_21": 0.127584834757709,
+      "regime_0": 0.03344389784843997,
+      "regime_1": 0.04368329174095379,
+      "regime_2": 0.03173047572532596,
+      "regime_3": 0.04378550178024398,
+      "regime_4": 0.016855058548317176,
+      "regime_5": 0.048296162697611195
+    },
+    "non_sensor_share": 0.1053157844013712
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The knowledge base does not contain any findings related to sensor_11, sensor_2, sensor_17, or sensor_4, which are the top driving sensors in the model's explanation. Therefore, the explanation cannot be confirmed or contradicted based on the available information.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The contributions from sensor_11 and sensor_17 may suggest that new wear mechanisms or failure modes specific to this engine have not been documented in the literature. The unique usage profile of this engine might have led to atypical stress distributions that these sensors can capture, which previous research has overlooked.",
+    "physical_reasoning": "Sensor_11 could be monitoring parameters that reflect unique thermal or mechanical stresses aligned with specific operational regimes, while sensor_17's contributions might relate to component interactions that are underreported. These factors could explain discrepancies in remaining useful life predictions by indicating that the engine experiences conditions not present in the other documented cases.",
+    "next_checks": [
+      "Cross-check sensor_11 and sensor_17 data against historical trends for similar engines to identify anomalies.",
+      "Examine operational logs to see if this engine has a distinct usage pattern impacting sensor readings.",
+      "Compare failure rates and causes for similar engines, focusing on those that utilize sensor_11 and sensor_17.",
+      "Conduct detailed data-quality and calibration checks on sensor_11, sensor_15, and sensor_17 to validate their readings.",
+      "Investigate if known failure modes related to sensor_4 in other engines provide insights into the current case."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis relies on the novelty of sensor_11 and sensor_17's contributions, but without SHAP stability evidence, it's unclear if these attributions are robust or artifacts of background sampling. The absence of literature matches doesn't necessarily imply a novel failure mode; it could also mean the model is extrapolating outside its training distribution or reacting to sensor noise. The critique is weakened by the lack of stability data, but the alternative explanations remain plausible.",
+    "alternative_explanation": "The model might be extrapolating outside its training distribution, reacting to sensor noise, or the SHAP attributions could be unstable due to background sampling variability.",
+    "confidence": "medium"
+  }
+}

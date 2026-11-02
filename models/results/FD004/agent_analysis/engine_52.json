@@ -1,0 +1,92 @@
+{
+  "unit": 52,
+  "engine_shap": {
+    "unit": 52,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.2128681765660252,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.021127408830643596
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.20578935953198763,
+        "direction": "increases_risk",
+        "signed_contribution": -0.024682713135414883
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.1886485821962414,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.0913239761535695
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.17468753940039888,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.07252814035042911
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.17080436470520818,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.04532851372602046
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.05341882038012157,
+      "sensor_3": 0.06058459678023193,
+      "sensor_4": 0.08076859559812102,
+      "sensor_6": 0.08060873169876262,
+      "sensor_7": 0.04998766589739119,
+      "sensor_8": 0.17468753940039888,
+      "sensor_9": 0.1886485821962414,
+      "sensor_10": 0.02670320390025875,
+      "sensor_11": 0.2128681765660252,
+      "sensor_12": 0.1362692764441011,
+      "sensor_13": 0.17080436470520818,
+      "sensor_14": 0.20578935953198763,
+      "sensor_15": 0.09463545357223362,
+      "sensor_16": 0.015745546942479562,
+      "sensor_17": 0.07958994433247783,
+      "sensor_20": 0.02105590829876653,
+      "sensor_21": 0.017745284384514056,
+      "regime_0": 0.014932770047753367,
+      "regime_1": 0.01389451154416747,
+      "regime_2": 0.017414217667426325,
+      "regime_3": 0.007469811395451416,
+      "regime_4": 0.01557616728192215,
+      "regime_5": 0.014477039453995531
+    },
+    "non_sensor_share": 0.0477651162610935
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Contradicted",
+    "confidence": "high",
+    "reasoning": "The top driving sensor, sensor_11, is documented to show a monotonic increase over the final ~30 cycles before failure, which aligns with its high importance. However, the model's explanation indicates that sensor_11 'decreases_risk', which contradicts the expected pattern of increasing risk as the sensor value increases. Additionally, sensor_8 is documented to be stable with minor fluctuations, but the model shows it 'decreases_risk', which is not directly contradicted but lacks confirmation. The primary contradiction is with sensor_11's direction.",
+    "matched_sources": [
+      "Method for Remaining Useful Life Prediction of Turbofan Engines Combining Adam Optimization-Based Self-Attention Mechanism with Temporal Convolutional Networks"
+    ]
+  },
+  "hypothesis_result": {
+    "hypothesis": "Sensor_11 may be exhibiting anomalous behavior due to an external influence on the measurement, leading to an unexpected decrease in risk despite increasing values. This phenomenon could occur if sensor_11 is affected by incorrect calibration, or if it is indirectly measuring an underlying system effect that doesn't directly correlate with risk but manifests in its readings.",
+    "physical_reasoning": "Given that sensor_11 is critical for assessing engine health, its unexpected behavior could indicate sensor drift or external disturbances rather than true health state deterioration. Turbofan engines operate under complex thermal and mechanical influences, where sensor data could be influenced by transient conditions or non-standard operating regimes, thereby misleading the risk assessment.",
+    "next_checks": [
+      "Cross-check sensor_11 readings against historical data from the same engine to identify patterns or anomalies.",
+      "Compare sensor_11 data with readings from similar engines to see if the behavior is consistent or unique.",
+      "Perform a calibration check on sensor_11 to ensure it is functioning correctly.",
+      "Review maintenance logs to identify any recent repairs or changes in operating conditions that might affect sensor readings.",
+      "Analyze the data from surrounding sensors to look for correlations that might explain the behavior of sensor_11."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's synthesis and hypothesis focus on the contradiction between sensor_11's documented behavior and the model's attribution, suggesting external influences or sensor anomalies. However, without SHAP stability evidence, it's unclear if the top sensor attribution is robust or a background-sampling artifact. The critique of sensor_8's stability is also weak without further data. The hypothesis about sensor_11's anomalous behavior is plausible but speculative without additional validation.",
+    "alternative_explanation": "The model's attribution of sensor_11 as 'decreases_risk' could be a SHAP artifact due to background sampling noise, as stability evidence is absent. Alternatively, the model might be extrapolating outside its training distribution if sensor_11's behavior in this engine deviates significantly from training data patterns.",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "unit": 151,
+  "engine_shap": {
+    "unit": 151,
+    "true_RUL": 31.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_12",
+        "importance": 0.3010021642690189,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.12648304161643104
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.28430406426630334,
+        "direction": "increases_risk",
+        "signed_contribution": -0.18426453086946
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.27181417467308777,
+        "direction": "increases_risk",
+        "signed_contribution": -0.012757609962410701
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.2713370977933649,
+        "direction": "increases_risk",
+        "signed_contribution": -0.1059328586327428
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.24522306150338996,
+        "direction": "increases_risk",
+        "signed_contribution": -0.15291460547588212
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.026326131011567565,
+      "sensor_3": 0.0824110552018988,
+      "sensor_4": 0.07003456093256442,
+      "sensor_6": 0.09977840712085276,
+      "sensor_7": 0.18237402162695668,
+      "sensor_8": 0.28430406426630334,
+      "sensor_9": 0.24522306150338996,
+      "sensor_10": 0.06994436163735619,
+      "sensor_11": 0.157556941751352,
+      "sensor_12": 0.3010021642690189,
+      "sensor_13": 0.2713370977933649,
+      "sensor_14": 0.27181417467308777,
+      "sensor_15": 0.15582015119498469,
+      "sensor_16": 0.005436665006030321,
+      "sensor_17": 0.04653266797439058,
+      "sensor_20": 0.037198368892380845,
+      "sensor_21": 0.04287474544706475,
+      "regime_0": 0.022905285783213006,
+      "regime_1": 0.014078284613842699,
+      "regime_2": 0.021839746284495046,
+      "regime_3": 0.0049414888425235405,
+      "regime_4": 0.02520484851363108,
+      "regime_5": 0.03293781998290342
+    },
+    "non_sensor_share": 0.049317792794801286
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_12, sensor_8, sensor_14, sensor_13, and sensor_9. The knowledge base does not provide any findings related to sensor_12, sensor_14, sensor_13, or sensor_9. While sensor_8 is mentioned, its reported importance is low and its typical pre-failure pattern does not match the model's direction of 'increases_risk'. Therefore, the model's explanation cannot be confirmed or contradicted based on the available knowledge base.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The high importance of sensor_12 may indicate a unique failure mode related to combustion dynamics or thermal management that has not been fully documented in the existing literature. The contradicting results for sensor_8 suggest unusual behavior, potentially indicating a divergence from typical operations or sensor calibration issues.",
+    "physical_reasoning": "Sensor_12 could be monitoring variables like exhaust gas temperature or pressure that are pivotal in assessing the engine's operational efficiency and health. Given its high importance, any anomalies detected here could signify emerging issues impacting remaining useful life (RUL). In contrast, sensor_8 could be experiencing data drift or calibration errors if its importance increases risk, contrary to known behavior patterns.",
+    "next_checks": [
+      "Cross-check sensor_12 data with historical RUL data and compare with other engines of the same type to validate any emerging patterns.",
+      "Verify the calibration status and recent maintenance records of sensor_8 for unusual calibration issues or data anomalies.",
+      "Analyze the trend data for both sensors over time to see if there are any noticeable shifts in readings correlating with RUL degradation.",
+      "Conduct comparative analysis with similar engines to ascertain sensor_12's performance and the normal operating range for the detected parameters.",
+      "Review the operational environment (e.g., RPM, load, temperature) during the sensor readings to correlate any outliers with specific operational conditions."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis relies on the novelty of sensor_12's importance, but without SHAP stability evidence, this could be a background-sampling artifact. The absence of 'shap_stability' data means we cannot confirm if the top sensor attribution is consistent across different background samples. Additionally, the model's focus on sensor_8, despite its known low importance, might indicate overfitting or extrapolation outside its training distribution rather than a calibration issue.",
+    "alternative_explanation": "The observed importance of sensor_12 could be a SHAP artifact due to background sampling noise, as stability evidence is absent. Alternatively, the model might be extrapolating outside its training distribution, leading to unexpected sensor importance rankings.",
+    "confidence": "medium"
+  }
+}

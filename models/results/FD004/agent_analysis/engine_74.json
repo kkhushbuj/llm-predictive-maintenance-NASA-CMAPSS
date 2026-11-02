@@ -1,0 +1,89 @@
+{
+  "unit": 74,
+  "engine_shap": {
+    "unit": 74,
+    "true_RUL": 89.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_6",
+        "importance": 0.6918610435261651,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.04992684957051987
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.37875470864428795,
+        "direction": "increases_risk",
+        "signed_contribution": -0.1610003139524137
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.3186756543350044,
+        "direction": "increases_risk",
+        "signed_contribution": -0.11330805851578403
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.3029261146811571,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.0443344677123665
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.26509015531146324,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.019117467488644048
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.06790053774394159,
+      "sensor_3": 0.07606849006540861,
+      "sensor_4": 0.15521104821779755,
+      "sensor_6": 0.6918610435261651,
+      "sensor_7": 0.13671371696476434,
+      "sensor_8": 0.3029261146811571,
+      "sensor_9": 0.26509015531146324,
+      "sensor_10": 0.10348902835557139,
+      "sensor_11": 0.3186756543350044,
+      "sensor_12": 0.2505879383696369,
+      "sensor_13": 0.2307005312284847,
+      "sensor_14": 0.37875470864428795,
+      "sensor_15": 0.06603402522810106,
+      "sensor_16": 0.022434929145987048,
+      "sensor_17": 0.11288079797976962,
+      "sensor_20": 0.04579496422140245,
+      "sensor_21": 0.060762994518010094,
+      "regime_0": 0.07164733548750063,
+      "regime_1": 0.048664495303610236,
+      "regime_2": 0.04574238469065222,
+      "regime_3": 0.02769672344837431,
+      "regime_4": 0.0450982795539312,
+      "regime_5": 0.0425886001199524
+    },
+    "non_sensor_share": 0.0788932486600473
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensor in the model's explanation is sensor_6, but the knowledge base does not contain any documented findings related to sensor_6. Therefore, the model's explanation cannot be confirmed or contradicted based on the available information.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model's reliance on sensor_6 suggests it is measuring an atypical failure mode or degradation mechanism not well understood in existing literature. This may indicate a specific operational condition or environmental factor affecting performance that hasn't been documented previously.",
+    "physical_reasoning": "Sensor_6 might be monitoring a parameter related to the thermal or mechanical behavior of a turbine component that typically isn\u2019t highlighted in standard predictive maintenance literature. This could relate to new materials or design changes leading to different behavior under stress.",
+    "next_checks": [
+      "Comparatively analyze historical data from other engines using sensor_6 to look for similar patterns or anomalies.",
+      "Cross-check readings from sensor_6 against similar sensors in different engines to assess consistency and reliability.",
+      "Investigate maintenance history and operational profiles for this engine to see if any unique conditions were present during its lifespan.",
+      "Study failure modes associated with turbofan engines and correlate with sensor_6 data to identify any emerging trends."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis assumes sensor_6's high importance indicates a novel failure mode, but without SHAP stability evidence, this could be a background-sampling artifact. The model might also be extrapolating outside its training distribution if sensor_6 has low variance or high noise for this engine. These simpler explanations should be ruled out before concluding novelty.",
+    "alternative_explanation": "SHAP artifact due to background sampling noise or sensor_6 having low variance/high noise in this engine's data.",
+    "confidence": "medium"
+  }
+}

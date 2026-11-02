@@ -1,0 +1,90 @@
+{
+  "unit": 129,
+  "engine_shap": {
+    "unit": 129,
+    "true_RUL": 120.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_6",
+        "importance": 0.5559977446534274,
+        "direction": "increases_risk",
+        "signed_contribution": -0.08064458248190538
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.19069382642180557,
+        "direction": "increases_risk",
+        "signed_contribution": -0.03304517969361511
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.179683566758794,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.039654082406655036
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.15214009076644724,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.07496074615634978
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.14844193829964877,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.04943448987561349
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.10033662898698119,
+      "sensor_3": 0.06602872588956187,
+      "sensor_4": 0.1339885739217641,
+      "sensor_6": 0.5559977446534274,
+      "sensor_7": 0.05702613596797989,
+      "sensor_8": 0.15214009076644724,
+      "sensor_9": 0.12309537495308102,
+      "sensor_10": 0.028580123709692994,
+      "sensor_11": 0.179683566758794,
+      "sensor_12": 0.06832021121535914,
+      "sensor_13": 0.14844193829964877,
+      "sensor_14": 0.19069382642180557,
+      "sensor_15": 0.07280698431602012,
+      "sensor_16": 0.022590332675291598,
+      "sensor_17": 0.11416803566063122,
+      "sensor_20": 0.04061433780810164,
+      "sensor_21": 0.04532705425432163,
+      "regime_0": 0.08915925638144927,
+      "regime_1": 0.021016439916948,
+      "regime_2": 0.056867971031297204,
+      "regime_3": 0.024889882836960166,
+      "regime_4": 0.03571744068458429,
+      "regime_5": 0.08079114540729278
+    },
+    "non_sensor_share": 0.1280755987005328
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensor in the model's explanation is sensor_6, but the knowledge base contains no findings related to this sensor. The other top sensors (sensor_14, sensor_11, sensor_8, and sensor_13) are either not mentioned or have findings that do not match the model's direction or importance. Therefore, the model's explanation cannot be confirmed or contradicted based on the available knowledge base.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "Sensor_6 may be measuring an aspect of engine performance that is not yet fully understood or documented in existing literature, possibly related to material fatigue or thermal dynamics close to the engine core. This could imply that its role in predicting remaining useful life is based on new failure modes observed in this engine model that haven't been analyzed previously.",
+    "physical_reasoning": "Given that turbofan engines experience complex interactions of temperature and pressure that affect material properties and overall performance, sensor_6 could be providing insights into changes in these parameters that aren't captured by older sensors. If sensor_6 is particularly sensitive to deviations from expected thermal profiles or stress levels, it could lead to predictions about life expectancy that diverge from established norms.",
+    "next_checks": [
+      "Perform a calibration check on sensor_6 to ensure it is functioning correctly and has not drifted from expected values.",
+      "Cross-reference data collected from sensor_6 with operational parameters such as temperatures and pressures near turbine sections to identify abnormal trends.",
+      "Compare operational data from other engines of the same model to analyze whether similar patterns are observed with sensor_6.",
+      "Investigate maintenance records to see if any anomalies or repairs have been associated with high readings from sensor_6.",
+      "Conduct a comparative analysis of sensor_6's data with predictive failure models from similar engines in databases to validate its predictive accuracy."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis assumes sensor_6's high importance indicates a novel failure mode, but without SHAP stability evidence, this could be a background-sampling artifact. The model might also be extrapolating outside its training distribution if sensor_6's behavior in this engine differs significantly from training data. Alternatively, sensor_6 could have near-zero variance in the training set, making its importance here spurious.",
+    "alternative_explanation": "The high importance of sensor_6 might be a SHAP artifact due to background sampling noise, or the model could be extrapolating outside its training distribution if sensor_6's behavior is atypical for this engine.",
+    "confidence": "medium"
+  }
+}

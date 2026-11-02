@@ -1,0 +1,219 @@
+{
+  "sensor_findings": [
+    {
+      "sensor": "sensor_11",
+      "physical_meaning": "static pressure at HPC outlet (Ps30)",
+      "reported_importance": "high",
+      "typical_pre_failure_pattern": "monotonic increase over final ~30 cycles",
+      "sources": [
+        {
+          "title": "Method for Remaining Useful Life Prediction of Turbofan Engines Combining Adam Optimization-Based Self-Attention Mechanism with Temporal Convolutional Networks",
+          "authors": [
+            "Yuan He",
+            "Yuan He",
+            "Yuan He",
+            "Yuan He",
+            "Yuan He"
+          ],
+          "year": 2022,
+          "venue": "MDPI",
+          "url": "https://www.mdpi.com/2076-3417/14/17/7723"
+        }
+      ]
+    },
+    {
+      "sensor": "sensor_7",
+      "physical_meaning": "total pressure at HPC outlet (P30)",
+      "reported_importance": "medium",
+      "typical_pre_failure_pattern": "gradual decrease over final ~50 cycles",
+      "sources": [
+        {
+          "title": "Performance Analysis of Long Short-term Memory (LSTM) Model for Remaining Useful Life Prediction on Turbofan Engine",
+          "authors": [
+            "Themy Sabri Syuhada",
+            "Themy Sabri Syuhada",
+            "Themy Sabri Syuhada",
+            "Themy Sabri Syuhada",
+            "Themy Sabri Syuhada"
+          ],
+          "year": 2025,
+          "venue": "Journal of Electronics Technology Exploration",
+          "url": "https://scispace.com/papers/performance-analysis-of-long-short-term-memory-lstm-model-ilp8vl7lob7y"
+        }
+      ]
+    },
+    {
+      "sensor": "sensor_8",
+      "physical_meaning": "physical fan speed (Nf)",
+      "reported_importance": "low",
+      "typical_pre_failure_pattern": "stable with minor fluctuations",
+      "sources": [
+        {
+          "title": "Performance Analysis of Long Short-term Memory (LSTM) Model for Remaining Useful Life Prediction on Turbofan Engine",
+          "authors": [
+            "Themy Sabri Syuhada",
+            "Themy Sabri Syuhada",
+            "Themy Sabri Syuhada",
+            "Themy Sabri Syuhada",
+            "Themy Sabri Syuhada"
+          ],
+          "year": 2025,
+          "venue": "Journal of Electronics Technology Exploration",
+          "url": "https://scispace.com/papers/performance-analysis-of-long-short-term-memory-lstm-model-ilp8vl7lob7y"
+        }
+      ]
+    }
+  ],
+  "general_degradation_patterns": [
+    {
+      "pattern": "Monotonic increase in sensor_11 (Ps30) over the final ~30 cycles before failure",
+      "sources": [
+        {
+          "title": "Method for Remaining Useful Life Prediction of Turbofan Engines Combining Adam Optimization-Based Self-Attention Mechanism with Temporal Convolutional Networks",
+          "year": 2022,
+          "url": "https://www.mdpi.com/2076-3417/14/17/7723"
+        }
+      ]
+    },
+    {
+      "pattern": "Gradual decrease in sensor_7 (P30) over the final ~50 cycles before failure",
+      "sources": [
+        {
+          "title": "Performance Analysis of Long Short-term Memory (LSTM) Model for Remaining Useful Life Prediction on Turbofan Engine",
+          "year": 2025,
+          "url": "https://scispace.com/papers/performance-analysis-of-long-short-term-memory-lstm-model-ilp8vl7lob7y"
+        }
+      ]
+    }
+  ],
+  "benchmark_results": [
+    {
+      "method": "Cox-PH",
+      "dataset": "FD004",
+      "rmse": 24.58,
+      "score": 1169113,
+      "source": {
+        "title": "RUL Prediction on C-MAPSS FD004 (RMSE, Score, MAPE) benchmark leaderboard",
+        "authors": [
+          "SOTA2 Research"
+        ],
+        "year": 2025,
+        "url": "https://www.sota2.com/research/sota/rul-prediction-on-c-mapss-fd004-rmse-score-mape"
+      }
+    },
+    {
+      "method": "BACE-RUL",
+      "dataset": "FD004",
+      "rmse": 26.41,
+      "score": 710811,
+      "source": {
+        "title": "RUL Prediction on C-MAPSS FD004 (RMSE, Score, MAPE) benchmark leaderboard",
+        "authors": [
+          "SOTA2 Research"
+        ],
+        "year": 2025,
+        "url": "https://www.sota2.com/research/sota/rul-prediction-on-c-mapss-fd004-rmse-score-mape"
+      }
+    },
+    {
+      "method": "SVM",
+      "dataset": "FD004",
+      "rmse": 28.76,
+      "score": 894535,
+      "source": {
+        "title": "RUL Prediction on C-MAPSS FD004 (RMSE, Score, MAPE) benchmark leaderboard",
+        "authors": [
+          "SOTA2 Research"
+        ],
+        "year": 2025,
+        "url": "https://www.sota2.com/research/sota/rul-prediction-on-c-mapss-fd004-rmse-score-mape"
+      }
+    },
+    {
+      "method": "LSTM",
+      "dataset": "FD004",
+      "rmse": 28.83,
+      "score": 710122,
+      "source": {
+        "title": "RUL Prediction on C-MAPSS FD004 (RMSE, Score, MAPE) benchmark leaderboard",
+        "authors": [
+          "SOTA2 Research"
+        ],
+        "year": 2025,
+        "url": "https://www.sota2.com/research/sota/rul-prediction-on-c-mapss-fd004-rmse-score-mape"
+      }
+    },
+    {
+      "method": "DATE",
+      "dataset": "FD004",
+      "rmse": 32.18,
+      "score": 709521,
+      "source": {
+        "title": "RUL Prediction on C-MAPSS FD004 (RMSE, Score, MAPE) benchmark leaderboard",
+        "authors": [
+          "SOTA2 Research"
+        ],
+        "year": 2025,
+        "url": "https://www.sota2.com/research/sota/rul-prediction-on-c-mapss-fd004-rmse-score-mape"
+      }
+    },
+    {
+      "method": "BRR",
+      "dataset": "FD004",
+      "rmse": 38.08,
+      "score": 2089361,
+      "source": {
+        "title": "RUL Prediction on C-MAPSS FD004 (RMSE, Score, MAPE) benchmark leaderboard",
+        "authors": [
+          "SOTA2 Research"
+        ],
+        "year": 2025,
+        "url": "https://www.sota2.com/research/sota/rul-prediction-on-c-mapss-fd004-rmse-score-mape"
+      }
+    },
+    {
+      "method": "RGPD",
+      "dataset": "FD004",
+      "rmse": 12.38,
+      "score": 787.39,
+      "source": {
+        "title": "RUL Estimation on C-MAPSS FD004 1.0 (RMSE, Score) benchmark leaderboard",
+        "authors": [
+          "SOTA2 Research"
+        ],
+        "year": 2025,
+        "url": "https://www.sota2.com/research/sota/rul-estimation-on-c-mapss-fd004-1-0-rmse-score"
+      }
+    },
+    {
+      "method": "PSTFormer",
+      "dataset": "FD004",
+      "rmse": 14.38,
+      "score": 1182,
+      "source": {
+        "title": "RUL Estimation on C-MAPSS FD004 1.0 (RMSE, Score) benchmark leaderboard",
+        "authors": [
+          "SOTA2 Research"
+        ],
+        "year": 2025,
+        "url": "https://www.sota2.com/research/sota/rul-estimation-on-c-mapss-fd004-1-0-rmse-score"
+      }
+    },
+    {
+      "method": "PVA-FFG-Transformer",
+      "dataset": "FD004",
+      "rmse": 15.16,
+      "score": 1049.53,
+      "source": {
+        "title": "RUL Estimation on C-MAPSS FD004 1.0 (RMSE, Score) benchmark leaderboard",
+        "authors": [
+          "SOTA2 Research"
+        ],
+        "year": 2025,
+        "url": "https://www.sota2.com/research/sota/rul-estimation-on-c-mapss-fd004-1-0-rmse-score"
+      }
+    }
+  ],
+  "benchmark_rows_dropped_wrong_subset": 0,
+  "sensor_findings_dropped_constant_in_regime": []
+}

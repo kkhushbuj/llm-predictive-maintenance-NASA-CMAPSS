@@ -1,0 +1,90 @@
+{
+  "unit": 142,
+  "engine_shap": {
+    "unit": 142,
+    "true_RUL": 108.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_14",
+        "importance": 0.20372406354913644,
+        "direction": "increases_risk",
+        "signed_contribution": -0.014590088670804238
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.19788155934489882,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.09356585454599771
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.19242337841329066,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.07912420079031608
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.187680110177531,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.0420829241140966
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.16346535616289598,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.03439613068441801
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.048169711660224275,
+      "sensor_3": 0.045481081756106205,
+      "sensor_4": 0.10379147264842797,
+      "sensor_6": 0.08355908613341181,
+      "sensor_7": 0.08359862961846057,
+      "sensor_8": 0.19788155934489882,
+      "sensor_9": 0.19242337841329066,
+      "sensor_10": 0.028080637472677035,
+      "sensor_11": 0.16346535616289598,
+      "sensor_12": 0.09910530376596009,
+      "sensor_13": 0.187680110177531,
+      "sensor_14": 0.20372406354913644,
+      "sensor_15": 0.10173702990319397,
+      "sensor_16": 0.01025646668352929,
+      "sensor_17": 0.04359255124923381,
+      "sensor_20": 0.01047993841566468,
+      "sensor_21": 0.014927269642906534,
+      "regime_0": 0.04209101927033089,
+      "regime_1": 0.02618486467576986,
+      "regime_2": 0.027020000271072604,
+      "regime_3": 0.010562891431475237,
+      "regime_4": 0.021477190611644794,
+      "regime_5": 0.03906471902630074
+    },
+    "non_sensor_share": 0.0932554046655563
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_14, sensor_8, sensor_9, sensor_13, and sensor_11. The knowledge base only provides findings for sensor_8, sensor_11, and sensor_7, but none of these match the top driving sensor (sensor_14). Additionally, the knowledge base does not provide information on the direction of sensor_11's influence, only its typical pre-failure pattern. Therefore, the model's explanation cannot be confirmed or contradicted based on the available knowledge base.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The remaining useful life prediction for this engine is influenced primarily by sensor_14, which measures blade cooling flow, a parameter not extensively discussed in the literature. While other sensors have established impacts, sensor_14's significance and direction suggest that abnormal cooling flow dynamics can lead to unexpected degradation pathways not captured in previous studies.",
+    "physical_reasoning": "Considering the thermodynamic principles of turbofan engines, the cooling flow can significantly affect blade temperatures and material properties. Abnormal readings from sensor_14 may indicate excessive thermal stress or inadequate cooling, both of which are critical factors that can influence an engine's remaining useful life.",
+    "next_checks": [
+      "Cross-check sensor_14 values against historical data from other engines under similar operational conditions.",
+      "Perform a correlation analysis between sensor_14 readings and other relevant thermal sensors to assess systemic behavior.",
+      "Investigate maintenance records and previous failure analyses specifically for changes in blade cooling dynamics to see if there is a documented link.",
+      "Conduct a physical inspection of the cooling system and blade assembly to identify any mechanical anomalies that might explain the sensor readings.",
+      "Review recent changes in operational profiles, such as flight patterns or load conditions, that could affect cooling flow."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis relies heavily on sensor_14's top attribution, but without SHAP stability evidence, this could be a background-sampling artifact. The absence of literature support for sensor_14's role doesn't necessarily indicate a novel failure mode\u2014it might simply reflect the model extrapolating from limited training data or noise in this sensor's signal. The physical reasoning about cooling flow is plausible but speculative without confirming the attribution's robustness.",
+    "alternative_explanation": "The model may be overfitting to noise or out-of-distribution patterns in sensor_14, especially if this sensor has low variance or high noise in the training data for this engine type.",
+    "confidence": "medium"
+  }
+}

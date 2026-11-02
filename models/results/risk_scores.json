@@ -1,0 +1,902 @@
+[
+  {
+    "unit": 34,
+    "true_RUL": 7.0,
+    "predicted_RUL": 6.3536376953125,
+    "error": -0.6463623046875,
+    "risk_score": 94.87,
+    "risk_rank": 1,
+    "deep_analysis": true
+  },
+  {
+    "unit": 76,
+    "true_RUL": 10.0,
+    "predicted_RUL": 9.667210578918457,
+    "error": -0.33278942108154297,
+    "risk_score": 92.2,
+    "risk_rank": 2,
+    "deep_analysis": true
+  },
+  {
+    "unit": 68,
+    "true_RUL": 8.0,
+    "predicted_RUL": 9.711993217468262,
+    "error": 1.7119932174682617,
+    "risk_score": 92.16,
+    "risk_rank": 3,
+    "deep_analysis": true
+  },
+  {
+    "unit": 82,
+    "true_RUL": 9.0,
+    "predicted_RUL": 9.740004539489746,
+    "error": 0.7400045394897461,
+    "risk_score": 92.14,
+    "risk_rank": 4,
+    "deep_analysis": true
+  },
+  {
+    "unit": 81,
+    "true_RUL": 8.0,
+    "predicted_RUL": 10.672561645507812,
+    "error": 2.6725616455078125,
+    "risk_score": 91.39,
+    "risk_rank": 5,
+    "deep_analysis": true
+  },
+  {
+    "unit": 42,
+    "true_RUL": 10.0,
+    "predicted_RUL": 10.870074272155762,
+    "error": 0.8700742721557617,
+    "risk_score": 91.23,
+    "risk_rank": 6,
+    "deep_analysis": true
+  },
+  {
+    "unit": 35,
+    "true_RUL": 11.0,
+    "predicted_RUL": 11.644862174987793,
+    "error": 0.644862174987793,
+    "risk_score": 90.6,
+    "risk_rank": 7,
+    "deep_analysis": true
+  },
+  {
+    "unit": 31,
+    "true_RUL": 8.0,
+    "predicted_RUL": 11.976300239562988,
+    "error": 3.9763002395629883,
+    "risk_score": 90.34,
+    "risk_rank": 8,
+    "deep_analysis": true
+  },
+  {
+    "unit": 100,
+    "true_RUL": 20.0,
+    "predicted_RUL": 17.204113006591797,
+    "error": -2.795886993408203,
+    "risk_score": 86.12,
+    "risk_rank": 9,
+    "deep_analysis": true
+  },
+  {
+    "unit": 20,
+    "true_RUL": 16.0,
+    "predicted_RUL": 18.63473892211914,
+    "error": 2.6347389221191406,
+    "risk_score": 84.96,
+    "risk_rank": 10,
+    "deep_analysis": true
+  },
+  {
+    "unit": 24,
+    "true_RUL": 20.0,
+    "predicted_RUL": 18.865415573120117,
+    "error": -1.1345844268798828,
+    "risk_score": 84.78,
+    "risk_rank": 11,
+    "deep_analysis": true
+  },
+  {
+    "unit": 56,
+    "true_RUL": 15.0,
+    "predicted_RUL": 19.83303451538086,
+    "error": 4.833034515380859,
+    "risk_score": 84.0,
+    "risk_rank": 12,
+    "deep_analysis": true
+  },
+  {
+    "unit": 49,
+    "true_RUL": 21.0,
+    "predicted_RUL": 20.944408416748047,
+    "error": -0.055591583251953125,
+    "risk_score": 83.1,
+    "risk_rank": 13,
+    "deep_analysis": true
+  },
+  {
+    "unit": 61,
+    "true_RUL": 21.0,
+    "predicted_RUL": 21.413454055786133,
+    "error": 0.4134540557861328,
+    "risk_score": 82.72,
+    "risk_rank": 14,
+    "deep_analysis": true
+  },
+  {
+    "unit": 64,
+    "true_RUL": 28.0,
+    "predicted_RUL": 22.058330535888672,
+    "error": -5.941669464111328,
+    "risk_score": 82.2,
+    "risk_rank": 15,
+    "deep_analysis": true
+  },
+  {
+    "unit": 91,
+    "true_RUL": 38.0,
+    "predicted_RUL": 25.653757095336914,
+    "error": -12.346242904663086,
+    "risk_score": 79.3,
+    "risk_rank": 16,
+    "deep_analysis": false
+  },
+  {
+    "unit": 36,
+    "true_RUL": 19.0,
+    "predicted_RUL": 25.77902603149414,
+    "error": 6.779026031494141,
+    "risk_score": 79.2,
+    "risk_rank": 17,
+    "deep_analysis": false
+  },
+  {
+    "unit": 66,
+    "true_RUL": 14.0,
+    "predicted_RUL": 27.086536407470703,
+    "error": 13.086536407470703,
+    "risk_score": 78.14,
+    "risk_rank": 18,
+    "deep_analysis": false
+  },
+  {
+    "unit": 41,
+    "true_RUL": 18.0,
+    "predicted_RUL": 27.48141098022461,
+    "error": 9.48141098022461,
+    "risk_score": 77.82,
+    "risk_rank": 19,
+    "deep_analysis": false
+  },
+  {
+    "unit": 53,
+    "true_RUL": 26.0,
+    "predicted_RUL": 28.19257354736328,
+    "error": 2.1925735473632812,
+    "risk_score": 77.25,
+    "risk_rank": 20,
+    "deep_analysis": false
+  },
+  {
+    "unit": 92,
+    "true_RUL": 20.0,
+    "predicted_RUL": 28.48081398010254,
+    "error": 8.480813980102539,
+    "risk_score": 77.02,
+    "risk_rank": 21,
+    "deep_analysis": false
+  },
+  {
+    "unit": 90,
+    "true_RUL": 28.0,
+    "predicted_RUL": 28.92191505432129,
+    "error": 0.9219150543212891,
+    "risk_score": 76.66,
+    "risk_rank": 22,
+    "deep_analysis": false
+  },
+  {
+    "unit": 37,
+    "true_RUL": 21.0,
+    "predicted_RUL": 30.737653732299805,
+    "error": 9.737653732299805,
+    "risk_score": 75.2,
+    "risk_rank": 23,
+    "deep_analysis": false
+  },
+  {
+    "unit": 52,
+    "true_RUL": 29.0,
+    "predicted_RUL": 31.943687438964844,
+    "error": 2.9436874389648438,
+    "risk_score": 74.22,
+    "risk_rank": 24,
+    "deep_analysis": false
+  },
+  {
+    "unit": 18,
+    "true_RUL": 28.0,
+    "predicted_RUL": 32.029293060302734,
+    "error": 4.029293060302734,
+    "risk_score": 74.15,
+    "risk_rank": 25,
+    "deep_analysis": false
+  },
+  {
+    "unit": 77,
+    "true_RUL": 34.0,
+    "predicted_RUL": 32.721126556396484,
+    "error": -1.2788734436035156,
+    "risk_score": 73.59,
+    "risk_rank": 26,
+    "deep_analysis": false
+  },
+  {
+    "unit": 40,
+    "true_RUL": 28.0,
+    "predicted_RUL": 33.211673736572266,
+    "error": 5.211673736572266,
+    "risk_score": 73.2,
+    "risk_rank": 27,
+    "deep_analysis": false
+  },
+  {
+    "unit": 62,
+    "true_RUL": 54.0,
+    "predicted_RUL": 37.72439956665039,
+    "error": -16.27560043334961,
+    "risk_score": 69.56,
+    "risk_rank": 28,
+    "deep_analysis": false
+  },
+  {
+    "unit": 46,
+    "true_RUL": 47.0,
+    "predicted_RUL": 38.72614669799805,
+    "error": -8.273853302001953,
+    "risk_score": 68.75,
+    "risk_rank": 29,
+    "deep_analysis": false
+  },
+  {
+    "unit": 58,
+    "true_RUL": 37.0,
+    "predicted_RUL": 41.96111297607422,
+    "error": 4.961112976074219,
+    "risk_score": 66.14,
+    "risk_rank": 30,
+    "deep_analysis": false
+  },
+  {
+    "unit": 32,
+    "true_RUL": 48.0,
+    "predicted_RUL": 43.221736907958984,
+    "error": -4.778263092041016,
+    "risk_score": 65.12,
+    "risk_rank": 31,
+    "deep_analysis": false
+  },
+  {
+    "unit": 3,
+    "true_RUL": 69.0,
+    "predicted_RUL": 44.74258804321289,
+    "error": -24.25741195678711,
+    "risk_score": 63.89,
+    "risk_rank": 32,
+    "deep_analysis": false
+  },
+  {
+    "unit": 17,
+    "true_RUL": 50.0,
+    "predicted_RUL": 48.246131896972656,
+    "error": -1.7538681030273438,
+    "risk_score": 61.07,
+    "risk_rank": 33,
+    "deep_analysis": false
+  },
+  {
+    "unit": 93,
+    "true_RUL": 85.0,
+    "predicted_RUL": 48.71784210205078,
+    "error": -36.28215789794922,
+    "risk_score": 60.69,
+    "risk_rank": 34,
+    "deep_analysis": false
+  },
+  {
+    "unit": 38,
+    "true_RUL": 50.0,
+    "predicted_RUL": 56.48860168457031,
+    "error": 6.4886016845703125,
+    "risk_score": 54.41,
+    "risk_rank": 35,
+    "deep_analysis": false
+  },
+  {
+    "unit": 72,
+    "true_RUL": 50.0,
+    "predicted_RUL": 61.33308792114258,
+    "error": 11.333087921142578,
+    "risk_score": 50.51,
+    "risk_rank": 36,
+    "deep_analysis": false
+  },
+  {
+    "unit": 94,
+    "true_RUL": 55.0,
+    "predicted_RUL": 65.96835327148438,
+    "error": 10.968353271484375,
+    "risk_score": 46.76,
+    "risk_rank": 37,
+    "deep_analysis": false
+  },
+  {
+    "unit": 98,
+    "true_RUL": 59.0,
+    "predicted_RUL": 66.02928161621094,
+    "error": 7.0292816162109375,
+    "risk_score": 46.72,
+    "risk_rank": 38,
+    "deep_analysis": false
+  },
+  {
+    "unit": 43,
+    "true_RUL": 59.0,
+    "predicted_RUL": 66.47174835205078,
+    "error": 7.471748352050781,
+    "risk_score": 46.36,
+    "risk_rank": 39,
+    "deep_analysis": false
+  },
+  {
+    "unit": 45,
+    "true_RUL": 114.0,
+    "predicted_RUL": 69.8950424194336,
+    "error": -44.104957580566406,
+    "risk_score": 43.6,
+    "risk_rank": 40,
+    "deep_analysis": false
+  },
+  {
+    "unit": 84,
+    "true_RUL": 58.0,
+    "predicted_RUL": 73.87374877929688,
+    "error": 15.873748779296875,
+    "risk_score": 40.39,
+    "risk_rank": 41,
+    "deep_analysis": false
+  },
+  {
+    "unit": 21,
+    "true_RUL": 57.0,
+    "predicted_RUL": 75.14018249511719,
+    "error": 18.140182495117188,
+    "risk_score": 39.36,
+    "risk_rank": 42,
+    "deep_analysis": false
+  },
+  {
+    "unit": 4,
+    "true_RUL": 82.0,
+    "predicted_RUL": 77.73938751220703,
+    "error": -4.260612487792969,
+    "risk_score": 37.27,
+    "risk_rank": 43,
+    "deep_analysis": false
+  },
+  {
+    "unit": 10,
+    "true_RUL": 96.0,
+    "predicted_RUL": 81.28755187988281,
+    "error": -14.712448120117188,
+    "risk_score": 34.4,
+    "risk_rank": 44,
+    "deep_analysis": false
+  },
+  {
+    "unit": 13,
+    "true_RUL": 95.0,
+    "predicted_RUL": 81.44009399414062,
+    "error": -13.559906005859375,
+    "risk_score": 34.28,
+    "risk_rank": 45,
+    "deep_analysis": false
+  },
+  {
+    "unit": 97,
+    "true_RUL": 82.0,
+    "predicted_RUL": 86.88421630859375,
+    "error": 4.88421630859375,
+    "risk_score": 29.89,
+    "risk_rank": 46,
+    "deep_analysis": false
+  },
+  {
+    "unit": 70,
+    "true_RUL": 94.0,
+    "predicted_RUL": 87.71952056884766,
+    "error": -6.280479431152344,
+    "risk_score": 29.21,
+    "risk_rank": 47,
+    "deep_analysis": false
+  },
+  {
+    "unit": 11,
+    "true_RUL": 97.0,
+    "predicted_RUL": 89.29825592041016,
+    "error": -7.701744079589844,
+    "risk_score": 27.94,
+    "risk_rank": 48,
+    "deep_analysis": false
+  },
+  {
+    "unit": 8,
+    "true_RUL": 95.0,
+    "predicted_RUL": 90.5013198852539,
+    "error": -4.498680114746094,
+    "risk_score": 26.97,
+    "risk_rank": 49,
+    "deep_analysis": false
+  },
+  {
+    "unit": 63,
+    "true_RUL": 72.0,
+    "predicted_RUL": 92.9593734741211,
+    "error": 20.959373474121094,
+    "risk_score": 24.98,
+    "risk_rank": 50,
+    "deep_analysis": false
+  },
+  {
+    "unit": 5,
+    "true_RUL": 91.0,
+    "predicted_RUL": 93.31416320800781,
+    "error": 2.3141632080078125,
+    "risk_score": 24.7,
+    "risk_rank": 51,
+    "deep_analysis": false
+  },
+  {
+    "unit": 80,
+    "true_RUL": 90.0,
+    "predicted_RUL": 93.63145446777344,
+    "error": 3.6314544677734375,
+    "risk_score": 24.44,
+    "risk_rank": 52,
+    "deep_analysis": false
+  },
+  {
+    "unit": 29,
+    "true_RUL": 90.0,
+    "predicted_RUL": 95.3589096069336,
+    "error": 5.358909606933594,
+    "risk_score": 23.05,
+    "risk_rank": 53,
+    "deep_analysis": false
+  },
+  {
+    "unit": 27,
+    "true_RUL": 66.0,
+    "predicted_RUL": 97.31560516357422,
+    "error": 31.31560516357422,
+    "risk_score": 21.47,
+    "risk_rank": 54,
+    "deep_analysis": false
+  },
+  {
+    "unit": 50,
+    "true_RUL": 79.0,
+    "predicted_RUL": 100.71060180664062,
+    "error": 21.710601806640625,
+    "risk_score": 18.73,
+    "risk_rank": 55,
+    "deep_analysis": false
+  },
+  {
+    "unit": 19,
+    "true_RUL": 87.0,
+    "predicted_RUL": 101.20528411865234,
+    "error": 14.205284118652344,
+    "risk_score": 18.33,
+    "risk_rank": 56,
+    "deep_analysis": false
+  },
+  {
+    "unit": 44,
+    "true_RUL": 109.0,
+    "predicted_RUL": 102.12259674072266,
+    "error": -6.877403259277344,
+    "risk_score": 17.59,
+    "risk_rank": 57,
+    "deep_analysis": false
+  },
+  {
+    "unit": 75,
+    "true_RUL": 113.0,
+    "predicted_RUL": 102.28174591064453,
+    "error": -10.718254089355469,
+    "risk_score": 17.46,
+    "risk_rank": 58,
+    "deep_analysis": false
+  },
+  {
+    "unit": 7,
+    "true_RUL": 91.0,
+    "predicted_RUL": 102.55870819091797,
+    "error": 11.558708190917969,
+    "risk_score": 17.24,
+    "risk_rank": 59,
+    "deep_analysis": false
+  },
+  {
+    "unit": 71,
+    "true_RUL": 118.0,
+    "predicted_RUL": 102.90888977050781,
+    "error": -15.091110229492188,
+    "risk_score": 16.95,
+    "risk_rank": 60,
+    "deep_analysis": false
+  },
+  {
+    "unit": 16,
+    "true_RUL": 84.0,
+    "predicted_RUL": 103.04985046386719,
+    "error": 19.049850463867188,
+    "risk_score": 16.84,
+    "risk_rank": 61,
+    "deep_analysis": false
+  },
+  {
+    "unit": 74,
+    "true_RUL": 125.0,
+    "predicted_RUL": 103.6072006225586,
+    "error": -21.392799377441406,
+    "risk_score": 16.39,
+    "risk_rank": 62,
+    "deep_analysis": false
+  },
+  {
+    "unit": 57,
+    "true_RUL": 103.0,
+    "predicted_RUL": 103.85160064697266,
+    "error": 0.8516006469726562,
+    "risk_score": 16.19,
+    "risk_rank": 63,
+    "deep_analysis": false
+  },
+  {
+    "unit": 79,
+    "true_RUL": 63.0,
+    "predicted_RUL": 103.98412322998047,
+    "error": 40.98412322998047,
+    "risk_score": 16.09,
+    "risk_rank": 64,
+    "deep_analysis": false
+  },
+  {
+    "unit": 48,
+    "true_RUL": 92.0,
+    "predicted_RUL": 104.1096420288086,
+    "error": 12.109642028808594,
+    "risk_score": 15.99,
+    "risk_rank": 65,
+    "deep_analysis": false
+  },
+  {
+    "unit": 6,
+    "true_RUL": 93.0,
+    "predicted_RUL": 104.76254272460938,
+    "error": 11.762542724609375,
+    "risk_score": 15.46,
+    "risk_rank": 66,
+    "deep_analysis": false
+  },
+  {
+    "unit": 12,
+    "true_RUL": 124.0,
+    "predicted_RUL": 104.95990753173828,
+    "error": -19.04009246826172,
+    "risk_score": 15.3,
+    "risk_rank": 67,
+    "deep_analysis": false
+  },
+  {
+    "unit": 15,
+    "true_RUL": 83.0,
+    "predicted_RUL": 106.23961639404297,
+    "error": 23.23961639404297,
+    "risk_score": 14.27,
+    "risk_rank": 68,
+    "deep_analysis": false
+  },
+  {
+    "unit": 30,
+    "true_RUL": 115.0,
+    "predicted_RUL": 107.8766860961914,
+    "error": -7.123313903808594,
+    "risk_score": 12.95,
+    "risk_rank": 69,
+    "deep_analysis": false
+  },
+  {
+    "unit": 28,
+    "true_RUL": 97.0,
+    "predicted_RUL": 108.39508819580078,
+    "error": 11.395088195800781,
+    "risk_score": 12.53,
+    "risk_rank": 70,
+    "deep_analysis": false
+  },
+  {
+    "unit": 51,
+    "true_RUL": 114.0,
+    "predicted_RUL": 108.41826629638672,
+    "error": -5.581733703613281,
+    "risk_score": 12.51,
+    "risk_rank": 71,
+    "deep_analysis": false
+  },
+  {
+    "unit": 96,
+    "true_RUL": 125.0,
+    "predicted_RUL": 108.87906646728516,
+    "error": -16.120933532714844,
+    "risk_score": 12.14,
+    "risk_rank": 72,
+    "deep_analysis": false
+  },
+  {
+    "unit": 73,
+    "true_RUL": 125.0,
+    "predicted_RUL": 109.4223861694336,
+    "error": -15.577613830566406,
+    "risk_score": 11.7,
+    "risk_rank": 73,
+    "deep_analysis": false
+  },
+  {
+    "unit": 33,
+    "true_RUL": 106.0,
+    "predicted_RUL": 109.58783721923828,
+    "error": 3.5878372192382812,
+    "risk_score": 11.56,
+    "risk_rank": 74,
+    "deep_analysis": false
+  },
+  {
+    "unit": 26,
+    "true_RUL": 119.0,
+    "predicted_RUL": 110.26811981201172,
+    "error": -8.731880187988281,
+    "risk_score": 11.02,
+    "risk_rank": 75,
+    "deep_analysis": false
+  },
+  {
+    "unit": 25,
+    "true_RUL": 125.0,
+    "predicted_RUL": 110.8646469116211,
+    "error": -14.135353088378906,
+    "risk_score": 10.53,
+    "risk_rank": 76,
+    "deep_analysis": false
+  },
+  {
+    "unit": 95,
+    "true_RUL": 125.0,
+    "predicted_RUL": 110.88390350341797,
+    "error": -14.116096496582031,
+    "risk_score": 10.52,
+    "risk_rank": 77,
+    "deep_analysis": false
+  },
+  {
+    "unit": 14,
+    "true_RUL": 107.0,
+    "predicted_RUL": 111.04826354980469,
+    "error": 4.0482635498046875,
+    "risk_score": 10.39,
+    "risk_rank": 78,
+    "deep_analysis": false
+  },
+  {
+    "unit": 47,
+    "true_RUL": 125.0,
+    "predicted_RUL": 111.66145324707031,
+    "error": -13.338546752929688,
+    "risk_score": 9.89,
+    "risk_rank": 79,
+    "deep_analysis": false
+  },
+  {
+    "unit": 89,
+    "true_RUL": 125.0,
+    "predicted_RUL": 111.8113021850586,
+    "error": -13.188697814941406,
+    "risk_score": 9.77,
+    "risk_rank": 80,
+    "deep_analysis": false
+  },
+  {
+    "unit": 60,
+    "true_RUL": 100.0,
+    "predicted_RUL": 111.97734832763672,
+    "error": 11.977348327636719,
+    "risk_score": 9.64,
+    "risk_rank": 81,
+    "deep_analysis": false
+  },
+  {
+    "unit": 88,
+    "true_RUL": 115.0,
+    "predicted_RUL": 112.93816375732422,
+    "error": -2.0618362426757812,
+    "risk_score": 8.86,
+    "risk_rank": 82,
+    "deep_analysis": false
+  },
+  {
+    "unit": 55,
+    "true_RUL": 125.0,
+    "predicted_RUL": 113.16948699951172,
+    "error": -11.830513000488281,
+    "risk_score": 8.67,
+    "risk_rank": 83,
+    "deep_analysis": false
+  },
+  {
+    "unit": 59,
+    "true_RUL": 114.0,
+    "predicted_RUL": 113.36193084716797,
+    "error": -0.6380691528320312,
+    "risk_score": 8.52,
+    "risk_rank": 84,
+    "deep_analysis": false
+  },
+  {
+    "unit": 1,
+    "true_RUL": 112.0,
+    "predicted_RUL": 114.62683868408203,
+    "error": 2.6268386840820312,
+    "risk_score": 7.5,
+    "risk_rank": 85,
+    "deep_analysis": false
+  },
+  {
+    "unit": 67,
+    "true_RUL": 77.0,
+    "predicted_RUL": 116.15009307861328,
+    "error": 39.15009307861328,
+    "risk_score": 6.27,
+    "risk_rank": 86,
+    "deep_analysis": false
+  },
+  {
+    "unit": 86,
+    "true_RUL": 89.0,
+    "predicted_RUL": 116.79975891113281,
+    "error": 27.799758911132812,
+    "risk_score": 5.75,
+    "risk_rank": 87,
+    "deep_analysis": false
+  },
+  {
+    "unit": 54,
+    "true_RUL": 97.0,
+    "predicted_RUL": 116.98937225341797,
+    "error": 19.98937225341797,
+    "risk_score": 5.59,
+    "risk_rank": 88,
+    "deep_analysis": false
+  },
+  {
+    "unit": 87,
+    "true_RUL": 116.0,
+    "predicted_RUL": 117.59876251220703,
+    "error": 1.5987625122070312,
+    "risk_score": 5.1,
+    "risk_rank": 89,
+    "deep_analysis": false
+  },
+  {
+    "unit": 9,
+    "true_RUL": 111.0,
+    "predicted_RUL": 118.19305419921875,
+    "error": 7.19305419921875,
+    "risk_score": 4.62,
+    "risk_rank": 90,
+    "deep_analysis": false
+  },
+  {
+    "unit": 99,
+    "true_RUL": 117.0,
+    "predicted_RUL": 118.24870300292969,
+    "error": 1.2487030029296875,
+    "risk_score": 4.58,
+    "risk_rank": 91,
+    "deep_analysis": false
+  },
+  {
+    "unit": 2,
+    "true_RUL": 98.0,
+    "predicted_RUL": 118.37100219726562,
+    "error": 20.371002197265625,
+    "risk_score": 4.48,
+    "risk_rank": 92,
+    "deep_analysis": false
+  },
+  {
+    "unit": 23,
+    "true_RUL": 113.0,
+    "predicted_RUL": 118.97338104248047,
+    "error": 5.973381042480469,
+    "risk_score": 3.99,
+    "risk_rank": 93,
+    "deep_analysis": false
+  },
+  {
+    "unit": 69,
+    "true_RUL": 121.0,
+    "predicted_RUL": 119.47740936279297,
+    "error": -1.5225906372070312,
+    "risk_score": 3.58,
+    "risk_rank": 94,
+    "deep_analysis": false
+  },
+  {
+    "unit": 85,
+    "true_RUL": 118.0,
+    "predicted_RUL": 120.25098419189453,
+    "error": 2.2509841918945312,
+    "risk_score": 2.96,
+    "risk_rank": 95,
+    "deep_analysis": false
+  },
+  {
+    "unit": 83,
+    "true_RUL": 125.0,
+    "predicted_RUL": 120.44112396240234,
+    "error": -4.558876037597656,
+    "risk_score": 2.81,
+    "risk_rank": 96,
+    "deep_analysis": false
+  },
+  {
+    "unit": 22,
+    "true_RUL": 111.0,
+    "predicted_RUL": 120.47318267822266,
+    "error": 9.473182678222656,
+    "risk_score": 2.78,
+    "risk_rank": 97,
+    "deep_analysis": false
+  },
+  {
+    "unit": 39,
+    "true_RUL": 125.0,
+    "predicted_RUL": 120.78421783447266,
+    "error": -4.215782165527344,
+    "risk_score": 2.53,
+    "risk_rank": 98,
+    "deep_analysis": false
+  },
+  {
+    "unit": 65,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.06248474121094,
+    "error": -3.9375152587890625,
+    "risk_score": 2.31,
+    "risk_rank": 99,
+    "deep_analysis": false
+  },
+  {
+    "unit": 78,
+    "true_RUL": 107.0,
+    "predicted_RUL": 123.9190444946289,
+    "error": 16.919044494628906,
+    "risk_score": 0.0,
+    "risk_rank": 100,
+    "deep_analysis": false
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "unit": 55,
+  "engine_shap": {
+    "unit": 55,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_8",
+        "importance": 0.11858348349607856,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.08047987828189795
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.10904124546967883,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.07868009883263699
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.10881814997012805,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.04927220141019564
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.10828170236886499,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.041004958587651505
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.09450999928333945,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.0691224857683003
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.03386158931845587,
+      "sensor_3": 0.03139859530537196,
+      "sensor_4": 0.0650170720683232,
+      "sensor_6": 0.07045573234472007,
+      "sensor_7": 0.04990531472483172,
+      "sensor_8": 0.11858348349607856,
+      "sensor_9": 0.09450999928333945,
+      "sensor_10": 0.026520763607481027,
+      "sensor_11": 0.10904124546967883,
+      "sensor_12": 0.026522617648142982,
+      "sensor_13": 0.10828170236886499,
+      "sensor_14": 0.10881814997012805,
+      "sensor_15": 0.061598085935964775,
+      "sensor_16": 0.006981690567861004,
+      "sensor_17": 0.021552130646359288,
+      "sensor_20": 0.02908455348146819,
+      "sensor_21": 0.019862255489983764,
+      "regime_0": 0.04574389929966855,
+      "regime_1": 0.014267905059855366,
+      "regime_2": 0.029587302574127533,
+      "regime_3": 0.006454089886142356,
+      "regime_4": 0.015372528639400118,
+      "regime_5": 0.03165846513078577
+    },
+    "non_sensor_share": 0.12717699705995475
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Contradicted",
+    "confidence": "high",
+    "reasoning": "The top driving sensor, sensor_8 (physical fan speed), is reported as having low importance and a stable pattern with minor fluctuations in the knowledge base. However, the model attributes high importance to it and suggests it decreases risk, which contradicts the documented findings. Additionally, sensor_11, which is also among the top sensors, is documented to show a monotonic increase before failure, but the model indicates it decreases risk. These discrepancies lead to a contradiction.",
+    "matched_sources": [
+      "Performance Analysis of Long Short-term Memory (LSTM) Model for Remaining Useful Life Prediction on Turbofan Engine",
+      "Method for Remaining Useful Life Prediction of Turbofan Engines Combining Adam Optimization-Based Self-Attention Mechanism with Temporal Convolutional Networks"
+    ]
+  },
+  "hypothesis_result": {
+    "hypothesis": "The machine learning model might be capturing non-linear relationships or interactions between the top sensors that are not immediately apparent in the literature. This could explain the model's attribution of high importance to sensors such as sensor_8 and sensor_11, despite their reported behaviors in stable conditions being deemed less critical.",
+    "physical_reasoning": "Turbofan engines exhibit complex interactions among various operational parameters where combined influences can yield different effects on Remaining Useful Life (RUL). For instance, even if individual sensors show stable patterns, their interactions under specific regimes may still signal early signs of potential failure not documented in traditional literature. The nature of the model could be picking up these subtleties.",
+    "next_checks": [
+      "Conduct a time-series analysis of sensor_8 and sensor_11 data to track non-linear patterns leading up to previous failures.",
+      "Cross-reference RUL predictions with historical maintenance records of similar engines to identify if there were missed indicators.",
+      "Review the influence of operational conditions (e.g., ambient temperature, flight regimes) on sensor readings to assess if context alters the sensors' importance.",
+      "Compare predictions of RUL and sensor trends from this engine against a control group of similar engines to validate if the patterns hold."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's synthesis claims contradiction based on literature, but without SHAP stability evidence, the high importance of sensor_8 and sensor_11 could be a background-sampling artifact. The hypothesis about non-linear interactions is plausible but speculative without further validation. The critique should consider simpler explanations like sensor noise, narrow sequence windows, or extrapolation outside training distribution before accepting complex interactions.",
+    "alternative_explanation": null,
+    "confidence": "low"
+  }
+}

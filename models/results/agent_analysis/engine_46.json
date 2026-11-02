@@ -1,0 +1,263 @@
+{
+  "unit": 46,
+  "engine_shap": {
+    "unit": 46,
+    "true_RUL": 47.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 23.752293540028873,
+        "direction": "increases_risk",
+        "signed_contribution": -4.4427450723818245
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 21.598202712594965,
+        "direction": "increases_risk",
+        "signed_contribution": -0.23524099635516016
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 17.915328271218034,
+        "direction": "increases_risk",
+        "signed_contribution": -4.088829679585085
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 17.62235833945818,
+        "direction": "increases_risk",
+        "signed_contribution": -6.270042359339188
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 16.56622167005718,
+        "direction": "increases_risk",
+        "signed_contribution": -1.5012496367577253
+      }
+    ],
+    "all_sensor_importance": {
+      "op_setting_1": 1.3138511828425263,
+      "op_setting_2": 3.077606093062761,
+      "op_setting_3": 0.0,
+      "sensor_2": 17.915328271218034,
+      "sensor_3": 9.645528922746491,
+      "sensor_4": 16.56622167005718,
+      "sensor_7": 15.189055452147873,
+      "sensor_8": 9.408348877719053,
+      "sensor_9": 17.62235833945818,
+      "sensor_11": 23.752293540028873,
+      "sensor_12": 21.598202712594965,
+      "sensor_13": 8.600355554910486,
+      "sensor_14": 12.29112303517611,
+      "sensor_15": 16.238336242830176,
+      "sensor_17": 9.528185288825403,
+      "sensor_20": 14.151768349047607,
+      "sensor_21": 10.263336456043735
+    }
+  },
+  "knowledge_base": {
+    "sensor_findings": [
+      {
+        "sensor": "sensor_3",
+        "physical_meaning": "total temperature at HPC outlet (T30)",
+        "reported_importance": "high",
+        "typical_pre_failure_pattern": "monotonic increase over final ~30 cycles",
+        "sources": [
+          {
+            "title": "A Hybrid CNN\u2013GRU Approach for Robust and Explainable Remaining Useful Life Prediction of Turbofan Engines",
+            "authors": [
+              "\u00d6z\u00fcpak, M.",
+              "Y\u0131lmaz, M.",
+              "\u00d6zdemir, M.",
+              "Kara, M.",
+              "\u00d6zdemir, A."
+            ],
+            "year": 2026,
+            "venue": "International Journal of Energy Research",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/er/7022062"
+          }
+        ]
+      },
+      {
+        "sensor": "sensor_7",
+        "physical_meaning": "total pressure at HPC outlet (P30)",
+        "reported_importance": "high",
+        "typical_pre_failure_pattern": "monotonic increase over final ~30 cycles",
+        "sources": [
+          {
+            "title": "A Hybrid CNN\u2013GRU Approach for Robust and Explainable Remaining Useful Life Prediction of Turbofan Engines",
+            "authors": [
+              "\u00d6z\u00fcpak, M.",
+              "Y\u0131lmaz, M.",
+              "\u00d6zdemir, M.",
+              "Kara, M.",
+              "\u00d6zdemir, A."
+            ],
+            "year": 2026,
+            "venue": "International Journal of Energy Research",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/er/7022062"
+          }
+        ]
+      },
+      {
+        "sensor": "sensor_9",
+        "physical_meaning": "physical core speed (Nc)",
+        "reported_importance": "medium",
+        "typical_pre_failure_pattern": "gradual decrease over final ~30 cycles",
+        "sources": [
+          {
+            "title": "A Hybrid CNN\u2013GRU Approach for Robust and Explainable Remaining Useful Life Prediction of Turbofan Engines",
+            "authors": [
+              "\u00d6z\u00fcpak, M.",
+              "Y\u0131lmaz, M.",
+              "\u00d6zdemir, M.",
+              "Kara, M.",
+              "\u00d6zdemir, A."
+            ],
+            "year": 2026,
+            "venue": "International Journal of Energy Research",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/er/7022062"
+          }
+        ]
+      },
+      {
+        "sensor": "sensor_12",
+        "physical_meaning": "ratio of fuel flow to Ps30 (phi)",
+        "reported_importance": "medium",
+        "typical_pre_failure_pattern": "gradual increase over final ~30 cycles",
+        "sources": [
+          {
+            "title": "A Hybrid CNN\u2013GRU Approach for Robust and Explainable Remaining Useful Life Prediction of Turbofan Engines",
+            "authors": [
+              "\u00d6z\u00fcpak, M.",
+              "Y\u0131lmaz, M.",
+              "\u00d6zdemir, M.",
+              "Kara, M.",
+              "\u00d6zdemir, A."
+            ],
+            "year": 2026,
+            "venue": "International Journal of Energy Research",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/er/7022062"
+          }
+        ]
+      },
+      {
+        "sensor": "sensor_14",
+        "physical_meaning": "corrected core speed (NRc)",
+        "reported_importance": "medium",
+        "typical_pre_failure_pattern": "gradual decrease over final ~30 cycles",
+        "sources": [
+          {
+            "title": "A Hybrid CNN\u2013GRU Approach for Robust and Explainable Remaining Useful Life Prediction of Turbofan Engines",
+            "authors": [
+              "\u00d6z\u00fcpak, M.",
+              "Y\u0131lmaz, M.",
+              "\u00d6zdemir, M.",
+              "Kara, M.",
+              "\u00d6zdemir, A."
+            ],
+            "year": 2026,
+            "venue": "International Journal of Energy Research",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/er/7022062"
+          }
+        ]
+      }
+    ],
+    "general_degradation_patterns": [
+      {
+        "pattern": "Monotonic increase in T30 and P30 over the final ~30 cycles before failure, indicating worsening HPC degradation.",
+        "sources": [
+          {
+            "title": "A Hybrid CNN\u2013GRU Approach for Robust and Explainable Remaining Useful Life Prediction of Turbofan Engines",
+            "year": 2026,
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/er/7022062"
+          }
+        ]
+      },
+      {
+        "pattern": "Gradual decrease in Nc and NRc over the final ~30 cycles before failure, suggesting declining engine performance.",
+        "sources": [
+          {
+            "title": "A Hybrid CNN\u2013GRU Approach for Robust and Explainable Remaining Useful Life Prediction of Turbofan Engines",
+            "year": 2026,
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/er/7022062"
+          }
+        ]
+      }
+    ],
+    "benchmark_results": [
+      {
+        "method": "LSTM",
+        "dataset": "FD001",
+        "rmse": 16.78,
+        "score": 382.41,
+        "source": {
+          "title": "LSTM-based Deep Learning Model for Predicting Remaining Useful Life of Turbofan Engines",
+          "authors": [
+            "Tomas P. M. Z. Pinto",
+            "Carlos A. S. Oliveira",
+            "Jos\u00e9 M. F. Rodrigues",
+            "Jos\u00e9 M. F. Rodrigues",
+            "Jos\u00e9 M. F. Rodrigues"
+          ],
+          "year": 2023,
+          "url": "https://github.com/tomaspmz/lstm-predictive-maintenance"
+        }
+      },
+      {
+        "method": "CNN-LSTM",
+        "dataset": "FD001",
+        "rmse": 16.78,
+        "score": 382.41,
+        "source": {
+          "title": "CNN-LSTM for Turbofan RUL Prediction (FD001)",
+          "authors": [
+            "penikmatrumput"
+          ],
+          "year": 2024,
+          "url": "https://huggingface.co/penikmatrumput/cnn-lstm-cmapss"
+        }
+      },
+      {
+        "method": "Transformer Encoder",
+        "dataset": "FD001",
+        "rmse": 15.08,
+        "score": 338,
+        "source": {
+          "title": "Transformer-based Remaining-Useful-Life (RUL) Prediction for Turbofan Engines on NASA C-MAPSS",
+          "authors": [
+            "Gsebs"
+          ],
+          "year": 2023,
+          "url": "https://github.com/Gsebs/ml-health-forecasting-transformer"
+        }
+      }
+    ]
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_11, sensor_12, sensor_2, sensor_9, and sensor_4. While sensor_12 and sensor_9 are mentioned in the knowledge base, sensor_11, sensor_2, and sensor_4 are not documented. Therefore, the model's explanation cannot be confirmed or contradicted based on the available knowledge base.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The novel contributions from sensor_11, sensor_2, and sensor_4 could indicate new failure modes not previously documented in the literature. This suggests that either these sensors are capturing the impact of advanced degradation mechanisms or that there is an interaction between known sensor behavior and the current operational conditions of the engine that has not been considered before.",
+    "physical_reasoning": "Sensor_11, sensor_2, and sensor_4 may relate to critical parameters like turbine temperature and pressure differentials, which are crucial for assessing health across the engine stages. If abnormal readings were detected, it could indicate underlying issues like blade wear or thermal fatigue, which could inform remaining useful life predictions better than documented phenomena.",
+    "next_checks": [
+      "Cross-verify sensor_11 readings against historical trends from other engines to identify if similar patterns occur.",
+      "Implement a correlation analysis between the health indicators from sensor_2 and sensor_4 to assess interdependencies or cumulative effects.",
+      "Perform a thorough data-quality audit to ensure sensor data integrity and check for calibration issues.",
+      "Conduct a root cause analysis on past maintenance reports to see if failures correlate with patterns observed in the unverified sensors.",
+      "Investigate if there's a specific operating condition (op_setting_3 shows 0.0 importance) influencing the readings from these sensors."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's conclusion that the model's explanation is novel due to undocumented sensors (sensor_11, sensor_2, sensor_4) assumes these sensors are truly driving the prediction. However, without SHAP stability evidence, we cannot rule out attribution noise or background sampling artifacts. Additionally, the pipeline does not examine sensor variance or the model's training distribution, leaving open the possibility that these sensors have near-zero variance or the model is extrapolating in this case.",
+    "alternative_explanation": null,
+    "confidence": "medium"
+  },
+  "shap_stability": null
+}

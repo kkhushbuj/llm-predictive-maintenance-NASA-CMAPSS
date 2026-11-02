@@ -1,0 +1,93 @@
+{
+  "unit": 139,
+  "engine_shap": {
+    "unit": 139,
+    "true_RUL": 125.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_8",
+        "importance": 0.10618559701515189,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.06520558373904986
+      },
+      {
+        "sensor": "sensor_11",
+        "importance": 0.1031073760844279,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.07574233055007532
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.10213862311242135,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.03616126648071699
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.08471829839084467,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.01839694251714757
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.08106051692842679,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.05284366627090266
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.030868466780219282,
+      "sensor_3": 0.028664187573365772,
+      "sensor_4": 0.07230367853971914,
+      "sensor_6": 0.04155152179508287,
+      "sensor_7": 0.04798393070393807,
+      "sensor_8": 0.10618559701515189,
+      "sensor_9": 0.08106051692842679,
+      "sensor_10": 0.027843410735692402,
+      "sensor_11": 0.1031073760844279,
+      "sensor_12": 0.01789777673299213,
+      "sensor_13": 0.08471829839084467,
+      "sensor_14": 0.10213862311242135,
+      "sensor_15": 0.051844506522212744,
+      "sensor_16": 0.007789351046116237,
+      "sensor_17": 0.02713639841365926,
+      "sensor_20": 0.029062507577394595,
+      "sensor_21": 0.01622115384670828,
+      "regime_0": 0.037111217715457764,
+      "regime_1": 0.010115255879709366,
+      "regime_2": 0.020364615956523266,
+      "regime_3": 0.005598500112637339,
+      "regime_4": 0.013907617757449768,
+      "regime_5": 0.02491849345345146
+    },
+    "non_sensor_share": 0.1133311350568312
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Contradicted",
+    "confidence": "high",
+    "reasoning": "The model's top driving sensor, sensor_8 (physical fan speed), is reported as having low importance and a stable pattern with minor fluctuations in the knowledge base. However, the model indicates it significantly decreases risk, which contradicts the documented findings. Additionally, sensor_11, which is also among the top sensors, is documented to show a monotonic increase before failure, but the model suggests it decreases risk. These discrepancies indicate a contradiction with established knowledge.",
+    "matched_sources": [
+      "Performance Analysis of Long Short-term Memory (LSTM) Model for Remaining Useful Life Prediction on Turbofan Engine",
+      "Method for Remaining Useful Life Prediction of Turbofan Engines Combining Adam Optimization-Based Self-Attention Mechanism with Temporal Convolutional Networks"
+    ]
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model may be misinterpreting transient operating conditions that affect sensor readings, causing high sensitivity in sensor_8 and sensor_11 during specific flight regimes or maintenance cycles not fully captured in the literature. These sensors' importance in the RUL prediction may arise from their response to unique transient loads that are not reflected in the steady-state data used to derive the existing norms.",
+    "physical_reasoning": "Turbofan engines operate under a variety of conditions, and transient spikes in fan speed or other parameters can significantly affect engine health, leading to deviations not seen in typical steady-state analyses. If the model is trained with a dataset that contains these transients, it may reflect a different relationship than observed in averaged or filtered data entries from the literature, suggesting dynamics that have yet to be documented.",
+    "next_checks": [
+      "Cross-check sensor_8 and sensor_11 readings against corresponding operational regimes to identify any uncommon patterns or transient spikes.",
+      "Analyze historical data for instances of transient loading on the engines and match those with changes in RUL predictions.",
+      "Consult maintenance logs for any recent interventions that may have impacted the operating conditions and sensor readings.",
+      "Validate data quality by checking for any outlier readings in sensor data during periods of suspected transient operation.",
+      "Compare the engine's performance and sensor data trends against similar engines under analogous operational conditions to identify any unique behavior."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's synthesis claims contradiction with literature, but without SHAP stability evidence, the top sensor attributions could be background-sampling artifacts. The hypothesis about transient conditions is plausible but speculative, lacking direct evidence linking sensor behavior to unique operational regimes. The model might also be extrapolating outside its training distribution if these engines exhibit unusual wear patterns.",
+    "alternative_explanation": "The top sensor attributions could be SHAP artifacts due to background sampling noise, as stability evidence is absent. Alternatively, the model might be extrapolating outside its training distribution if this engine's wear patterns are atypical.",
+    "confidence": "medium"
+  }
+}

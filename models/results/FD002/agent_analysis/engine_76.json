@@ -1,0 +1,90 @@
+{
+  "unit": 76,
+  "engine_shap": {
+    "unit": 76,
+    "true_RUL": 36.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.19958034971173275,
+        "direction": "increases_risk",
+        "signed_contribution": -0.028328364676895024
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.16943431007099283,
+        "direction": "increases_risk",
+        "signed_contribution": -0.040562809805956904
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.15403534430630997,
+        "direction": "increases_risk",
+        "signed_contribution": -0.0366891983943803
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.13855192459017335,
+        "direction": "increases_risk",
+        "signed_contribution": -0.06393637919734162
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 0.08979205903223433,
+        "direction": "increases_risk",
+        "signed_contribution": -0.0632661293105428
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.08979205903223433,
+      "sensor_3": 0.02593763389181178,
+      "sensor_4": 0.15403534430630997,
+      "sensor_6": 0.05824827084491635,
+      "sensor_7": 0.06514416078970774,
+      "sensor_8": 0.07661978418354043,
+      "sensor_9": 0.16943431007099283,
+      "sensor_10": 0.04083801777693571,
+      "sensor_11": 0.19958034971173275,
+      "sensor_12": 0.04689548051613654,
+      "sensor_13": 0.060031446497358094,
+      "sensor_14": 0.06091654412404398,
+      "sensor_15": 0.13855192459017335,
+      "sensor_16": 0.059887671274114325,
+      "sensor_17": 0.08735659649315583,
+      "sensor_20": 0.02716159654673824,
+      "sensor_21": 0.039005166051338226,
+      "regime_0": 0.021332358960598867,
+      "regime_1": 0.031150713640090543,
+      "regime_2": 0.010137405139503244,
+      "regime_3": 0.01189633465265615,
+      "regime_4": 0.007000971772649789,
+      "regime_5": 0.015124954121656629
+    },
+    "non_sensor_share": 0.06459734556207057
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_11, sensor_9, sensor_4, sensor_15, and sensor_2. The knowledge base only provides findings for sensor_10, sensor_15, and sensor_16, none of which are among the top driving sensors. Therefore, there is no documented finding to compare against for the sensors driving this prediction.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The abnormal behavior seen in remaining-useful-life (RUL) predictions may stem from wear patterns or degradation mechanisms that have not been thoroughly investigated for the specific operating conditions of the engine, as indicated by the predominance of sensors that lack documented findings.",
+    "physical_reasoning": "The sensors identified as top contributors (sensor_11, sensor_9, sensor_4, sensor_15, and sensor_2) may measure parameters related to thermal performance, vibration levels, or pressure differentials that are indicative of early-stage wear phenomena, which might not yet be widely recognized in the literature. Given how engine conditions dynamically influence RUL, it\u2019s plausible that these sensors are flagging subtle degradation that hasn't been documented under the specific operational regimes of this engine type.",
+    "next_checks": [
+      "Conduct a detailed review of historical data for engines with similar operational profiles to identify any correlations or discrepancies in sensor readings.",
+      "Cross-check the data from sensor_11, sensor_9, sensor_4, sensor_15, and sensor_2 with maintenance records to see if there have been anomalies or interventions that align with their readings.",
+      "Implement a data-quality check to ensure that sensor readings aren't compromised due to calibration errors or environmental factors affecting accuracy.",
+      "Analyze the specific operating conditions and environmental factors (e.g., ambient temperature, humidity) during the periods leading up to the predictions to assess any external influences.",
+      "Conduct further testing on a selected engine to see if similar sensor behaviors manifest before failure, potentially involving real-time monitoring."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's conclusion that the top sensors are novel and unexplained is based on the absence of literature findings for sensor_11, sensor_9, sensor_4, and sensor_2. However, this assumes the model's attributions are reliable and not influenced by its own setup. Without SHAP stability evidence, it's unclear if these sensors are truly driving the prediction or if the results are artifacts of background sampling noise or other model-specific factors.",
+    "alternative_explanation": null,
+    "confidence": "medium"
+  }
+}

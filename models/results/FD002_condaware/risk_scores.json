@@ -1,0 +1,2333 @@
+[
+  {
+    "unit": 116,
+    "true_RUL": 7.0,
+    "predicted_RUL": 4.811890602111816,
+    "error": -2.1881093978881836,
+    "risk_score": 96.08,
+    "risk_rank": 1,
+    "top15_risk": true
+  },
+  {
+    "unit": 210,
+    "true_RUL": 8.0,
+    "predicted_RUL": 6.2592363357543945,
+    "error": -1.7407636642456055,
+    "risk_score": 94.9,
+    "risk_rank": 2,
+    "top15_risk": true
+  },
+  {
+    "unit": 65,
+    "true_RUL": 11.0,
+    "predicted_RUL": 6.840206623077393,
+    "error": -4.159793376922607,
+    "risk_score": 94.43,
+    "risk_rank": 3,
+    "top15_risk": true
+  },
+  {
+    "unit": 138,
+    "true_RUL": 7.0,
+    "predicted_RUL": 7.596899032592773,
+    "error": 0.5968990325927734,
+    "risk_score": 93.81,
+    "risk_rank": 4,
+    "top15_risk": true
+  },
+  {
+    "unit": 134,
+    "true_RUL": 9.0,
+    "predicted_RUL": 7.851343631744385,
+    "error": -1.1486563682556152,
+    "risk_score": 93.6,
+    "risk_rank": 5,
+    "top15_risk": true
+  },
+  {
+    "unit": 177,
+    "true_RUL": 6.0,
+    "predicted_RUL": 8.024901390075684,
+    "error": 2.0249013900756836,
+    "risk_score": 93.46,
+    "risk_rank": 6,
+    "top15_risk": true
+  },
+  {
+    "unit": 91,
+    "true_RUL": 9.0,
+    "predicted_RUL": 8.112672805786133,
+    "error": -0.8873271942138672,
+    "risk_score": 93.39,
+    "risk_rank": 7,
+    "top15_risk": true
+  },
+  {
+    "unit": 103,
+    "true_RUL": 8.0,
+    "predicted_RUL": 8.289817810058594,
+    "error": 0.28981781005859375,
+    "risk_score": 93.25,
+    "risk_rank": 8,
+    "top15_risk": true
+  },
+  {
+    "unit": 124,
+    "true_RUL": 7.0,
+    "predicted_RUL": 9.102485656738281,
+    "error": 2.1024856567382812,
+    "risk_score": 92.59,
+    "risk_rank": 9,
+    "top15_risk": true
+  },
+  {
+    "unit": 80,
+    "true_RUL": 15.0,
+    "predicted_RUL": 9.267617225646973,
+    "error": -5.732382774353027,
+    "risk_score": 92.45,
+    "risk_rank": 10,
+    "top15_risk": true
+  },
+  {
+    "unit": 102,
+    "true_RUL": 8.0,
+    "predicted_RUL": 9.476609230041504,
+    "error": 1.476609230041504,
+    "risk_score": 92.28,
+    "risk_rank": 11,
+    "top15_risk": true
+  },
+  {
+    "unit": 211,
+    "true_RUL": 6.0,
+    "predicted_RUL": 9.597506523132324,
+    "error": 3.597506523132324,
+    "risk_score": 92.18,
+    "risk_rank": 12,
+    "top15_risk": true
+  },
+  {
+    "unit": 252,
+    "true_RUL": 12.0,
+    "predicted_RUL": 9.895600318908691,
+    "error": -2.1043996810913086,
+    "risk_score": 91.94,
+    "risk_rank": 13,
+    "top15_risk": true
+  },
+  {
+    "unit": 245,
+    "true_RUL": 16.0,
+    "predicted_RUL": 10.32434368133545,
+    "error": -5.675656318664551,
+    "risk_score": 91.59,
+    "risk_rank": 14,
+    "top15_risk": true
+  },
+  {
+    "unit": 146,
+    "true_RUL": 10.0,
+    "predicted_RUL": 10.43973445892334,
+    "error": 0.43973445892333984,
+    "risk_score": 91.5,
+    "risk_rank": 15,
+    "top15_risk": true
+  },
+  {
+    "unit": 7,
+    "true_RUL": 6.0,
+    "predicted_RUL": 10.47413444519043,
+    "error": 4.47413444519043,
+    "risk_score": 91.47,
+    "risk_rank": 16,
+    "top15_risk": false
+  },
+  {
+    "unit": 208,
+    "true_RUL": 8.0,
+    "predicted_RUL": 10.558835983276367,
+    "error": 2.558835983276367,
+    "risk_score": 91.4,
+    "risk_rank": 17,
+    "top15_risk": false
+  },
+  {
+    "unit": 11,
+    "true_RUL": 6.0,
+    "predicted_RUL": 10.708216667175293,
+    "error": 4.708216667175293,
+    "risk_score": 91.28,
+    "risk_rank": 18,
+    "top15_risk": false
+  },
+  {
+    "unit": 159,
+    "true_RUL": 9.0,
+    "predicted_RUL": 11.026732444763184,
+    "error": 2.0267324447631836,
+    "risk_score": 91.02,
+    "risk_rank": 19,
+    "top15_risk": false
+  },
+  {
+    "unit": 186,
+    "true_RUL": 10.0,
+    "predicted_RUL": 11.167817115783691,
+    "error": 1.1678171157836914,
+    "risk_score": 90.9,
+    "risk_rank": 20,
+    "top15_risk": false
+  },
+  {
+    "unit": 185,
+    "true_RUL": 19.0,
+    "predicted_RUL": 11.264924049377441,
+    "error": -7.735075950622559,
+    "risk_score": 90.82,
+    "risk_rank": 21,
+    "top15_risk": false
+  },
+  {
+    "unit": 50,
+    "true_RUL": 13.0,
+    "predicted_RUL": 11.425237655639648,
+    "error": -1.5747623443603516,
+    "risk_score": 90.69,
+    "risk_rank": 22,
+    "top15_risk": false
+  },
+  {
+    "unit": 225,
+    "true_RUL": 11.0,
+    "predicted_RUL": 11.595651626586914,
+    "error": 0.5956516265869141,
+    "risk_score": 90.55,
+    "risk_rank": 23,
+    "top15_risk": false
+  },
+  {
+    "unit": 231,
+    "true_RUL": 8.0,
+    "predicted_RUL": 11.80407428741455,
+    "error": 3.804074287414551,
+    "risk_score": 90.38,
+    "risk_rank": 24,
+    "top15_risk": false
+  },
+  {
+    "unit": 250,
+    "true_RUL": 23.0,
+    "predicted_RUL": 11.906299591064453,
+    "error": -11.093700408935547,
+    "risk_score": 90.3,
+    "risk_rank": 25,
+    "top15_risk": false
+  },
+  {
+    "unit": 99,
+    "true_RUL": 9.0,
+    "predicted_RUL": 12.27410888671875,
+    "error": 3.27410888671875,
+    "risk_score": 90.0,
+    "risk_rank": 26,
+    "top15_risk": false
+  },
+  {
+    "unit": 227,
+    "true_RUL": 14.0,
+    "predicted_RUL": 12.644622802734375,
+    "error": -1.355377197265625,
+    "risk_score": 89.7,
+    "risk_rank": 27,
+    "top15_risk": false
+  },
+  {
+    "unit": 90,
+    "true_RUL": 8.0,
+    "predicted_RUL": 12.720643997192383,
+    "error": 4.720643997192383,
+    "risk_score": 89.64,
+    "risk_rank": 28,
+    "top15_risk": false
+  },
+  {
+    "unit": 173,
+    "true_RUL": 14.0,
+    "predicted_RUL": 13.425924301147461,
+    "error": -0.5740756988525391,
+    "risk_score": 89.06,
+    "risk_rank": 29,
+    "top15_risk": false
+  },
+  {
+    "unit": 14,
+    "true_RUL": 11.0,
+    "predicted_RUL": 13.636622428894043,
+    "error": 2.636622428894043,
+    "risk_score": 88.89,
+    "risk_rank": 30,
+    "top15_risk": false
+  },
+  {
+    "unit": 242,
+    "true_RUL": 17.0,
+    "predicted_RUL": 14.75030517578125,
+    "error": -2.24969482421875,
+    "risk_score": 87.99,
+    "risk_rank": 31,
+    "top15_risk": false
+  },
+  {
+    "unit": 64,
+    "true_RUL": 14.0,
+    "predicted_RUL": 14.761019706726074,
+    "error": 0.7610197067260742,
+    "risk_score": 87.98,
+    "risk_rank": 32,
+    "top15_risk": false
+  },
+  {
+    "unit": 148,
+    "true_RUL": 11.0,
+    "predicted_RUL": 15.118382453918457,
+    "error": 4.118382453918457,
+    "risk_score": 87.69,
+    "risk_rank": 33,
+    "top15_risk": false
+  },
+  {
+    "unit": 236,
+    "true_RUL": 12.0,
+    "predicted_RUL": 15.16413688659668,
+    "error": 3.1641368865966797,
+    "risk_score": 87.65,
+    "risk_rank": 34,
+    "top15_risk": false
+  },
+  {
+    "unit": 164,
+    "true_RUL": 14.0,
+    "predicted_RUL": 15.287980079650879,
+    "error": 1.287980079650879,
+    "risk_score": 87.55,
+    "risk_rank": 35,
+    "top15_risk": false
+  },
+  {
+    "unit": 32,
+    "true_RUL": 11.0,
+    "predicted_RUL": 16.198333740234375,
+    "error": 5.198333740234375,
+    "risk_score": 86.81,
+    "risk_rank": 36,
+    "top15_risk": false
+  },
+  {
+    "unit": 9,
+    "true_RUL": 11.0,
+    "predicted_RUL": 16.773693084716797,
+    "error": 5.773693084716797,
+    "risk_score": 86.34,
+    "risk_rank": 37,
+    "top15_risk": false
+  },
+  {
+    "unit": 70,
+    "true_RUL": 17.0,
+    "predicted_RUL": 17.047807693481445,
+    "error": 0.04780769348144531,
+    "risk_score": 86.11,
+    "risk_rank": 38,
+    "top15_risk": false
+  },
+  {
+    "unit": 1,
+    "true_RUL": 18.0,
+    "predicted_RUL": 17.440580368041992,
+    "error": -0.5594196319580078,
+    "risk_score": 85.79,
+    "risk_rank": 39,
+    "top15_risk": false
+  },
+  {
+    "unit": 100,
+    "true_RUL": 14.0,
+    "predicted_RUL": 17.840534210205078,
+    "error": 3.840534210205078,
+    "risk_score": 85.47,
+    "risk_rank": 40,
+    "top15_risk": false
+  },
+  {
+    "unit": 111,
+    "true_RUL": 9.0,
+    "predicted_RUL": 18.072898864746094,
+    "error": 9.072898864746094,
+    "risk_score": 85.28,
+    "risk_rank": 41,
+    "top15_risk": false
+  },
+  {
+    "unit": 190,
+    "true_RUL": 12.0,
+    "predicted_RUL": 18.121726989746094,
+    "error": 6.121726989746094,
+    "risk_score": 85.24,
+    "risk_rank": 42,
+    "top15_risk": false
+  },
+  {
+    "unit": 87,
+    "true_RUL": 21.0,
+    "predicted_RUL": 18.56397819519043,
+    "error": -2.4360218048095703,
+    "risk_score": 84.88,
+    "risk_rank": 43,
+    "top15_risk": false
+  },
+  {
+    "unit": 182,
+    "true_RUL": 14.0,
+    "predicted_RUL": 18.76157569885254,
+    "error": 4.761575698852539,
+    "risk_score": 84.72,
+    "risk_rank": 44,
+    "top15_risk": false
+  },
+  {
+    "unit": 120,
+    "true_RUL": 15.0,
+    "predicted_RUL": 19.094467163085938,
+    "error": 4.0944671630859375,
+    "risk_score": 84.45,
+    "risk_rank": 45,
+    "top15_risk": false
+  },
+  {
+    "unit": 84,
+    "true_RUL": 17.0,
+    "predicted_RUL": 19.254531860351562,
+    "error": 2.2545318603515625,
+    "risk_score": 84.32,
+    "risk_rank": 46,
+    "top15_risk": false
+  },
+  {
+    "unit": 5,
+    "true_RUL": 15.0,
+    "predicted_RUL": 20.312976837158203,
+    "error": 5.312976837158203,
+    "risk_score": 83.45,
+    "risk_rank": 47,
+    "top15_risk": false
+  },
+  {
+    "unit": 97,
+    "true_RUL": 31.0,
+    "predicted_RUL": 20.364620208740234,
+    "error": -10.635379791259766,
+    "risk_score": 83.41,
+    "risk_rank": 48,
+    "top15_risk": false
+  },
+  {
+    "unit": 44,
+    "true_RUL": 6.0,
+    "predicted_RUL": 20.47496223449707,
+    "error": 14.47496223449707,
+    "risk_score": 83.32,
+    "risk_rank": 49,
+    "top15_risk": false
+  },
+  {
+    "unit": 22,
+    "true_RUL": 10.0,
+    "predicted_RUL": 20.7137508392334,
+    "error": 10.713750839233398,
+    "risk_score": 83.13,
+    "risk_rank": 50,
+    "top15_risk": false
+  },
+  {
+    "unit": 48,
+    "true_RUL": 13.0,
+    "predicted_RUL": 20.746395111083984,
+    "error": 7.746395111083984,
+    "risk_score": 83.1,
+    "risk_rank": 51,
+    "top15_risk": false
+  },
+  {
+    "unit": 45,
+    "true_RUL": 15.0,
+    "predicted_RUL": 21.56066131591797,
+    "error": 6.560661315917969,
+    "risk_score": 82.44,
+    "risk_rank": 52,
+    "top15_risk": false
+  },
+  {
+    "unit": 58,
+    "true_RUL": 26.0,
+    "predicted_RUL": 22.390134811401367,
+    "error": -3.609865188598633,
+    "risk_score": 81.76,
+    "risk_rank": 53,
+    "top15_risk": false
+  },
+  {
+    "unit": 161,
+    "true_RUL": 13.0,
+    "predicted_RUL": 24.913713455200195,
+    "error": 11.913713455200195,
+    "risk_score": 79.71,
+    "risk_rank": 54,
+    "top15_risk": false
+  },
+  {
+    "unit": 158,
+    "true_RUL": 15.0,
+    "predicted_RUL": 25.111726760864258,
+    "error": 10.111726760864258,
+    "risk_score": 79.55,
+    "risk_rank": 55,
+    "top15_risk": false
+  },
+  {
+    "unit": 13,
+    "true_RUL": 30.0,
+    "predicted_RUL": 28.283994674682617,
+    "error": -1.7160053253173828,
+    "risk_score": 76.96,
+    "risk_rank": 56,
+    "top15_risk": false
+  },
+  {
+    "unit": 42,
+    "true_RUL": 27.0,
+    "predicted_RUL": 29.846370697021484,
+    "error": 2.8463706970214844,
+    "risk_score": 75.69,
+    "risk_rank": 57,
+    "top15_risk": false
+  },
+  {
+    "unit": 43,
+    "true_RUL": 18.0,
+    "predicted_RUL": 30.061870574951172,
+    "error": 12.061870574951172,
+    "risk_score": 75.51,
+    "risk_rank": 58,
+    "top15_risk": false
+  },
+  {
+    "unit": 192,
+    "true_RUL": 13.0,
+    "predicted_RUL": 30.445552825927734,
+    "error": 17.445552825927734,
+    "risk_score": 75.2,
+    "risk_rank": 59,
+    "top15_risk": false
+  },
+  {
+    "unit": 76,
+    "true_RUL": 36.0,
+    "predicted_RUL": 31.389232635498047,
+    "error": -4.610767364501953,
+    "risk_score": 74.43,
+    "risk_rank": 60,
+    "top15_risk": false
+  },
+  {
+    "unit": 179,
+    "true_RUL": 35.0,
+    "predicted_RUL": 31.451322555541992,
+    "error": -3.548677444458008,
+    "risk_score": 74.38,
+    "risk_rank": 61,
+    "top15_risk": false
+  },
+  {
+    "unit": 19,
+    "true_RUL": 22.0,
+    "predicted_RUL": 32.60914993286133,
+    "error": 10.609149932861328,
+    "risk_score": 73.44,
+    "risk_rank": 62,
+    "top15_risk": false
+  },
+  {
+    "unit": 176,
+    "true_RUL": 23.0,
+    "predicted_RUL": 32.609188079833984,
+    "error": 9.609188079833984,
+    "risk_score": 73.44,
+    "risk_rank": 63,
+    "top15_risk": false
+  },
+  {
+    "unit": 142,
+    "true_RUL": 47.0,
+    "predicted_RUL": 32.842506408691406,
+    "error": -14.157493591308594,
+    "risk_score": 73.25,
+    "risk_rank": 64,
+    "top15_risk": false
+  },
+  {
+    "unit": 171,
+    "true_RUL": 36.0,
+    "predicted_RUL": 32.95494079589844,
+    "error": -3.0450592041015625,
+    "risk_score": 73.16,
+    "risk_rank": 65,
+    "top15_risk": false
+  },
+  {
+    "unit": 109,
+    "true_RUL": 35.0,
+    "predicted_RUL": 34.69266128540039,
+    "error": -0.3073387145996094,
+    "risk_score": 71.74,
+    "risk_rank": 66,
+    "top15_risk": false
+  },
+  {
+    "unit": 209,
+    "true_RUL": 23.0,
+    "predicted_RUL": 34.90078353881836,
+    "error": 11.90078353881836,
+    "risk_score": 71.57,
+    "risk_rank": 67,
+    "top15_risk": false
+  },
+  {
+    "unit": 150,
+    "true_RUL": 34.0,
+    "predicted_RUL": 35.63733673095703,
+    "error": 1.6373367309570312,
+    "risk_score": 70.97,
+    "risk_rank": 68,
+    "top15_risk": false
+  },
+  {
+    "unit": 41,
+    "true_RUL": 44.0,
+    "predicted_RUL": 36.42178726196289,
+    "error": -7.578212738037109,
+    "risk_score": 70.33,
+    "risk_rank": 69,
+    "top15_risk": false
+  },
+  {
+    "unit": 132,
+    "true_RUL": 39.0,
+    "predicted_RUL": 37.31993865966797,
+    "error": -1.6800613403320312,
+    "risk_score": 69.6,
+    "risk_rank": 70,
+    "top15_risk": false
+  },
+  {
+    "unit": 62,
+    "true_RUL": 39.0,
+    "predicted_RUL": 38.80729293823242,
+    "error": -0.19270706176757812,
+    "risk_score": 68.39,
+    "risk_rank": 71,
+    "top15_risk": false
+  },
+  {
+    "unit": 193,
+    "true_RUL": 37.0,
+    "predicted_RUL": 40.41118240356445,
+    "error": 3.411182403564453,
+    "risk_score": 67.08,
+    "risk_rank": 72,
+    "top15_risk": false
+  },
+  {
+    "unit": 96,
+    "true_RUL": 49.0,
+    "predicted_RUL": 40.635318756103516,
+    "error": -8.364681243896484,
+    "risk_score": 66.9,
+    "risk_rank": 73,
+    "top15_risk": false
+  },
+  {
+    "unit": 253,
+    "true_RUL": 43.0,
+    "predicted_RUL": 40.97521209716797,
+    "error": -2.0247879028320312,
+    "risk_score": 66.62,
+    "risk_rank": 74,
+    "top15_risk": false
+  },
+  {
+    "unit": 254,
+    "true_RUL": 48.0,
+    "predicted_RUL": 41.309165954589844,
+    "error": -6.690834045410156,
+    "risk_score": 66.35,
+    "risk_rank": 75,
+    "top15_risk": false
+  },
+  {
+    "unit": 15,
+    "true_RUL": 37.0,
+    "predicted_RUL": 41.88339614868164,
+    "error": 4.883396148681641,
+    "risk_score": 65.88,
+    "risk_rank": 76,
+    "top15_risk": false
+  },
+  {
+    "unit": 63,
+    "true_RUL": 39.0,
+    "predicted_RUL": 42.812076568603516,
+    "error": 3.8120765686035156,
+    "risk_score": 65.13,
+    "risk_rank": 77,
+    "top15_risk": false
+  },
+  {
+    "unit": 222,
+    "true_RUL": 75.0,
+    "predicted_RUL": 45.366153717041016,
+    "error": -29.633846282958984,
+    "risk_score": 63.05,
+    "risk_rank": 78,
+    "top15_risk": false
+  },
+  {
+    "unit": 40,
+    "true_RUL": 37.0,
+    "predicted_RUL": 45.71414566040039,
+    "error": 8.71414566040039,
+    "risk_score": 62.76,
+    "risk_rank": 79,
+    "top15_risk": false
+  },
+  {
+    "unit": 39,
+    "true_RUL": 48.0,
+    "predicted_RUL": 45.81593704223633,
+    "error": -2.184062957763672,
+    "risk_score": 62.68,
+    "risk_rank": 80,
+    "top15_risk": false
+  },
+  {
+    "unit": 144,
+    "true_RUL": 43.0,
+    "predicted_RUL": 45.9215087890625,
+    "error": 2.9215087890625,
+    "risk_score": 62.59,
+    "risk_rank": 81,
+    "top15_risk": false
+  },
+  {
+    "unit": 68,
+    "true_RUL": 56.0,
+    "predicted_RUL": 46.8426628112793,
+    "error": -9.157337188720703,
+    "risk_score": 61.84,
+    "risk_rank": 82,
+    "top15_risk": false
+  },
+  {
+    "unit": 107,
+    "true_RUL": 61.0,
+    "predicted_RUL": 49.21225357055664,
+    "error": -11.78774642944336,
+    "risk_score": 59.91,
+    "risk_rank": 83,
+    "top15_risk": false
+  },
+  {
+    "unit": 181,
+    "true_RUL": 68.0,
+    "predicted_RUL": 50.015865325927734,
+    "error": -17.984134674072266,
+    "risk_score": 59.26,
+    "risk_rank": 84,
+    "top15_risk": false
+  },
+  {
+    "unit": 198,
+    "true_RUL": 32.0,
+    "predicted_RUL": 51.45927429199219,
+    "error": 19.459274291992188,
+    "risk_score": 58.08,
+    "risk_rank": 85,
+    "top15_risk": false
+  },
+  {
+    "unit": 85,
+    "true_RUL": 47.0,
+    "predicted_RUL": 51.732948303222656,
+    "error": 4.732948303222656,
+    "risk_score": 57.86,
+    "risk_rank": 86,
+    "top15_risk": false
+  },
+  {
+    "unit": 20,
+    "true_RUL": 54.0,
+    "predicted_RUL": 52.13294982910156,
+    "error": -1.8670501708984375,
+    "risk_score": 57.53,
+    "risk_rank": 87,
+    "top15_risk": false
+  },
+  {
+    "unit": 127,
+    "true_RUL": 82.0,
+    "predicted_RUL": 52.84892272949219,
+    "error": -29.151077270507812,
+    "risk_score": 56.95,
+    "risk_rank": 88,
+    "top15_risk": false
+  },
+  {
+    "unit": 8,
+    "true_RUL": 90.0,
+    "predicted_RUL": 54.13205337524414,
+    "error": -35.86794662475586,
+    "risk_score": 55.91,
+    "risk_rank": 89,
+    "top15_risk": false
+  },
+  {
+    "unit": 160,
+    "true_RUL": 42.0,
+    "predicted_RUL": 54.66238021850586,
+    "error": 12.66238021850586,
+    "risk_score": 55.47,
+    "risk_rank": 90,
+    "top15_risk": false
+  },
+  {
+    "unit": 257,
+    "true_RUL": 56.0,
+    "predicted_RUL": 56.13151931762695,
+    "error": 0.13151931762695312,
+    "risk_score": 54.28,
+    "risk_rank": 91,
+    "top15_risk": false
+  },
+  {
+    "unit": 140,
+    "true_RUL": 55.0,
+    "predicted_RUL": 59.1394157409668,
+    "error": 4.139415740966797,
+    "risk_score": 51.83,
+    "risk_rank": 92,
+    "top15_risk": false
+  },
+  {
+    "unit": 30,
+    "true_RUL": 78.0,
+    "predicted_RUL": 59.7270393371582,
+    "error": -18.272960662841797,
+    "risk_score": 51.35,
+    "risk_rank": 93,
+    "top15_risk": false
+  },
+  {
+    "unit": 189,
+    "true_RUL": 43.0,
+    "predicted_RUL": 60.338863372802734,
+    "error": 17.338863372802734,
+    "risk_score": 50.85,
+    "risk_rank": 94,
+    "top15_risk": false
+  },
+  {
+    "unit": 73,
+    "true_RUL": 78.0,
+    "predicted_RUL": 60.63705062866211,
+    "error": -17.36294937133789,
+    "risk_score": 50.61,
+    "risk_rank": 95,
+    "top15_risk": false
+  },
+  {
+    "unit": 152,
+    "true_RUL": 59.0,
+    "predicted_RUL": 62.119117736816406,
+    "error": 3.1191177368164062,
+    "risk_score": 49.4,
+    "risk_rank": 96,
+    "top15_risk": false
+  },
+  {
+    "unit": 133,
+    "true_RUL": 38.0,
+    "predicted_RUL": 62.42538070678711,
+    "error": 24.42538070678711,
+    "risk_score": 49.15,
+    "risk_rank": 97,
+    "top15_risk": false
+  },
+  {
+    "unit": 237,
+    "true_RUL": 62.0,
+    "predicted_RUL": 62.43027877807617,
+    "error": 0.4302787780761719,
+    "risk_score": 49.15,
+    "risk_rank": 98,
+    "top15_risk": false
+  },
+  {
+    "unit": 195,
+    "true_RUL": 80.0,
+    "predicted_RUL": 62.75651550292969,
+    "error": -17.243484497070312,
+    "risk_score": 48.88,
+    "risk_rank": 99,
+    "top15_risk": false
+  },
+  {
+    "unit": 52,
+    "true_RUL": 53.0,
+    "predicted_RUL": 63.81422424316406,
+    "error": 10.814224243164062,
+    "risk_score": 48.02,
+    "risk_rank": 100,
+    "top15_risk": false
+  },
+  {
+    "unit": 163,
+    "true_RUL": 88.0,
+    "predicted_RUL": 64.00022888183594,
+    "error": -23.999771118164062,
+    "risk_score": 47.87,
+    "risk_rank": 101,
+    "top15_risk": false
+  },
+  {
+    "unit": 35,
+    "true_RUL": 63.0,
+    "predicted_RUL": 65.09872436523438,
+    "error": 2.098724365234375,
+    "risk_score": 46.97,
+    "risk_rank": 102,
+    "top15_risk": false
+  },
+  {
+    "unit": 206,
+    "true_RUL": 48.0,
+    "predicted_RUL": 67.0987777709961,
+    "error": 19.098777770996094,
+    "risk_score": 45.34,
+    "risk_rank": 103,
+    "top15_risk": false
+  },
+  {
+    "unit": 33,
+    "true_RUL": 53.0,
+    "predicted_RUL": 67.116943359375,
+    "error": 14.116943359375,
+    "risk_score": 45.33,
+    "risk_rank": 104,
+    "top15_risk": false
+  },
+  {
+    "unit": 139,
+    "true_RUL": 51.0,
+    "predicted_RUL": 68.15957641601562,
+    "error": 17.159576416015625,
+    "risk_score": 44.48,
+    "risk_rank": 105,
+    "top15_risk": false
+  },
+  {
+    "unit": 207,
+    "true_RUL": 85.0,
+    "predicted_RUL": 68.58429718017578,
+    "error": -16.41570281982422,
+    "risk_score": 44.13,
+    "risk_rank": 106,
+    "top15_risk": false
+  },
+  {
+    "unit": 248,
+    "true_RUL": 56.0,
+    "predicted_RUL": 69.63579559326172,
+    "error": 13.635795593261719,
+    "risk_score": 43.28,
+    "risk_rank": 107,
+    "top15_risk": false
+  },
+  {
+    "unit": 38,
+    "true_RUL": 55.0,
+    "predicted_RUL": 70.2808837890625,
+    "error": 15.2808837890625,
+    "risk_score": 42.75,
+    "risk_rank": 108,
+    "top15_risk": false
+  },
+  {
+    "unit": 221,
+    "true_RUL": 125.0,
+    "predicted_RUL": 70.31221771240234,
+    "error": -54.687782287597656,
+    "risk_score": 42.73,
+    "risk_rank": 109,
+    "top15_risk": false
+  },
+  {
+    "unit": 162,
+    "true_RUL": 41.0,
+    "predicted_RUL": 70.42916107177734,
+    "error": 29.429161071777344,
+    "risk_score": 42.63,
+    "risk_rank": 110,
+    "top15_risk": false
+  },
+  {
+    "unit": 137,
+    "true_RUL": 88.0,
+    "predicted_RUL": 71.16411590576172,
+    "error": -16.83588409423828,
+    "risk_score": 42.03,
+    "risk_rank": 111,
+    "top15_risk": false
+  },
+  {
+    "unit": 183,
+    "true_RUL": 67.0,
+    "predicted_RUL": 71.64716339111328,
+    "error": 4.647163391113281,
+    "risk_score": 41.64,
+    "risk_rank": 112,
+    "top15_risk": false
+  },
+  {
+    "unit": 17,
+    "true_RUL": 68.0,
+    "predicted_RUL": 71.78163146972656,
+    "error": 3.7816314697265625,
+    "risk_score": 41.53,
+    "risk_rank": 113,
+    "top15_risk": false
+  },
+  {
+    "unit": 129,
+    "true_RUL": 79.0,
+    "predicted_RUL": 72.2316665649414,
+    "error": -6.768333435058594,
+    "risk_score": 41.16,
+    "risk_rank": 114,
+    "top15_risk": false
+  },
+  {
+    "unit": 4,
+    "true_RUL": 110.0,
+    "predicted_RUL": 72.43395233154297,
+    "error": -37.56604766845703,
+    "risk_score": 41.0,
+    "risk_rank": 115,
+    "top15_risk": false
+  },
+  {
+    "unit": 88,
+    "true_RUL": 79.0,
+    "predicted_RUL": 76.29515075683594,
+    "error": -2.7048492431640625,
+    "risk_score": 37.85,
+    "risk_rank": 116,
+    "top15_risk": false
+  },
+  {
+    "unit": 29,
+    "true_RUL": 83.0,
+    "predicted_RUL": 76.42178344726562,
+    "error": -6.578216552734375,
+    "risk_score": 37.75,
+    "risk_rank": 117,
+    "top15_risk": false
+  },
+  {
+    "unit": 53,
+    "true_RUL": 52.0,
+    "predicted_RUL": 77.53129577636719,
+    "error": 25.531295776367188,
+    "risk_score": 36.85,
+    "risk_rank": 118,
+    "top15_risk": false
+  },
+  {
+    "unit": 86,
+    "true_RUL": 125.0,
+    "predicted_RUL": 77.81731414794922,
+    "error": -47.18268585205078,
+    "risk_score": 36.61,
+    "risk_rank": 119,
+    "top15_risk": false
+  },
+  {
+    "unit": 25,
+    "true_RUL": 88.0,
+    "predicted_RUL": 78.45550537109375,
+    "error": -9.54449462890625,
+    "risk_score": 36.09,
+    "risk_rank": 120,
+    "top15_risk": false
+  },
+  {
+    "unit": 216,
+    "true_RUL": 81.0,
+    "predicted_RUL": 80.45341491699219,
+    "error": -0.5465850830078125,
+    "risk_score": 34.47,
+    "risk_rank": 121,
+    "top15_risk": false
+  },
+  {
+    "unit": 219,
+    "true_RUL": 73.0,
+    "predicted_RUL": 81.0906982421875,
+    "error": 8.0906982421875,
+    "risk_score": 33.95,
+    "risk_rank": 122,
+    "top15_risk": false
+  },
+  {
+    "unit": 78,
+    "true_RUL": 52.0,
+    "predicted_RUL": 81.7496566772461,
+    "error": 29.749656677246094,
+    "risk_score": 33.41,
+    "risk_rank": 123,
+    "top15_risk": false
+  },
+  {
+    "unit": 121,
+    "true_RUL": 67.0,
+    "predicted_RUL": 82.16860961914062,
+    "error": 15.168609619140625,
+    "risk_score": 33.07,
+    "risk_rank": 124,
+    "top15_risk": false
+  },
+  {
+    "unit": 36,
+    "true_RUL": 100.0,
+    "predicted_RUL": 82.4745101928711,
+    "error": -17.525489807128906,
+    "risk_score": 32.82,
+    "risk_rank": 125,
+    "top15_risk": false
+  },
+  {
+    "unit": 213,
+    "true_RUL": 83.0,
+    "predicted_RUL": 82.68541717529297,
+    "error": -0.31458282470703125,
+    "risk_score": 32.65,
+    "risk_rank": 126,
+    "top15_risk": false
+  },
+  {
+    "unit": 24,
+    "true_RUL": 77.0,
+    "predicted_RUL": 83.5878677368164,
+    "error": 6.587867736816406,
+    "risk_score": 31.91,
+    "risk_rank": 127,
+    "top15_risk": false
+  },
+  {
+    "unit": 82,
+    "true_RUL": 74.0,
+    "predicted_RUL": 84.38584899902344,
+    "error": 10.385848999023438,
+    "risk_score": 31.26,
+    "risk_rank": 128,
+    "top15_risk": false
+  },
+  {
+    "unit": 94,
+    "true_RUL": 97.0,
+    "predicted_RUL": 87.21302795410156,
+    "error": -9.786972045898438,
+    "risk_score": 28.96,
+    "risk_rank": 129,
+    "top15_risk": false
+  },
+  {
+    "unit": 67,
+    "true_RUL": 86.0,
+    "predicted_RUL": 87.40499114990234,
+    "error": 1.4049911499023438,
+    "risk_score": 28.8,
+    "risk_rank": 130,
+    "top15_risk": false
+  },
+  {
+    "unit": 112,
+    "true_RUL": 50.0,
+    "predicted_RUL": 88.47069549560547,
+    "error": 38.47069549560547,
+    "risk_score": 27.94,
+    "risk_rank": 131,
+    "top15_risk": false
+  },
+  {
+    "unit": 98,
+    "true_RUL": 97.0,
+    "predicted_RUL": 89.72586822509766,
+    "error": -7.274131774902344,
+    "risk_score": 26.91,
+    "risk_rank": 132,
+    "top15_risk": false
+  },
+  {
+    "unit": 72,
+    "true_RUL": 104.0,
+    "predicted_RUL": 90.26914978027344,
+    "error": -13.730850219726562,
+    "risk_score": 26.47,
+    "risk_rank": 133,
+    "top15_risk": false
+  },
+  {
+    "unit": 89,
+    "true_RUL": 97.0,
+    "predicted_RUL": 90.34226989746094,
+    "error": -6.6577301025390625,
+    "risk_score": 26.41,
+    "risk_rank": 134,
+    "top15_risk": false
+  },
+  {
+    "unit": 170,
+    "true_RUL": 125.0,
+    "predicted_RUL": 91.17264556884766,
+    "error": -33.827354431152344,
+    "risk_score": 25.73,
+    "risk_rank": 135,
+    "top15_risk": false
+  },
+  {
+    "unit": 143,
+    "true_RUL": 81.0,
+    "predicted_RUL": 91.60182189941406,
+    "error": 10.601821899414062,
+    "risk_score": 25.39,
+    "risk_rank": 136,
+    "top15_risk": false
+  },
+  {
+    "unit": 256,
+    "true_RUL": 125.0,
+    "predicted_RUL": 92.55622863769531,
+    "error": -32.44377136230469,
+    "risk_score": 24.61,
+    "risk_rank": 137,
+    "top15_risk": false
+  },
+  {
+    "unit": 114,
+    "true_RUL": 78.0,
+    "predicted_RUL": 92.57569885253906,
+    "error": 14.575698852539062,
+    "risk_score": 24.59,
+    "risk_rank": 138,
+    "top15_risk": false
+  },
+  {
+    "unit": 200,
+    "true_RUL": 125.0,
+    "predicted_RUL": 93.03176879882812,
+    "error": -31.968231201171875,
+    "risk_score": 24.22,
+    "risk_rank": 139,
+    "top15_risk": false
+  },
+  {
+    "unit": 3,
+    "true_RUL": 106.0,
+    "predicted_RUL": 93.89202117919922,
+    "error": -12.107978820800781,
+    "risk_score": 23.52,
+    "risk_rank": 140,
+    "top15_risk": false
+  },
+  {
+    "unit": 75,
+    "true_RUL": 98.0,
+    "predicted_RUL": 94.85344696044922,
+    "error": -3.1465530395507812,
+    "risk_score": 22.74,
+    "risk_rank": 141,
+    "top15_risk": false
+  },
+  {
+    "unit": 226,
+    "true_RUL": 108.0,
+    "predicted_RUL": 95.36505126953125,
+    "error": -12.63494873046875,
+    "risk_score": 22.32,
+    "risk_rank": 142,
+    "top15_risk": false
+  },
+  {
+    "unit": 125,
+    "true_RUL": 125.0,
+    "predicted_RUL": 95.75791931152344,
+    "error": -29.242080688476562,
+    "risk_score": 22.0,
+    "risk_rank": 143,
+    "top15_risk": false
+  },
+  {
+    "unit": 23,
+    "true_RUL": 125.0,
+    "predicted_RUL": 96.52456665039062,
+    "error": -28.475433349609375,
+    "risk_score": 21.38,
+    "risk_rank": 144,
+    "top15_risk": false
+  },
+  {
+    "unit": 60,
+    "true_RUL": 73.0,
+    "predicted_RUL": 97.07206726074219,
+    "error": 24.072067260742188,
+    "risk_score": 20.93,
+    "risk_rank": 145,
+    "top15_risk": false
+  },
+  {
+    "unit": 243,
+    "true_RUL": 125.0,
+    "predicted_RUL": 99.08746337890625,
+    "error": -25.91253662109375,
+    "risk_score": 19.29,
+    "risk_rank": 146,
+    "top15_risk": false
+  },
+  {
+    "unit": 66,
+    "true_RUL": 121.0,
+    "predicted_RUL": 100.29035949707031,
+    "error": -20.709640502929688,
+    "risk_score": 18.31,
+    "risk_rank": 147,
+    "top15_risk": false
+  },
+  {
+    "unit": 151,
+    "true_RUL": 115.0,
+    "predicted_RUL": 100.69168090820312,
+    "error": -14.308319091796875,
+    "risk_score": 17.98,
+    "risk_rank": 148,
+    "top15_risk": false
+  },
+  {
+    "unit": 61,
+    "true_RUL": 125.0,
+    "predicted_RUL": 100.9910659790039,
+    "error": -24.008934020996094,
+    "risk_score": 17.74,
+    "risk_rank": 149,
+    "top15_risk": false
+  },
+  {
+    "unit": 259,
+    "true_RUL": 51.0,
+    "predicted_RUL": 102.02935028076172,
+    "error": 51.02935028076172,
+    "risk_score": 16.89,
+    "risk_rank": 150,
+    "top15_risk": false
+  },
+  {
+    "unit": 115,
+    "true_RUL": 91.0,
+    "predicted_RUL": 102.60343933105469,
+    "error": 11.603439331054688,
+    "risk_score": 16.42,
+    "risk_rank": 151,
+    "top15_risk": false
+  },
+  {
+    "unit": 153,
+    "true_RUL": 99.0,
+    "predicted_RUL": 102.84663391113281,
+    "error": 3.8466339111328125,
+    "risk_score": 16.23,
+    "risk_rank": 152,
+    "top15_risk": false
+  },
+  {
+    "unit": 93,
+    "true_RUL": 125.0,
+    "predicted_RUL": 102.97250366210938,
+    "error": -22.027496337890625,
+    "risk_score": 16.12,
+    "risk_rank": 153,
+    "top15_risk": false
+  },
+  {
+    "unit": 240,
+    "true_RUL": 121.0,
+    "predicted_RUL": 104.87726593017578,
+    "error": -16.12273406982422,
+    "risk_score": 14.57,
+    "risk_rank": 154,
+    "top15_risk": false
+  },
+  {
+    "unit": 104,
+    "true_RUL": 106.0,
+    "predicted_RUL": 105.17069244384766,
+    "error": -0.8293075561523438,
+    "risk_score": 14.33,
+    "risk_rank": 155,
+    "top15_risk": false
+  },
+  {
+    "unit": 118,
+    "true_RUL": 125.0,
+    "predicted_RUL": 105.1714859008789,
+    "error": -19.828514099121094,
+    "risk_score": 14.33,
+    "risk_rank": 156,
+    "top15_risk": false
+  },
+  {
+    "unit": 169,
+    "true_RUL": 125.0,
+    "predicted_RUL": 105.17444610595703,
+    "error": -19.82555389404297,
+    "risk_score": 14.33,
+    "risk_rank": 157,
+    "top15_risk": false
+  },
+  {
+    "unit": 47,
+    "true_RUL": 125.0,
+    "predicted_RUL": 105.3441162109375,
+    "error": -19.6558837890625,
+    "risk_score": 14.19,
+    "risk_rank": 158,
+    "top15_risk": false
+  },
+  {
+    "unit": 188,
+    "true_RUL": 125.0,
+    "predicted_RUL": 105.43368530273438,
+    "error": -19.566314697265625,
+    "risk_score": 14.12,
+    "risk_rank": 159,
+    "top15_risk": false
+  },
+  {
+    "unit": 145,
+    "true_RUL": 98.0,
+    "predicted_RUL": 105.57733917236328,
+    "error": 7.577339172363281,
+    "risk_score": 14.0,
+    "risk_rank": 160,
+    "top15_risk": false
+  },
+  {
+    "unit": 232,
+    "true_RUL": 101.0,
+    "predicted_RUL": 106.00212097167969,
+    "error": 5.0021209716796875,
+    "risk_score": 13.66,
+    "risk_rank": 161,
+    "top15_risk": false
+  },
+  {
+    "unit": 174,
+    "true_RUL": 95.0,
+    "predicted_RUL": 106.3618392944336,
+    "error": 11.361839294433594,
+    "risk_score": 13.36,
+    "risk_rank": 162,
+    "top15_risk": false
+  },
+  {
+    "unit": 136,
+    "true_RUL": 87.0,
+    "predicted_RUL": 106.76081848144531,
+    "error": 19.760818481445312,
+    "risk_score": 13.04,
+    "risk_rank": 163,
+    "top15_risk": false
+  },
+  {
+    "unit": 230,
+    "true_RUL": 85.0,
+    "predicted_RUL": 107.16262817382812,
+    "error": 22.162628173828125,
+    "risk_score": 12.71,
+    "risk_rank": 164,
+    "top15_risk": false
+  },
+  {
+    "unit": 214,
+    "true_RUL": 125.0,
+    "predicted_RUL": 107.35802459716797,
+    "error": -17.64197540283203,
+    "risk_score": 12.55,
+    "risk_rank": 165,
+    "top15_risk": false
+  },
+  {
+    "unit": 2,
+    "true_RUL": 79.0,
+    "predicted_RUL": 107.65190887451172,
+    "error": 28.65190887451172,
+    "risk_score": 12.31,
+    "risk_rank": 166,
+    "top15_risk": false
+  },
+  {
+    "unit": 180,
+    "true_RUL": 97.0,
+    "predicted_RUL": 107.72378540039062,
+    "error": 10.723785400390625,
+    "risk_score": 12.25,
+    "risk_rank": 167,
+    "top15_risk": false
+  },
+  {
+    "unit": 168,
+    "true_RUL": 82.0,
+    "predicted_RUL": 108.21326446533203,
+    "error": 26.21326446533203,
+    "risk_score": 11.85,
+    "risk_rank": 168,
+    "top15_risk": false
+  },
+  {
+    "unit": 95,
+    "true_RUL": 73.0,
+    "predicted_RUL": 108.28124237060547,
+    "error": 35.28124237060547,
+    "risk_score": 11.8,
+    "risk_rank": 169,
+    "top15_risk": false
+  },
+  {
+    "unit": 212,
+    "true_RUL": 57.0,
+    "predicted_RUL": 108.56231689453125,
+    "error": 51.56231689453125,
+    "risk_score": 11.57,
+    "risk_rank": 170,
+    "top15_risk": false
+  },
+  {
+    "unit": 110,
+    "true_RUL": 80.0,
+    "predicted_RUL": 109.04995727539062,
+    "error": 29.049957275390625,
+    "risk_score": 11.17,
+    "risk_rank": 171,
+    "top15_risk": false
+  },
+  {
+    "unit": 128,
+    "true_RUL": 108.0,
+    "predicted_RUL": 109.06935119628906,
+    "error": 1.0693511962890625,
+    "risk_score": 11.16,
+    "risk_rank": 172,
+    "top15_risk": false
+  },
+  {
+    "unit": 239,
+    "true_RUL": 101.0,
+    "predicted_RUL": 109.1540756225586,
+    "error": 8.154075622558594,
+    "risk_score": 11.09,
+    "risk_rank": 173,
+    "top15_risk": false
+  },
+  {
+    "unit": 228,
+    "true_RUL": 125.0,
+    "predicted_RUL": 109.63394927978516,
+    "error": -15.366050720214844,
+    "risk_score": 10.7,
+    "risk_rank": 174,
+    "top15_risk": false
+  },
+  {
+    "unit": 154,
+    "true_RUL": 103.0,
+    "predicted_RUL": 109.66169738769531,
+    "error": 6.6616973876953125,
+    "risk_score": 10.67,
+    "risk_rank": 175,
+    "top15_risk": false
+  },
+  {
+    "unit": 77,
+    "true_RUL": 94.0,
+    "predicted_RUL": 109.73194122314453,
+    "error": 15.731941223144531,
+    "risk_score": 10.62,
+    "risk_rank": 176,
+    "top15_risk": false
+  },
+  {
+    "unit": 92,
+    "true_RUL": 73.0,
+    "predicted_RUL": 109.90074157714844,
+    "error": 36.90074157714844,
+    "risk_score": 10.48,
+    "risk_rank": 177,
+    "top15_risk": false
+  },
+  {
+    "unit": 119,
+    "true_RUL": 106.0,
+    "predicted_RUL": 110.297119140625,
+    "error": 4.297119140625,
+    "risk_score": 10.16,
+    "risk_rank": 178,
+    "top15_risk": false
+  },
+  {
+    "unit": 49,
+    "true_RUL": 122.0,
+    "predicted_RUL": 110.42327117919922,
+    "error": -11.576728820800781,
+    "risk_score": 10.05,
+    "risk_rank": 179,
+    "top15_risk": false
+  },
+  {
+    "unit": 54,
+    "true_RUL": 106.0,
+    "predicted_RUL": 110.52078247070312,
+    "error": 4.520782470703125,
+    "risk_score": 9.97,
+    "risk_rank": 180,
+    "top15_risk": false
+  },
+  {
+    "unit": 244,
+    "true_RUL": 125.0,
+    "predicted_RUL": 110.61530303955078,
+    "error": -14.384696960449219,
+    "risk_score": 9.9,
+    "risk_rank": 181,
+    "top15_risk": false
+  },
+  {
+    "unit": 108,
+    "true_RUL": 125.0,
+    "predicted_RUL": 110.75444793701172,
+    "error": -14.245552062988281,
+    "risk_score": 9.78,
+    "risk_rank": 182,
+    "top15_risk": false
+  },
+  {
+    "unit": 235,
+    "true_RUL": 125.0,
+    "predicted_RUL": 110.94696807861328,
+    "error": -14.053031921386719,
+    "risk_score": 9.63,
+    "risk_rank": 183,
+    "top15_risk": false
+  },
+  {
+    "unit": 16,
+    "true_RUL": 67.0,
+    "predicted_RUL": 111.27007293701172,
+    "error": 44.27007293701172,
+    "risk_score": 9.36,
+    "risk_rank": 184,
+    "top15_risk": false
+  },
+  {
+    "unit": 18,
+    "true_RUL": 99.0,
+    "predicted_RUL": 111.33231353759766,
+    "error": 12.332313537597656,
+    "risk_score": 9.31,
+    "risk_rank": 185,
+    "top15_risk": false
+  },
+  {
+    "unit": 166,
+    "true_RUL": 125.0,
+    "predicted_RUL": 111.882568359375,
+    "error": -13.117431640625,
+    "risk_score": 8.87,
+    "risk_rank": 186,
+    "top15_risk": false
+  },
+  {
+    "unit": 215,
+    "true_RUL": 101.0,
+    "predicted_RUL": 111.9540786743164,
+    "error": 10.954078674316406,
+    "risk_score": 8.81,
+    "risk_rank": 187,
+    "top15_risk": false
+  },
+  {
+    "unit": 106,
+    "true_RUL": 120.0,
+    "predicted_RUL": 112.26591491699219,
+    "error": -7.7340850830078125,
+    "risk_score": 8.55,
+    "risk_rank": 188,
+    "top15_risk": false
+  },
+  {
+    "unit": 79,
+    "true_RUL": 91.0,
+    "predicted_RUL": 112.28314971923828,
+    "error": 21.28314971923828,
+    "risk_score": 8.54,
+    "risk_rank": 189,
+    "top15_risk": false
+  },
+  {
+    "unit": 12,
+    "true_RUL": 73.0,
+    "predicted_RUL": 112.32340240478516,
+    "error": 39.323402404785156,
+    "risk_score": 8.51,
+    "risk_rank": 190,
+    "top15_risk": false
+  },
+  {
+    "unit": 205,
+    "true_RUL": 125.0,
+    "predicted_RUL": 112.84820556640625,
+    "error": -12.15179443359375,
+    "risk_score": 8.08,
+    "risk_rank": 191,
+    "top15_risk": false
+  },
+  {
+    "unit": 37,
+    "true_RUL": 125.0,
+    "predicted_RUL": 112.97562408447266,
+    "error": -12.024375915527344,
+    "risk_score": 7.98,
+    "risk_rank": 192,
+    "top15_risk": false
+  },
+  {
+    "unit": 81,
+    "true_RUL": 125.0,
+    "predicted_RUL": 113.24398040771484,
+    "error": -11.756019592285156,
+    "risk_score": 7.76,
+    "risk_rank": 193,
+    "top15_risk": false
+  },
+  {
+    "unit": 229,
+    "true_RUL": 61.0,
+    "predicted_RUL": 113.57295227050781,
+    "error": 52.57295227050781,
+    "risk_score": 7.49,
+    "risk_rank": 194,
+    "top15_risk": false
+  },
+  {
+    "unit": 6,
+    "true_RUL": 125.0,
+    "predicted_RUL": 113.63774871826172,
+    "error": -11.362251281738281,
+    "risk_score": 7.44,
+    "risk_rank": 195,
+    "top15_risk": false
+  },
+  {
+    "unit": 234,
+    "true_RUL": 89.0,
+    "predicted_RUL": 113.7665786743164,
+    "error": 24.766578674316406,
+    "risk_score": 7.33,
+    "risk_rank": 196,
+    "top15_risk": false
+  },
+  {
+    "unit": 21,
+    "true_RUL": 97.0,
+    "predicted_RUL": 114.00347900390625,
+    "error": 17.00347900390625,
+    "risk_score": 7.14,
+    "risk_rank": 197,
+    "top15_risk": false
+  },
+  {
+    "unit": 251,
+    "true_RUL": 84.0,
+    "predicted_RUL": 114.01860809326172,
+    "error": 30.01860809326172,
+    "risk_score": 7.13,
+    "risk_rank": 198,
+    "top15_risk": false
+  },
+  {
+    "unit": 202,
+    "true_RUL": 68.0,
+    "predicted_RUL": 114.40412139892578,
+    "error": 46.40412139892578,
+    "risk_score": 6.81,
+    "risk_rank": 199,
+    "top15_risk": false
+  },
+  {
+    "unit": 26,
+    "true_RUL": 125.0,
+    "predicted_RUL": 114.5208740234375,
+    "error": -10.4791259765625,
+    "risk_score": 6.72,
+    "risk_rank": 200,
+    "top15_risk": false
+  },
+  {
+    "unit": 31,
+    "true_RUL": 75.0,
+    "predicted_RUL": 114.89375305175781,
+    "error": 39.89375305175781,
+    "risk_score": 6.41,
+    "risk_rank": 201,
+    "top15_risk": false
+  },
+  {
+    "unit": 155,
+    "true_RUL": 108.0,
+    "predicted_RUL": 114.93800354003906,
+    "error": 6.9380035400390625,
+    "risk_score": 6.38,
+    "risk_rank": 202,
+    "top15_risk": false
+  },
+  {
+    "unit": 141,
+    "true_RUL": 125.0,
+    "predicted_RUL": 115.01929473876953,
+    "error": -9.980705261230469,
+    "risk_score": 6.31,
+    "risk_rank": 203,
+    "top15_risk": false
+  },
+  {
+    "unit": 131,
+    "true_RUL": 120.0,
+    "predicted_RUL": 115.18156433105469,
+    "error": -4.8184356689453125,
+    "risk_score": 6.18,
+    "risk_rank": 204,
+    "top15_risk": false
+  },
+  {
+    "unit": 233,
+    "true_RUL": 125.0,
+    "predicted_RUL": 115.20850372314453,
+    "error": -9.791496276855469,
+    "risk_score": 6.16,
+    "risk_rank": 205,
+    "top15_risk": false
+  },
+  {
+    "unit": 74,
+    "true_RUL": 86.0,
+    "predicted_RUL": 115.38070678710938,
+    "error": 29.380706787109375,
+    "risk_score": 6.02,
+    "risk_rank": 206,
+    "top15_risk": false
+  },
+  {
+    "unit": 147,
+    "true_RUL": 92.0,
+    "predicted_RUL": 115.44979095458984,
+    "error": 23.449790954589844,
+    "risk_score": 5.96,
+    "risk_rank": 207,
+    "top15_risk": false
+  },
+  {
+    "unit": 149,
+    "true_RUL": 125.0,
+    "predicted_RUL": 115.9831314086914,
+    "error": -9.016868591308594,
+    "risk_score": 5.53,
+    "risk_rank": 208,
+    "top15_risk": false
+  },
+  {
+    "unit": 220,
+    "true_RUL": 121.0,
+    "predicted_RUL": 116.14413452148438,
+    "error": -4.855865478515625,
+    "risk_score": 5.39,
+    "risk_rank": 209,
+    "top15_risk": false
+  },
+  {
+    "unit": 172,
+    "true_RUL": 107.0,
+    "predicted_RUL": 116.62349700927734,
+    "error": 9.623497009277344,
+    "risk_score": 5.0,
+    "risk_rank": 210,
+    "top15_risk": false
+  },
+  {
+    "unit": 255,
+    "true_RUL": 122.0,
+    "predicted_RUL": 116.69163513183594,
+    "error": -5.3083648681640625,
+    "risk_score": 4.95,
+    "risk_rank": 211,
+    "top15_risk": false
+  },
+  {
+    "unit": 217,
+    "true_RUL": 86.0,
+    "predicted_RUL": 116.76904296875,
+    "error": 30.76904296875,
+    "risk_score": 4.89,
+    "risk_rank": 212,
+    "top15_risk": false
+  },
+  {
+    "unit": 69,
+    "true_RUL": 115.0,
+    "predicted_RUL": 116.89534759521484,
+    "error": 1.8953475952148438,
+    "risk_score": 4.78,
+    "risk_rank": 213,
+    "top15_risk": false
+  },
+  {
+    "unit": 196,
+    "true_RUL": 93.0,
+    "predicted_RUL": 116.9714584350586,
+    "error": 23.971458435058594,
+    "risk_score": 4.72,
+    "risk_rank": 214,
+    "top15_risk": false
+  },
+  {
+    "unit": 10,
+    "true_RUL": 79.0,
+    "predicted_RUL": 117.14667510986328,
+    "error": 38.14667510986328,
+    "risk_score": 4.58,
+    "risk_rank": 215,
+    "top15_risk": false
+  },
+  {
+    "unit": 130,
+    "true_RUL": 121.0,
+    "predicted_RUL": 117.22621154785156,
+    "error": -3.7737884521484375,
+    "risk_score": 4.51,
+    "risk_rank": 216,
+    "top15_risk": false
+  },
+  {
+    "unit": 178,
+    "true_RUL": 125.0,
+    "predicted_RUL": 117.9814224243164,
+    "error": -7.018577575683594,
+    "risk_score": 3.9,
+    "risk_rank": 217,
+    "top15_risk": false
+  },
+  {
+    "unit": 246,
+    "true_RUL": 125.0,
+    "predicted_RUL": 118.28849029541016,
+    "error": -6.711509704589844,
+    "risk_score": 3.65,
+    "risk_rank": 218,
+    "top15_risk": false
+  },
+  {
+    "unit": 122,
+    "true_RUL": 125.0,
+    "predicted_RUL": 118.31769561767578,
+    "error": -6.682304382324219,
+    "risk_score": 3.62,
+    "risk_rank": 219,
+    "top15_risk": false
+  },
+  {
+    "unit": 101,
+    "true_RUL": 106.0,
+    "predicted_RUL": 118.41627502441406,
+    "error": 12.416275024414062,
+    "risk_score": 3.54,
+    "risk_rank": 220,
+    "top15_risk": false
+  },
+  {
+    "unit": 167,
+    "true_RUL": 96.0,
+    "predicted_RUL": 118.78585815429688,
+    "error": 22.785858154296875,
+    "risk_score": 3.24,
+    "risk_rank": 221,
+    "top15_risk": false
+  },
+  {
+    "unit": 191,
+    "true_RUL": 125.0,
+    "predicted_RUL": 118.90354919433594,
+    "error": -6.0964508056640625,
+    "risk_score": 3.15,
+    "risk_rank": 222,
+    "top15_risk": false
+  },
+  {
+    "unit": 135,
+    "true_RUL": 125.0,
+    "predicted_RUL": 119.2389144897461,
+    "error": -5.761085510253906,
+    "risk_score": 2.87,
+    "risk_rank": 223,
+    "top15_risk": false
+  },
+  {
+    "unit": 247,
+    "true_RUL": 125.0,
+    "predicted_RUL": 119.46685791015625,
+    "error": -5.53314208984375,
+    "risk_score": 2.69,
+    "risk_rank": 224,
+    "top15_risk": false
+  },
+  {
+    "unit": 156,
+    "true_RUL": 83.0,
+    "predicted_RUL": 119.66996765136719,
+    "error": 36.66996765136719,
+    "risk_score": 2.52,
+    "risk_rank": 225,
+    "top15_risk": false
+  },
+  {
+    "unit": 46,
+    "true_RUL": 112.0,
+    "predicted_RUL": 119.67272186279297,
+    "error": 7.672721862792969,
+    "risk_score": 2.52,
+    "risk_rank": 226,
+    "top15_risk": false
+  },
+  {
+    "unit": 123,
+    "true_RUL": 125.0,
+    "predicted_RUL": 119.7220230102539,
+    "error": -5.277976989746094,
+    "risk_score": 2.48,
+    "risk_rank": 227,
+    "top15_risk": false
+  },
+  {
+    "unit": 117,
+    "true_RUL": 125.0,
+    "predicted_RUL": 120.02787780761719,
+    "error": -4.9721221923828125,
+    "risk_score": 2.23,
+    "risk_rank": 228,
+    "top15_risk": false
+  },
+  {
+    "unit": 187,
+    "true_RUL": 125.0,
+    "predicted_RUL": 120.13097381591797,
+    "error": -4.869026184082031,
+    "risk_score": 2.15,
+    "risk_rank": 229,
+    "top15_risk": false
+  },
+  {
+    "unit": 199,
+    "true_RUL": 103.0,
+    "predicted_RUL": 120.15541076660156,
+    "error": 17.155410766601562,
+    "risk_score": 2.13,
+    "risk_rank": 230,
+    "top15_risk": false
+  },
+  {
+    "unit": 204,
+    "true_RUL": 121.0,
+    "predicted_RUL": 120.16915893554688,
+    "error": -0.830841064453125,
+    "risk_score": 2.12,
+    "risk_rank": 231,
+    "top15_risk": false
+  },
+  {
+    "unit": 194,
+    "true_RUL": 122.0,
+    "predicted_RUL": 120.2148208618164,
+    "error": -1.7851791381835938,
+    "risk_score": 2.08,
+    "risk_rank": 232,
+    "top15_risk": false
+  },
+  {
+    "unit": 83,
+    "true_RUL": 125.0,
+    "predicted_RUL": 120.2439956665039,
+    "error": -4.756004333496094,
+    "risk_score": 2.05,
+    "risk_rank": 233,
+    "top15_risk": false
+  },
+  {
+    "unit": 157,
+    "true_RUL": 125.0,
+    "predicted_RUL": 120.27909088134766,
+    "error": -4.720909118652344,
+    "risk_score": 2.03,
+    "risk_rank": 234,
+    "top15_risk": false
+  },
+  {
+    "unit": 27,
+    "true_RUL": 125.0,
+    "predicted_RUL": 120.44793701171875,
+    "error": -4.55206298828125,
+    "risk_score": 1.89,
+    "risk_rank": 235,
+    "top15_risk": false
+  },
+  {
+    "unit": 34,
+    "true_RUL": 125.0,
+    "predicted_RUL": 120.47949981689453,
+    "error": -4.520500183105469,
+    "risk_score": 1.86,
+    "risk_rank": 236,
+    "top15_risk": false
+  },
+  {
+    "unit": 165,
+    "true_RUL": 125.0,
+    "predicted_RUL": 120.85233306884766,
+    "error": -4.147666931152344,
+    "risk_score": 1.56,
+    "risk_rank": 237,
+    "top15_risk": false
+  },
+  {
+    "unit": 57,
+    "true_RUL": 123.0,
+    "predicted_RUL": 120.95365142822266,
+    "error": -2.0463485717773438,
+    "risk_score": 1.48,
+    "risk_rank": 238,
+    "top15_risk": false
+  },
+  {
+    "unit": 59,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.07141876220703,
+    "error": -3.9285812377929688,
+    "risk_score": 1.38,
+    "risk_rank": 239,
+    "top15_risk": false
+  },
+  {
+    "unit": 113,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.2989273071289,
+    "error": -3.7010726928710938,
+    "risk_score": 1.2,
+    "risk_rank": 240,
+    "top15_risk": false
+  },
+  {
+    "unit": 258,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.29951477050781,
+    "error": -3.7004852294921875,
+    "risk_score": 1.19,
+    "risk_rank": 241,
+    "top15_risk": false
+  },
+  {
+    "unit": 238,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.33767700195312,
+    "error": -3.662322998046875,
+    "risk_score": 1.16,
+    "risk_rank": 242,
+    "top15_risk": false
+  },
+  {
+    "unit": 224,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.34599304199219,
+    "error": -3.6540069580078125,
+    "risk_score": 1.16,
+    "risk_rank": 243,
+    "top15_risk": false
+  },
+  {
+    "unit": 197,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.4290542602539,
+    "error": -3.5709457397460938,
+    "risk_score": 1.09,
+    "risk_rank": 244,
+    "top15_risk": false
+  },
+  {
+    "unit": 51,
+    "true_RUL": 98.0,
+    "predicted_RUL": 121.54671478271484,
+    "error": 23.546714782714844,
+    "risk_score": 0.99,
+    "risk_rank": 245,
+    "top15_risk": false
+  },
+  {
+    "unit": 126,
+    "true_RUL": 124.0,
+    "predicted_RUL": 121.61052703857422,
+    "error": -2.3894729614257812,
+    "risk_score": 0.94,
+    "risk_rank": 246,
+    "top15_risk": false
+  },
+  {
+    "unit": 105,
+    "true_RUL": 116.0,
+    "predicted_RUL": 121.73979187011719,
+    "error": 5.7397918701171875,
+    "risk_score": 0.84,
+    "risk_rank": 247,
+    "top15_risk": false
+  },
+  {
+    "unit": 71,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.75497436523438,
+    "error": -3.245025634765625,
+    "risk_score": 0.82,
+    "risk_rank": 248,
+    "top15_risk": false
+  },
+  {
+    "unit": 223,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.86911010742188,
+    "error": -3.130889892578125,
+    "risk_score": 0.73,
+    "risk_rank": 249,
+    "top15_risk": false
+  },
+  {
+    "unit": 175,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.869873046875,
+    "error": -3.130126953125,
+    "risk_score": 0.73,
+    "risk_rank": 250,
+    "top15_risk": false
+  },
+  {
+    "unit": 249,
+    "true_RUL": 111.0,
+    "predicted_RUL": 121.89665222167969,
+    "error": 10.896652221679688,
+    "risk_score": 0.71,
+    "risk_rank": 251,
+    "top15_risk": false
+  },
+  {
+    "unit": 203,
+    "true_RUL": 125.0,
+    "predicted_RUL": 121.93802642822266,
+    "error": -3.0619735717773438,
+    "risk_score": 0.67,
+    "risk_rank": 252,
+    "top15_risk": false
+  },
+  {
+    "unit": 56,
+    "true_RUL": 125.0,
+    "predicted_RUL": 122.16543579101562,
+    "error": -2.834564208984375,
+    "risk_score": 0.49,
+    "risk_rank": 253,
+    "top15_risk": false
+  },
+  {
+    "unit": 218,
+    "true_RUL": 125.0,
+    "predicted_RUL": 122.23832702636719,
+    "error": -2.7616729736328125,
+    "risk_score": 0.43,
+    "risk_rank": 254,
+    "top15_risk": false
+  },
+  {
+    "unit": 55,
+    "true_RUL": 103.0,
+    "predicted_RUL": 122.29536437988281,
+    "error": 19.295364379882812,
+    "risk_score": 0.38,
+    "risk_rank": 255,
+    "top15_risk": false
+  },
+  {
+    "unit": 184,
+    "true_RUL": 125.0,
+    "predicted_RUL": 122.40917205810547,
+    "error": -2.5908279418945312,
+    "risk_score": 0.29,
+    "risk_rank": 256,
+    "top15_risk": false
+  },
+  {
+    "unit": 28,
+    "true_RUL": 125.0,
+    "predicted_RUL": 122.50331115722656,
+    "error": -2.4966888427734375,
+    "risk_score": 0.21,
+    "risk_rank": 257,
+    "top15_risk": false
+  },
+  {
+    "unit": 201,
+    "true_RUL": 111.0,
+    "predicted_RUL": 122.51216125488281,
+    "error": 11.512161254882812,
+    "risk_score": 0.21,
+    "risk_rank": 258,
+    "top15_risk": false
+  },
+  {
+    "unit": 241,
+    "true_RUL": 125.0,
+    "predicted_RUL": 122.76649475097656,
+    "error": -2.2335052490234375,
+    "risk_score": 0.0,
+    "risk_rank": 259,
+    "top15_risk": false
+  }
+]

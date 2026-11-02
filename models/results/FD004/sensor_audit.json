@@ -1,0 +1,303 @@
+{
+  "features_used": [
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_10",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_16",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21",
+    "regime_0",
+    "regime_1",
+    "regime_2",
+    "regime_3",
+    "regime_4",
+    "regime_5"
+  ],
+  "sensors": [
+    {
+      "sensor": "sensor_1",
+      "dropped_in_FD001": true,
+      "global_std": 26.436831642865926,
+      "max_within_regime_std": 0.0,
+      "max_unique_values_in_a_regime": 1,
+      "avg_share_of_modal_value": 1.0,
+      "within_regime_spearman_vs_RUL": null,
+      "constant_in_every_regime": true,
+      "kept": false
+    },
+    {
+      "sensor": "sensor_2",
+      "dropped_in_FD001": false,
+      "global_std": 37.342646701765034,
+      "max_within_regime_std": 0.5171577795988702,
+      "max_unique_values_in_a_regime": 308,
+      "avg_share_of_modal_value": 0.01033307625325383,
+      "within_regime_spearman_vs_RUL": -0.5429646405174839,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_3",
+      "dropped_in_FD001": false,
+      "global_std": 106.16759773766968,
+      "max_within_regime_std": 6.70703145070536,
+      "max_unique_values_in_a_regime": 3032,
+      "avg_share_of_modal_value": 0.001558324859249823,
+      "within_regime_spearman_vs_RUL": -0.6097062255830782,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_4",
+      "dropped_in_FD001": false,
+      "global_std": 119.32759068781478,
+      "max_within_regime_std": 9.73189974247678,
+      "max_unique_values_in_a_regime": 3844,
+      "avg_share_of_modal_value": 0.0013075110089824438,
+      "within_regime_spearman_vs_RUL": -0.6715290068749059,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_5",
+      "dropped_in_FD001": true,
+      "global_std": 3.622872117376346,
+      "max_within_regime_std": 0.0,
+      "max_unique_values_in_a_regime": 1,
+      "avg_share_of_modal_value": 1.0,
+      "within_regime_spearman_vs_RUL": null,
+      "constant_in_every_regime": true,
+      "kept": false
+    },
+    {
+      "sensor": "sensor_6",
+      "dropped_in_FD001": true,
+      "global_std": 5.444016543155823,
+      "max_within_regime_std": 0.02312557986158977,
+      "max_unique_values_in_a_regime": 12,
+      "avg_share_of_modal_value": 0.4428996118072038,
+      "within_regime_spearman_vs_RUL": -0.20477240572599337,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_7",
+      "dropped_in_FD001": false,
+      "global_std": 146.880209523219,
+      "max_within_regime_std": 3.468158222458139,
+      "max_unique_values_in_a_regime": 1533,
+      "avg_share_of_modal_value": 0.006486282593803887,
+      "within_regime_spearman_vs_RUL": -0.10809071507911226,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_8",
+      "dropped_in_FD001": false,
+      "global_std": 145.3482428873803,
+      "max_within_regime_std": 0.2559775230293344,
+      "max_unique_values_in_a_regime": 237,
+      "avg_share_of_modal_value": 0.034178905184673765,
+      "within_regime_spearman_vs_RUL": -0.5300389830698399,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_9",
+      "dropped_in_FD001": false,
+      "global_std": 336.92754654344185,
+      "max_within_regime_std": 19.27105851562711,
+      "max_unique_values_in_a_regime": 5765,
+      "avg_share_of_modal_value": 0.0010495246847056134,
+      "within_regime_spearman_vs_RUL": -0.5230689178947585,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_10",
+      "dropped_in_FD001": true,
+      "global_std": 0.12768052859258314,
+      "max_within_regime_std": 0.007002349346032114,
+      "max_unique_values_in_a_regime": 6,
+      "avg_share_of_modal_value": 0.8119594471352785,
+      "within_regime_spearman_vs_RUL": -0.22054368324497395,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_11",
+      "dropped_in_FD001": false,
+      "global_std": 3.24349153498898,
+      "max_within_regime_std": 0.2956727381965184,
+      "max_unique_values_in_a_regime": 164,
+      "avg_share_of_modal_value": 0.016753731424001748,
+      "within_regime_spearman_vs_RUL": -0.7083827242980335,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_12",
+      "dropped_in_FD001": false,
+      "global_std": 138.4791091630693,
+      "max_within_regime_std": 3.2797159093365726,
+      "max_unique_values_in_a_regime": 1460,
+      "avg_share_of_modal_value": 0.007438392453834809,
+      "within_regime_spearman_vs_RUL": -0.11476316343732858,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_13",
+      "dropped_in_FD001": false,
+      "global_std": 128.19785924922147,
+      "max_within_regime_std": 0.2750616821453975,
+      "max_unique_values_in_a_regime": 255,
+      "avg_share_of_modal_value": 0.032688002715918554,
+      "within_regime_spearman_vs_RUL": -0.5305579747098919,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_14",
+      "dropped_in_FD001": false,
+      "global_std": 85.67054344902144,
+      "max_within_regime_std": 16.795776911074928,
+      "max_unique_values_in_a_regime": 5441,
+      "avg_share_of_modal_value": 0.001180211750985986,
+      "within_regime_spearman_vs_RUL": -0.4263416305115389,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_15",
+      "dropped_in_FD001": false,
+      "global_std": 0.7503736864794557,
+      "max_within_regime_std": 0.07285661293150106,
+      "max_unique_values_in_a_regime": 3266,
+      "avg_share_of_modal_value": 0.001572084568959806,
+      "within_regime_spearman_vs_RUL": -0.12125596340159558,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_16",
+      "dropped_in_FD001": true,
+      "global_std": 0.0046847056133810985,
+      "max_within_regime_std": 0.0036748509985021095,
+      "max_unique_values_in_a_regime": 2,
+      "avg_share_of_modal_value": 0.9731063263232645,
+      "within_regime_spearman_vs_RUL": -0.31405980782110343,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_17",
+      "dropped_in_FD001": false,
+      "global_std": 27.808283453502003,
+      "max_within_regime_std": 1.7250059342992439,
+      "max_unique_values_in_a_regime": 13,
+      "avg_share_of_modal_value": 0.24266390559547577,
+      "within_regime_spearman_vs_RUL": -0.6273719584217109,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_18",
+      "dropped_in_FD001": true,
+      "global_std": 145.47249119146952,
+      "max_within_regime_std": 0.0,
+      "max_unique_values_in_a_regime": 1,
+      "avg_share_of_modal_value": 1.0,
+      "within_regime_spearman_vs_RUL": null,
+      "constant_in_every_regime": true,
+      "kept": false
+    },
+    {
+      "sensor": "sensor_19",
+      "dropped_in_FD001": true,
+      "global_std": 5.369423638908291,
+      "max_within_regime_std": 0.0,
+      "max_unique_values_in_a_regime": 1,
+      "avg_share_of_modal_value": 1.0,
+      "within_regime_spearman_vs_RUL": null,
+      "constant_in_every_regime": true,
+      "kept": false
+    },
+    {
+      "sensor": "sensor_20",
+      "dropped_in_FD001": false,
+      "global_std": 9.93639614293778,
+      "max_within_regime_std": 0.2538451886949124,
+      "max_unique_values_in_a_regime": 159,
+      "avg_share_of_modal_value": 0.02886406543576539,
+      "within_regime_spearman_vs_RUL": 0.0626620056503386,
+      "constant_in_every_regime": false,
+      "kept": true
+    },
+    {
+      "sensor": "sensor_21",
+      "dropped_in_FD001": false,
+      "global_std": 5.962697250948247,
+      "max_within_regime_std": 0.1522584995034124,
+      "max_unique_values_in_a_regime": 4684,
+      "avg_share_of_modal_value": 0.001267757814777629,
+      "within_regime_spearman_vs_RUL": 0.06542147643946779,
+      "constant_in_every_regime": false,
+      "kept": true
+    }
+  ],
+  "regimes": {
+    "centroids": [
+      [
+        42.003,
+        0.8405,
+        100.0
+      ],
+      [
+        10.003,
+        0.2505,
+        100.0
+      ],
+      [
+        25.0031,
+        0.6205,
+        60.0
+      ],
+      [
+        20.003,
+        0.7005,
+        100.0
+      ],
+      [
+        0.0015,
+        0.0005,
+        100.0
+      ],
+      [
+        35.003,
+        0.8405,
+        100.0
+      ]
+    ],
+    "train_rows_per_regime": [
+      15395,
+      9224,
+      9139,
+      9091,
+      9238,
+      9162
+    ],
+    "max_test_distance_to_centroid": 0.005241970531302345
+  }
+}

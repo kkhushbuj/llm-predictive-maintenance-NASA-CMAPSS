@@ -1,0 +1,192 @@
+{
+  "sensor_findings": [
+    {
+      "sensor": "sensor_10",
+      "physical_meaning": "engine pressure ratio (epr)",
+      "reported_importance": "low",
+      "typical_pre_failure_pattern": "near-constant",
+      "sources": [
+        {
+          "title": "Remaining Useful Life Estimation for Turbofan Engines: A Comparative Study of Classical, CNN, and LSTM Approaches",
+          "authors": [
+            "Astitva Goel",
+            "Samarth Galchar",
+            "Sumit Kanu"
+          ],
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2604.27234"
+        }
+      ]
+    },
+    {
+      "sensor": "sensor_15",
+      "physical_meaning": "bypass ratio (BPR)",
+      "reported_importance": "low",
+      "typical_pre_failure_pattern": "near-constant",
+      "sources": [
+        {
+          "title": "Evaluating the impact of data preprocessing on deep neural architectures for Remaining Useful Life estimation of turbofan engines",
+          "authors": [
+            "Authors not specified"
+          ],
+          "year": 2026,
+          "venue": "ScienceDirect",
+          "url": "https://doi.org/10.1016/j.array.2026.100919"
+        }
+      ]
+    },
+    {
+      "sensor": "sensor_16",
+      "physical_meaning": "burner fuel-air ratio (farB)",
+      "reported_importance": "low",
+      "typical_pre_failure_pattern": "near-constant",
+      "sources": [
+        {
+          "title": "Evaluating the impact of data preprocessing on deep neural architectures for Remaining Useful Life estimation of turbofan engines",
+          "authors": [
+            "Authors not specified"
+          ],
+          "year": 2026,
+          "venue": "ScienceDirect",
+          "url": "https://doi.org/10.1016/j.array.2026.100919"
+        }
+      ]
+    }
+  ],
+  "general_degradation_patterns": [
+    {
+      "pattern": "Operating-condition normalization is performed conditionally based on the operating condition of each engine using a condition_scaler function to reduce the impact of operational variance.",
+      "sources": [
+        {
+          "title": "Evaluating the impact of data preprocessing on deep neural architectures for Remaining Useful Life estimation of turbofan engines",
+          "year": 2026,
+          "url": "https://doi.org/10.1016/j.array.2026.100919"
+        }
+      ]
+    }
+  ],
+  "benchmark_results": [
+    {
+      "method": "LSTM",
+      "dataset": "FD002",
+      "rmse": 13.22,
+      "score": 0,
+      "source": {
+        "title": "DCPGCN: Dynamic Curvature Pooling in Hyperbolic Space for Multi-Sensor RUL Prediction",
+        "authors": [
+          "Authors not specified"
+        ],
+        "year": 2026,
+        "url": "https://aitrendblend.com/dcpgcn-dynamic-curvature-pooling-rul-prediction/"
+      }
+    },
+    {
+      "method": "CNN",
+      "dataset": "FD002",
+      "rmse": 19.35,
+      "score": 0,
+      "source": {
+        "title": "DCPGCN: Dynamic Curvature Pooling in Hyperbolic Space for Multi-Sensor RUL Prediction",
+        "authors": [
+          "Authors not specified"
+        ],
+        "year": 2026,
+        "url": "https://aitrendblend.com/dcpgcn-dynamic-curvature-pooling-rul-prediction/"
+      }
+    },
+    {
+      "method": "Transformer",
+      "dataset": "FD002",
+      "rmse": 15.07,
+      "score": 0,
+      "source": {
+        "title": "DCPGCN: Dynamic Curvature Pooling in Hyperbolic Space for Multi-Sensor RUL Prediction",
+        "authors": [
+          "Authors not specified"
+        ],
+        "year": 2026,
+        "url": "https://aitrendblend.com/dcpgcn-dynamic-curvature-pooling-rul-prediction/"
+      }
+    },
+    {
+      "method": "CNN-LSTM",
+      "dataset": "FD002",
+      "rmse": 14.3,
+      "score": 0,
+      "source": {
+        "title": "DCPGCN: Dynamic Curvature Pooling in Hyperbolic Space for Multi-Sensor RUL Prediction",
+        "authors": [
+          "Authors not specified"
+        ],
+        "year": 2026,
+        "url": "https://aitrendblend.com/dcpgcn-dynamic-curvature-pooling-rul-prediction/"
+      }
+    },
+    {
+      "method": "CNN-GRU",
+      "dataset": "FD002",
+      "rmse": 14.28,
+      "score": 0,
+      "source": {
+        "title": "DCPGCN: Dynamic Curvature Pooling in Hyperbolic Space for Multi-Sensor RUL Prediction",
+        "authors": [
+          "Authors not specified"
+        ],
+        "year": 2026,
+        "url": "https://aitrendblend.com/dcpgcn-dynamic-curvature-pooling-rul-prediction/"
+      }
+    },
+    {
+      "method": "Stacking Ensemble (LSTM, CNN, CNN-LSTM, CNN-GRU with XGBoost)",
+      "dataset": "FD002",
+      "rmse": 8.613,
+      "score": 0,
+      "source": {
+        "title": "A Deep Learning-Based Stacking Ensemble Framework for Turbofan Engine Remaining Useful Life Prediction",
+        "authors": [
+          "Limon Bin Hossain",
+          "Md. Salehin Seyam",
+          "Md Rashedul Islam",
+          "Abdur Rahman",
+          "Md Sharifuzzaman"
+        ],
+        "year": 2026,
+        "url": "https://arxiv.org/abs/2608.27940"
+      }
+    },
+    {
+      "method": "LSTM Encoder-Decoder",
+      "dataset": "FD002",
+      "rmse": 13.22,
+      "score": 0,
+      "source": {
+        "title": "DCPGCN: Dynamic Curvature Pooling in Hyperbolic Space for Multi-Sensor RUL Prediction",
+        "authors": [
+          "Authors not specified"
+        ],
+        "year": 2026,
+        "url": "https://aitrendblend.com/dcpgcn-dynamic-curvature-pooling-rul-prediction/"
+      }
+    },
+    {
+      "method": "Transformer Encoder",
+      "dataset": "FD002",
+      "rmse": 15.08,
+      "score": 0,
+      "source": {
+        "title": "Transformer vs. LSTM for Remaining Useful Life (RUL) Prediction",
+        "authors": [
+          "Authors not specified"
+        ],
+        "year": 2026,
+        "url": "https://tildalice.io/lstm-encoder-decoder-vs-transformer-cmapss-rul-benchmark/"
+      }
+    }
+  ],
+  "benchmark_rows_dropped_wrong_subset": 0,
+  "sensor_findings_dropped_constant_in_regime": [
+    "sensor_19",
+    "sensor_5"
+  ]
+}

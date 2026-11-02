@@ -1,0 +1,90 @@
+{
+  "unit": 86,
+  "engine_shap": {
+    "unit": 86,
+    "true_RUL": 70.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_14",
+        "importance": 0.26045389409634595,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.013329003078692586
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 0.24610176677754142,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.06389190346821313
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.22983854283612837,
+        "direction": "increases_risk",
+        "signed_contribution": -0.09493347473191902
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.22447627621117303,
+        "direction": "increases_risk",
+        "signed_contribution": -0.030850286874439706
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.20417960131339044,
+        "direction": "increases_risk",
+        "signed_contribution": -0.11400205153672623
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.021128442166376944,
+      "sensor_3": 0.03508268233546896,
+      "sensor_4": 0.03922739825831856,
+      "sensor_6": 0.04611522272682794,
+      "sensor_7": 0.16435406318495546,
+      "sensor_8": 0.22983854283612837,
+      "sensor_9": 0.20417960131339044,
+      "sensor_10": 0.052395577651277864,
+      "sensor_11": 0.06813388957708374,
+      "sensor_12": 0.24610176677754142,
+      "sensor_13": 0.22447627621117303,
+      "sensor_14": 0.26045389409634595,
+      "sensor_15": 0.16016573787998192,
+      "sensor_16": 0.010203935143479798,
+      "sensor_17": 0.023785726470952704,
+      "sensor_20": 0.04738005196189464,
+      "sensor_21": 0.03689440608931402,
+      "regime_0": 0.04788933638948196,
+      "regime_1": 0.01631801525384617,
+      "regime_2": 0.04280802029475695,
+      "regime_3": 0.00613765037340272,
+      "regime_4": 0.024106390834531345,
+      "regime_5": 0.03244275775652568
+    },
+    "non_sensor_share": 0.08320286230954452
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_14, sensor_12, sensor_8, sensor_13, and sensor_9. The knowledge base only provides findings for sensor_8, but none of the other top sensors (sensor_14, sensor_12, sensor_13, sensor_9) are covered. Therefore, the model's explanation cannot be confirmed or contradicted based on the available knowledge base.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The novel dynamics indicated by sensor_12 and sensor_14, which monitor turbine inlet and exhaust temperatures respectively, suggest an uncharacteristic operational profile that may lead to increased thermal stress not previously documented. This can result in accelerated degradation pathways that are not represented in the current literature.",
+    "physical_reasoning": "Given that sensor_12 measures turbine inlet temperature, and sensor_14 measures downstream temperatures, the discrepancies noted could infer abnormal combustion or cooling patterns affecting overall engine performance. If the turbine operates under higher temperatures than expected or if there is inadequate cooling, components could deteriorate more rapidly, impacting the RUL predictions.",
+    "next_checks": [
+      "Cross-verify turbine inlet and exhaust temperature readings from sensor_12 and sensor_14 against baseline performance metrics from a similar engine type under similar operational regimes.",
+      "Analyze historical data from other engines fitted with similar sensors to assess if any show comparable patterns or anomalies.",
+      "Conduct a thorough data-quality check on the readings from sensors_12 and sensor_14 for potential calibration errors or sensor drifts.",
+      "Evaluate maintenance records for this specific engine to identify any unusual operational events or modifications that could impact performance.",
+      "Perform further diagnostics to check airflow parameters and combustion efficiency to correlate these with the readings from the top sensors."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis relies on the novelty of sensor_12 and sensor_14's contributions, but without SHAP stability evidence, it's unclear if these attributions are robust or artifacts of background sampling. The absence of literature support for these sensors doesn't necessarily imply novel dynamics; it could also mean the model is extrapolating outside its training distribution or focusing on noisy sensors. The hypothesis should consider simpler explanations like sensor noise or model extrapolation before proposing novel degradation pathways.",
+    "alternative_explanation": "The model might be extrapolating outside its training distribution, focusing on sensors with high variance in this specific engine but not generally predictive of RUL, or the top attributions could be unstable SHAP artifacts (though this cannot be confirmed without stability evidence).",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "unit": 140,
+  "engine_shap": {
+    "unit": 140,
+    "true_RUL": 55.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.2310737189882698,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.016131141590640496
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.17032733808561476,
+        "direction": "increases_risk",
+        "signed_contribution": -0.012006894507262677
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.15756660843855733,
+        "direction": "increases_risk",
+        "signed_contribution": -0.060738531348481936
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.1465153845551588,
+        "direction": "increases_risk",
+        "signed_contribution": -0.04757252472505478
+      },
+      {
+        "sensor": "sensor_17",
+        "importance": 0.10572445461704218,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.043924258002533786
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.09857655208059214,
+      "sensor_3": 0.054592003374823166,
+      "sensor_4": 0.17032733808561476,
+      "sensor_6": 0.10238690534037757,
+      "sensor_7": 0.0835291511899287,
+      "sensor_8": 0.08192399796945675,
+      "sensor_9": 0.15756660843855733,
+      "sensor_10": 0.01664997045636921,
+      "sensor_11": 0.2310737189882698,
+      "sensor_12": 0.047657694841527515,
+      "sensor_13": 0.07381128717998262,
+      "sensor_14": 0.07959449544712789,
+      "sensor_15": 0.1465153845551588,
+      "sensor_16": 0.020116275560209007,
+      "sensor_17": 0.10572445461704218,
+      "sensor_20": 0.03868360308222714,
+      "sensor_21": 0.06045496992067482,
+      "regime_0": 0.03787971922279212,
+      "regime_1": 0.027002296324938016,
+      "regime_2": 0.007873985265614466,
+      "regime_3": 0.01986672008761729,
+      "regime_4": 0.01693902108605016,
+      "regime_5": 0.01701867373577897
+    },
+    "non_sensor_share": 0.07464502961644058
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_11, sensor_4, sensor_9, sensor_15, and sensor_17. The knowledge base only provides findings for sensor_10, sensor_15, and sensor_16, none of which are among the top driving sensors. Therefore, there is no documented information to confirm or contradict the model's explanation for these sensors.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model may be capturing unique degradation patterns not previously documented, particularly influenced by sensors 4, 9, and 11, which could be reflecting dynamic operational states or wear phenomena specific to this engine's operational history.",
+    "physical_reasoning": "Sensors 4 and 9 might relate to pressure and temperature changes in critical components such as the high-pressure compressor and high-pressure turbine, while sensor 11 could involve vibration or stress measurements. These parameters can directly affect the engine's performance and remaining useful life, especially if they detect anomalies not commonly encountered in documented literature.",
+    "next_checks": [
+      "Cross-check sensor 4 and sensor 9 readings against historical data from similar engines operating in similar conditions.",
+      "Investigate sensor 11's calibration history and cross-verify it against known degradation modes.",
+      "Conduct a root cause analysis on recent maintenance records to identify any unusual repairs or adjustments made that could influence the sensor readings.",
+      "Run a comparative analysis against engines that have logged similar operational profiles to identify unique degradation factors."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": true,
+    "critique": "The SHAP attributions are stable across reruns, with sensor_11 consistently identified as the top contributor (agreement rate: 1.0, importance CV: 0.079). The pipeline's conclusion that the model is capturing novel degradation patterns is plausible, as the top sensors (4, 9, 11) lack documented findings in the knowledge base. However, the hypothesis should consider whether these sensors exhibit near-zero variance or are extrapolating outside the training distribution, though no evidence of this is provided.",
+    "alternative_explanation": null,
+    "confidence": "high"
+  }
+}

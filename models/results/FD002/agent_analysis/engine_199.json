@@ -1,0 +1,89 @@
+{
+  "unit": 199,
+  "engine_shap": {
+    "unit": 199,
+    "true_RUL": 103.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.36671661899130953,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.03892209110124202
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.22553800209281946,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.038865612323066887
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.2095496267525086,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.08749047795094733
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 0.0995039373260915,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.06824661388750357
+      },
+      {
+        "sensor": "sensor_17",
+        "importance": 0.08159825163060007,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.015799720305412032
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.0995039373260915,
+      "sensor_3": 0.07054308699815517,
+      "sensor_4": 0.22553800209281946,
+      "sensor_6": 0.047674381891676464,
+      "sensor_7": 0.07280525502218183,
+      "sensor_8": 0.02334916723981705,
+      "sensor_9": 0.0657876528483615,
+      "sensor_10": 0.0050832009791275815,
+      "sensor_11": 0.36671661899130953,
+      "sensor_12": 0.06413415424576957,
+      "sensor_13": 0.02074732251520491,
+      "sensor_14": 0.03497389418000259,
+      "sensor_15": 0.2095496267525086,
+      "sensor_16": 0.014509999776508414,
+      "sensor_17": 0.08159825163060007,
+      "sensor_20": 0.036378917125889476,
+      "sensor_21": 0.04219545811426469,
+      "regime_0": 0.01969403187784337,
+      "regime_1": 0.006364724680279324,
+      "regime_2": 0.010995530201007566,
+      "regime_3": 0.012128490964778397,
+      "regime_4": 0.008029540346651627,
+      "regime_5": 0.019446403342326442
+    },
+    "non_sensor_share": 0.04921125796919171
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_11, sensor_4, and sensor_15. The knowledge base only provides findings for sensor_15, indicating it has low importance, but does not cover sensor_11 or sensor_4. Therefore, the model's explanation cannot be confirmed or contradicted based on the available information.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model's reliance on sensor_11 and sensor_4 may suggest they exhibit unique deterioration patterns or function under conditions not previously documented in the literature. These sensors might be capturing engine behavior related to specific operating regimes or failure modes that have not been adequately characterized.",
+    "physical_reasoning": "Sensor_11 could be monitoring parameters like high-pressure turbine temperature or fuel flow rate, which are critical for thermodynamic efficiency. Similarly, sensor_4 might be tracking fan speed or pressure, indicating varying operational conditions that influence RUL. The existing literature may not cover these nuanced interactions which could lead to the model deriving new insights from their data.",
+    "next_checks": [
+      "Cross-check readings from sensor_11 and sensor_4 against historical data from other engines to evaluate identical behaviors.",
+      "Investigate maintenance logs for any documented issues correlating with the anomalies in sensors 11 and 4.",
+      "Conduct a data-quality verification on sensor performance, including noise, drift, or calibration discrepancies that might affect its readings.",
+      "Compare trends from sensor_15 with other engines that have similar operational histories for an additional validation of its impact on RUL."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": true,
+    "critique": "The SHAP attributions are stable across reruns, with sensor_11 consistently identified as the top feature. Given the absence of literature support for sensor_11 and sensor_4, the pipeline's novel verdict is reasonable. However, the model's reliance on these sensors could also stem from their behavior in the specific operating regimes of this engine, which may not be generalizable.",
+    "alternative_explanation": null,
+    "confidence": "high"
+  }
+}

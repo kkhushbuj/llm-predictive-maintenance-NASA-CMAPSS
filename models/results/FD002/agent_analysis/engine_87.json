@@ -1,0 +1,92 @@
+{
+  "unit": 87,
+  "engine_shap": {
+    "unit": 87,
+    "true_RUL": 21.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.36801640042530287,
+        "direction": "increases_risk",
+        "signed_contribution": -0.08675210311590585
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.2225428412086605,
+        "direction": "increases_risk",
+        "signed_contribution": -0.12072787083700849
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.17347388036842706,
+        "direction": "increases_risk",
+        "signed_contribution": -0.07374913037350071
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 0.10853016775536481,
+        "direction": "increases_risk",
+        "signed_contribution": -0.07622437725099673
+      },
+      {
+        "sensor": "sensor_12",
+        "importance": 0.08573539615953865,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.0005110073342909308
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.10853016775536481,
+      "sensor_3": 0.08108136582986333,
+      "sensor_4": 0.17347388036842706,
+      "sensor_6": 0.02112446026118927,
+      "sensor_7": 0.07768920801509796,
+      "sensor_8": 0.0248992779918156,
+      "sensor_9": 0.03269348029761004,
+      "sensor_10": 0.014602278611427289,
+      "sensor_11": 0.36801640042530287,
+      "sensor_12": 0.08573539615953865,
+      "sensor_13": 0.03285348737366543,
+      "sensor_14": 0.013217233561861384,
+      "sensor_15": 0.2225428412086605,
+      "sensor_16": 0.019937829944044548,
+      "sensor_17": 0.05997046927597572,
+      "sensor_20": 0.031810470262792184,
+      "sensor_21": 0.058517160988870526,
+      "regime_0": 0.026615987259494888,
+      "regime_1": 0.020660273150529068,
+      "regime_2": 0.013069987282242436,
+      "regime_3": 0.018576374202864374,
+      "regime_4": 0.008432255954712673,
+      "regime_5": 0.016207975109073233
+    },
+    "non_sensor_share": 0.06767671547911465
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Contradicted",
+    "confidence": "high",
+    "reasoning": "The model identifies sensor_15 as a top driver of RUL prediction, with a direction that increases risk. However, the knowledge base entry for sensor_15 (bypass ratio) reports its importance as low and its typical pre-failure pattern as near-constant, contradicting the model's attribution. This contradiction is clear and directly supported by the available documentation.",
+    "matched_sources": [
+      "Evaluating the impact of data preprocessing on deep neural architectures for Remaining Useful Life estimation of turbofan engines"
+    ]
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model's reliance on sensor_15, which is associated with bypass ratio measurements showing abnormal patterns, may indicate anomalies in airflow that are not typically observed pre-failure. This could be due to specific operational conditions or sensor malfunctions that are not accounted for in the literature.",
+    "physical_reasoning": "The bypass ratio influences the engine's thermal efficiency and performance. If sensor_15 has recorded variations due to foreign object damage or obstruction in the bypass airflow, these changes could misrepresent the engine's health, thus explaining its significant role in the model's prediction despite documented low importance.",
+    "next_checks": [
+      "Cross-check recent operational data against known bypass ratio patterns to identify any anomalies.",
+      "Inspect sensor_15 for calibration issues or physical damage.",
+      "Compare the behavior of sensor_15 readings with those of similar engines operating under parallel conditions.",
+      "Review historical maintenance logs for records of unexpected events or repairs affecting airflow or operating conditions.",
+      "Conduct a detailed analysis of the interactions between sensor_15 and other critical sensors to see if there are correlations that suggest erroneous readings."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's contradiction verdict relies on a single literature source's claim about sensor_15's typical behavior, but without SHAP stability evidence, we cannot rule out background-sampling noise as an explanation for sensor_15's prominence. The hypothesis's proposed anomalies or malfunctions are plausible but speculative, lacking direct evidence from the data. A simpler alternative is that the model is extrapolating from limited training data where sensor_15 had higher variance than typical operation.",
+    "alternative_explanation": "The model may be extrapolating outside its training distribution for sensor_15, which had higher variance in the training data than typical operation, despite the literature's characterization.",
+    "confidence": "medium"
+  }
+}

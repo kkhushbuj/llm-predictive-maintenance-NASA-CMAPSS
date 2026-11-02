@@ -1,0 +1,90 @@
+{
+  "unit": 32,
+  "engine_shap": {
+    "unit": 32,
+    "true_RUL": 11.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_11",
+        "importance": 0.39065471927543105,
+        "direction": "increases_risk",
+        "signed_contribution": -0.09927586949687464
+      },
+      {
+        "sensor": "sensor_15",
+        "importance": 0.2685943389308948,
+        "direction": "increases_risk",
+        "signed_contribution": -0.13814285542323368
+      },
+      {
+        "sensor": "sensor_4",
+        "importance": 0.21774445574386259,
+        "direction": "increases_risk",
+        "signed_contribution": -0.04803885185063973
+      },
+      {
+        "sensor": "sensor_2",
+        "importance": 0.12160947855004878,
+        "direction": "increases_risk",
+        "signed_contribution": -0.0702361385005427
+      },
+      {
+        "sensor": "sensor_17",
+        "importance": 0.10288531390706955,
+        "direction": "increases_risk",
+        "signed_contribution": -0.0038616708770609245
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.12160947855004878,
+      "sensor_3": 0.05561492474870735,
+      "sensor_4": 0.21774445574386259,
+      "sensor_6": 0.04685655922484391,
+      "sensor_7": 0.0825157508948363,
+      "sensor_8": 0.028032555961349525,
+      "sensor_9": 0.06270980309602289,
+      "sensor_10": 0.012404084234051415,
+      "sensor_11": 0.39065471927543105,
+      "sensor_12": 0.05668488026900796,
+      "sensor_13": 0.032238631407892,
+      "sensor_14": 0.017816150911718873,
+      "sensor_15": 0.2685943389308948,
+      "sensor_16": 0.017234693384499428,
+      "sensor_17": 0.10288531390706955,
+      "sensor_20": 0.02626379660926874,
+      "sensor_21": 0.040829412485952385,
+      "regime_0": 0.01787489978110898,
+      "regime_1": 0.014831027238669775,
+      "regime_2": 0.00740714350718008,
+      "regime_3": 0.014638141462646673,
+      "regime_4": 0.007175334921703323,
+      "regime_5": 0.015379866692360336
+    },
+    "non_sensor_share": 0.046626418470066905
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_11, sensor_15, sensor_4, sensor_2, and sensor_17. The knowledge base only provides findings for sensor_15, indicating it has low importance, but does not cover the other sensors or their directions. Therefore, the explanation cannot be confirmed or contradicted based on the available information.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model's prediction regarding the remaining useful life may be influenced by excessive wear detected by sensor_11, which monitors turbine blade degradation, along with unrecognized interdependencies between the top contributing sensors. Sensor_4, typically associated with high-temperature readings, might indicate abnormal thermal stress contributing to earlier-than-expected wear.",
+    "physical_reasoning": "Sensor_11 might be detecting deformation or material loss in turbine blades, which is critical for engine performance. Sensor_4 could reflect conditions leading to thermal fatigue and subsequent physical failure, suggesting that the contribution of multiple sensors indicates a compounding effect on engine degradation, not isolated failures.",
+    "next_checks": [
+      "Conduct a detailed analysis of historical performance data correlating sensor_11 and sensor_4 readings with documented turbofan failures.",
+      "Examine if sensor_11's degradation trends are consistent with known failure modes in similar engines.",
+      "Cross-check the readings from sensor_15 against established benchmarks for normal operation to evaluate its actual contribution to the model's predictions.",
+      "Compare sensor data from similar engines undergoing similar operational regimes or maintenance to identify anomalies.",
+      "Implement a data quality check to ensure calibration and integrity of readings from sensors 11, 15, and 4."
+    ],
+    "confidence": "medium"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis relies on speculative sensor interpretations without verifying if the top attributions are stable or if the model is extrapolating. Sensor_11's high importance could stem from low variance in its readings for this engine, making it a default feature in the absence of more dynamic signals. Without SHAP stability evidence, the focus on sensor_11 and sensor_4 might be an artifact of background sampling or narrow sequence windowing.",
+    "alternative_explanation": "The model may be extrapolating due to sensor_11 having near-zero variance in this engine's data, causing it to dominate attributions when other sensors lack meaningful signal changes.",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "unit": 68,
+  "engine_shap": {
+    "unit": 68,
+    "true_RUL": 46.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_14",
+        "importance": 0.4513225702039838,
+        "direction": "increases_risk",
+        "signed_contribution": -0.06090209598408772
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.34614527273597445,
+        "direction": "increases_risk",
+        "signed_contribution": -0.20148967599700993
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.1971558417300982,
+        "direction": "increases_risk",
+        "signed_contribution": -0.020383900537110804
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.17738712153163444,
+        "direction": "increases_risk",
+        "signed_contribution": -0.010924794500158938
+      },
+      {
+        "sensor": "sensor_6",
+        "importance": 0.1525463723786097,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.025639083623649122
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.039470597837541345,
+      "sensor_3": 0.030998347903395878,
+      "sensor_4": 0.05738552662499026,
+      "sensor_6": 0.1525463723786097,
+      "sensor_7": 0.025806639198372273,
+      "sensor_8": 0.1971558417300982,
+      "sensor_9": 0.34614527273597445,
+      "sensor_10": 0.010781296028196151,
+      "sensor_11": 0.04973067777850687,
+      "sensor_12": 0.029671131585000038,
+      "sensor_13": 0.17738712153163444,
+      "sensor_14": 0.4513225702039838,
+      "sensor_15": 0.028998349809678272,
+      "sensor_16": 0.007149807414469415,
+      "sensor_17": 0.021817174047469384,
+      "sensor_20": 0.014999338519126566,
+      "sensor_21": 0.007930796033222706,
+      "regime_0": 0.025504490967832687,
+      "regime_1": 0.008907982279934005,
+      "regime_2": 0.04257706296674543,
+      "regime_3": 0.009483484707216121,
+      "regime_4": 0.017274632730941448,
+      "regime_5": 0.05878572817769964
+    },
+    "non_sensor_share": 0.0897067384989377
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_14, sensor_9, and sensor_8. The knowledge base does not contain any findings related to sensor_14 or sensor_9, and the finding for sensor_8 indicates it has low importance with a stable pattern, which does not match its high importance and 'increases_risk' direction in the model's explanation. Therefore, the explanation cannot be confirmed or contradicted based on the available knowledge base.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The prediction regarding sensor_14 and sensor_9 may indicate a previously undetected degradation mechanism that is specific to the materials or components unique to this engine model. These sensors may be measuring interactions or phenomena that have not been thoroughly documented in existing research.",
+    "physical_reasoning": "Sensor_14 might be monitoring a parameter related to thermal or vibrational characteristics, while sensor_9 could relate to pressure or airflow dynamics, suggesting interactions between engine components that lead to increased thermal stress or fatigue that could be unique to certain operational environments or engine designs.",
+    "next_checks": [
+      "Conduct a detailed cross-check of sensor_14 and sensor_9 readings against baseline data from other engines of the same model under similar operating conditions.",
+      "Analyze historical data for unusual trends or anomalies in sensor_14 and sensor_9 that may indicate a failure mechanism not previously reported.",
+      "Perform targeted inspections on components or assemblies correlated with sensor_14 and sensor_9 to identify signs of deterioration or defect.",
+      "Consult with peers in the field to gather anecdotal evidence or undocumented experiences related to anomalies in these specific sensors."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis suggests novel degradation mechanisms based on sensor_14 and sensor_9, but without SHAP stability evidence, it's unclear if these attributions are robust or artifacts of background sampling. The absence of stability data weakens the claim that these sensors are truly driving the prediction. Additionally, the model's reliance on sensors with no literature support could indicate it's extrapolating outside its training distribution or reacting to sensor noise.",
+    "alternative_explanation": null,
+    "confidence": "medium"
+  }
+}

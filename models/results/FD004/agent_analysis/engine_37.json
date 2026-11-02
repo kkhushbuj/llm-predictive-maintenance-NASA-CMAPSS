@@ -1,0 +1,90 @@
+{
+  "unit": 37,
+  "engine_shap": {
+    "unit": 37,
+    "true_RUL": 89.0,
+    "top_sensors": [
+      {
+        "sensor": "sensor_6",
+        "importance": 0.40595634764570154,
+        "direction": "increases_risk",
+        "signed_contribution": -0.005945746465097157
+      },
+      {
+        "sensor": "sensor_14",
+        "importance": 0.21409754608661977,
+        "direction": "decreases_risk",
+        "signed_contribution": 0.008297921299696266
+      },
+      {
+        "sensor": "sensor_13",
+        "importance": 0.18712101086905134,
+        "direction": "increases_risk",
+        "signed_contribution": -0.033069147007990955
+      },
+      {
+        "sensor": "sensor_8",
+        "importance": 0.18437867831228613,
+        "direction": "increases_risk",
+        "signed_contribution": -0.05321794639088876
+      },
+      {
+        "sensor": "sensor_9",
+        "importance": 0.1776048633741212,
+        "direction": "increases_risk",
+        "signed_contribution": -0.06671202882768912
+      }
+    ],
+    "all_sensor_importance": {
+      "sensor_2": 0.03709801588371803,
+      "sensor_3": 0.019252083582334052,
+      "sensor_4": 0.04024892856168388,
+      "sensor_6": 0.40595634764570154,
+      "sensor_7": 0.06976434212039125,
+      "sensor_8": 0.18437867831228613,
+      "sensor_9": 0.1776048633741212,
+      "sensor_10": 0.030525716981264252,
+      "sensor_11": 0.04457444424924473,
+      "sensor_12": 0.14575443468049976,
+      "sensor_13": 0.18712101086905134,
+      "sensor_14": 0.21409754608661977,
+      "sensor_15": 0.11910673844799484,
+      "sensor_16": 0.01163130350212946,
+      "sensor_17": 0.021757206700914633,
+      "sensor_20": 0.042138081921654726,
+      "sensor_21": 0.021382151401949587,
+      "regime_0": 0.05419653415116954,
+      "regime_1": 0.03516006162410121,
+      "regime_2": 0.051471441580215466,
+      "regime_3": 0.005661038116159034,
+      "regime_4": 0.043001694320191734,
+      "regime_5": 0.040687302859041666
+    },
+    "non_sensor_share": 0.11494133860344999
+  },
+  "include_critique": true,
+  "synthesis_result": {
+    "verdict": "Novel",
+    "confidence": "high",
+    "reasoning": "The top driving sensors in the model's explanation are sensor_6, sensor_14, sensor_13, sensor_8, and sensor_9. The knowledge base only provides findings for sensor_8, but none of the other top sensors. Since the majority of the top sensors are not covered in the knowledge base, the explanation cannot be confirmed or contradicted.",
+    "matched_sources": []
+  },
+  "hypothesis_result": {
+    "hypothesis": "The model may be capturing anomalous behavior related to sensor_6, which likely measures critical temperature changes in the engine. High readings may indicate an impending failure mode not previously documented, such as local overheating or a material fault causing thermal instability.",
+    "physical_reasoning": "Sensor_6's thermodynamic readings are crucial for predicting engine health. If it shows anomalous readings due to a rare material defect or localized overheating scenario, it could lead to unique failure paths that haven't been extensively documented in existing literature.",
+    "next_checks": [
+      "Perform a cross-check of sensor_6 data against historical trends in similar engines focusing on temperature anomalies.",
+      "Compare sensor_6 readings with sensor_8 to understand potential correlations between temperature and pressures, as sensor_8 may have related readings.",
+      "Inspect physical condition of the components associated with sensor_6 to identify wear patterns or unusual thermal stresses.",
+      "Collect data from multiple engines of the same type and compare their sensor_6 readings to identify outliers.",
+      "Review maintenance history for any engine modifications or repairs related to components monitored by sensor_6."
+    ],
+    "confidence": "high"
+  },
+  "critique_result": {
+    "agrees_with_pipeline": false,
+    "critique": "The pipeline's hypothesis focuses on sensor_6 as a novel indicator, but without evidence of SHAP stability, this attribution could be a background-sampling artifact. The absence of 'shap_stability' data means we cannot confirm if sensor_6's importance is consistent across different background samples, leaving open the possibility that the model's focus on this sensor is not robust. Additionally, the pipeline's confidence in the novelty of the explanation seems premature given the lack of coverage for most top sensors in the knowledge base.",
+    "alternative_explanation": "The model's focus on sensor_6 could be a SHAP artifact due to background-sampling noise, as stability evidence is absent.",
+    "confidence": "medium"
+  }
+}
