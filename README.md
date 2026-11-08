@@ -2,14 +2,24 @@
 
 Remaining Useful Life (RUL) prediction for turbofan engines using a 2-layer
 LSTM, trained on the NASA C-MAPSS dataset (FD001/FD002/FD004), paired with a
-multi-agent LLM pipeline that explains and independently critiques each
-prediction.
+multi-agent LLM pipeline that explains and critiques each prediction.
 
 Full write-up: [`REPORT.md`](REPORT.md) (FD001) and
 [`REPORT_FD002_FD004.md`](REPORT_FD002_FD004.md) (multi-condition extension),
 or the combined [`REPORT_FULL.pdf`](REPORT_FULL.pdf).
 
 Live dashboard: <https://rul.145-241-213-220.sslip.io>
+
+## Read the results with these two caveats
+
+- **RMSE depends on how the true RUL is defined.** The FD001 test RMSE of
+  13.58 is measured with RUL capped at 125 cycles. Against the raw RUL files it
+  is 14.90. FD002 and FD004 give 14.99 and 15.08 capped, and 28.38 and 27.28
+  raw, because many of their test engines live longer than the cap.
+- **The Critique agent is not fully independent.** It defaults to Cohere
+  (`CRITIQUE_PROVIDER=cohere`, model `command-a-03-2025`), the same model the
+  Synthesis agent uses, so the two can share blind spots. Set
+  `CRITIQUE_PROVIDER=anthropic` to use a Claude model instead.
 
 ## What's here
 
